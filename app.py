@@ -16,7 +16,8 @@ with st.sidebar:
     st.header("Controls")
     resolution = st.radio("Aggregation", list(WINDOW.keys()), index=2)
     measure = st.selectbox("Index", list(MEASURES.keys()),
-                           format_func=lambda k: MEASURES[k], index=0)
+                           format_func=lambda k: MEASURES[k],
+                           index=list(MEASURES).index("negativity"))
 
 df = load_scores(resolution)
 latest = df["period"].max()

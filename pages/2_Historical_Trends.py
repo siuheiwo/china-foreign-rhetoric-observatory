@@ -18,7 +18,8 @@ def load_events():
 
 
 with st.sidebar:
-    measure = st.selectbox("Index", list(MEASURES.keys()), format_func=lambda k: MEASURES[k])
+    measure = st.selectbox("Index", list(MEASURES.keys()), format_func=lambda k: MEASURES[k],
+                           index=list(MEASURES).index("negativity"))
     show_events = st.checkbox("Show country events (single country)", value=True)
 
 df = load_scores("Monthly")
