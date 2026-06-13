@@ -31,6 +31,20 @@ long <- a[, .(actor=trimws(unlist(strsplit(as.character(main_foreign_actors),";"
           by=.(row_id,date,deepseek,lexicon,lss,negativity)][actor %in% names(lab2c)]
 long[, `:=`(country=lab2c[actor], date=as.IDate(date))]
 
+# --- append newly-scored backfill articles (People's Daily 2025-12 → 2026-06-12) ---
+NEW <- "/Users/siuwong/Desktop/Book Project Data/People's Daily 2025-12 to June 12/scored_articles.csv"
+if (file.exists(NEW)) {
+  sc <- fread(NEW, encoding="UTF-8")[!is.na(date) & nchar(as.character(date))==10]
+  setnames(sc, c("it_deepseek","it_lex","it_lss","sentiment"),
+               c("deepseek","lexicon","lss","negativity"), skip_absent=TRUE)
+  ln <- sc[, .(actor=trimws(unlist(strsplit(as.character(main_foreign_actors),";")))),
+            by=.(date,deepseek,lexicon,lss,negativity)][actor %in% names(lab2c)]
+  ln[, `:=`(row_id=NA_integer_, country=lab2c[actor], date=as.IDate(date))]
+  long <- rbind(long, ln, fill=TRUE)
+  cat(sprintf("[append] +%s new great-power article-rows from backfill (to %s)\n",
+              format(nrow(ln),big.mark=","), as.character(max(ln$date))))
+}
+
 rel <- fread(file.path(EXT,"tsinghua_relations_long.csv"))[, .(country, ym, relations=score)]
 
 measures <- c("deepseek","lexicon","lss","negativity")
