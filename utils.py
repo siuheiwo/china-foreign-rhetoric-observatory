@@ -1,4 +1,5 @@
-"""Shared helpers for the China Foreign Rhetoric Observatory (offline MVP)."""
+"""Shared helpers for the China Foreign Rhetoric Observatory."""
+import os
 import pandas as pd
 import streamlit as st
 
@@ -39,8 +40,6 @@ ISO3 = {"US":"USA","Russia":"RUS","Japan":"JPN","UK":"GBR","France":"FRA","India
         "Germany":"DEU","Vietnam":"VNM","South Korea":"KOR","Australia":"AUS",
         "Indonesia":"IDN","Pakistan":"PAK"}
 WINDOW = {"Daily": 365, "Weekly": 52, "Monthly": 24}   # CUSUM/EWMA baseline window per resolution
-
-import os
 
 @st.cache_data
 def _read(path: str, _mtime: float) -> pd.DataFrame:
