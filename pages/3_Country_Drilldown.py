@@ -48,6 +48,12 @@ for m, col in [("deepseek_z", "#b2182b"), ("lexicon_z", "#762a83"), ("lss_z", "#
                              name=MEASURES[m.replace("_z", "")], line=dict(color=col)))
 fig.add_trace(go.Scatter(x=recent["period"], y=recent["ewma_z"], name="EWMA baseline (DeepSeek)",
                          line=dict(color="grey", dash="dot")))
+# Tsinghua relations score on a secondary axis (context: threat should move opposite to relations)
+if "relations" in recent and recent["relations"].notna().any():
+    fig.add_trace(go.Scatter(x=recent["period"], y=recent["relations"], name="Tsinghua relations (right)",
+                             line=dict(color="#2166ac", dash="dash"), yaxis="y2"))
+    fig.update_layout(yaxis2=dict(title="Tsinghua relations (−9..+9)", overlaying="y", side="right",
+                                  showgrid=False))
 fig.update_layout(margin=dict(l=0, r=0, t=10, b=0), legend_title="",
                   yaxis_title="standardized (z-score, SD units)")
 st.plotly_chart(fig, use_container_width=True)

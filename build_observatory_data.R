@@ -14,8 +14,9 @@ ds <- rbindlist(lapply(readLines(file.path(EXT,"threat_ms_summary_book.jsonl")),
 ll <- fread(file.path(LEX,"implicit_threat_lex_lss_article.csv"),
             select=c("row_id","it_pct","it_lss"), encoding="UTF-8")
 setnames(ll, c("it_pct","it_lss"), c("lexicon","lss"))
+FRAMES <- c("law_deg","norms_deg","threat_deg","selfdef_deg","limited_deg","discr_deg")
 meta <- fread(file.path(EXT,"../foreign_affairs_iv.csv"),
-              select=c("row_id","date","main_foreign_actors","sentiment"), encoding="UTF-8", showProgress=FALSE)
+              select=c("row_id","date","main_foreign_actors","sentiment", FRAMES), encoding="UTF-8", showProgress=FALSE)
 setnames(meta, "sentiment", "negativity")
 
 a <- merge(meta[nchar(as.character(date))==10], ll, by="row_id", all.x=TRUE)
@@ -28,7 +29,7 @@ grp <- list(US="United States", Russia=c("Soviet Union","Russia"), Japan="Japan"
   Australia="Australia", Indonesia="Indonesia", Pakistan="Pakistan")
 lab2c <- unlist(lapply(names(grp), function(c) setNames(rep(c,length(grp[[c]])), grp[[c]])))
 long <- a[, .(actor=trimws(unlist(strsplit(as.character(main_foreign_actors),";")))),
-          by=.(row_id,date,deepseek,lexicon,lss,negativity)][actor %in% names(lab2c)]
+          by=c("row_id","date","deepseek","lexicon","lss","negativity",FRAMES)][actor %in% names(lab2c)]
 long[, `:=`(country=lab2c[actor], date=as.IDate(date))]
 
 # --- append newly-scored backfill articles (People's Daily 2025-12 → 2026-06-12) ---
@@ -37,8 +38,9 @@ if (file.exists(NEW)) {
   sc <- fread(NEW, encoding="UTF-8")[!is.na(date) & nchar(as.character(date))==10]
   setnames(sc, c("it_deepseek","it_lex","it_lss","sentiment"),
                c("deepseek","lexicon","lss","negativity"), skip_absent=TRUE)
+  for (fr in FRAMES) if (!fr %in% names(sc)) sc[, (fr) := NA_real_]
   ln <- sc[, .(actor=trimws(unlist(strsplit(as.character(main_foreign_actors),";")))),
-            by=.(date,deepseek,lexicon,lss,negativity)][actor %in% names(lab2c)]
+            by=c("date","deepseek","lexicon","lss","negativity",FRAMES)][actor %in% names(lab2c)]
   ln[, `:=`(row_id=NA_integer_, country=lab2c[actor], date=as.IDate(date))]
   long <- rbind(long, ln, fill=TRUE)
   cat(sprintf("[append] +%s new great-power article-rows from backfill (to %s)\n",
@@ -47,7 +49,7 @@ if (file.exists(NEW)) {
 
 rel <- fread(file.path(EXT,"tsinghua_relations_long.csv"))[, .(country, ym, relations=score)]
 
-measures <- c("deepseek","lexicon","lss","negativity")
+measures <- c("deepseek","lexicon","lss","negativity", FRAMES)
 aggregate_res <- function(period_expr, label){
   L <- copy(long); L[, period := period_expr(date)]
   obs <- L[, c(.(n_art=.N), lapply(.SD, function(x) mean(x, na.rm=TRUE))), by=.(country,period), .SDcols=measures]

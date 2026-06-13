@@ -3,13 +3,14 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
 from utils import (load_scores, MEASURES, METHODOLOGY, ISO3, WINDOW,
-                   cusum_series, alert_for, kperiod_alarm, z_alert)
+                   cusum_series, alert_for, kperiod_alarm, z_alert, last_updated)
 
 st.set_page_config(page_title="China Foreign Rhetoric Observatory", layout="wide")
 
 st.title("China Foreign Rhetoric Observatory")
 st.caption("Tracking China's official diplomatic signaling across bilateral relations · "
-           "People's Daily corpus 1950–2025")
+           "People's Daily corpus 1950–2026")
+st.caption(f"Data coverage through **{last_updated()}** · 12 great powers · updated daily.")
 
 with st.sidebar:
     st.header("Controls")

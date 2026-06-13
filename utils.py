@@ -6,11 +6,19 @@ DATA = {"Daily": "scores_daily.csv", "Weekly": "scores_weekly.csv", "Monthly": "
 
 # implicit-threat indices + the tone comparison measure
 MEASURES = {
-    "deepseek":   "DeepSeek implicit threat",
-    "lexicon":    "Lexicon (19-word)",
-    "lss":        "LSS",
-    "negativity": "Negativity (tone)",
+    "deepseek":     "DeepSeek implicit threat",
+    "lexicon":      "Lexicon (19-word)",
+    "lss":          "LSS",
+    "negativity":   "Negativity (tone)",
+    "law_deg":      "Frame · legal right",
+    "norms_deg":    "Frame · moral / norms",
+    "threat_deg":   "Frame · imminent threat",
+    "selfdef_deg":  "Frame · self-defense",
+    "limited_deg":  "Frame · limited aims",
+    "discr_deg":    "Frame · target the few",
 }
+_FRAME = ("How strongly an article frames China's coercion as justified via this lens (0–1), "
+          "from the article-frame LLM coder. ")
 METHODOLOGY = {
     "deepseek":   "LLM (DeepSeek) score, 0–1, of the implied probability that PRC official media signals "
                   "China will resort to force in the coming days. Few-shot prompt over article summaries.",
@@ -20,17 +28,34 @@ METHODOLOGY = {
                   "terms (+1) vs peace terms (−1). Continuous semantic-axis score.",
     "negativity": "General negative tone of the article toward the foreign actor (0 friendly … 1 hostile). "
                   "A salience/tone benchmark, distinct from force-signaling.",
+    "law_deg":     _FRAME + "Coercion framed as a lawful right / the other side as violating international law.",
+    "norms_deg":   _FRAME + "Coercion framed as morally right / on the side of justice and historical trend.",
+    "threat_deg":  _FRAME + "The other side framed as an imminent, serious threat (迫近威胁) to China.",
+    "selfdef_deg": _FRAME + "Coercion framed as forced self-defense / counter-action (被迫还击).",
+    "limited_deg": _FRAME + "Coercion framed as limited, proportionate, a last resort — not conquest.",
+    "discr_deg":   _FRAME + "Coercion framed as targeting only a guilty few, not ordinary people.",
 }
 ISO3 = {"US":"USA","Russia":"RUS","Japan":"JPN","UK":"GBR","France":"FRA","India":"IND",
         "Germany":"DEU","Vietnam":"VNM","South Korea":"KOR","Australia":"AUS",
         "Indonesia":"IDN","Pakistan":"PAK"}
 WINDOW = {"Daily": 365, "Weekly": 52, "Monthly": 24}   # CUSUM/EWMA baseline window per resolution
 
+import os
+
 @st.cache_data
-def load_scores(resolution: str) -> pd.DataFrame:
-    df = pd.read_csv(DATA[resolution])
+def _read(path: str, _mtime: float) -> pd.DataFrame:
+    df = pd.read_csv(path, encoding="utf-8-sig")     # utf-8-sig strips the BOM in the header
     df["period"] = pd.to_datetime(df["period"])
     return df.sort_values(["country", "period"]).reset_index(drop=True)
+
+def load_scores(resolution: str) -> pd.DataFrame:
+    # mtime in the cache key => refresh picks up rebuilt CSVs automatically
+    p = DATA[resolution]
+    return _read(p, os.path.getmtime(p))
+
+def last_updated(resolution: str = "Daily") -> str:
+    df = load_scores(resolution)
+    return str(df["period"].max().date())
 
 def cusum_series(values: pd.Series, window: int, drift: float = 0.5) -> list:
     """CUSUM on a rolling-window EWMA-style z-score baseline (spec: yellow>3, red>5)."""
