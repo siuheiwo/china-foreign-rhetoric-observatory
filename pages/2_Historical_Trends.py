@@ -5,9 +5,9 @@ import streamlit as st
 from utils import load_scores, MEASURES, METHODOLOGY
 
 st.set_page_config(page_title="Historical Trends · Observatory", layout="wide")
-st.title("Historical trends, 1950–2025")
+st.title("Historical trends, 1950–2026")
 
-GLOBAL_EVENTS = {1966: "Cultural Revolution", 1989: "Tiananmen",
+GLOBAL_EVENTS = {1966: "Cultural Revolution",
                  1996: "Taiwan Strait Crisis", 2022: "Pelosi visit"}
 TYPE_COLOR = {"escalation": "#b2182b", "rapprochement": "#2166ac"}
 
@@ -25,7 +25,7 @@ with st.sidebar:
 df = load_scores("Monthly")
 df["year"] = df["period"].dt.year
 yearly = df.groupby(["country", "year"], as_index=False)[measure].mean()
-yearly = yearly[(yearly["year"] >= 1950) & (yearly["year"] <= 2025)]
+yearly = yearly[(yearly["year"] >= 1950) & (yearly["year"] <= 2026)]
 
 countries = sorted(yearly["country"].unique())
 pick = st.multiselect("Countries", countries, default=["US", "Russia", "Japan"])
@@ -43,7 +43,8 @@ for yr, name in GLOBAL_EVENTS.items():
 # per-country bilateral events — only when exactly one country is selected (else too busy)
 if show_events and len(pick) == 1:
     ev = load_events()
-    ev = ev[(ev.country == pick[0]) & (ev.year >= 1950) & (ev.year <= 2025)]
+    ev = ev[(ev.country == pick[0]) & (ev.year >= 1950) & (ev.year <= 2026)
+            & (~ev.label.str.contains("Tiananmen", case=False, na=False))]
     for _, e in ev.iterrows():
         col = TYPE_COLOR.get(e["type"], "grey")
         fig.add_vline(x=e["year"], line_dash="dash", line_color=col, opacity=0.55)
