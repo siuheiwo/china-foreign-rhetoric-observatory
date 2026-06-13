@@ -33,10 +33,18 @@ c2.metric("3-period avg", f"{global_avg(3):.3f}")
 c3.metric("5-period avg", f"{global_avg(5):.3f}")
 c4.metric("Countries monitored", f"{cur['country'].nunique()}")
 
-# --- choropleth ---
-st.subheader(f"{MEASURES[measure]} — latest period ({latest.date()})")
-fig = px.choropleth(cur, locations="iso3", color=measure, hover_name="country",
-                    color_continuous_scale="RdBu_r", range_color=(cur[measure].min(), cur[measure].max()))
+# --- choropleth: recent trailing-window average (single periods are too sparse to vary) ---
+MAPWIN = {"Daily": 90, "Weekly": 26, "Monthly": 12}[resolution]
+recent_periods = sorted(df["period"].unique())[-MAPWIN:]
+mp = df[df["period"].isin(recent_periods)].groupby("country", as_index=False)[measure].mean()
+mp["iso3"] = mp["country"].map(ISO3)
+# dynamic gradient: spread color across the 5th–95th percentile of the displayed values
+lo, hi = mp[measure].quantile(0.05), mp[measure].quantile(0.95)
+if not (hi > lo):
+    hi = max(mp[measure].max(), 1e-9); lo = min(mp[measure].min(), 0.0)
+st.subheader(f"{MEASURES[measure]} — last {MAPWIN} {resolution.lower()} periods (avg)")
+fig = px.choropleth(mp, locations="iso3", color=measure, hover_name="country",
+                    color_continuous_scale="YlOrRd", range_color=(lo, hi))
 fig.update_layout(margin=dict(l=0, r=0, t=0, b=0), geo=dict(showframe=False, projection_type="natural earth"))
 st.plotly_chart(fig, use_container_width=True)
 
