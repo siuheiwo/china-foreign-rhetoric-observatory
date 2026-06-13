@@ -2,7 +2,8 @@
 import pandas as pd
 import plotly.express as px
 import streamlit as st
-from utils import load_scores, MEASURES, METHODOLOGY, ISO3, WINDOW, cusum_series, alert_for
+from utils import (load_scores, MEASURES, METHODOLOGY, ISO3, WINDOW,
+                   cusum_series, alert_for, kperiod_alarm, z_alert)
 
 st.set_page_config(page_title="China Foreign Rhetoric Observatory", layout="wide")
 
@@ -50,20 +51,27 @@ with left:
                       coloraxis_showscale=False)
     st.plotly_chart(bar, use_container_width=True)
 
-# --- CUSUM alert badges ---
+# --- alarm board: 3-period + 5-period (standardized exceedance) + CUSUM ---
 with right:
-    st.subheader("CUSUM alert status")
+    st.subheader("Alarm status")
+    st.caption("3-/5-period = SD above each country's EWMA baseline (yellow≥2, red≥3); "
+               "CUSUM = sustained drift (yellow>3, red>5). Standardized → comparable across countries.")
     rows = []
     for ctry, g in df.groupby("country"):
-        c = cusum_series(g[measure].reset_index(drop=True), WINDOW[resolution])
-        status, color = alert_for(c[-1] if c else 0.0)
-        rows.append((ctry, c[-1] if c else 0.0, status, color))
-    rows.sort(key=lambda r: -r[1])
-    for ctry, cval, status, color in rows:
+        s = g[measure].reset_index(drop=True)
+        a3, a5 = kperiod_alarm(s, 3, WINDOW[resolution]), kperiod_alarm(s, 5, WINDOW[resolution])
+        cu = cusum_series(s, WINDOW[resolution])[-1] if len(s) else 0.0
+        rows.append((ctry, a3, a5, cu))
+    rows.sort(key=lambda r: -max(r[2], r[3] / 5))   # rank by 5-period alarm (CUSUM scaled in)
+
+    def badge(label, color):
+        return (f"<span style='background:{color};color:white;padding:1px 7px;border-radius:9px;"
+                f"font-size:0.72em'>{label}</span>")
+    for ctry, a3, a5, cu in rows:
+        s3, c3 = z_alert(a3); s5, c5 = z_alert(a5); sc, cc = alert_for(cu)
         st.markdown(
-            f"<span style='display:inline-block;width:110px'>{ctry}</span>"
-            f"<span style='background:{color};color:white;padding:2px 10px;border-radius:10px;"
-            f"font-size:0.8em'>{status}</span> &nbsp;<small>CUSUM {cval:.1f}</small>",
+            f"<span style='display:inline-block;width:96px'>{ctry}</span>"
+            f"{badge(f'3p {a3:.1f}', c3)} {badge(f'5p {a5:.1f}', c5)} {badge(f'CUSUM {cu:.1f}', cc)}",
             unsafe_allow_html=True)
 
 st.divider()

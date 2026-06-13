@@ -53,3 +53,26 @@ def alert_for(cusum_last: float) -> tuple:
 
 def ewma_baseline(values: pd.Series, window: int) -> pd.Series:
     return values.ewm(span=window, min_periods=1).mean()
+
+def standardize(s: pd.Series) -> pd.Series:
+    """Within-series z-score so indices on different scales become comparable."""
+    sd = s.std()
+    return (s - s.mean()) / sd if sd and sd > 0 else s * 0.0
+
+def kperiod_alarm(values: pd.Series, k: int, window: int) -> float:
+    """How many SD the last-k-period average sits above the EWMA baseline.
+    Standardized => comparable across countries/indices. (3- and 5-period alarms.)"""
+    if len(values) < 2:
+        return 0.0
+    base = values.ewm(span=window, min_periods=1).mean().iloc[-1]
+    sd = values.rolling(window, min_periods=max(5, window // 12)).std().iloc[-1]
+    if pd.isna(sd) or sd == 0:
+        sd = values.std()
+    recent = values.tail(k).mean()
+    return float((recent - base) / (sd + 1e-6)) if sd and sd > 0 else 0.0
+
+def z_alert(z: float) -> tuple:
+    """Alert from a standardized exceedance (SD units): >=3 red, >=2 yellow."""
+    if z >= 3: return ("RED", "#b2182b")
+    if z >= 2: return ("YELLOW", "#e08214")
+    return ("NORMAL", "#4d9221")

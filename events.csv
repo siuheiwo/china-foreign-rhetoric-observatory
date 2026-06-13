@@ -1,0 +1,116 @@
+country,date,year,label,type,tsinghua_swing,verified
+US,1950-10,1950,Korean War intervention,escalation,0.7,False
+US,1954-09,1954,First Taiwan Strait Crisis,escalation,1.2,True
+US,1958-08,1958,Second Taiwan Strait Crisis,escalation,0.0,False
+US,1972-02,1972,Nixon visits China,rapprochement,1.6,True
+US,1979-01,1979,Diplomatic normalization,rapprochement,4.1,True
+US,1989-06,1989,Tiananmen sanctions,escalation,3.5,True
+US,1996-03,1996,Third Taiwan Strait Crisis,escalation,1.4,True
+US,1999-05,1999,Belgrade embassy bombing,escalation,3.2,True
+US,2001-04,2001,Hainan EP-3 incident,escalation,1.4,True
+US,2001-12,2001,China joins WTO,rapprochement,0.7,False
+US,2018-03,2018,Trump tariff trade war,escalation,3.7,True
+US,2020-07,2020,"Consulate closures, COVID",escalation,1.6,True
+US,2022-08,2022,Pelosi Taiwan visit,escalation,1.1,True
+US,2023-11,2023,Xi-Biden summit,rapprochement,1.6,True
+US,2025-04,2025,Second Trump tariff escalation,escalation,0.7,False
+Russia,1950-02,1950,Sino-Soviet Treaty signed,rapprochement,0.1,False
+Russia,1956,1956,De-Stalinization sparks tension,escalation,0.0,False
+Russia,1960,1960,Soviet advisors withdrawn,escalation,1.6,True
+Russia,1963,1963,Open ideological polemics,escalation,6.5,True
+Russia,1969-03,1969,Zhenbao border clashes,escalation,1.9,True
+Russia,1979,1979,Treaty abrogation,escalation,0.2,False
+Russia,1989-05,1989,"Gorbachev visit, normalization",rapprochement,3.6,True
+Russia,1991-12,1991,Soviet collapse,rapprochement,1.1,True
+Russia,1996-04,1996,Strategic partnership,rapprochement,1.0,True
+Russia,2001-07,2001,Friendship Treaty,rapprochement,0.5,False
+Russia,2014,2014,"Gas deal, post-Crimea pivot",rapprochement,0.1,False
+Russia,2022-02,2022,No limits partnership,rapprochement,0.0,False
+Russia,2023-03,2023,Xi-Putin wartime summit,rapprochement,0.0,False
+Japan,1972-09,1972,Diplomatic normalization,rapprochement,3.8,True
+Japan,1978-08,1978,Peace & Friendship Treaty,rapprochement,2.5,True
+Japan,1985-08,1985,Nakasone Yasukuni visit,escalation,0.1,False
+Japan,1989-06,1989,"Tiananmen, Japan sanctions",escalation,0.9,False
+Japan,2001,2001,Koizumi Yasukuni visits,escalation,0.7,False
+Japan,2005-04,2005,Anti-Japan textbook protests,escalation,2.8,True
+Japan,2010-09,2010,Senkaku trawler collision,escalation,1.8,True
+Japan,2012-09,2012,Japan nationalizes Senkakus,escalation,5.2,True
+Japan,2013-12,2013,Abe Yasukuni visit,escalation,1.2,True
+Japan,2018-10,2018,Abe Beijing summit,rapprochement,2.2,True
+Japan,2023-08,2023,"Fukushima water, seafood ban",escalation,0.5,False
+UK,1950-01,1950,UK recognizes PRC,rapprochement,0.7,False
+UK,1967-08,1967,"HK unrest, mission burned",escalation,0.8,False
+UK,1972-03,1972,Full ambassadorial relations,rapprochement,1.4,True
+UK,1984-12,1984,Sino-British Joint Declaration,rapprochement,0.9,False
+UK,1989-06,1989,Tiananmen condemnation,escalation,1.5,True
+UK,1997-07,1997,Hong Kong handover,rapprochement,0.9,False
+UK,2015-10,2015,"Xi visit, golden era",rapprochement,0.2,False
+UK,2019-06,2019,HK protests support,escalation,2.4,True
+UK,2020-07,2020,"Huawei ban, BNO offer",escalation,4.1,True
+UK,2021-03,2021,Xinjiang sanctions,escalation,3.3,True
+France,1964-01,1964,France recognizes PRC,rapprochement,3.2,True
+France,1989-06,1989,Condemns Tiananmen,escalation,2.1,True
+France,1992,1992,Frigate/Mirage Taiwan sales,escalation,0.4,False
+France,1994-01,1994,Communique normalizes ties,rapprochement,1.3,True
+France,2008-12,2008,Sarkozy meets Dalai Lama,escalation,0.7,False
+France,2019-03,2019,Macron-Xi Airbus deal,rapprochement,0.2,False
+France,2023-04,2023,Macron Beijing visit,rapprochement,0.6,False
+France,2024-05,2024,Xi state visit France,rapprochement,0.5,False
+India,1950-10,1950,PLA enters Tibet,escalation,0.4,False
+India,1954-04,1954,Panchsheel Agreement,rapprochement,0.7,False
+India,1959-03,1959,"Tibetan revolt, Dalai flees",escalation,5.6,True
+India,1962-10,1962,Sino-Indian border war,escalation,3.1,True
+India,1967-09,1967,Nathu La clashes,escalation,0.0,False
+India,1988-12,1988,Rajiv Gandhi visits,rapprochement,1.1,True
+India,1998-05,1998,India nuclear tests,escalation,0.4,False
+India,2017-06,2017,Doklam standoff,escalation,2.8,True
+India,2020-06,2020,Galwan Valley clash,escalation,0.9,False
+India,2024-10,2024,Border disengagement deal,rapprochement,0.4,False
+Germany,1972-10,1972,Diplomatic relations,rapprochement,2.1,True
+Germany,1984-10,1984,Kohl first chancellor visit,rapprochement,0.4,False
+Germany,1989-06,1989,EU arms embargo,escalation,1.5,True
+Germany,2007-09,2007,Merkel meets Dalai Lama,escalation,0.4,False
+Germany,2014-03,2014,Xi state visit Germany,rapprochement,0.3,False
+Germany,2019,2019,Huawei 5G dispute,escalation,0.2,False
+Germany,2022-11,2022,Scholz Beijing visit,rapprochement,0.2,False
+Germany,2023-07,2023,De-risking strategy,escalation,0.2,False
+Vietnam,1965,1965,Aid against US in Vietnam,rapprochement,0.2,False
+Vietnam,1974-01,1974,Paracels seizure,escalation,0.0,False
+Vietnam,1978,1978,Ethnic Chinese exodus rift,escalation,11.2,True
+Vietnam,1979-02,1979,Sino-Vietnamese border war,escalation,8.6,True
+Vietnam,1984,1984,Laoshan border battles,escalation,0.2,False
+Vietnam,1988-03,1988,Johnson South Reef clash,escalation,0.1,False
+Vietnam,1991-11,1991,Bilateral normalization,rapprochement,4.6,True
+Vietnam,2014-05,2014,HYSY-981 oil rig standoff,escalation,0.8,False
+Vietnam,2023-12,2023,"Xi visit, shared future",rapprochement,0.7,False
+South Korea,1950-10,1950,China enters Korean War,escalation,1.2,True
+South Korea,1992-08,1992,Diplomatic normalization,rapprochement,4.6,True
+South Korea,2004,2004,Goguryeo history dispute,escalation,0.4,False
+South Korea,2008-05,2008,Strategic partnership,rapprochement,0.2,False
+South Korea,2016-07,2016,THAAD deployment,escalation,2.9,True
+South Korea,2017-03,2017,Lotte boycott retaliation,escalation,1.7,True
+South Korea,2022-05,2022,Yoon pro-US tilt,escalation,0.9,False
+Australia,1972-12,1972,Diplomatic recognition,rapprochement,3.0,True
+Australia,1989-06,1989,Tiananmen condemnation,escalation,1.1,True
+Australia,2009-07,2009,Stern Hu Rio Tinto arrest,escalation,0.2,False
+Australia,2014-11,2014,"Xi visit, FTA concluded",rapprochement,0.3,False
+Australia,2018-08,2018,Huawei 5G ban,escalation,0.1,False
+Australia,2020-04,2020,COVID inquiry call,escalation,4.5,True
+Australia,2020-05,2020,Trade sanctions,escalation,4.7,True
+Australia,2021-09,2021,AUKUS submarine pact,escalation,2.7,True
+Australia,2023-11,2023,Albanese Beijing visit,rapprochement,0.8,False
+Indonesia,1950-04,1950,Diplomatic relations,rapprochement,1.5,True
+Indonesia,1955-04,1955,Bandung Conference,rapprochement,0.5,False
+Indonesia,1965-09,1965,"Failed coup, purge",escalation,6.9,True
+Indonesia,1967-10,1967,Relations frozen,escalation,1.3,True
+Indonesia,1990-08,1990,Normalization restored,rapprochement,3.4,True
+Indonesia,2013-10,2013,Belt and Road launched,rapprochement,0.3,False
+Indonesia,2016-03,2016,Natuna fishing standoff,escalation,0.2,False
+Indonesia,2020-01,2020,Natuna incursion,escalation,1.8,True
+Pakistan,1951-05,1951,Diplomatic relations,rapprochement,1.7,True
+Pakistan,1963-03,1963,Boundary agreement,rapprochement,1.6,True
+Pakistan,1965-09,1965,Backs Pakistan vs India,rapprochement,1.7,True
+Pakistan,1978-06,1978,Karakoram Highway opened,rapprochement,0.0,False
+Pakistan,1996-12,1996,Jiang Zemin state visit,rapprochement,0.1,False
+Pakistan,2006-11,2006,All-weather partnership,rapprochement,0.2,False
+Pakistan,2015-04,2015,"CPEC launched, Xi visit",rapprochement,0.0,False

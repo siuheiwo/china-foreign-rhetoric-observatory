@@ -23,8 +23,22 @@ def cusum_series(values: pd.Series, window: int, drift: float = DRIFT):
     return out
 
 
+def kperiod_alarm(values: pd.Series, k: int, window: int) -> float:
+    if len(values) < 2:
+        return 0.0
+    base = values.ewm(span=window, min_periods=1).mean().iloc[-1]
+    sd = values.rolling(window, min_periods=max(5, window // 12)).std().iloc[-1]
+    if pd.isna(sd) or sd == 0:
+        sd = values.std()
+    return float((values.tail(k).mean() - base) / (sd + 1e-6)) if sd and sd > 0 else 0.0
+
+
 def status(c):
     return "RED" if c > RED else ("YELLOW" if c > YELLOW else "NORMAL")
+
+
+def zstatus(z):  # standardized exceedance thresholds
+    return "RED" if z >= 3 else ("YELLOW" if z >= 2 else "NORMAL")
 
 
 rows = []
@@ -35,13 +49,16 @@ for res, f in DATA.items():
             g = g.reset_index(drop=True)
             c = cusum_series(g[idx], WINDOW[res])
             base = g[idx].ewm(span=WINDOW[res], min_periods=1).mean().iloc[-1]
+            a3 = kperiod_alarm(g[idx], 3, WINDOW[res])
+            a5 = kperiod_alarm(g[idx], 5, WINDOW[res])
             rows.append({
                 "resolution": res, "index": idx, "country": country,
                 "as_of": g["period"].iloc[-1].date(),
                 "latest": round(float(g[idx].iloc[-1]), 4),
                 "ewma_baseline": round(float(base), 4),
-                "cusum": round(float(c[-1]), 2),
-                "alert": status(c[-1]),
+                "alarm_3p": round(a3, 2), "alarm_3p_alert": zstatus(a3),
+                "alarm_5p": round(a5, 2), "alarm_5p_alert": zstatus(a5),
+                "cusum": round(float(c[-1]), 2), "cusum_alert": status(c[-1]),
             })
 
 alarms = pd.DataFrame(rows)
@@ -50,9 +67,9 @@ print(f"wrote alarms.csv ({len(alarms)} rows = 3 resolutions x 4 indices x 12 co
 
 # current alarm board for the headline (DeepSeek) index
 for res in DATA:
-    sub = alarms[(alarms.resolution == res) & (alarms["index"] == "deepseek")].sort_values("cusum", ascending=False)
-    active = sub[sub.alert != "NORMAL"]
-    print(f"[{res}] DeepSeek implicit-threat — active alerts: "
-          f"{len(active)} (red {sum(sub.alert=='RED')}, yellow {sum(sub.alert=='YELLOW')})")
+    sub = alarms[(alarms.resolution == res) & (alarms["index"] == "deepseek")].sort_values("alarm_5p", ascending=False)
+    active = sub[(sub.cusum_alert != "NORMAL") | (sub.alarm_5p_alert != "NORMAL") | (sub.alarm_3p_alert != "NORMAL")]
+    print(f"[{res}] DeepSeek implicit-threat — countries with any active alert: {len(active)}")
     for _, r in sub.head(5).iterrows():
-        print(f"    {r.country:12s} CUSUM {r.cusum:5.1f}  {r.alert:7s} (latest {r.latest})")
+        print(f"    {r.country:12s} 3p {r.alarm_3p:5.1f}  5p {r.alarm_5p:5.1f}  CUSUM {r.cusum:5.1f}  "
+              f"[{r.alarm_3p_alert}/{r.alarm_5p_alert}/{r.cusum_alert}]")
