@@ -3,7 +3,8 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
 from utils import (load_scores, MEASURES, METHODOLOGY, ISO3, WINDOW,
-                   cusum_series, alert_for, kperiod_alarm, z_alert, last_updated)
+                   cusum_series, alert_for, kperiod_alarm, z_alert, last_updated,
+                   recent_titles)
 
 st.set_page_config(page_title="China Foreign Rhetoric Observatory", layout="wide")
 
@@ -35,19 +36,60 @@ c2.metric("3-period avg", f"{global_avg(3):.3f}")
 c3.metric("5-period avg", f"{global_avg(5):.3f}")
 c4.metric("Countries monitored", f"{cur['country'].nunique()}")
 
-# --- choropleth: recent trailing-window average (single periods are too sparse to vary) ---
+# --- bubble map: recent trailing-window average (single periods are too sparse to vary) ---
+# colour = score, size = article volume; equal visual weight per country, no area distortion
 MAPWIN = {"Daily": 90, "Weekly": 26, "Monthly": 12}[resolution]
+LATLON = {  # representative on-land centroids, for placing the bubbles
+    "US": (39.5, -98.4), "Russia": (60.0, 95.0), "Japan": (36.5, 138.0), "UK": (53.0, -1.5),
+    "France": (46.5, 2.5), "India": (22.5, 79.0), "Germany": (51.0, 10.0), "Vietnam": (16.0, 106.5),
+    "South Korea": (36.5, 127.8), "Australia": (-25.0, 134.0), "Indonesia": (-2.0, 118.0),
+    "Pakistan": (30.0, 69.5)}
 recent_periods = sorted(df["period"].unique())[-MAPWIN:]
-mp = df[df["period"].isin(recent_periods)].groupby("country", as_index=False)[measure].mean()
-mp["iso3"] = mp["country"].map(ISO3)
+mp = (df[df["period"].isin(recent_periods)]
+      .groupby("country", as_index=False).agg({measure: "mean", "n_art": "sum"}))
+mp["lat"] = mp["country"].map(lambda c: LATLON.get(c, (None, None))[0])
+mp["lon"] = mp["country"].map(lambda c: LATLON.get(c, (None, None))[1])
 # dynamic gradient: spread color across the 5th–95th percentile of the displayed values
 lo, hi = mp[measure].quantile(0.05), mp[measure].quantile(0.95)
 if not (hi > lo):
     hi = max(mp[measure].max(), 1e-9); lo = min(mp[measure].min(), 0.0)
 st.subheader(f"{MEASURES[measure]} — last {MAPWIN} {resolution.lower()} periods (avg)")
-fig = px.choropleth(mp, locations="iso3", color=measure, hover_name="country",
-                    color_continuous_scale="YlOrRd", range_color=(lo, hi))
-fig.update_layout(margin=dict(l=0, r=0, t=0, b=0), geo=dict(showframe=False, projection_type="natural earth"))
+
+# most-recent headlines per country (Chinese + English), for the map hover
+_titles = recent_titles(2)
+def _clip(s, k):
+    s = s or ""
+    return s[:k] + "…" if len(s) > k else s
+def _headlines(ctry):
+    items = _titles.get(ctry, [])
+    if not items:
+        return "—"
+    lines = []
+    for d, zh, en in items:
+        line = f"· {_clip(zh, 28)} <i>({d})</i>"
+        if en:
+            line += f"<br>&nbsp;&nbsp;<i>{_clip(en, 60)}</i>"
+        lines.append(line)
+    return "<br>".join(lines)
+mp["headlines"] = mp["country"].map(_headlines)
+
+fig = px.scatter_geo(mp, lat="lat", lon="lon", color=measure, size="n_art",
+                     hover_name="country", custom_data=["country", measure, "headlines", "n_art"],
+                     color_continuous_scale="YlOrRd", range_color=(lo, hi), size_max=34)
+fig.update_traces(marker=dict(line=dict(width=0.8, color="rgba(40,40,40,0.55)"), sizemin=5),
+                  hovertemplate=(
+    "<b>%{customdata[0]}</b><br>"
+    f"{MEASURES[measure]}: " + "%{customdata[1]:.2f}"
+    "   ·   %{customdata[3]} articles<br>"
+    "<br><i>Most recent People's Daily headlines</i><br>"
+    "%{customdata[2]}<extra></extra>"))
+fig.update_geos(projection_type="natural earth", showframe=False,
+                showland=True, landcolor="#eceef0", showcountries=True, countrycolor="white",
+                showcoastlines=False, showocean=False, lataxis_range=[-56, 84],
+                bgcolor="rgba(0,0,0,0)")
+fig.update_layout(margin=dict(l=0, r=0, t=0, b=0), hoverlabel=dict(align="left"))
+st.caption("Bubble **size** = number of monitored articles in the window; **colour** = score "
+           "(5th–95th-percentile range). Hover for the latest headlines.")
 st.plotly_chart(fig, use_container_width=True)
 
 left, right = st.columns(2)
@@ -64,8 +106,11 @@ with left:
 # --- alarm board: 3-period + 5-period (standardized exceedance) + CUSUM ---
 with right:
     st.subheader("Alarm status")
-    st.caption("3-/5-period = SD above each country's EWMA baseline (yellow≥2, red≥3); "
-               "CUSUM = sustained drift (yellow>3, red>5). Standardized → comparable across countries.")
+    st.caption("How far each country sits above **its own** baseline (standardized, so countries are comparable). "
+               "**Short-run** & **Sustained** = jump over the last 3 / 5 periods, in SD "
+               "(<span style='color:#e08214'>amber ≥2σ</span>, <span style='color:#b2182b'>red ≥3σ</span>); "
+               "**Drift** = accumulating deviation (amber >3, red >5). Full method on the **About** page.",
+               unsafe_allow_html=True)
     rows = []
     for ctry, g in df.groupby("country"):
         s = g[measure].reset_index(drop=True)
@@ -74,14 +119,23 @@ with right:
         rows.append((ctry, a3, a5, cu))
     rows.sort(key=lambda r: -max(r[2], r[3] / 5))   # rank by 5-period alarm (CUSUM scaled in)
 
-    def badge(label, color):
-        return (f"<span style='background:{color};color:white;padding:1px 7px;border-radius:9px;"
-                f"font-size:0.72em'>{label}</span>")
+    def badge(label, color, tip=""):
+        t = f" title=\"{tip}\"" if tip else ""
+        return (f"<span{t} style='background:{color};color:white;padding:1px 7px;border-radius:9px;"
+                f"font-size:0.72em;cursor:default'>{label}</span>")
+    TIP3 = ("Short-run signal: average of the last 3 periods, expressed in standard deviations "
+            "above the country's own EWMA baseline. Amber at 2σ, red at 3σ.")
+    TIP5 = ("Sustained signal: same measure over the last 5 periods, so a single spike counts less. "
+            "Amber at 2σ, red at 3σ.")
+    TIPC = ("Drift (CUSUM): running total of period-by-period deviations above baseline — flags a slow, "
+            "persistent climb even when no single period is extreme. Amber above 3, red above 5.")
     for ctry, a3, a5, cu in rows:
         s3, c3 = z_alert(a3); s5, c5 = z_alert(a5); sc, cc = alert_for(cu)
         st.markdown(
             f"<span style='display:inline-block;width:96px'>{ctry}</span>"
-            f"{badge(f'3p {a3:.1f}', c3)} {badge(f'5p {a5:.1f}', c5)} {badge(f'CUSUM {cu:.1f}', cc)}",
+            f"{badge(f'Short-run {a3:.1f}σ', c3, TIP3)} "
+            f"{badge(f'Sustained {a5:.1f}σ', c5, TIP5)} "
+            f"{badge(f'Drift {cu:.1f}', cc, TIPC)}",
             unsafe_allow_html=True)
 
 st.divider()

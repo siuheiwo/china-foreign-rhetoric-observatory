@@ -85,7 +85,7 @@ def score(art):
     it_lex, it_lss = lex_lss(art["content"])
     fr = (frm or {}).get("各框架", {}) or {}
     fd = lambda k: num((fr.get(k) or {}).get("程度"))
-    return {"date":art["date"],
+    return {"date":art["date"], "title":art.get("title",""), "url":art.get("url",""),
             "main_foreign_actors":"; ".join(cls.get("主要外国行为体",[]) or []),
             "foreign":is_fc, "negativity":num((cls.get("情感") or {}).get("负面度")),
             "deepseek":num((thr or {}).get("sentiment")), "lexicon":it_lex, "lss":it_lss,
@@ -107,6 +107,58 @@ def country_day_rows(scored, dstr):
             rec[m] = float(g[m].mean()) if len(g) and g[m].notna().any() else 0.0
         out.append(rec)
     return pd.DataFrame(out)
+
+TRANSLATE_SYS = ("You translate Chinese newspaper headlines into concise, natural English. "
+                 "Input is a JSON array of headlines. Output JSON {\"t\": [\"en1\", \"en2\", ...]} with "
+                 "exactly one English translation per input headline, in the same order. Keep any "
+                 "parenthetical column name translated too. Output JSON only.")
+
+def translate_titles(titles):
+    """Batch-translate a list of Chinese headlines to English via DeepSeek. Returns a same-length list
+    (empty strings on failure, so the Chinese still shows)."""
+    if not titles:
+        return []
+    out = call_ds(FLASH, TRANSLATE_SYS, json.dumps(titles, ensure_ascii=False))
+    en = (out or {}).get("t") if isinstance(out, dict) else None
+    if isinstance(en, list) and len(en) == len(titles):
+        return [str(x) for x in en]
+    return [""] * len(titles)
+
+def update_recent_titles(scored, dstr, n=2):
+    """Keep recent_titles.csv (country -> n most-recent headlines + links, Chinese + English) current for
+    the map hover. Only headline + URL are stored, never article body text."""
+    tpath = os.path.join(REPO, "recent_titles.csv")
+    new = []
+    for r in scored:
+        if not r.get("title"):
+            continue
+        for actor in [a.strip() for a in (r.get("main_foreign_actors") or "").split(";")]:
+            if actor in LAB2C:
+                new.append({"country": LAB2C[actor], "date": dstr, "title": r["title"],
+                            "title_en": "", "url": r.get("url", "")})
+    new = pd.DataFrame(new, columns=["country", "date", "title", "title_en", "url"])
+    if new.empty:
+        return
+    old = pd.read_csv(tpath, encoding="utf-8-sig") if os.path.exists(tpath) else \
+        pd.DataFrame(columns=["country", "date", "title", "title_en", "url"])
+    if "title_en" not in old.columns:
+        old["title_en"] = ""
+    old = old[old["date"] != dstr]                                  # idempotent: replace this date
+    both = pd.concat([new, old], ignore_index=True)                 # new (this date) first => wins ties
+    both = both.sort_values("date", ascending=False, kind="stable")
+    both = both.groupby("country", as_index=False, sort=False).head(n).reset_index(drop=True)
+
+    # translate only the surviving headlines that still lack English
+    both["title_en"] = both["title_en"].fillna("")
+    need = both.index[both["title_en"].str.strip() == ""].tolist()
+    if need:
+        en = translate_titles(both.loc[need, "title"].tolist())
+        for i, e in zip(need, en):
+            both.at[i, "title_en"] = e
+    both = both[["country", "date", "title", "title_en", "url"]]
+    both.to_csv(tpath, index=False)
+    print(f"[daily] refreshed recent_titles.csv ({both['country'].nunique()} countries, "
+          f"{len(need)} translated)", flush=True)
 
 def wmean(g, m):  # n_art-weighted mean of daily => exact per-article mean
     n = g["n_art"].sum()
@@ -157,6 +209,7 @@ def main():
     weekly.to_csv(os.path.join(REPO,"scores_weekly.csv"), index=False)
     monthly.to_csv(os.path.join(REPO,"scores_monthly.csv"), index=False)
     print(f"[daily] wrote scores_*.csv; coverage to {daily['period'].max()}", flush=True)
+    update_recent_titles(scored, d)
 
 if __name__ == "__main__":
     main()

@@ -56,6 +56,25 @@ def last_updated(resolution: str = "Daily") -> str:
     df = load_scores(resolution)
     return str(df["period"].max().date())
 
+@st.cache_data
+def _read_titles(path: str, _mtime: float) -> pd.DataFrame:
+    return pd.read_csv(path, encoding="utf-8-sig")
+
+def recent_titles(n: int = 2) -> dict:
+    """country -> list of (date, title_zh, title_en) for the n most recent article headlines.
+    Used for the map hover; returns {} if the file is missing."""
+    p = os.path.join(os.path.dirname(os.path.abspath(__file__)), "recent_titles.csv")
+    if not os.path.exists(p):
+        return {}
+    df = _read_titles(p, os.path.getmtime(p))
+    if "title_en" not in df.columns:
+        df["title_en"] = ""
+    out = {}
+    for c, g in df.groupby("country"):
+        out[c] = list(zip(g["date"].astype(str), g["title"].astype(str),
+                          g["title_en"].fillna("").astype(str)))[:n]
+    return out
+
 def cusum_series(values: pd.Series, window: int, drift: float = 0.5) -> list:
     """CUSUM on a rolling-window EWMA-style z-score baseline (spec: yellow>3, red>5)."""
     mean = values.rolling(window, min_periods=max(5, window // 12)).mean()
