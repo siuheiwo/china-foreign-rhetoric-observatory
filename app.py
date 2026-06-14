@@ -142,5 +142,6 @@ st.divider()
 st.caption(f"**Methodology — {MEASURES[measure]}.** {METHODOLOGY[measure]}  "
            "Empty period (0 articles) is scored 0. Alerts: CUSUM>3 yellow, >5 red, "
            f"baseline window = {WINDOW[resolution]} {resolution.lower()} periods.")
-st.caption("Implicit Threat Index from Wong, *Forecasting the Use of Force: A Word Embedding Analysis of "
-           "China's Rhetoric and Military Escalations*, Political Science Research and Methods.")
+st.caption("Implicit Threat Index from Wong JSH. Forecasting the use of force: a word embedding analysis "
+           "of China's rhetoric and military escalations. *Political Science Research and Methods*. "
+           "Published online 2026:1-10. doi:10.1017/psrm.2025.10085")

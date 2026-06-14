@@ -67,8 +67,9 @@ st.markdown("""
 - **Inter-method reliability** across the four implicit-threat coders: Krippendorff's α ≈ 0.43 (moderate);
   LSS most consistent. The measures are **distinct from general tone** (e.g. China's force-signaling tracks
   relations tightly for the US but only spikes at the 1969 clash for the USSR).
-- Implicit-threat lexicon: Wong, *Forecasting the Use of Force: A Word Embedding Analysis of China's
-  Rhetoric and Military Escalations*, **Political Science Research and Methods**.
+- Implicit-threat lexicon: Wong JSH. Forecasting the use of force: a word embedding analysis of China's
+  rhetoric and military escalations. *Political Science Research and Methods*. Published online 2026:1-10.
+  doi:10.1017/psrm.2025.10085
 """)
 
 st.subheader("Caveats")
