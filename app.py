@@ -71,9 +71,9 @@ def _headlines(ctry):
     neg = _neg.get(ctry, [])
     parts = []
     parts.append("<i>Most recent</i><br>" +
-                 ("<br>".join(_fmt(d, zh, en) for d, zh, en in rec) if rec else "—"))
+                 ("<br>".join(_fmt(d, zh, en) for d, zh, en, _u in rec) if rec else "—"))
     if neg:
-        d, zh, en, s, summ = neg[0]
+        d, zh, en, s, summ, _u = neg[0]
         block = "<i>Most negative (last 7 days)</i><br>" + _fmt(d, zh, en, f" <b>[{s:.2f}]</b>")
         if summ:
             block += f"<br>&nbsp;&nbsp;{_clip(summ, 110)}"
@@ -96,8 +96,39 @@ fig.update_geos(projection_type="natural earth", showframe=False,
                 bgcolor="rgba(0,0,0,0)")
 fig.update_layout(margin=dict(l=0, r=0, t=0, b=0), hoverlabel=dict(align="left"))
 st.caption("Bubble **size** = number of monitored articles in the window; **colour** = score "
-           "(5th–95th-percentile range). Hover for the latest headlines.")
-st.plotly_chart(fig, use_container_width=True)
+           "(5th–95th-percentile range). **Hover** to preview · **click a bubble** to open its articles.")
+_evt = st.plotly_chart(fig, use_container_width=True, on_select="rerun", key="worldmap")
+
+# clicking a bubble opens a panel with CLICKABLE article links (hover tooltips can't hold links)
+def _clicked_country(evt):
+    pts = (evt or {}).get("selection", {}).get("points", []) if isinstance(evt, dict) else \
+          getattr(getattr(evt, "selection", None), "points", []) or []
+    if not pts:
+        return None
+    p = pts[0]
+    cd = p.get("customdata")
+    if cd:
+        return cd[0]
+    idx = p.get("point_index", p.get("point_number"))
+    return mp.iloc[idx]["country"] if (idx is not None and idx < len(mp)) else None
+
+_clicked = _clicked_country(_evt)
+_countries = sorted(mp["country"])
+_default = (_countries.index(_clicked) + 1) if _clicked in _countries else 0
+_sel = st.selectbox("Open a country's articles (or click a bubble above)", ["—"] + _countries,
+                    index=_default)
+_sel = _clicked or (_sel if _sel != "—" else None)
+if _sel:
+    with st.container(border=True):
+        st.markdown(f"**{_sel} — open on People's Daily**  ·  *click a title*")
+        for d, zh, en, url in _titles.get(_sel, []):
+            lab = en or zh
+            st.markdown(f"- [{lab}]({url}) · *{d}* · <span style='color:grey'>{zh}</span>"
+                        if url else f"- {lab} · *{d}*", unsafe_allow_html=True)
+        for d, zh, en, s, summ, url in _neg.get(_sel, []):
+            lab = en or zh
+            head = f"- 🔴 **[{s:.2f}]** [{lab}]({url}) · *{d}*" if url else f"- 🔴 **[{s:.2f}]** {lab} · *{d}*"
+            st.markdown(head + (f" — {summ}" if summ else ""))
 
 left, right = st.columns(2)
 # --- top 5 ---

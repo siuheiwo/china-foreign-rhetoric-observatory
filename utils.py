@@ -92,10 +92,13 @@ def recent_titles(n: int = 2) -> dict:
     df = _read_titles(p, os.path.getmtime(p))
     if "title_en" not in df.columns:
         df["title_en"] = ""
+    if "url" not in df.columns:
+        df["url"] = ""
     out = {}
     for c, g in df.groupby("country"):
         out[c] = list(zip(g["date"].astype(str), g["title"].astype(str),
-                          g["title_en"].fillna("").astype(str)))[:n]
+                          g["title_en"].fillna("").astype(str),
+                          g["url"].fillna("").astype(str)))[:n]
     return out
 
 def negative_titles(n: int = 1) -> dict:
@@ -105,7 +108,7 @@ def negative_titles(n: int = 1) -> dict:
     if not os.path.exists(p):
         return {}
     df = _read_titles(p, os.path.getmtime(p))
-    for c in ("title_en", "summary_en"):
+    for c in ("title_en", "summary_en", "url"):
         if c not in df.columns:
             df[c] = ""
     out = {}
@@ -113,7 +116,8 @@ def negative_titles(n: int = 1) -> dict:
         out[c] = list(zip(g["date"].astype(str), g["title"].astype(str),
                           g["title_en"].fillna("").astype(str),
                           pd.to_numeric(g["sentiment"], errors="coerce").fillna(0.0),
-                          g["summary_en"].fillna("").astype(str)))[:n]
+                          g["summary_en"].fillna("").astype(str),
+                          g["url"].fillna("").astype(str)))[:n]
     return out
 
 def cusum_series(values: pd.Series, window: int, drift: float = 0.5) -> list:
