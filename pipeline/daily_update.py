@@ -160,6 +160,43 @@ def update_recent_titles(scored, dstr, n=2):
     print(f"[daily] refreshed recent_titles.csv ({both['country'].nunique()} countries, "
           f"{len(need)} translated)", flush=True)
 
+def update_negative_titles(scored, dstr, n=2, window_days=3):
+    """Keep negative_titles.csv (country -> n most-NEGATIVE headlines within the last `window_days`)
+    current for the map hover. Rolling window; only headline + URL + sentiment stored."""
+    npath = os.path.join(REPO, "negative_titles.csv")
+    cols = ["country", "date", "title", "title_en", "url", "sentiment"]
+    new = []
+    for r in scored:
+        if not r.get("title") or r.get("negativity") is None:
+            continue
+        for actor in [a.strip() for a in (r.get("main_foreign_actors") or "").split(";")]:
+            if actor in LAB2C:
+                new.append({"country": LAB2C[actor], "date": dstr, "title": r["title"],
+                            "title_en": "", "url": r.get("url", ""), "sentiment": float(r["negativity"])})
+    new = pd.DataFrame(new, columns=cols)
+    old = pd.read_csv(npath, encoding="utf-8-sig") if os.path.exists(npath) else pd.DataFrame(columns=cols)
+    for c in cols:
+        if c not in old.columns:
+            old[c] = "" if c in ("title_en",) else pd.NA
+    old = old[old["date"] != dstr]                                  # idempotent: replace this date
+    both = pd.concat([new, old], ignore_index=True)
+    if both.empty:
+        return
+    both["sentiment"] = pd.to_numeric(both["sentiment"], errors="coerce")
+    cutoff = (pd.to_datetime(both["date"]).max() - pd.Timedelta(days=window_days)).strftime("%Y-%m-%d")
+    both = both[both["date"] >= cutoff]                             # rolling window
+    both = both.sort_values(["sentiment", "date"], ascending=[False, False], kind="stable")
+    both = both.groupby("country", as_index=False, sort=False).head(n).reset_index(drop=True)
+    both["title_en"] = both["title_en"].fillna("")
+    need = both.index[both["title_en"].str.strip() == ""].tolist()
+    if need:
+        en = translate_titles(both.loc[need, "title"].tolist())
+        for i, e in zip(need, en):
+            both.at[i, "title_en"] = e
+    both[cols].to_csv(npath, index=False)
+    print(f"[daily] refreshed negative_titles.csv ({both['country'].nunique()} countries, "
+          f"window>={cutoff}, {len(need)} translated)", flush=True)
+
 def wmean(g, m):  # n_art-weighted mean of daily => exact per-article mean
     n = g["n_art"].sum()
     return (g[m]*g["n_art"]).sum()/n if n else 0.0
@@ -210,6 +247,7 @@ def main():
     monthly.to_csv(os.path.join(REPO,"scores_monthly.csv"), index=False)
     print(f"[daily] wrote scores_*.csv; coverage to {daily['period'].max()}", flush=True)
     update_recent_titles(scored, d)
+    update_negative_titles(scored, d)
 
 if __name__ == "__main__":
     main()

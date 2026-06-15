@@ -4,7 +4,7 @@ import plotly.express as px
 import streamlit as st
 from utils import (load_scores, MEASURES, METHODOLOGY, ISO3, WINDOW,
                    cusum_series, alert_for, kperiod_alarm, z_alert, last_updated,
-                   recent_titles)
+                   recent_titles, negative_titles)
 
 st.set_page_config(page_title="China Foreign Rhetoric Observatory", layout="wide")
 
@@ -55,22 +55,27 @@ if not (hi > lo):
     hi = max(mp[measure].max(), 1e-9); lo = min(mp[measure].min(), 0.0)
 st.subheader(f"{MEASURES[measure]} — last {MAPWIN} {resolution.lower()} periods (avg)")
 
-# most-recent headlines per country (Chinese + English), for the map hover
+# most-recent + most-negative headlines per country (Chinese + English), for the map hover
 _titles = recent_titles(2)
+_neg = negative_titles(2)
 def _clip(s, k):
     s = s or ""
     return s[:k] + "…" if len(s) > k else s
+def _fmt(d, zh, en, tag=""):
+    line = f"· {_clip(zh, 28)}{tag} <i>({d})</i>"
+    if en:
+        line += f"<br>&nbsp;&nbsp;<i>{_clip(en, 60)}</i>"
+    return line
 def _headlines(ctry):
-    items = _titles.get(ctry, [])
-    if not items:
-        return "—"
-    lines = []
-    for d, zh, en in items:
-        line = f"· {_clip(zh, 28)} <i>({d})</i>"
-        if en:
-            line += f"<br>&nbsp;&nbsp;<i>{_clip(en, 60)}</i>"
-        lines.append(line)
-    return "<br>".join(lines)
+    rec = _titles.get(ctry, [])
+    neg = _neg.get(ctry, [])
+    parts = []
+    parts.append("<i>Most recent</i><br>" +
+                 ("<br>".join(_fmt(d, zh, en) for d, zh, en in rec) if rec else "—"))
+    if neg:
+        parts.append("<i>Most negative (last 3 days)</i><br>" +
+                     "<br>".join(_fmt(d, zh, en, f" <b>[{s:.2f}]</b>") for d, zh, en, s in neg))
+    return "<br><br>".join(parts)
 mp["headlines"] = mp["country"].map(_headlines)
 
 fig = px.scatter_geo(mp, lat="lat", lon="lon", color=measure, size="n_art",
@@ -81,8 +86,7 @@ fig.update_traces(marker=dict(line=dict(width=0.8, color="rgba(40,40,40,0.55)"),
     "<b>%{customdata[0]}</b><br>"
     f"{MEASURES[measure]}: " + "%{customdata[1]:.2f}"
     "   ·   %{customdata[3]} articles<br>"
-    "<br><i>Most recent People's Daily headlines</i><br>"
-    "%{customdata[2]}<extra></extra>"))
+    "<br>%{customdata[2]}<extra></extra>"))
 fig.update_geos(projection_type="natural earth", showframe=False,
                 showland=True, landcolor="#eceef0", showcountries=True, countrycolor="white",
                 showcoastlines=False, showocean=False, lataxis_range=[-56, 84],
@@ -95,8 +99,9 @@ st.plotly_chart(fig, use_container_width=True)
 left, right = st.columns(2)
 # --- top 5 ---
 with left:
-    st.subheader("Top 5 by latest score")
-    top = cur.sort_values(measure, ascending=False).head(5)
+    st.subheader(f"Top 5 — recent {MAPWIN}-period average")
+    st.caption("Mean over the same trailing window as the map (not a single latest period, which is noisy).")
+    top = mp.sort_values(measure, ascending=False).head(5)
     bar = px.bar(top, x=measure, y="country", orientation="h", color=measure,
                  color_continuous_scale="RdBu_r")
     bar.update_layout(margin=dict(l=0, r=0, t=0, b=0), yaxis=dict(autorange="reversed"),
