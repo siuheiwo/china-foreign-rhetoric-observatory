@@ -38,7 +38,7 @@ c4.metric("Countries monitored", f"{cur['country'].nunique()}")
 
 # --- bubble map: recent trailing-window average (single periods are too sparse to vary) ---
 # colour = score, size = article volume; equal visual weight per country, no area distortion
-MAPWIN = {"Daily": 90, "Weekly": 26, "Monthly": 12}[resolution]
+MAPWIN = {"Daily": 90, "Weekly": 26, "Monthly": 12, "Yearly": 5}[resolution]
 LATLON = {  # representative on-land centroids, for placing the bubbles
     "US": (39.5, -98.4), "Russia": (60.0, 95.0), "Japan": (36.5, 138.0), "UK": (53.0, -1.5),
     "France": (46.5, 2.5), "India": (22.5, 79.0), "Germany": (51.0, 10.0), "Vietnam": (16.0, 106.5),

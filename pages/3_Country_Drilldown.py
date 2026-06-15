@@ -9,19 +9,35 @@ from utils import (load_scores, MEASURES, WINDOW, cusum_series, alert_for,
 st.set_page_config(page_title="Country drill-down · Observatory", layout="wide")
 st.title("Country drill-down")
 
+# colour per index (consistent across the app)
+COLORS = {"deepseek": "#b2182b", "lexicon": "#762a83", "lss": "#1b7837", "negativity": "#e08214",
+          "law_deg": "#4393c3", "norms_deg": "#d6604d", "threat_deg": "#5aae61",
+          "selfdef_deg": "#9970ab", "limited_deg": "#bf812d", "discr_deg": "#35978f"}
+
 with st.sidebar:
     resolution = st.radio("Aggregation", list(WINDOW.keys()), index=2)
     n_periods = st.slider("Periods shown", 10, 120, 30)
+    indices = st.multiselect("Indices to plot", list(MEASURES.keys()),
+                             default=["deepseek", "lexicon", "lss"],
+                             format_func=lambda k: MEASURES[k])
+    smooth = st.slider("Smoothing (periods, 1 = off)", 1, 12, 1)
+    show_tsinghua = st.checkbox("Show Tsinghua tension (reversed)", value=True)
+
+if not indices:
+    indices = ["deepseek"]
 
 df = load_scores(resolution)
 country = st.selectbox("Country", sorted(df["country"].unique()))
 g = df[df["country"] == country].sort_values("period").reset_index(drop=True)
 w = WINDOW[resolution]
 
-# standardized (z) versions so the three indices are comparable on one axis
-for m in ["deepseek", "lexicon", "lss"]:
+# standardized (z) versions so the indices are comparable on one axis (deepseek always, for the alarm/EWMA)
+for m in set(indices) | {"deepseek"}:
     g[m + "_z"] = standardize(g[m])
 g["ewma_z"] = ewma_baseline(g["deepseek_z"], w)
+
+def smoothed(s):
+    return s.rolling(smooth, center=True, min_periods=1).mean() if smooth > 1 else s
 g["cusum"] = cusum_series(g["deepseek"], w)
 a3 = kperiod_alarm(g["deepseek"], 3, w)
 a5 = kperiod_alarm(g["deepseek"], 5, w)
@@ -43,15 +59,16 @@ c4.metric("CUSUM", f"{cu:.1f}")
 
 recent = g.tail(n_periods)
 fig = go.Figure()
-for m, col in [("deepseek_z", "#b2182b"), ("lexicon_z", "#762a83"), ("lss_z", "#1b7837")]:
-    fig.add_trace(go.Scatter(x=recent["period"], y=recent[m],
-                             name=MEASURES[m.replace("_z", "")], line=dict(color=col)))
-fig.add_trace(go.Scatter(x=recent["period"], y=recent["ewma_z"], name="EWMA baseline (DeepSeek)",
-                         line=dict(color="grey", dash="dot")))
+for m in indices:
+    fig.add_trace(go.Scatter(x=recent["period"], y=smoothed(recent[m + "_z"]),
+                             name=MEASURES[m], line=dict(color=COLORS.get(m))))
+if "deepseek" in indices:
+    fig.add_trace(go.Scatter(x=recent["period"], y=recent["ewma_z"], name="EWMA baseline (DeepSeek)",
+                             line=dict(color="grey", dash="dot")))
 # Tsinghua relations on a secondary axis, REVERSED (sign-flipped) so that worse relations read
 # HIGH — i.e. it now moves WITH the threat indices, which is easier to read at a glance.
-if "relations" in recent and recent["relations"].notna().any():
-    fig.add_trace(go.Scatter(x=recent["period"], y=-recent["relations"],
+if show_tsinghua and "relations" in recent and recent["relations"].notna().any():
+    fig.add_trace(go.Scatter(x=recent["period"], y=smoothed(-recent["relations"]),
                              name="Tsinghua tension (reversed, right)",
                              line=dict(color="#2166ac", dash="dash"), yaxis="y2"))
     fig.update_layout(yaxis2=dict(title="Tsinghua tension (reversed: high = worse relations)",

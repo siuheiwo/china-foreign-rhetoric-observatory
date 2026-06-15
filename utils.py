@@ -39,7 +39,7 @@ METHODOLOGY = {
 ISO3 = {"US":"USA","Russia":"RUS","Japan":"JPN","UK":"GBR","France":"FRA","India":"IND",
         "Germany":"DEU","Vietnam":"VNM","South Korea":"KOR","Australia":"AUS",
         "Indonesia":"IDN","Pakistan":"PAK"}
-WINDOW = {"Daily": 365, "Weekly": 52, "Monthly": 24}   # CUSUM/EWMA baseline window per resolution
+WINDOW = {"Daily": 365, "Weekly": 52, "Monthly": 24, "Yearly": 10}  # CUSUM/EWMA baseline window per resolution
 
 @st.cache_data
 def _read(path: str, _mtime: float) -> pd.DataFrame:
@@ -47,8 +47,31 @@ def _read(path: str, _mtime: float) -> pd.DataFrame:
     df["period"] = pd.to_datetime(df["period"])
     return df.sort_values(["country", "period"]).reset_index(drop=True)
 
+_NON_MEASURE = {"country", "period", "n_art", "year"}
+
+@st.cache_data
+def _yearly(_mtime: float) -> pd.DataFrame:
+    """Aggregate the monthly panel to calendar years, article-weighted (so a year's value is the
+    exact per-article mean), NA-aware. Built on demand from scores_monthly.csv."""
+    m = _read(DATA["Monthly"], _mtime).copy()
+    m["year"] = m["period"].dt.year
+    w = m["n_art"].clip(lower=0)
+    meas = [c for c in m.columns if c not in _NON_MEASURE]
+    keys = [m["country"], m["year"]]
+    out = pd.DataFrame({"n_art": m["n_art"].groupby(keys).sum()})
+    for c in meas:
+        mask = m[c].notna()
+        num = (m[c].where(mask, 0) * w.where(mask, 0)).groupby(keys).sum()
+        den = w.where(mask, 0).groupby(keys).sum()
+        out[c] = (num / den.where(den > 0)).where(den > 0)         # NA where no articles
+    out = out.reset_index()
+    out["period"] = pd.to_datetime(out["year"].astype(str) + "-01-01")
+    return out.drop(columns="year").sort_values(["country", "period"]).reset_index(drop=True)
+
 def load_scores(resolution: str) -> pd.DataFrame:
     # mtime in the cache key => refresh picks up rebuilt CSVs automatically
+    if resolution == "Yearly":
+        return _yearly(os.path.getmtime(DATA["Monthly"]))
     p = DATA[resolution]
     return _read(p, os.path.getmtime(p))
 
