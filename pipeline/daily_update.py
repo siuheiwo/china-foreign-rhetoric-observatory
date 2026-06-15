@@ -86,6 +86,7 @@ def score(art):
     fr = (frm or {}).get("各框架", {}) or {}
     fd = lambda k: num((fr.get(k) or {}).get("程度"))
     return {"date":art["date"], "title":art.get("title",""), "url":art.get("url",""),
+            "summary":(summ or "")[:300],
             "main_foreign_actors":"; ".join(cls.get("主要外国行为体",[]) or []),
             "foreign":is_fc, "negativity":num((cls.get("情感") or {}).get("负面度")),
             "deepseek":num((thr or {}).get("sentiment")), "lexicon":it_lex, "lss":it_lss,
@@ -160,24 +161,27 @@ def update_recent_titles(scored, dstr, n=2):
     print(f"[daily] refreshed recent_titles.csv ({both['country'].nunique()} countries, "
           f"{len(need)} translated)", flush=True)
 
-def update_negative_titles(scored, dstr, n=2, window_days=3):
-    """Keep negative_titles.csv (country -> n most-NEGATIVE headlines within the last `window_days`)
-    current for the map hover. Rolling window; only headline + URL + sentiment stored."""
+def update_negative_titles(scored, dstr, n=1, window_days=7):
+    """Keep negative_titles.csv (country -> THE single most-NEGATIVE article within the last
+    `window_days`, with a short summary) current for the map hover. Rolling window; headline +
+    URL + sentiment + a clipped summary stored, never full article text."""
     npath = os.path.join(REPO, "negative_titles.csv")
-    cols = ["country", "date", "title", "title_en", "url", "sentiment"]
+    cols = ["country", "date", "title", "title_en", "url", "sentiment", "summary", "summary_en"]
     new = []
     for r in scored:
         if not r.get("title") or r.get("negativity") is None:
             continue
+        summ = (r.get("summary") or "").replace("\n", " ")[:120]
         for actor in [a.strip() for a in (r.get("main_foreign_actors") or "").split(";")]:
             if actor in LAB2C:
-                new.append({"country": LAB2C[actor], "date": dstr, "title": r["title"],
-                            "title_en": "", "url": r.get("url", ""), "sentiment": float(r["negativity"])})
+                new.append({"country": LAB2C[actor], "date": dstr, "title": r["title"], "title_en": "",
+                            "url": r.get("url", ""), "sentiment": float(r["negativity"]),
+                            "summary": summ, "summary_en": ""})
     new = pd.DataFrame(new, columns=cols)
     old = pd.read_csv(npath, encoding="utf-8-sig") if os.path.exists(npath) else pd.DataFrame(columns=cols)
     for c in cols:
         if c not in old.columns:
-            old[c] = "" if c in ("title_en",) else pd.NA
+            old[c] = "" if c in ("title_en", "summary", "summary_en") else pd.NA
     old = old[old["date"] != dstr]                                  # idempotent: replace this date
     both = pd.concat([new, old], ignore_index=True)
     if both.empty:
@@ -187,15 +191,16 @@ def update_negative_titles(scored, dstr, n=2, window_days=3):
     both = both[both["date"] >= cutoff]                             # rolling window
     both = both.sort_values(["sentiment", "date"], ascending=[False, False], kind="stable")
     both = both.groupby("country", as_index=False, sort=False).head(n).reset_index(drop=True)
-    both["title_en"] = both["title_en"].fillna("")
-    need = both.index[both["title_en"].str.strip() == ""].tolist()
-    if need:
-        en = translate_titles(both.loc[need, "title"].tolist())
-        for i, e in zip(need, en):
-            both.at[i, "title_en"] = e
+    for key, en_col in (("title", "title_en"), ("summary", "summary_en")):
+        both[en_col] = both[en_col].fillna("")
+        need = both.index[(both[en_col].str.strip() == "") & (both[key].fillna("").str.strip() != "")].tolist()
+        if need:
+            en = translate_titles(both.loc[need, key].tolist())
+            for i, e in zip(need, en):
+                both.at[i, en_col] = e
     both[cols].to_csv(npath, index=False)
     print(f"[daily] refreshed negative_titles.csv ({both['country'].nunique()} countries, "
-          f"window>={cutoff}, {len(need)} translated)", flush=True)
+          f"window>={cutoff})", flush=True)
 
 def wmean(g, m):  # n_art-weighted mean of daily => exact per-article mean
     n = g["n_art"].sum()

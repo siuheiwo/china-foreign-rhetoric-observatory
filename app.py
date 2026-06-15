@@ -55,9 +55,9 @@ if not (hi > lo):
     hi = max(mp[measure].max(), 1e-9); lo = min(mp[measure].min(), 0.0)
 st.subheader(f"{MEASURES[measure]} — last {MAPWIN} {resolution.lower()} periods (avg)")
 
-# most-recent + most-negative headlines per country (Chinese + English), for the map hover
+# most-recent + the single most-negative headline per country (Chinese + English), for the map hover
 _titles = recent_titles(2)
-_neg = negative_titles(2)
+_neg = negative_titles(1)
 def _clip(s, k):
     s = s or ""
     return s[:k] + "…" if len(s) > k else s
@@ -73,8 +73,11 @@ def _headlines(ctry):
     parts.append("<i>Most recent</i><br>" +
                  ("<br>".join(_fmt(d, zh, en) for d, zh, en in rec) if rec else "—"))
     if neg:
-        parts.append("<i>Most negative (last 3 days)</i><br>" +
-                     "<br>".join(_fmt(d, zh, en, f" <b>[{s:.2f}]</b>") for d, zh, en, s in neg))
+        d, zh, en, s, summ = neg[0]
+        block = "<i>Most negative (last 7 days)</i><br>" + _fmt(d, zh, en, f" <b>[{s:.2f}]</b>")
+        if summ:
+            block += f"<br>&nbsp;&nbsp;{_clip(summ, 110)}"
+        parts.append(block)
     return "<br><br>".join(parts)
 mp["headlines"] = mp["country"].map(_headlines)
 

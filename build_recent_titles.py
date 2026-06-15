@@ -1,7 +1,7 @@
-"""Build recent_titles.csv (2 most RECENT) and negative_titles.csv (2 most NEGATIVE in the
-last 3 days) per country, for the map hover on the home page. Source = the article-level scored
-file (titles + URLs + main_foreign_actors + sentiment). Only headlines + links are surfaced,
-never article text."""
+"""Build recent_titles.csv (2 most RECENT) and negative_titles.csv (THE single most NEGATIVE
+article in the last 7 days, with a short summary) per country, for the map hover on the home page.
+Source = the article-level scored file (titles + URLs + main_foreign_actors + sentiment + summary).
+Only headlines + a short summary + links are surfaced, never full article text."""
 import os
 import pandas as pd
 
@@ -10,8 +10,10 @@ REPO = os.path.dirname(HERE)
 SRC = os.path.join(REPO, "People's Daily 2025-12 to June 12", "scored_articles.csv")
 OUT = os.path.join(HERE, "recent_titles.csv")
 OUT_NEG = os.path.join(HERE, "negative_titles.csv")
-N = 2  # titles per country
-NEG_WINDOW_DAYS = 3  # "most negative" is scoped to the last N days of available data
+N = 2  # recent titles per country
+NEG_N = 1  # most-negative examples per country (just the one that drives the sentiment)
+NEG_WINDOW_DAYS = 7  # "most negative" is scoped to the last N days of available data
+SUMMARY_CLIP = 120  # chars of the Chinese summary to keep
 
 # actor name (in main_foreign_actors) -> app country key (matches scores_*.csv / ISO3)
 ACTOR2KEY = {
@@ -30,47 +32,50 @@ def main():
     df["_row"] = range(len(df))  # stable tiebreak: file order within a date
 
     sent = pd.to_numeric(df.get("sentiment"), errors="coerce")
+    summ = df.get("summary", pd.Series([""] * len(df)))
     rows = []
-    for (_, r), sv in zip(df.iterrows(), sent):
+    for (_, r), sv, sm in zip(df.iterrows(), sent, summ):
         actors = [a.strip() for a in str(r["main_foreign_actors"]).split(";")]
         keys = {ACTOR2KEY[a] for a in actors if a in ACTOR2KEY}
+        sm = "" if pd.isna(sm) else str(sm).strip().replace("\n", " ")[:SUMMARY_CLIP]
         for k in keys:
             rows.append((k, r["date"], str(r["title"]).strip(),
-                         r.get("url", ""), r["_row"], sv))
-    long = pd.DataFrame(rows, columns=["country", "date", "title", "url", "_row", "sentiment"])
+                         r.get("url", ""), r["_row"], sv, sm))
+    long = pd.DataFrame(rows, columns=["country", "date", "title", "url", "_row", "sentiment", "summary"])
 
-    def carry_english(out, *paths):
-        """Preserve any English translations already on disk (rebuild must not wipe them),
-        pulling from every given file (so recent + negative share translations); the daily
-        pipeline fills English for headlines still missing it."""
-        prev_en = {}
+    def carry_en(out, key_col, en_col, *paths):
+        """Preserve English translations already on disk (rebuild must not wipe them); the daily
+        pipeline fills English for any still missing it."""
+        prev = {}
         for path in paths:
             if os.path.exists(path):
-                prev = pd.read_csv(path, encoding="utf-8-sig")
-                if "title_en" in prev.columns:
-                    prev_en.update({t: e for t, e in zip(prev["title"], prev["title_en"].fillna(""))
-                                    if isinstance(e, str) and e})
-        out["title_en"] = out["title"].map(prev_en).fillna("")
+                p = pd.read_csv(path, encoding="utf-8-sig")
+                if key_col in p.columns and en_col in p.columns:
+                    prev.update({k: e for k, e in zip(p[key_col], p[en_col].fillna(""))
+                                 if isinstance(e, str) and e})
+        out[en_col] = out[key_col].map(prev).fillna("")
         return out
 
     # --- recent: 2 most recent per country (later rows on a date treated as later in the day)
     rec = long.sort_values(["date", "_row"], ascending=[False, False])
     rec = (rec.groupby("country", as_index=False).head(N).reset_index(drop=True))
-    rec = carry_english(rec, OUT, OUT_NEG)[["country", "date", "title", "title_en", "url"]]
+    rec = carry_en(rec, "title", "title_en", OUT, OUT_NEG)[["country", "date", "title", "title_en", "url"]]
     rec.to_csv(OUT, index=False)
     print(f"wrote {OUT}: {len(rec)} rows, {rec['country'].nunique()} countries, "
           f"{(rec['title_en'] == '').sum()} need English")
 
-    # --- negative: 2 most negative per country within the last NEG_WINDOW_DAYS of data
+    # --- negative: THE single most negative per country within the last NEG_WINDOW_DAYS of data
     cutoff = (pd.to_datetime(long["date"].max()) - pd.Timedelta(days=NEG_WINDOW_DAYS)).strftime("%Y-%m-%d")
     neg = long[(long["date"] >= cutoff) & long["sentiment"].notna()]
     neg = neg.sort_values(["sentiment", "date"], ascending=[False, False])
-    neg = (neg.groupby("country", as_index=False).head(N).reset_index(drop=True))
-    neg = carry_english(neg, OUT_NEG, OUT)
-    neg = neg[["country", "date", "title", "title_en", "url", "sentiment"]]
+    neg = (neg.groupby("country", as_index=False).head(NEG_N).reset_index(drop=True))
+    neg = carry_en(neg, "title", "title_en", OUT_NEG, OUT)
+    neg = carry_en(neg, "summary", "summary_en", OUT_NEG)
+    neg = neg[["country", "date", "title", "title_en", "url", "sentiment", "summary", "summary_en"]]
     neg.to_csv(OUT_NEG, index=False)
     print(f"wrote {OUT_NEG}: {len(neg)} rows, {neg['country'].nunique()} countries "
-          f"(window >= {cutoff}), {(neg['title_en'] == '').sum()} need English")
+          f"(window >= {cutoff}), {(neg['title_en'] == '').sum()} need title-EN, "
+          f"{(neg['summary_en'] == '').sum()} need summary-EN")
 
 
 if __name__ == "__main__":
