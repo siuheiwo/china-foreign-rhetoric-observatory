@@ -1,8 +1,9 @@
 """Page 4: About & Methodology."""
 import streamlit as st
-from utils import MEASURES, METHODOLOGY, last_updated
+from utils import MEASURES, METHODOLOGY, last_updated, mobile_css
 
 st.set_page_config(page_title="About and Methodology · Observatory", layout="wide")
+mobile_css()
 st.title("About and Methodology")
 
 st.markdown(f"""

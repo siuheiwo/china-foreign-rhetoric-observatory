@@ -2,9 +2,10 @@
 import pandas as pd
 import plotly.express as px
 import streamlit as st
-from utils import load_scores, MEASURES, METHODOLOGY
+from utils import load_scores, MEASURES, METHODOLOGY, mobile_css
 
 st.set_page_config(page_title="Historical Trends · Observatory", layout="wide")
+mobile_css()
 st.title("Historical trends, 1950–2026")
 
 GLOBAL_EVENTS = {1966: "Cultural Revolution",

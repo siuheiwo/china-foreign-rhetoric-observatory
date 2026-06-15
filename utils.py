@@ -41,6 +41,21 @@ ISO3 = {"US":"USA","Russia":"RUS","Japan":"JPN","UK":"GBR","France":"FRA","India
         "Indonesia":"IDN","Pakistan":"PAK"}
 WINDOW = {"Daily": 365, "Weekly": 52, "Monthly": 24, "Yearly": 10}  # CUSUM/EWMA baseline window per resolution
 
+def mobile_css():
+    """Inject responsive CSS so the wide-layout dashboard is readable on phones: stack the
+    side-by-side columns, shrink padding, and size metrics/headers down on narrow screens."""
+    st.markdown("""<style>
+    @media (max-width: 640px){
+      .block-container{padding:0.8rem 0.6rem !important;}
+      /* stack any st.columns row vertically instead of cramming side-by-side */
+      div[data-testid="stHorizontalBlock"]{flex-wrap:wrap !important;gap:0.4rem !important;}
+      div[data-testid="stHorizontalBlock"] > div{flex:1 1 100% !important;min-width:100% !important;}
+      [data-testid="stMetricValue"]{font-size:1.4rem !important;}
+      [data-testid="stMetricLabel"]{font-size:0.8rem !important;}
+      h1{font-size:1.5rem !important;} h2{font-size:1.2rem !important;} h3{font-size:1.05rem !important;}
+    }
+    </style>""", unsafe_allow_html=True)
+
 @st.cache_data
 def _read(path: str, _mtime: float) -> pd.DataFrame:
     df = pd.read_csv(path, encoding="utf-8-sig")     # utf-8-sig strips the BOM in the header

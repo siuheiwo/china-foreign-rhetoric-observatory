@@ -4,9 +4,10 @@ import plotly.express as px
 import streamlit as st
 from utils import (load_scores, MEASURES, METHODOLOGY, ISO3, WINDOW,
                    cusum_series, alert_for, kperiod_alarm, z_alert, last_updated,
-                   recent_titles, negative_titles)
+                   recent_titles, negative_titles, mobile_css)
 
 st.set_page_config(page_title="China Foreign Rhetoric Observatory", layout="wide")
+mobile_css()
 
 st.title("China Foreign Rhetoric Observatory")
 st.caption("Tracking China's official diplomatic signaling across bilateral relations · "

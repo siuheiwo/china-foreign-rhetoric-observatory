@@ -4,9 +4,10 @@ import pandas as pd
 import plotly.graph_objects as go
 import streamlit as st
 from utils import (load_scores, MEASURES, WINDOW, cusum_series, alert_for,
-                   kperiod_alarm, z_alert, standardize, ewma_baseline)
+                   kperiod_alarm, z_alert, standardize, ewma_baseline, mobile_css)
 
 st.set_page_config(page_title="Country drill-down · Observatory", layout="wide")
+mobile_css()
 st.title("Country drill-down")
 
 # colour per index (consistent across the app)
