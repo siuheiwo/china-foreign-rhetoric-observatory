@@ -15,15 +15,16 @@ NEG_N = 1  # most-negative examples per country (just the one that drives the se
 NEG_WINDOW_DAYS = 7  # "most negative" is scoped to the last N days of available data
 SUMMARY_CLIP = 120  # chars of the Chinese summary to keep
 
-# actor name (in main_foreign_actors) -> app country key (matches scores_*.csv / ISO3)
-ACTOR2KEY = {
-    "United States": "US", "USA": "US", "America": "US",
-    "United Kingdom": "UK", "Britain": "UK",
-    "Russia": "Russia", "Russian Federation": "Russia",
-    "South Korea": "South Korea", "Republic of Korea": "South Korea", "Korea": "South Korea",
-    "Japan": "Japan", "France": "France", "India": "India", "Germany": "Germany",
-    "Vietnam": "Vietnam", "Australia": "Australia", "Indonesia": "Indonesia", "Pakistan": "Pakistan",
-}
+# actor name (in main_foreign_actors) -> app country key (matches scores_*.csv), all countries.
+# 12 majors keep their friendly keys; every other country uses its full name.
+ISO2FRIENDLY = {"USA":"US","GBR":"UK","RUS":"Russia","KOR":"South Korea","JPN":"Japan","FRA":"France",
+                "IND":"India","DEU":"Germany","VNM":"Vietnam","AUS":"Australia","IDN":"Indonesia","PAK":"Pakistan"}
+def _load_actor2key():
+    p = os.path.join(HERE, "actor_to_country.csv")
+    m = pd.read_csv(p, encoding="utf-8-sig")
+    m = m[m["action"] == "map"]
+    return {r["actor"]: ISO2FRIENDLY.get(r["iso3"], r["country"]) for _, r in m.iterrows()}
+ACTOR2KEY = _load_actor2key()
 
 
 def main():

@@ -2,12 +2,13 @@
 import pandas as pd
 import plotly.express as px
 import streamlit as st
-from utils import (load_scores, MEASURES, METHODOLOGY, ISO3, WINDOW,
+from utils import (load_scores, MEASURES, METHODOLOGY, WINDOW, geo_lookup,
                    cusum_series, alert_for, kperiod_alarm, z_alert, last_updated,
                    recent_titles, negative_titles, mobile_css)
 
 st.set_page_config(page_title="China Foreign Rhetoric Observatory", layout="wide")
 mobile_css()
+ISO3, LATLON = geo_lookup()   # all countries: 12 friendly keys + everything else from country_meta
 
 st.title("China Foreign Rhetoric Observatory")
 st.caption("Tracking China's official diplomatic signaling across bilateral relations · "
@@ -40,14 +41,10 @@ c4.metric("Countries monitored", f"{cur['country'].nunique()}")
 # --- bubble map: recent trailing-window average (single periods are too sparse to vary) ---
 # colour = score, size = article volume; equal visual weight per country, no area distortion
 MAPWIN = {"Daily": 90, "Weekly": 26, "Monthly": 12, "Yearly": 5}[resolution]
-LATLON = {  # representative on-land centroids, for placing the bubbles
-    "US": (39.5, -98.4), "Russia": (60.0, 95.0), "Japan": (36.5, 138.0), "UK": (53.0, -1.5),
-    "France": (46.5, 2.5), "India": (22.5, 79.0), "Germany": (51.0, 10.0), "Vietnam": (16.0, 106.5),
-    "South Korea": (36.5, 127.8), "Australia": (-25.0, 134.0), "Indonesia": (-2.0, 118.0),
-    "Pakistan": (30.0, 69.5)}
 recent_periods = sorted(df["period"].unique())[-MAPWIN:]
 mp = (df[df["period"].isin(recent_periods)]
       .groupby("country", as_index=False).agg({measure: "mean", "n_art": "sum"}))
+mp = mp[mp["n_art"] > 0].reset_index(drop=True)   # only countries actually mentioned in the window
 mp["lat"] = mp["country"].map(lambda c: LATLON.get(c, (None, None))[0])
 mp["lon"] = mp["country"].map(lambda c: LATLON.get(c, (None, None))[1])
 # dynamic gradient: spread color across the 5th–95th percentile of the displayed values
@@ -145,7 +142,7 @@ with left:
 
 # --- alarm board: 3-period + 5-period (standardized exceedance) + CUSUM ---
 with right:
-    st.subheader("Alarm status")
+    st.subheader("Alarm status — top movers")
     st.caption("How far each country sits above **its own** baseline (standardized, so countries are comparable). "
                "**Short-run** & **Sustained** = jump over the last 3 / 5 periods, in SD "
                "(<span style='color:#e08214'>amber ≥2σ</span>, <span style='color:#b2182b'>red ≥3σ</span>); "
@@ -158,6 +155,9 @@ with right:
         cu = cusum_series(s, WINDOW[resolution])[-1] if len(s) else 0.0
         rows.append((ctry, a3, a5, cu))
     rows.sort(key=lambda r: -max(r[2], r[3] / 5))   # rank by 5-period alarm (CUSUM scaled in)
+    TOPN = 25
+    n_total = len(rows)
+    rows = rows[:TOPN]
 
     def badge(label, color, tip=""):
         t = f" title=\"{tip}\"" if tip else ""
@@ -177,6 +177,8 @@ with right:
             f"{badge(f'Sustained {a5:.1f}σ', c5, TIP5)} "
             f"{badge(f'Drift {cu:.1f}', cc, TIPC)}",
             unsafe_allow_html=True)
+    st.caption(f"Showing the {TOPN} countries with the largest current alarm, of {n_total} monitored. "
+               "Use the country drill-down page for any specific country.")
 
 st.divider()
 st.caption(f"**Methodology — {MEASURES[measure]}.** {METHODOLOGY[measure]}  "

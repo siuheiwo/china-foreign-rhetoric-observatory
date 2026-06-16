@@ -4,6 +4,7 @@ import pandas as pd
 import streamlit as st
 
 DATA = {"Daily": "scores_daily.csv", "Weekly": "scores_weekly.csv", "Monthly": "scores_monthly.csv"}
+_META_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "country_meta.csv")
 
 # implicit-threat indices + the tone comparison measure
 MEASURES = {
@@ -39,6 +40,26 @@ METHODOLOGY = {
 ISO3 = {"US":"USA","Russia":"RUS","Japan":"JPN","UK":"GBR","France":"FRA","India":"IND",
         "Germany":"DEU","Vietnam":"VNM","South Korea":"KOR","Australia":"AUS",
         "Indonesia":"IDN","Pakistan":"PAK"}
+# map centroids for the 12 friendly keys (the 200+ other countries come from country_meta.csv)
+LATLON12 = {"US":(39.5,-98.4),"Russia":(60.0,95.0),"Japan":(36.5,138.0),"UK":(53.0,-1.5),
+            "France":(46.5,2.5),"India":(22.5,79.0),"Germany":(51.0,10.0),"Vietnam":(16.0,106.5),
+            "South Korea":(36.5,127.8),"Australia":(-25.0,134.0),"Indonesia":(-2.0,118.0),"Pakistan":(30.0,69.5)}
+
+@st.cache_data
+def _country_meta(_mtime: float) -> pd.DataFrame:
+    return pd.read_csv(_META_PATH, encoding="utf-8-sig")
+
+def geo_lookup():
+    """(iso3, latlon) dicts covering the 12 friendly score keys + every other country (by name)
+    from country_meta.csv. Used for the map (plotly needs ISO3 + centroid per country)."""
+    iso = dict(ISO3); latlon = dict(LATLON12)
+    if os.path.exists(_META_PATH):
+        m = _country_meta(os.path.getmtime(_META_PATH))
+        for _, r in m.iterrows():
+            iso.setdefault(r["country"], r["iso3"])
+            latlon.setdefault(r["country"], (r["lat"], r["lon"]))
+    return iso, latlon
+
 WINDOW = {"Daily": 365, "Weekly": 52, "Monthly": 24, "Yearly": 10}  # CUSUM/EWMA baseline window per resolution
 
 def mobile_css():

@@ -20,12 +20,21 @@ EP = "https://api.deepseek.com/chat/completions"
 FLASH, PRO = "deepseek-v4-flash", "deepseek-v4-pro"
 WORKERS = 10
 
-GRP = {"US":["United States"], "Russia":["Soviet Union","Russia"], "Japan":["Japan"],
-       "UK":["United Kingdom","Britain","England"], "France":["France"], "India":["India"],
-       "Germany":["Germany","West Germany","East Germany"],
-       "Vietnam":["Vietnam","North Vietnam","South Vietnam"], "South Korea":["South Korea"],
-       "Australia":["Australia"], "Indonesia":["Indonesia"], "Pakistan":["Pakistan"]}
-LAB2C = {lab: c for c, labs in GRP.items() for lab in labs}
+# all-country actor->key map (12 majors keep friendly keys; others use full names), from the
+# C1 mapping shipped in the repo (actor_to_country.csv). Falls back to the 12 if the file is absent.
+_ISO2FRIENDLY = {"USA":"US","GBR":"UK","RUS":"Russia","KOR":"South Korea","JPN":"Japan","FRA":"France",
+                 "IND":"India","DEU":"Germany","VNM":"Vietnam","AUS":"Australia","IDN":"Indonesia","PAK":"Pakistan"}
+_MAP = os.path.join(REPO, "actor_to_country.csv")
+if os.path.exists(_MAP):
+    _m = pd.read_csv(_MAP, encoding="utf-8-sig"); _m = _m[_m["action"] == "map"]
+    LAB2C = {r["actor"]: _ISO2FRIENDLY.get(r["iso3"], r["country"]) for _, r in _m.iterrows()}
+else:
+    LAB2C = {"United States":"US","Soviet Union":"Russia","Russia":"Russia","Japan":"Japan",
+             "United Kingdom":"UK","Britain":"UK","England":"UK","France":"France","India":"India",
+             "Germany":"Germany","West Germany":"Germany","East Germany":"Germany","Vietnam":"Vietnam",
+             "North Vietnam":"Vietnam","South Vietnam":"Vietnam","South Korea":"South Korea",
+             "Australia":"Australia","Indonesia":"Indonesia","Pakistan":"Pakistan"}
+GRP = sorted(set(LAB2C.values()))   # country keys for the 0-filled daily grid
 FRAMES = ["law_deg","norms_deg","threat_deg","selfdef_deg","limited_deg","discr_deg"]
 MEAS = ["deepseek","lexicon","lss","negativity"] + FRAMES
 
@@ -247,10 +256,19 @@ def main():
     daily = daily.drop(columns=[c for c in ["relations"] if c in daily]).merge(rel,on=["country","ym"],how="left").drop(columns="ym")
     daily = daily.sort_values(["country","period"])
     daily.to_csv(dpath, index=False)
+    # daily is bounded to recent years (2016+); rederive only covers that range, so PRESERVE the
+    # pre-daily-range weekly/monthly history (full 1949+ from the all-country build) and replace only
+    # the recent part. Without this, the daily run would truncate history.
     weekly, monthly = rederive(daily)
-    weekly.to_csv(os.path.join(REPO,"scores_weekly.csv"), index=False)
-    monthly.to_csv(os.path.join(REPO,"scores_monthly.csv"), index=False)
-    print(f"[daily] wrote scores_*.csv; coverage to {daily['period'].max()}", flush=True)
+    day_min = pd.to_datetime(daily["period"]).min()
+    for path, new in (("scores_weekly.csv", weekly), ("scores_monthly.csv", monthly)):
+        p = os.path.join(REPO, path)
+        if os.path.exists(p):
+            old = pd.read_csv(p, encoding="utf-8-sig")
+            old = old[pd.to_datetime(old["period"]) < day_min]      # keep history before the daily range
+            new = pd.concat([old, new], ignore_index=True)
+        new.sort_values(["country","period"]).to_csv(p, index=False)
+    print(f"[daily] wrote scores_*.csv (history preserved < {day_min.date()}); coverage to {daily['period'].max()}", flush=True)
     update_recent_titles(scored, d)
     update_negative_titles(scored, d)
 

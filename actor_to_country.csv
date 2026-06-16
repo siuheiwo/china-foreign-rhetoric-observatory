@@ -1,0 +1,2918 @@
+actor,n_art,iso3,country,action
+United States,107654,USA,United States,map
+Japan,66613,JPN,Japan,map
+Taiwan,42370,TWN,Taiwan,map
+Soviet Union,40210,RUS,Russia,map
+Hong Kong,28261,,,DROP
+North Korea,27588,PRK,North Korea,map
+United Nations,25354,,,DROP
+United Kingdom,25256,GBR,United Kingdom,map
+South Korea,21936,KOR,South Korea,map
+Vietnam,21812,VNM,Vietnam,map
+France,20679,FRA,France,map
+Russia,18958,RUS,Russia,map
+Germany,17225,DEU,Germany,map
+India,16529,IND,India,map
+Thailand,12156,THA,Thailand,map
+Indonesia,11761,IDN,Indonesia,map
+European Union,11275,,,DROP
+Australia,10665,AUS,Australia,map
+Cambodia,10519,KHM,Cambodia,map
+Pakistan,10266,PAK,Pakistan,map
+Italy,9183,ITA,Italy,map
+Canada,8336,CAN,Canada,map
+Macau,8033,,,DROP
+Brazil,7857,BRA,Brazil,map
+Romania,7679,ROU,Romania,map
+Laos,7265,LAO,Laos,map
+Singapore,7149,SGP,Singapore,map
+Myanmar,7079,MMR,Myanmar (Burma),map
+ASEAN,6982,,,DROP
+Cuba,6537,CUB,Cuba,map
+Poland,6400,POL,Poland,map
+Albania,6281,ALB,Albania,map
+Malaysia,6247,MYS,Malaysia,map
+Egypt,5993,EGY,Egypt,map
+Mongolia,5618,MNG,Mongolia,map
+Hungary,5476,HUN,Hungary,map
+South Africa,5363,ZAF,South Africa,map
+Philippines,5339,PHL,Philippines,map
+Sweden,4963,SWE,Sweden,map
+Netherlands,4692,NLD,Netherlands,map
+Spain,4679,ESP,Spain,map
+Yugoslavia,4555,SRB,Serbia,map
+Nepal,4537,NPL,Nepal,map
+Iran,4528,IRN,Iran,map
+Mexico,4528,MEX,Mexico,map
+Kazakhstan,4312,KAZ,Kazakhstan,map
+Czechoslovakia,4171,CZE,Czechia,map
+Sri Lanka,3809,LKA,Sri Lanka,map
+Belgium,3776,BEL,Belgium,map
+Tanzania,3745,TZA,Tanzania,map
+New Zealand,3708,NZL,New Zealand,map
+Switzerland,3622,CHE,Switzerland,map
+Israel,3578,ISR,Israel,map
+Bulgaria,3536,BGR,Bulgaria,map
+Algeria,3497,DZA,Algeria,map
+Denmark,3240,DNK,Denmark,map
+Iraq,3231,IRQ,Iraq,map
+Argentina,3129,ARG,Argentina,map
+East Germany,2899,DEU,Germany,map
+Syria,2863,SYR,Syria,map
+Turkey,2863,TUR,Turkey,map
+Portugal,2857,PRT,Portugal,map
+Afghanistan,2834,AFG,Afghanistan,map
+Chile,2814,CHL,Chile,map
+Palestine,2805,PSE,Palestinian Territories,map
+Greece,2669,GRC,Greece,map
+Finland,2665,FIN,Finland,map
+Austria,2519,AUT,Austria,map
+Peru,2496,PER,Peru,map
+Kenya,2462,KEN,Kenya,map
+Sudan,2441,SDN,Sudan,map
+Norway,2365,NOR,Norway,map
+Bangladesh,2302,BGD,Bangladesh,map
+Uzbekistan,2261,UZB,Uzbekistan,map
+Saudi Arabia,2250,SAU,Saudi Arabia,map
+China,2227,CHN,China,map
+Ethiopia,2160,ETH,Ethiopia,map
+Kyrgyzstan,2151,KGZ,Kyrgyzstan,map
+West Germany,2140,DEU,Germany,map
+International Olympic Committee,2096,,,DROP
+Guinea,2056,GIN,Guinea,map
+United Arab Emirates,2022,ARE,United Arab Emirates,map
+Nigeria,2007,NGA,Nigeria,map
+Mali,1972,MLI,Mali,map
+World Bank,1970,,,DROP
+Zambia,1939,ZMB,Zambia,map
+Ukraine,1814,UKR,Ukraine,map
+Kuwait,1796,KWT,Kuwait,map
+World Health Organization,1782,,,DROP
+Venezuela,1776,VEN,Venezuela,map
+Tunisia,1773,TUN,Tunisia,map
+Tajikistan,1713,TJK,Tajikistan,map
+Yemen,1691,YEM,Yemen,map
+Morocco,1683,MAR,Morocco,map
+Lebanon,1635,LBN,Lebanon,map
+Colombia,1622,COL,Colombia,map
+Ghana,1615,GHA,Ghana,map
+Somalia,1536,SOM,Somalia,map
+African Union,1468,,,DROP
+Zimbabwe,1459,ZWE,Zimbabwe,map
+Jordan,1443,JOR,Jordan,map
+Belarus,1415,BLR,Belarus,map
+Congo,1342,COG,Congo - Brazzaville,map
+World Trade Organization,1322,,,DROP
+Mozambique,1280,MOZ,Mozambique,map
+NATO,1237,,,DROP
+APEC,1200,,,DROP
+Czech Republic,1188,CZE,Czechia,map
+Africa,1155,,,DROP
+International Monetary Fund,1147,,,DROP
+Namibia,1130,NAM,Namibia,map
+Ecuador,1129,ECU,Ecuador,map
+South Vietnam,1121,VNM,Vietnam,map
+Serbia,1116,SRB,Serbia,map
+Cameroon,1115,CMR,Cameroon,map
+Shanghai Cooperation Organisation,1111,,,DROP
+Senegal,1090,SEN,Senegal,map
+Angola,1070,AGO,Angola,map
+Mauritania,1032,MRT,Mauritania,map
+Uruguay,1022,URY,Uruguay,map
+Uganda,1021,UGA,Uganda,map
+Qatar,998,QAT,Qatar,map
+G20,952,,,DROP
+Sierra Leone,932,SLE,Sierra Leone,map
+Rwanda,913,RWA,Rwanda,map
+Mauritius,862,MUS,Mauritius,map
+Turkmenistan,838,TKM,Turkmenistan,map
+Burundi,810,BDI,Burundi,map
+Madagascar,808,MDG,Madagascar,map
+United Arab Republic,805,EGY,Egypt,map
+Croatia,797,HRV,Croatia,map
+Panama,793,PAN,Panama,map
+Zaire,791,COD,Congo - Kinshasa,map
+Libya,786,LBY,Libya,map
+Luxembourg,781,LUX,Luxembourg,map
+Ireland,770,IRL,Ireland,map
+Bolivia,758,BOL,Bolivia,map
+Malta,753,MLT,Malta,map
+Liberia,741,LBR,Liberia,map
+Brunei,727,BRN,Brunei,map
+Southeast Asia,720,,,DROP
+Oman,715,OMN,Oman,map
+Iceland,704,ISL,Iceland,map
+Papua New Guinea,698,PNG,Papua New Guinea,map
+Cyprus,695,CYP,Cyprus,map
+Gabon,692,GAB,Gabon,map
+Fiji,661,FJI,Fiji,map
+Jamaica,660,JAM,Jamaica,map
+Benin,646,BEN,Benin,map
+Togo,641,TGO,Togo,map
+Guyana,634,GUY,Guyana,map
+Maldives,598,MDV,Maldives,map
+Niger,597,NER,Niger,map
+Côte d'Ivoire,594,CIV,Côte d’Ivoire,map
+Europe,588,,,DROP
+Botswana,587,BWA,Botswana,map
+Asian Development Bank,582,,,DROP
+Equatorial Guinea,578,GNQ,Equatorial Guinea,map
+Georgia,548,GEO,Georgia,map
+Republic of the Congo,536,COG,Congo - Brazzaville,map
+Latin America,533,,,DROP
+Costa Rica,525,CRI,Costa Rica,map
+Djibouti,521,DJI,Djibouti,map
+Macao,505,,,DROP
+Bahrain,488,BHR,Bahrain,map
+Slovakia,488,SVK,Slovakia,map
+Chinese Taipei,481,TWN,Taiwan,map
+Azerbaijan,474,AZE,Azerbaijan,map
+Latvia,462,LVA,Latvia,map
+Democratic Republic of the Congo,459,COD,Congo - Kinshasa,map
+Arab League,458,,,DROP
+Slovenia,449,SVN,Slovenia,map
+Dominican Republic,444,DOM,Dominican Republic,map
+Lithuania,434,LTU,Lithuania,map
+Congo (Brazzaville),429,COG,Congo - Brazzaville,map
+Trinidad and Tobago,424,TTO,Trinidad & Tobago,map
+Guinea-Bissau,419,GNB,Guinea-Bissau,map
+Central African Republic,418,CAF,Central African Republic,map
+Vanuatu,399,VUT,Vanuatu,map
+International Atomic Energy Agency,386,,,DROP
+Chad,384,TCD,Chad,map
+Seychelles,379,SYC,Seychelles,map
+BRICS,367,,,DROP
+Cape Verde,353,CPV,Cape Verde,map
+Armenia,346,ARM,Armenia,map
+Samoa,343,WSM,Samoa,map
+England,337,GBR,United Kingdom,map
+Moldova,329,MDA,Moldova,map
+Suriname,329,SUR,Suriname,map
+Nicaragua,328,NIC,Nicaragua,map
+Gambia,324,GMB,Gambia,map
+Bosnia and Herzegovina,319,BIH,Bosnia & Herzegovina,map
+Estonia,318,EST,Estonia,map
+WTO,318,,,DROP
+Burkina Faso,314,BFA,Burkina Faso,map
+Palestine Liberation Organization,312,PSE,Palestinian Territories,map
+Lesotho,306,LSO,Lesotho,map
+Asia,305,,,DROP
+Central Asia,299,,,DROP
+South Sudan,293,SSD,South Sudan,map
+FIFA,286,,,DROP
+World Intellectual Property Organization,280,,,DROP
+North Macedonia,273,MKD,North Macedonia,map
+"United Nations Educational, Scientific and Cultural Organization",272,,,DROP
+Haiti,262,HTI,Haiti,map
+Comoros,261,COM,Comoros,map
+International Table Tennis Federation,260,,,DROP
+Barbados,258,BRB,Barbados,map
+Yemen Arab Republic,255,YEM,Yemen,map
+Tonga,252,TON,Tonga,map
+World Economic Forum,250,,,DROP
+Bhutan,224,BTN,Bhutan,map
+Sao Tome and Principe,224,STP,São Tomé & Príncipe,map
+Gulf Cooperation Council,218,,,DROP
+United Nations Development Programme,213,,,DROP
+Micronesia,210,FSM,Micronesia (Federated States of),map
+Middle East,209,,,DROP
+Eritrea,204,ERI,Eritrea,map
+Timor-Leste,197,TLS,Timor-Leste,map
+Kiribati,195,KIR,Kiribati,map
+League of Arab States,191,,,DROP
+Western countries,190,,,DROP
+Monaco,188,MCO,Monaco,map
+OECD,187,,,DROP
+World Federation of Trade Unions,187,,,DROP
+International Labour Organization,184,,,DROP
+World Meteorological Organization,183,,,DROP
+Malawi,182,MWI,Malawi,map
+Malaya,178,MYS,Malaysia,map
+San Marino,176,SMR,San Marino,map
+Honduras,175,HND,Honduras,map
+El Salvador,160,SLV,El Salvador,map
+Puerto Rico,160,PRI,Puerto Rico,map
+Antigua and Barbuda,158,ATG,Antigua & Barbuda,map
+Bahamas,157,BHS,Bahamas,map
+Solomon Islands,151,SLB,Solomon Islands,map
+Western Europe,149,,,DROP
+Montenegro,148,MNE,Montenegro,map
+Guatemala,147,GTM,Guatemala,map
+Grenada,146,GRD,Grenada,map
+Zanzibar,146,TZA,Tanzania,map
+International Paralympic Committee,145,,,DROP
+Paraguay,145,PRY,Paraguay,map
+Dominica,141,DMA,Dominica,map
+Olympic Council of Asia,139,,,DROP
+Asian Infrastructure Investment Bank,138,,,DROP
+East Timor,133,TLS,Timor-Leste,map
+Arab countries,129,,,DROP
+International University Sports Federation,125,,,DROP
+South Yemen,123,YEM,Yemen,map
+Commonwealth of Independent States,120,,,DROP
+Inter-Parliamentary Union,119,,,DROP
+Marshall Islands,118,MHL,Marshall Islands,map
+Group of 77,117,,,DROP
+African countries,115,,,DROP
+Eastern Europe,113,,,DROP
+Arab states,112,,,DROP
+World Federation of Democratic Youth,112,,,DROP
+South America,110,,,DROP
+South Asia,106,,,DROP
+Airbus,102,,,DROP
+Congo (Kinshasa),102,COD,Congo - Kinshasa,map
+European Economic Community,102,,,DROP
+Asian Football Confederation,101,,,DROP
+European Space Agency,99,,,DROP
+Food and Agriculture Organization,98,,,DROP
+International Association of Athletics Federations,97,,,DROP
+Congo (Leopoldville),96,COD,Congo - Kinshasa,map
+Ceylon,95,LKA,Sri Lanka,map
+International Telecommunication Union,95,,,DROP
+Organization of African Unity,93,,,DROP
+Southeast Asia Treaty Organization,88,,,DROP
+OPEC,86,,,DROP
+Serbia and Montenegro,86,SRB,Serbia,map
+African Development Bank,84,,,DROP
+Holy See,84,VAT,Vatican City,map
+International Energy Agency,84,,,DROP
+European Community,81,,,DROP
+New Development Bank,79,,,DROP
+Central and Eastern European Countries,77,,,DROP
+World Wide Fund for Nature,76,,,DROP
+International Committee of the Red Cross,75,,,DROP
+United Nations Children's Fund,75,,,DROP
+International Criminal Police Organization,73,,,DROP
+Community of Latin American and Caribbean States,72,,,DROP
+Cook Islands,72,COK,Cook Islands,map
+North Vietnam,71,VNM,Vietnam,map
+Shanghai Cooperation Organization,71,,,DROP
+Nauru,70,NRU,Nauru,map
+Rhodesia,70,ZWE,Zimbabwe,map
+North America,69,,,DROP
+Latin America and the Caribbean,68,,,DROP
+UNESCO,68,,,DROP
+Cote d'Ivoire,66,CIV,Côte d’Ivoire,map
+Asian Parliamentary Peace Association,64,,,DROP
+International Civil Aviation Organization,62,,,DROP
+Non-Aligned Movement,62,,,DROP
+International Organization for Standardization,61,,,DROP
+European Parliament,59,,,DROP
+Microsoft,59,,,DROP
+Congo (Léopoldville),56,COD,Congo - Kinshasa,map
+European Organization for Nuclear Research,55,,,DROP
+International Volleyball Federation,55,,,DROP
+Saint Lucia,55,LCA,St. Lucia,map
+Tibet,55,,,DROP
+Arab,54,,,DROP
+World Food Programme,54,,,DROP
+International Fund for Agricultural Development,53,,,DROP
+SEATO,53,,,DROP
+Universal Postal Union,53,,,DROP
+Warsaw Pact,53,,,DROP
+International Badminton Federation,52,,,DROP
+International Swimming Federation,52,,,DROP
+Organisation for Economic Co-operation and Development,51,,,DROP
+United Nations Command,51,,,DROP
+G8,50,,,DROP
+European Central Bank,49,,,DROP
+Financial Stability Board,49,,,DROP
+Scotland,49,GBR,United Kingdom,map
+West Berlin,49,DEU,Germany,map
+Asian Olympic Council,48,,,DROP
+Guam,48,GUM,Guam,map
+Sikkim,48,IND,India,map
+International Gymnastics Federation,47,,,DROP
+Organization of American States,47,,,DROP
+Liechtenstein,45,LIE,Liechtenstein,map
+International Maritime Organization,44,,,DROP
+International Union of Students,44,,,DROP
+United Nations Conference on Trade and Development,44,,,DROP
+United Nations Industrial Development Organization,44,,,DROP
+General Agreement on Tariffs and Trade,43,,,DROP
+Global Environment Facility,43,,,DROP
+IMF,43,,,DROP
+Kosovo,43,,,DROP
+Shell,43,,,DROP
+International Air Transport Association,42,,,DROP
+AFC,41,,,DROP
+G7,41,,,DROP
+International Electrotechnical Commission,41,,,DROP
+International Ski Federation,41,,,DROP
+Asia-Pacific Economic Cooperation,40,,,DROP
+United Nations World Tourism Organization,40,,,DROP
+International Federation of Red Cross and Red Crescent Societies,38,,,DROP
+Inter-American Development Bank,37,,,DROP
+International Democratic Federation of Women,37,,,DROP
+International Finance Corporation,37,,,DROP
+Pacific Island Countries,37,,,DROP
+World Customs Organization,37,,,DROP
+Asia-Pacific,35,,,DROP
+East Asia,35,,,DROP
+Eurasian Economic Union,35,,,DROP
+International Basketball Federation,35,,,DROP
+Vatican City,35,VAT,Vatican City,map
+Democratic Kampuchea,34,KHM,Cambodia,map
+Ivory Coast,34,CIV,Côte d’Ivoire,map
+International Chess Federation,33,,,DROP
+Malayan Communist Party,33,,,DROP
+Belize,32,BLZ,Belize,map
+International Military Sports Council,32,,,DROP
+South Asian Association for Regional Cooperation,32,,,DROP
+United Nations Environment Programme,32,,,DROP
+Andorra,31,AND,Andorra,map
+Central Asian countries,31,,,DROP
+Eurozone,31,,,DROP
+Group of Seven,30,,,DROP
+International Weightlifting Federation,30,,,DROP
+Islamic State,30,,,DROP
+Latin American Parliament,30,,,DROP
+Oceania,30,,,DROP
+Asian Games,29,,,DROP
+International Cycling Union,29,,,DROP
+Palau,29,PLW,Palau,map
+Persia,29,IRN,Iran,map
+West Asia,29,,,DROP
+Boeing,28,,,DROP
+GATT,28,,,DROP
+German Democratic Republic,28,DEU,Germany,map
+International Chamber of Commerce,28,,,DROP
+North Kalimantan,28,,,DROP
+Pacific Islands Forum,28,,,DROP
+World Anti-Doping Agency,28,,,DROP
+International Association of Lions Clubs,27,,,DROP
+International Skating Union,27,,,DROP
+International Union for Conservation of Nature,27,,,DROP
+Siemens,27,,,DROP
+Socialist International,27,,,DROP
+Upper Volta,27,BFA,Burkina Faso,map
+World Badminton Federation,27,,,DROP
+International Federation of Association Football,26,,,DROP
+Organization of Islamic Cooperation,26,,,DROP
+RCEP,26,,,DROP
+Economic Community of West African States,25,,,DROP
+Group of Eight,25,,,DROP
+International Exhibitions Bureau,25,,,DROP
+International Rice Research Institute,25,,,DROP
+Southern Rhodesia,25,ZWE,Zimbabwe,map
+Tanganyika,25,TZA,Tanzania,map
+other countries along Belt and Road,25,,,DROP
+Bank for International Settlements,24,,,DROP
+International Development Association,24,,,DROP
+Nokia,24,,,DROP
+Asian Table Tennis Union,23,,,DROP
+Central African Empire,22,CAF,Central African Republic,map
+Congo (DRC),22,COD,Congo - Kinshasa,map
+Ericsson,22,,,DROP
+Eswatini,22,SWZ,Eswatini,map
+International Bureau of Exhibitions,22,,,DROP
+Third World Academy of Sciences,22,,,DROP
+VISA,22,,,DROP
+West Africa,22,,,DROP
+Asia-Pacific Broadcasting Union,21,,,DROP
+ITER,21,,,DROP
+Samsung,21,,,DROP
+Southern African Development Community,21,,,DROP
+World Organisation for Animal Health,21,,,DROP
+European Bank for Reconstruction and Development,20,,,DROP
+European Patent Office,20,,,DROP
+International Astronomical Union,20,,,DROP
+International Council of Museums,20,,,DROP
+Niue,20,NIU,Niue,map
+United Nations Economic and Social Commission for Asia and the Pacific,20,,,DROP
+Vatican,20,VAT,Vatican City,map
+World Bridge Federation,20,,,DROP
+World Peace Council,20,,,DROP
+World Tourism Organization,20,,,DROP
+Austria-Hungary,19,,,DROP
+Indochina,19,CHN,China,map
+International Planned Parenthood Federation,19,,,DROP
+International Wool Secretariat,19,,,DROP
+Mercosur,19,,,DROP
+Reuters,19,,,DROP
+South West Africa People's Organization,19,,,DROP
+Volkswagen,19,,,DROP
+Americas,18,,,DROP
+Developing Countries,18,,,DROP
+International Federation of Journalists,18,,,DROP
+International Maritime Satellite Organization,18,,,DROP
+International Red Cross and Red Crescent Movement,18,,,DROP
+International Union of Geological Sciences,18,,,DROP
+Mercedes-Benz,18,,,DROP
+Middle East and North Africa,18,,,DROP
+NBA,18,,,DROP
+Organisation for the Prohibition of Chemical Weapons,18,,,DROP
+People's Democratic Republic of Yemen,18,,,DROP
+Somaliland,18,,,DROP
+South Asian countries,18,,,DROP
+Taliban,18,,,DROP
+Caribbean Community,17,,,DROP
+Intel,17,,,DROP
+International Amateur Athletic Federation,17,,,DROP
+International Federation of Library Associations and Institutions,17,,,DROP
+International Organization for Migration,17,,,DROP
+International Special Olympics,17,,,DROP
+Toyota,17,,,DROP
+United Nations Population Fund,17,,,DROP
+World Wildlife Fund,17,,,DROP
+Azania,16,,,DROP
+Conference on Interaction and Confidence Building Measures in Asia,16,,,DROP
+Eight-Nation Alliance,16,,,DROP
+International Association of Horticultural Producers,16,,,DROP
+International Ice Hockey Federation,16,,,DROP
+International Softball Federation,16,,,DROP
+International Tennis Federation,16,,,DROP
+Maersk,16,,,DROP
+North Africa,16,,,DROP
+South West Africa People's Organisation,16,,,DROP
+Swaziland,16,SWZ,Eswatini,map
+Western,16,,,DROP
+Andean Community,15,,,DROP
+Burma,15,MMR,Myanmar (Burma),map
+Communist International,15,,,DROP
+Democratic Republic of Vietnam,15,VNM,Vietnam,map
+International Co-operative Alliance,15,,,DROP
+Latin American Economic System,15,,,DROP
+Rio Group,15,,,DROP
+Third World,15,,,DROP
+Western developed countries,15,,,DROP
+Asian Paralympic Committee,14,,,DROP
+Dahomey,14,BEN,Benin,map
+Global South,14,,,DROP
+Greenpeace,14,,,DROP
+Group of Twenty,14,,,DROP
+International Crane Foundation,14,,,DROP
+International Network for Bamboo and Rattan,14,,,DROP
+International Renewable Energy Agency,14,,,DROP
+International Sailing Federation,14,,,DROP
+International Seabed Authority,14,,,DROP
+International Telecommunications Satellite Organization,14,,,DROP
+Latin American and Caribbean countries,14,,,DROP
+Macedonia,14,MKD,North Macedonia,map
+Rio Tinto,14,,,DROP
+Roman Empire,14,,,DROP
+Réunion,14,REU,Réunion,map
+Southeast Asian countries,14,,,DROP
+Visa,14,,,DROP
+Wales,14,,,DROP
+发达国家,14,,,DROP
+Arctic Council,13,,,DROP
+Bureau International des Expositions,13,,,DROP
+East African Community,13,,,DROP
+Goldman Sachs,13,,,DROP
+International Bureau of Expositions,13,,,DROP
+International Court of Justice,13,,,DROP
+International Union of Architects,13,,,DROP
+Mastercard,13,,,DROP
+South West Africa,13,,,DROP
+Sub-Saharan Africa,13,,,DROP
+United Nations Security Council,13,,,DROP
+Western media,13,,,DROP
+World Trade Centers Association,13,,,DROP
+Adidas,12,,,DROP
+Arabia,12,,,DROP
+Bill & Melinda Gates Foundation,12,,,DROP
+Bosch,12,,,DROP
+Comintern,12,,,DROP
+Developed Countries,12,,,DROP
+FINA,12,,,DROP
+International Astronautical Federation,12,,,DROP
+International Wushu Federation,12,,,DROP
+Latin American countries,12,,,DROP
+Mali Federation,12,MLI,Mali,map
+Moody's,12,,,DROP
+Northeast Asia,12,,,DROP
+Tuvalu,12,TUV,Tuvalu,map
+World Athletics,12,,,DROP
+developing countries,12,,,DROP
+Antarctica,11,ATA,Antarctica,map
+Asia-Europe Meeting,11,,,DROP
+Asian Volleyball Confederation,11,,,DROP
+Bayer,11,,,DROP
+Caribbean,11,,,DROP
+East Africa,11,,,DROP
+General Motors,11,,,DROP
+Gulf States,11,,,DROP
+IBM,11,,,DROP
+International Criminal Court,11,,,DROP
+International Trade Centre,11,,,DROP
+League of Nations,11,,,DROP
+Lions Clubs International,11,,,DROP
+Motorola,11,,,DROP
+North Atlantic Treaty Organization,11,,,DROP
+Sony,11,,,DROP
+South Pacific Forum,11,,,DROP
+Special Olympics International,11,,,DROP
+Volvo,11,,,DROP
+World Health Assembly,11,,,DROP
+一带一路沿线国家,11,,,DROP
+Al-Qaeda,10,,,DROP
+Amazon,10,,,DROP
+Arab world,10,,,DROP
+Badminton World Federation,10,,,DROP
+CPTPP,10,,,DROP
+Collective Security Treaty Organization,10,,,DROP
+Developing countries,10,,,DROP
+Ford,10,,,DROP
+International Automobile Federation,10,,,DROP
+International Council on Archives,10,,,DROP
+Netflix,10,,,DROP
+OSCE,10,,,DROP
+Organization of African Trade Union Unity,10,,,DROP
+Pacific Economic Cooperation Council,10,,,DROP
+World Travel & Tourism Council,10,,,DROP
+WorldSkills International,10,,,DROP
+Asian Badminton Confederation,9,,,DROP
+Asian-African Legal Consultative Organization,9,,,DROP
+BMW,9,,,DROP
+Commonwealth of Nations,9,,,DROP
+Contadora Group,9,,,DROP
+Democratic Yemen,9,,,DROP
+European Investment Bank,9,,,DROP
+Gaza,9,PSE,Palestinian Territories,map
+Google,9,,,DROP
+Greenland,9,GRL,Greenland,map
+Group of Twenty-Four,9,,,DROP
+Guadeloupe,9,GLP,Guadeloupe,map
+Hamas,9,,,DROP
+International Bamboo and Rattan Organisation,9,,,DROP
+International Boxing Association,9,,,DROP
+International Fencing Federation,9,,,DROP
+International Hockey Federation,9,,,DROP
+International Social Security Association,9,,,DROP
+Islamic countries,9,,,DROP
+Morgan Stanley,9,,,DROP
+P&O Nedlloyd,9,,,DROP
+Saint Kitts and Nevis,9,KNA,St. Kitts & Nevis,map
+Unified Team,9,,,DROP
+Vietnam (South),9,,,DROP
+World Curling Federation,9,,,DROP
+World Gold Council,9,,,DROP
+World Taekwondo Federation,9,,,DROP
+African Trade Union Unity,8,,,DROP
+Agence France-Presse,8,FRA,France,map
+BBC,8,,,DROP
+Baghdad Pact,8,,,DROP
+Bermuda,8,BMU,Bermuda,map
+CIS,8,,,DROP
+Central America,8,,,DROP
+Central American Parliament,8,,,DROP
+Central and Eastern Europe,8,,,DROP
+Central and Eastern European countries,8,,,DROP
+Chinese Taipei Olympic Committee,8,TWN,Taiwan,map
+Eastern European countries,8,,,DROP
+European Commission,8,,,DROP
+European Management Forum,8,,,DROP
+FATF,8,,,DROP
+FIA,8,,,DROP
+FIBA,8,,,DROP
+ISO,8,,,DROP
+International Advertising Association,8,,,DROP
+International Confederation of Free Trade Unions,8,,,DROP
+International Esperanto Association,8,,,DROP
+International Federation of the Phonographic Industry,8,,,DROP
+International Science Council,8,,,DROP
+International Shooting Sport Federation,8,,,DROP
+International Sports Press Association,8,,,DROP
+Korea,8,KOR,South Korea,map
+MSCI,8,,,DROP
+Martinique,8,MTQ,Martinique,map
+Nike,8,,,DROP
+North Kalimantan Communist Party,8,,,DROP
+Northern Ireland,8,GBR,United Kingdom,map
+Panasonic,8,,,DROP
+Paris,8,,,DROP
+Republic of South Vietnam,8,,,DROP
+SCO,8,,,DROP
+Saint Vincent and the Grenadines,8,VCT,St. Vincent & Grenadines,map
+South West Africa National Union,8,,,DROP
+Union Cycliste Internationale,8,,,DROP
+WTA,8,,,DROP
+World Bank Group,8,,,DROP
+World Water Council,8,,,DROP
+一带一路,8,,,DROP
+Arab States,7,,,DROP
+Aruba,7,ABW,Aruba,map
+Asian Broadcasting Union,7,,,DROP
+Asian Games Federation,7,,,DROP
+Asian Handball Federation,7,,,DROP
+Basel Committee on Banking Supervision,7,,,DROP
+British Virgin Islands,7,VGB,British Virgin Islands,map
+CITES,7,,,DROP
+Cayman Islands,7,CYM,Cayman Islands,map
+Coca-Cola,7,,,DROP
+Council for Mutual Economic Assistance,7,,,DROP
+Dalai Lama,7,,,DROP
+Facebook,7,,,DROP
+Federal Reserve,7,,,DROP
+Ford Foundation,7,,,DROP
+Fédération Internationale de l'Automobile,7,,,DROP
+Honda,7,,,DROP
+IEC,7,,,DROP
+International Aeronautical Federation,7,,,DROP
+International Amateur Swimming Federation,7,,,DROP
+International Association of Democratic Lawyers,7,,,DROP
+International Civil Defence Organisation,7,,,DROP
+International Council on Monuments and Sites,7,,,DROP
+International Federation of Consulting Engineers,7,,,DROP
+International Federation of Photographic Art,7,,,DROP
+International Luge Federation,7,,,DROP
+International Red Cross,7,,,DROP
+International Union of Railways,7,,,DROP
+Joint United Nations Programme on HIV/AIDS,7,,,DROP
+Monte Carlo Ballet,7,,,DROP
+Nestlé,7,,,DROP
+Northern Rhodesia,7,ZMB,Zambia,map
+Paris Club,7,,,DROP
+Portuguese Guinea,7,GNB,Guinea-Bissau,map
+Qualcomm,7,,,DROP
+SWIFT,7,,,DROP
+Springer Nature,7,,,DROP
+UBS,7,,,DROP
+Women's International Democratic Federation,7,,,DROP
+World Federation of Engineering Organizations,7,,,DROP
+某国,7,,,DROP
+ABB,6,,,DROP
+African National Congress,6,,,DROP
+African Table Tennis Federation,6,,,DROP
+Alcatel,6,,,DROP
+Arab States Broadcasting Union,6,,,DROP
+Arab Trade Union Confederation,6,,,DROP
+Asian Athletics Association,6,,,DROP
+Associated Press,6,,,DROP
+AstraZeneca,6,,,DROP
+COVAX,6,,,DROP
+China Taipei,6,TWN,Taiwan,map
+Commonwealth,6,,,DROP
+Court of Arbitration for Sport,6,,,DROP
+Developed countries,6,,,DROP
+Dubai,6,,,DROP
+Euro area,6,,,DROP
+F1,6,,,DROP
+Federal Republic of Yugoslavia,6,,,DROP
+General Electric,6,,,DROP
+Golden Triangle,6,,,DROP
+Guinea and Cape Verde,6,,,DROP
+International Association for the Protection of Intellectual Property,6,,,DROP
+International Council for Science,6,,,DROP
+International Federation of Inventors' Associations,6,,,DROP
+International Fund for Animal Welfare,6,,,DROP
+International Iron and Steel Institute,6,,,DROP
+International Potato Center,6,,,DROP
+International Rowing Federation,6,,,DROP
+Islamic world,6,,,DROP
+Kashmir,6,,,DROP
+Liao Dynasty,6,,,DROP
+MasterCard,6,,,DROP
+Mekong River Commission,6,,,DROP
+Nazi Germany,6,DEU,Germany,map
+Organisation of Islamic Cooperation,6,,,DROP
+Pacific Alliance,6,,,DROP
+Pacific Asia Travel Association,6,,,DROP
+Pacific Basin Economic Council,6,,,DROP
+Rome,6,,,DROP
+Sassanid Empire,6,,,DROP
+Standard Chartered Bank,6,,,DROP
+Vietnam (North),6,VNM,Vietnam,map
+Vietnam Democratic Republic,6,VNM,Vietnam,map
+WIPO,6,,,DROP
+Western European Union,6,,,DROP
+World Association of Investment Promotion Agencies,6,,,DROP
+World Association of Newspapers,6,,,DROP
+World Council of Churches,6,,,DROP
+World Packaging Organisation,6,,,DROP
+World Resources Institute,6,,,DROP
+匈奴,6,,,DROP
+African Development Fund,5,,,DROP
+African Trade Union Unity Organization,5,,,DROP
+Afro-Asian Journalists' Association,5,,,DROP
+Alstom,5,,,DROP
+Apple,5,,,DROP
+Arab Trade Union International Federation,5,,,DROP
+Asia-Pacific Space Cooperation Organization,5,,,DROP
+Asian Basketball Federation,5,,,DROP
+B20,5,,,DROP
+Belt and Road countries,5,,,DROP
+Berlin,5,,,DROP
+Caribbean countries,5,,,DROP
+Compaq,5,,,DROP
+Curaçao,5,CUW,Curaçao,map
+ECOWAS,5,,,DROP
+European Council,5,,,DROP
+FAO,5,,,DROP
+"Gavi, the Vaccine Alliance",5,,,DROP
+Harvard University,5,,,DROP
+Human Rights Watch,5,,,DROP
+ICANN,5,,,DROP
+IEEE,5,,,DROP
+International Association of Prosecutors,5,,,DROP
+International Biathlon Union,5,,,DROP
+International Board on Books for Young People,5,,,DROP
+International Bureau of Weights and Measures,5,,,DROP
+International Federation of Associated Wrestling Styles,5,,,DROP
+International Federation of Translators,5,,,DROP
+International Handball Federation,5,,,DROP
+International Institute of Administrative Sciences,5,,,DROP
+International Mind Sports Association,5,,,DROP
+International Organisation of Vine and Wine,5,,,DROP
+International SOS Children's Villages,5,,,DROP
+International Savings Banks Association,5,,,DROP
+International Union Against Cancer,5,,,DROP
+Interpol,5,,,DROP
+Islamic World League,5,,,DROP
+Jaguar Land Rover,5,,,DROP
+Latin American Integration Association,5,,,DROP
+MERCOSUR,5,,,DROP
+Mediterranean Shipping Company,5,,,DROP
+Montreal,5,,,DROP
+New Caledonia,5,NCL,New Caledonia,map
+Orbis International,5,,,DROP
+Ottoman Empire,5,,,DROP
+South Pacific,5,,,DROP
+Standard & Poor's,5,,,DROP
+Star Alliance,5,,,DROP
+TotalEnergies,5,,,DROP
+United Nations Entity for Gender Equality and the Empowerment of Women,5,,,DROP
+United Nations High Commissioner for Refugees,5,,,DROP
+United Nations Human Rights Council,5,,,DROP
+United Nations World Food Programme,5,,,DROP
+Vietnam (Republic of South Vietnam),5,VNM,Vietnam,map
+World Boxing Organization,5,,,DROP
+World Conservation Union,5,,,DROP
+World Energy Council,5,,,DROP
+World Federation of Scientific Workers,5,,,DROP
+World Petroleum Congress,5,,,DROP
+Xiongnu,5,,,DROP
+Aden,4,,,DROP
+African Continental Free Trade Area,4,,,DROP
+African Export-Import Bank,4,,,DROP
+African Sports Supreme Council,4,,,DROP
+Almaty,4,,,DROP
+Andean Parliament,4,,,DROP
+Apple Inc.,4,,,DROP
+Arab Parliament,4,,,DROP
+Asia-Pacific Parliamentary Forum,4,,,DROP
+Asian Weightlifting Federation,4,,,DROP
+Asian and African countries,4,,,DROP
+Association of National Olympic Committees,4,,,DROP
+Athens,4,,,DROP
+Atlanta,4,,,DROP
+BASF,4,,,DROP
+BHP Billiton,4,,,DROP
+Basutoland,4,LSO,Lesotho,map
+Bloomberg,4,,,DROP
+Bombardier,4,,,DROP
+Byzantine Empire,4,,,DROP
+Caribbean Development Bank,4,,,DROP
+Cisco,4,,,DROP
+Citigroup,4,,,DROP
+DEPA,4,,,DROP
+DHL,4,,,DROP
+Danone,4,,,DROP
+East Pakistan,4,BGD,Bangladesh,map
+East Turkistan Islamic Movement,4,,,DROP
+Eurasia,4,,,DROP
+European Broadcasting Union,4,,,DROP
+European Free Trade Association,4,,,DROP
+European Left Party,4,,,DROP
+ExxonMobil,4,,,DROP
+FIDIC,4,,,DROP
+FIVB,4,,,DROP
+Fatah,4,,,DROP
+Financial Action Task Force,4,,,DROP
+Forum on China-Africa Cooperation,4,CHN,China,map
+GSMA,4,,,DROP
+HSBC,4,,,DROP
+IGAD,4,,,DROP
+IPCC,4,,,DROP
+International Association of Lighthouse Authorities,4,,,DROP
+International Bobsleigh and Skeleton Federation,4,,,DROP
+International Canoe Federation,4,,,DROP
+International Commission on Irrigation and Drainage,4,,,DROP
+International Committee of Historical Sciences,4,,,DROP
+International Dairy Federation,4,,,DROP
+International Dragon Boat Federation,4,,,DROP
+International Equestrian Federation,4,,,DROP
+International Federation of Philately,4,,,DROP
+International Judo Federation,4,,,DROP
+International Organization of Consumers Unions,4,,,DROP
+International Rehabilitation Council,4,,,DROP
+International Road Transport Union,4,,,DROP
+International SOS,4,,,DROP
+International School Sport Federation,4,,,DROP
+International Trade Union Confederation,4,,,DROP
+Islamic states,4,,,DROP
+JPMorgan Chase,4,,,DROP
+Latin American Confederation of Labor,4,,,DROP
+Latin American Development Bank,4,,,DROP
+Latin American and Caribbean Community,4,,,DROP
+Least developed countries,4,,,DROP
+Malaysia Airlines,4,MYS,Malaysia,map
+Massachusetts Institute of Technology,4,,,DROP
+Moscow,4,,,DROP
+Mozambique Liberation Front,4,MOZ,Mozambique,map
+NASA,4,,,DROP
+Nordic countries,4,,,DROP
+North Yemen,4,,,DROP
+Novo Nordisk,4,,,DROP
+Olympic Broadcasting Services,4,,,DROP
+PricewaterhouseCoopers,4,,,DROP
+Real Madrid,4,,,DROP
+Roche,4,,,DROP
+Schneider Electric,4,,,DROP
+South Centre,4,,,DROP
+South Rhodesia,4,ZWE,Zimbabwe,map
+Southern Africa,4,,,DROP
+Sydney,4,,,DROP
+TPP,4,,,DROP
+UNICEF,4,,,DROP
+United Nations Economic Commission for Africa,4,,,DROP
+Vale,4,,,DROP
+Venice,4,,,DROP
+West African Students' Union,4,,,DROP
+Western Xia,4,,,DROP
+World Aquatics,4,,,DROP
+World Jurist Association,4,,,DROP
+World Petroleum Council,4,,,DROP
+World Savings Banks Institute,4,,,DROP
+World Vision,4,,,DROP
+World Wheelchair Foundation,4,,,DROP
+Yahoo,4,,,DROP
+Yale University,4,,,DROP
+ABB Group,3,,,DROP
+AIIB,3,,,DROP
+AMD,3,,,DROP
+ASEAN Secretariat,3,,,DROP
+ATP,3,,,DROP
+Africa Centres for Disease Control and Prevention,3,,,DROP
+African Development Bank Group,3,,,DROP
+African Organization Committee,3,,,DROP
+African Volleyball Confederation,3,,,DROP
+Afro-Asian People's Solidarity Organization,3,,,DROP
+America,3,,,DROP
+Amnesty International,3,,,DROP
+Ancient Greece,3,GRC,Greece,map
+Antarctic Treaty System,3,,,DROP
+Arab Satellite Communications Organization,3,,,DROP
+Arab people,3,,,DROP
+Asia Conference of Religions for Peace,3,,,DROP
+Asia Olympic Council,3,,,DROP
+Asian Badminton Federation,3,,,DROP
+Asian Philatelic Federation,3,,,DROP
+Asian University Sports Federation,3,,,DROP
+Asian countries,3,,,DROP
+Australia and New Zealand Banking Group,3,,,DROP
+BHP,3,,,DROP
+BIMCO,3,,,DROP
+BP,3,,,DROP
+Babylon,3,,,DROP
+Barcelona,3,,,DROP
+Belgium-Luxembourg Economic Union,3,,,DROP
+Belt and Road Initiative,3,,,DROP
+Belt and Road Initiative countries,3,,,DROP
+British Guiana,3,GUY,Guyana,map
+CELAC,3,,,DROP
+CENTO,3,,,DROP
+CERN,3,,,DROP
+Canon,3,,,DROP
+Central Treaty Organization,3,,,DROP
+Christian Democratic International,3,,,DROP
+Common Market for Eastern and Southern Africa,3,,,DROP
+Coordinating Committee for Multilateral Export Controls,3,,,DROP
+Council of Europe,3,,,DROP
+Coursera,3,,,DROP
+Czech Republic and Slovakia,3,CZE,Czechia,map
+DNV,3,,,DROP
+Dalai Lama group,3,,,DROP
+Deutsche Bank,3,,,DROP
+Dhofar,3,,,DROP
+ESCAP,3,,,DROP
+East Asia and Pacific,3,,,DROP
+East Turkestan Islamic Movement,3,,,DROP
+Economic Community of Central African States,3,,,DROP
+Economic and Social Commission for Asia and the Pacific,3,,,DROP
+Embraer,3,,,DROP
+Eurasian Economic Commission,3,,,DROP
+Eurasian Economic Community,3,,,DROP
+European Communities,3,,,DROP
+European Physical Society,3,,,DROP
+Far East and South Pacific Games Federation for the Disabled,3,,,DROP
+Ferrari,3,,,DROP
+French Polynesia,3,PYF,French Polynesia,map
+Fujifilm,3,,,DROP
+GAVI,3,,,DROP
+Germany (Communist Party),3,DEU,Germany,map
+Germany (East),3,,,DROP
+Gibraltar,3,GIB,Gibraltar,map
+Global Food Safety Initiative,3,,,DROP
+Global Wind Energy Council,3,,,DROP
+Greater Mekong Subregion,3,,,DROP
+Group of 24,3,,,DROP
+H&M,3,,,DROP
+Hamburg,3,,,DROP
+Human Rights Council,3,,,DROP
+INTERPOL,3,,,DROP
+IUCN,3,,,DROP
+International Action Council,3,,,DROP
+International Amateur Boxing Association,3,,,DROP
+International Archery Federation,3,,,DROP
+International Bank for Reconstruction and Development,3,,,DROP
+International Commission on Large Dams,3,,,DROP
+International Council of Sport Science and Physical Education,3,,,DROP
+International Earth Rotation Service,3,,,DROP
+International Energy Forum,3,,,DROP
+International Federation of Magic Societies,3,,,DROP
+International Federation of Philosophical Societies,3,,,DROP
+International Federation of Sport Climbing,3,,,DROP
+International Federation of Sports Acrobatics,3,,,DROP
+International Institute for Applied Systems Analysis,3,,,DROP
+International Lawn Tennis Federation,3,,,DROP
+International Maize and Wheat Improvement Center,3,,,DROP
+International Maritime Bureau,3,,,DROP
+International Mathematical Union,3,,,DROP
+International Organization of Legal Metrology,3,,,DROP
+International Organization of Securities Commissions,3,,,DROP
+International PEN,3,,,DROP
+International Project Management Association,3,,,DROP
+International Society for Photogrammetry and Remote Sensing,3,,,DROP
+International Space Station,3,,,DROP
+International Statistical Institute,3,,,DROP
+International Triathlon Union,3,,,DROP
+International Tribunal for the Law of the Sea,3,,,DROP
+International Tunnelling and Underground Space Association,3,,,DROP
+International Union for the Protection of New Varieties of Plants,3,,,DROP
+International Union of Anthropological and Ethnological Sciences,3,,,DROP
+International Union of Geodesy and Geophysics,3,,,DROP
+International Water Association,3,,,DROP
+International Women's Alliance,3,,,DROP
+International Women's Forum,3,,,DROP
+International World Games Association,3,,,DROP
+Islamic Development Bank,3,,,DROP
+Jin dynasty,3,,,DROP
+Kodak,3,,,DROP
+McKinsey & Company,3,,,DROP
+Merck,3,,,DROP
+Mitsubishi,3,,,DROP
+Mongol Empire,3,,,DROP
+Muslim World League,3,,,DROP
+Médecins Sans Frontières,3,,,DROP
+Netherlands Antilles,3,,,DROP
+North American Free Trade Agreement,3,,,DROP
+North Borneo,3,,,DROP
+Northern Mariana Islands,3,MNP,Northern Mariana Islands,map
+Novartis,3,,,DROP
+Organization for Security and Co-operation in Europe,3,,,DROP
+PECC,3,,,DROP
+Pan Africanist Congress of Azania,3,,,DROP
+Paris Coordinating Committee,3,,,DROP
+Red Cross Society,3,,,DROP
+Renault,3,,,DROP
+Reserve Bank of Australia,3,AUS,Australia,map
+SAP,3,,,DROP
+SKYTRAX,3,,,DROP
+SOS Children's Villages International,3,,,DROP
+Sanofi,3,,,DROP
+Siemens Healthineers,3,,,DROP
+Silk Road Fund,3,,,DROP
+Singapore Exchange,3,SGP,Singapore,map
+SkyTeam,3,,,DROP
+Springer,3,,,DROP
+Tesla,3,,,DROP
+Third World countries,3,,,DROP
+Toronto,3,,,DROP
+Toshiba,3,,,DROP
+UEFA,3,,,DROP
+UN Women,3,,,DROP
+UNCTAD,3,,,DROP
+United Nations Human Settlements Programme,3,,,DROP
+United Nations University,3,,,DROP
+Vietnam (Democratic Republic of Vietnam),3,VNM,Vietnam,map
+Vietnam (South Vietnam),3,VNM,Vietnam,map
+Vodafone,3,,,DROP
+Volkswagen Group,3,,,DROP
+West African Economic and Monetary Union,3,,,DROP
+Western Sahara,3,ESH,Western Sahara,map
+Western Samoa,3,WSM,Samoa,map
+World Confederation of Labour,3,,,DROP
+World Confederation of Productivity Science,3,,,DROP
+World Federation of the Deaf,3,,,DROP
+World Federation of the Sporting Goods Industry,3,,,DROP
+World Fellowship of Buddhists,3,,,DROP
+World Food Council,3,,,DROP
+World Professional Billiards and Snooker Association,3,,,DROP
+World Stars Team,3,,,DROP
+Wusun,3,,,DROP
+Yemen (Democratic),3,,,DROP
+eBay,3,,,DROP
+各国议会联盟,3,,,DROP
+ASEAN+3,2,,,DROP
+Abkhazia,2,,,DROP
+Abyei,2,,,DROP
+African Badminton Federation,2,,,DROP
+African English-speaking countries,2,,,DROP
+African Football Confederation,2,,,DROP
+African French-speaking countries,2,,,DROP
+African Nuclear-Weapon-Free Zone,2,,,DROP
+African Supreme Council for Sports,2,,,DROP
+African Union of Broadcasting,2,,,DROP
+Agence Française de Développement,2,,,DROP
+Al Jazeera,2,,,DROP
+Alcatel-Lucent,2,,,DROP
+American Samoa,2,ASM,American Samoa,map
+Ancient Rome,2,,,DROP
+Arab Inter-Parliamentary Union,2,,,DROP
+Arab Islamic countries,2,,,DROP
+Arab Socialist Union,2,,,DROP
+Arab Yemen,2,,,DROP
+Arab and Islamic countries,2,,,DROP
+ArcelorMittal,2,,,DROP
+Arla Foods,2,,,DROP
+Arsenal,2,,,DROP
+Asia Pacific Lawyers Association,2,,,DROP
+Asia-Africa-Latin America,2,,,DROP
+Asia-Australia Trade Union Conference,2,AUS,Australia,map
+Asia-Pacific Network for Sustainable Forest Management and Rehabilitation,2,,,DROP
+Asia-Pacific region,2,,,DROP
+Asian Forum of Parliamentarians on Population and Development,2,,,DROP
+Asian Parliamentary Assembly,2,,,DROP
+Asian Wushu Federation,2,,,DROP
+Association of Southeast Asian Nations,2,,,DROP
+Athens Organizing Committee,2,,,DROP
+Audi,2,,,DROP
+Azania Pan-Africanist Congress,2,,,DROP
+Azanian Pan-Africanist Congress,2,,,DROP
+Baltic Exchange,2,,,DROP
+Bank of Japan,2,JPN,Japan,map
+Basutoland Congress Party,2,LSO,Lesotho,map
+Belt and Road,2,,,DROP
+Boao Forum for Asia,2,,,DROP
+Boko Haram,2,,,DROP
+Bosnia,2,BIH,Bosnia & Herzegovina,map
+Botswana People's Party,2,BWA,Botswana,map
+Brazilian Communist Party,2,BRA,Brazil,map
+B国,2,,,DROP
+CABI,2,,,DROP
+CFM International,2,,,DROP
+CGIAR,2,,,DROP
+CISAC,2,,,DROP
+COMESA,2,,,DROP
+Cabo Verde,2,CPV,Cape Verde,map
+Canary Islands,2,,,DROP
+Cannes,2,,,DROP
+Cannes Film Festival,2,,,DROP
+Carrefour,2,,,DROP
+Caterpillar,2,,,DROP
+Cathay Pacific,2,,,DROP
+Central Africa,2,,,DROP
+Central African Federation,2,,,DROP
+Chrysler,2,,,DROP
+Citibank,2,,,DROP
+Comecon,2,,,DROP
+Confederation of African Football,2,,,DROP
+Confucius Institute,2,,,DROP
+Congo (Democratic Republic),2,COD,Congo - Kinshasa,map
+Congo (Republic of the Congo),2,COG,Congo - Brazzaville,map
+Congo (Stanleyville),2,COG,Congo - Brazzaville,map
+Customs Cooperation Council,2,,,DROP
+Daimler,2,,,DROP
+DaimlerChrysler,2,,,DROP
+Deloitte,2,,,DROP
+Deutsche Bahn,2,,,DROP
+Deutsche Presse-Agentur,2,,,DROP
+Dhofar Liberation Front,2,,,DROP
+Disney,2,,,DROP
+Eastern European democratic countries,2,,,DROP
+Eight-Power Allied Forces,2,,,DROP
+Elsevier,2,,,DROP
+Emirates,2,ARE,United Arab Emirates,map
+Equatorial Africa,2,,,DROP
+Ethiopian Airlines,2,ETH,Ethiopia,map
+Eurasian Group on Combating Money Laundering and Financing of Terrorism,2,,,DROP
+Eurasian countries,2,,,DROP
+European Centre for International Political Economy,2,,,DROP
+European Defence Community,2,,,DROP
+European Defense Community,2,,,DROP
+European Democratic Youth Community,2,,,DROP
+European International Association of Average Adjusters,2,,,DROP
+European Left,2,,,DROP
+European Southern Observatory,2,,,DROP
+European Table Tennis Union,2,,,DROP
+European Union Chamber of Commerce in China,2,CHN,China,map
+FC Barcelona,2,,,DROP
+FIBA Asia,2,,,DROP
+FMG,2,,,DROP
+Far East and South Pacific Games Federation,2,,,DROP
+Five Eyes,2,,,DROP
+France Telecom,2,FRA,France,map
+GSM Association,2,,,DROP
+Gandhara,2,,,DROP
+Genoa,2,,,DROP
+Germany Democratic Republic,2,DEU,Germany,map
+GlaxoSmithKline,2,,,DROP
+Global Fund,2,,,DROP
+Globalstar,2,,,DROP
+Gold Coast,2,GHA,Ghana,map
+Gulf,2,,,DROP
+Gulf of Aden,2,,,DROP
+HP,2,,,DROP
+Hitachi,2,,,DROP
+Honeywell,2,,,DROP
+Huawei,2,,,DROP
+Hughes,2,,,DROP
+Hyundai,2,,,DROP
+IAEA,2,,,DROP
+IFLA,2,,,DROP
+IKEA,2,,,DROP
+Ilkhanate,2,,,DROP
+Inmarsat,2,,,DROP
+Intergovernmental Authority on Development,2,,,DROP
+International Academy of Astronautics,2,,,DROP
+International Accounting Standards Board,2,,,DROP
+International Aerobatic Club,2,,,DROP
+International Agency for the Prevention of Blindness,2,,,DROP
+International Air Sports Federation,2,,,DROP
+International Anti-Corruption Academy,2,,,DROP
+International Arctic Science Committee,2,,,DROP
+International Association of Agricultural Economists,2,,,DROP
+International Association of Classification Societies,2,,,DROP
+International Association of Economic and Social Councils and Similar Institutions,2,,,DROP
+International Association of Insurance Supervisors,2,,,DROP
+International Association of Schools and Institutes of Administration,2,,,DROP
+International Baseball Federation,2,,,DROP
+International Boxing Federation,2,,,DROP
+International Broadcasting Organization,2,,,DROP
+International Centre for Integrated Mountain Development,2,,,DROP
+International Coffee Organization,2,,,DROP
+International Commission on Glass,2,,,DROP
+International Committee of Military Medicine,2,,,DROP
+International Council for Laboratory Animal Science,2,,,DROP
+International Council of Chemical Associations,2,,,DROP
+International Council of Scientific Unions,2,,,DROP
+International Council of the Aeronautical Sciences,2,,,DROP
+International Credit and Commerce Bank,2,,,DROP
+International Crossbow Union,2,,,DROP
+International Federation for Equestrian Sports,2,,,DROP
+International Federation for Medical and Biological Engineering,2,,,DROP
+International Federation of Bodybuilding,2,,,DROP
+International Federation of Musicians,2,,,DROP
+International Federation of Robotics,2,,,DROP
+International Food Policy Research Institute,2,,,DROP
+International Football Association Board,2,,,DROP
+International Go Federation,2,,,DROP
+International Law Association,2,,,DROP
+International Maritime Rescue Federation,2,,,DROP
+International Motorcycling Federation,2,,,DROP
+International Music Council,2,,,DROP
+International Pharmaceutical Federation,2,,,DROP
+International Police Sports Federation,2,,,DROP
+International Progress Organization,2,,,DROP
+International Shakespeare Association,2,,,DROP
+International Solar Energy Society,2,,,DROP
+International Theatre Institute,2,,,DROP
+International Union Against Tuberculosis,2,,,DROP
+International Union for the Scientific Study of Population,2,,,DROP
+International Union of Crystallography,2,,,DROP
+International Walking Federation,2,,,DROP
+International Waterski Federation,2,,,DROP
+International Wheat Council,2,,,DROP
+International Yacht Racing Union,2,,,DROP
+Internet Society,2,,,DROP
+Islamic Conference Organization,2,,,DROP
+Istanbul,2,,,DROP
+Italian General Confederation of Labour,2,,,DROP
+Kaspersky,2,,,DROP
+KfW,2,,,DROP
+Lancôme,2,,,DROP
+Latin American Energy Organization,2,,,DROP
+Latin American Workers' Central Union,2,,,DROP
+Latin American Workers' Confederation,2,,,DROP
+London,2,,,DROP
+Los Angeles,2,,,DROP
+Lotto Dstny,2,,,DROP
+Lufthansa,2,,,DROP
+Mazda,2,,,DROP
+Mediterranean,2,,,DROP
+Mercado Libre,2,,,DROP
+Merck Serono,2,,,DROP
+Mesopotamia,2,IRQ,Iraq,map
+Moody's Investors Service,2,,,DROP
+Motion Picture Association of America,2,,,DROP
+Multilateral Investment Guarantee Agency,2,,,DROP
+Muslim regions,2,,,DROP
+NCAA,2,,,DROP
+NVIDIA,2,,,DROP
+Neutral Nations Repatriation Commission,2,,,DROP
+New York Stock Exchange,2,,,DROP
+New Zealand Communist Party,2,NZL,New Zealand,map
+News Corporation,2,,,DROP
+Nordic Investment Bank,2,,,DROP
+Northern Europe,2,,,DROP
+Nuclear Suppliers Group,2,,,DROP
+OECD Nuclear Energy Agency,2,,,DROP
+OIV,2,,,DROP
+Okinawa,2,,,DROP
+Olympus,2,,,DROP
+Organisation of African Unity,2,,,DROP
+Organization for the Prohibition of Chemical Weapons,2,,,DROP
+Osaka,2,,,DROP
+Oxfam International,2,,,DROP
+Pacific Islands,2,,,DROP
+Pan-African Parliament,2,,,DROP
+Pan-African Youth Movement,2,,,DROP
+Parthian Empire,2,,,DROP
+Penguin Random House,2,,,DROP
+Persian Gulf,2,IRN,Iran,map
+Peterson Institute for International Economics,2,,,DROP
+Prussia,2,,,DROP
+QFII,2,,,DROP
+ROC,2,,,DROP
+Rehabilitation International,2,,,DROP
+Rouran,2,,,DROP
+Royal Society,2,,,DROP
+Ryukyu Islands,2,,,DROP
+Saab,2,,,DROP
+Schlumberger,2,,,DROP
+Singapore Airlines,2,SGP,Singapore,map
+Socialist countries,2,,,DROP
+Societe Generale,2,,,DROP
+Sogdiana,2,,,DROP
+Sotheby's,2,,,DROP
+South American Table Tennis Federation,2,,,DROP
+South American Table Tennis Union,2,,,DROP
+South Ossetia,2,,,DROP
+South Pacific region,2,,,DROP
+Southern African Customs Union,2,,,DROP
+Southern African liberation movements,2,,,DROP
+Southern Common Market,2,,,DROP
+Sumer,2,,,DROP
+Superpowers,2,,,DROP
+Supreme Council for Sport in Africa,2,,,DROP
+Swedish Academy,2,,,DROP
+Swissport,2,CHE,Switzerland,map
+TTIP,2,,,DROP
+Temasek Holdings,2,,,DROP
+Tetra Pak,2,,,DROP
+Thales,2,,,DROP
+Tibetan Empire,2,,,DROP
+Tokyo,2,,,DROP
+Trans-Pacific Partnership,2,,,DROP
+Union of South American Nations,2,,,DROP
+United Nations Commission on International Trade Law,2,,,DROP
+United Nations Department of Economic and Social Affairs,2,,,DROP
+United Nations Economic Commission for Latin America and the Caribbean,2,,,DROP
+United Nations Relief and Works Agency for Palestine Refugees in the Near East,2,PSE,Palestinian Territories,map
+Vancouver Organizing Committee,2,,,DROP
+Visa International,2,,,DROP
+WHO,2,,,DROP
+Walmart,2,,,DROP
+West,2,,,DROP
+West African Development Bank,2,,,DROP
+West Asia and North Africa,2,,,DROP
+West Berlin International Film Festival,2,,,DROP
+Western Asia,2,,,DROP
+Western Seven,2,,,DROP
+Western hostile forces,2,,,DROP
+World,2,,,DROP
+World Academy of Productivity Science,2,,,DROP
+World Baseball Softball Confederation,2,,,DROP
+World Boxing Association,2,,,DROP
+World Business Council for Sustainable Development,2,,,DROP
+World Chess Federation,2,,,DROP
+World Conference on Religion and Peace,2,,,DROP
+World DanceSport Federation,2,,,DROP
+World Diabetes Federation,2,,,DROP
+World Federation for Medical Education,2,,,DROP
+World Federation of Advertisers,2,,,DROP
+World Flower Council,2,,,DROP
+World Food Prize Foundation,2,,,DROP
+World Jewish Congress,2,,,DROP
+World Magic Federation,2,,,DROP
+World Marathon Majors,2,,,DROP
+World Maritime University,2,,,DROP
+World Meat Organization,2,,,DROP
+World Muslim Congress,2,,,DROP
+World School Sports Federation,2,,,DROP
+World Snooker Association,2,,,DROP
+World Table Tennis,2,,,DROP
+World University Sports Federation,2,,,DROP
+World Vision International,2,,,DROP
+Yemen (People's Democratic Republic of Yemen),2,,,DROP
+Zimbabwe African National Union,2,ZWE,Zimbabwe,map
+countries along the Belt and Road,2,,,DROP
+developed countries,2,,,DROP
+edX,2,,,DROP
+一带一路沿线国家和地区,2,,,DROP
+中亚,2,,,DROP
+乌孙,2,,,DROP
+亚太法协,2,,,DROP
+发展中国家,2,,,DROP
+大宛,2,,,DROP
+奥地利,2,,,DROP
+康居,2,,,DROP
+撒哈拉以南非洲,2,,,DROP
+澳大利亚,2,,,DROP
+"16 countries from Asia, Africa, Europe, America, Oceania",1,,,DROP
+17个国家,1,,,DROP
+210个国家和地区,1,,,DROP
+212个国家和地区,1,,,DROP
+23国艺术团组,1,,,DROP
+24国集团,1,,,DROP
+3GPP,1,,,DROP
+3M,1,,,DROP
+44个国家和国际组织,1,,,DROP
+68个境外团组,1,,,DROP
+6C联盟,1,,,DROP
+71个国家及地区,1,,,DROP
+77国集团,1,,,DROP
+9国驻华使节,1,,,DROP
+AAALAC,1,,,DROP
+ABAC,1,,,DROP
+ABB-戴姆勒奔驰交通公司,1,,,DROP
+AC Milan,1,,,DROP
+ACD,1,,,DROP
+ACT-A,1,,,DROP
+ACT作业者集团,1,,,DROP
+AC尼尔森,1,,,DROP
+AEA,1,,,DROP
+AIPH,1,,,DROP
+AIPPI,1,,,DROP
+ANOC,1,,,DROP
+ANZ Bank,1,,,DROP
+ANZUS,1,,,DROP
+APMP,1,,,DROP
+APPF,1,,,DROP
+APWG,1,,,DROP
+ASEAN Centre for Biodiversity,1,,,DROP
+ASEAN Regional Forum,1,,,DROP
+ASEAN University Network,1,,,DROP
+ASEM,1,,,DROP
+Abidjan,1,,,DROP
+Abu Dhabi,1,,,DROP
+Abu Sayyaf,1,,,DROP
+Academy Awards,1,,,DROP
+Academy of Sciences for the Developing World,1,,,DROP
+Acer,1,,,DROP
+Actis,1,,,DROP
+Advanced Micro Devices,1,,,DROP
+Africa China Investment Forum,1,CHN,China,map
+Africa Rice Center,1,,,DROP
+Africa Supreme Council for Sports,1,,,DROP
+African Academy of Sciences,1,,,DROP
+African Amateur Swimming Federation,1,,,DROP
+African Broadcasting Union,1,,,DROP
+African Court on Human and Peoples' Rights,1,,,DROP
+African Group,1,,,DROP
+African Group of Ambassadors to China,1,CHN,China,map
+African Horn countries,1,,,DROP
+African Intellectual Property Organization,1,,,DROP
+African Journalists Union,1,,,DROP
+African National Congress of Azania,1,,,DROP
+African Party for the Independence of Guinea and Cape Verde,1,,,DROP
+African Political Parties Council,1,,,DROP
+African Tax Administration Forum,1,,,DROP
+African Trade Union Confederation,1,,,DROP
+African Youth Council,1,,,DROP
+African diplomatic missions in China,1,CHN,China,map
+African people,1,,,DROP
+African political parties,1,,,DROP
+Afro-Asian People's Solidarity Conference,1,,,DROP
+Afro-Asian Writers' Permanent Bureau,1,,,DROP
+Aga Khan Foundation,1,,,DROP
+Airbnb,1,,,DROP
+Airtel Africa,1,,,DROP
+Ajax,1,,,DROP
+Al Ahli,1,,,DROP
+Al-Nusra Front,1,,,DROP
+Al-Shabaab,1,,,DROP
+Albania and Yugoslavia,1,ALB,Albania,map
+Alexandria,1,,,DROP
+Alfa Romeo,1,,,DROP
+Alibaba,1,,,DROP
+All-African Trade Union Federation,1,,,DROP
+All-Union Central Council of Trade Unions,1,,,DROP
+Alliance of Bioversity International and CIAT,1,,,DROP
+Alliance of Small Island States,1,,,DROP
+Allianz,1,,,DROP
+Allied forces,1,,,DROP
+Alps,1,,,DROP
+American Airlines,1,,,DROP
+American Boxing Association,1,,,DROP
+American Chamber of Commerce in China,1,CHN,China,map
+Ancient India,1,IND,India,map
+Andean Group,1,,,DROP
+Andre Agassi,1,,,DROP
+Angkor,1,,,DROP
+Anheuser-Busch InBev,1,,,DROP
+Antara News Agency,1,,,DROP
+Antarctic Treaty Consultative Meeting,1,,,DROP
+Antarctic and Southern Ocean Coalition,1,,,DROP
+Antwerp,1,,,DROP
+Arab Artists Union,1,,,DROP
+Arab Bank,1,,,DROP
+Arab Cities Organization,1,,,DROP
+"Arab Federation of Chambers of Commerce, Industry and Agriculture",1,,,DROP
+Arab Football Union,1,,,DROP
+Arab Free Trade Area,1,,,DROP
+Arab Fund for Economic and Social Development,1,,,DROP
+Arab Gulf,1,,,DROP
+Arab ICT Organization,1,,,DROP
+Arab International Trade Union Federation,1,,,DROP
+Arab Journalists Association,1,,,DROP
+Arab Lawyers Union,1,,,DROP
+"Arab League Educational, Cultural and Scientific Organization",1,,,DROP
+Arab Maghreb Union,1,,,DROP
+Arab News,1,,,DROP
+Arab Petroleum Exporting Countries,1,,,DROP
+Arab Publishers Association,1,,,DROP
+Arab Republic Federation,1,,,DROP
+Arab Trade Union Federation,1,,,DROP
+"Arab Union of Chambers of Commerce, Industry and Agriculture",1,,,DROP
+Arab University Association,1,,,DROP
+Arab Women's Federation,1,,,DROP
+Arab and Asian countries,1,,,DROP
+Arab and Palestine,1,PSE,Palestinian Territories,map
+Arab company,1,,,DROP
+Arab region,1,,,DROP
+Arab-China Friendship Association,1,CHN,China,map
+Arab-China Friendship Writers and Media Professionals International Union,1,CHN,China,map
+Arctic,1,,,DROP
+Arctic University,1,,,DROP
+Arctic states,1,,,DROP
+Ariane,1,,,DROP
+Aristotle,1,,,DROP
+Arm,1,,,DROP
+Arsenal Football Club,1,,,DROP
+Asia Business Leaders Association,1,,,DROP
+Asia Employment Promotion Group,1,,,DROP
+Asia Pacific,1,,,DROP
+Asia Pacific Chief Justices Conference,1,,,DROP
+Asia Pacific Environmental Journalists Association,1,,,DROP
+Asia Pacific Golf Confederation,1,,,DROP
+Asia Pacific Law Association,1,,,DROP
+Asia Pacific Legal Association,1,,,DROP
+Asia Pacific Metrology Programme,1,,,DROP
+Asia Pacific Network Information Centre,1,,,DROP
+Asia Pacific Network of Science Centres,1,,,DROP
+Asia Paralympic Committee,1,,,DROP
+Asia Political Parties International Conference,1,,,DROP
+Asia Road Racing Championship,1,,,DROP
+Asia Society,1,,,DROP
+Asia Strategic Investment Company,1,,,DROP
+Asia Triathlon Confederation,1,,,DROP
+Asia and Pacific Development Centre,1,,,DROP
+Asia and Pacific Region Peace Liaison Committee,1,,,DROP
+Asia country,1,,,DROP
+Asia's Four Little Dragons,1,,,DROP
+Asia-Africa-Latin America countries,1,,,DROP
+Asia-Australia,1,AUS,Australia,map
+Asia-Europe,1,,,DROP
+Asia-Oceania Thyroid Association,1,,,DROP
+Asia-Pacific Agricultural Credit Association,1,,,DROP
+Asia-Pacific Economic and Social Commission,1,,,DROP
+Asia-Pacific Environmental Journalists Association,1,,,DROP
+Asia-Pacific Forestry Commission,1,,,DROP
+Asia-Pacific Network Information Centre,1,,,DROP
+Asia-Pacific Partnership on Clean Development,1,,,DROP
+Asia-Pacific Regional Aquaculture Center Network,1,,,DROP
+Asia-Pacific Skills Development Agency,1,,,DROP
+Asia-Pacific Telecommunity,1,,,DROP
+Asia-Pacific countries,1,,,DROP
+Asian African countries,1,,,DROP
+Asian Amateur Boxing Federation,1,,,DROP
+Asian Athletics Federation,1,,,DROP
+Asian Baseball Federation,1,,,DROP
+Asian Basketball Championship,1,,,DROP
+Asian Basketball Confederation,1,,,DROP
+Asian Billiards Federation,1,,,DROP
+Asian Bodybuilding Federation,1,,,DROP
+Asian Bowling Federation,1,,,DROP
+Asian Boxing Confederation,1,,,DROP
+Asian Chess Federation,1,,,DROP
+Asian Cycling Confederation,1,,,DROP
+Asian Development Bank Institute,1,,,DROP
+Asian Development Foundation,1,,,DROP
+Asian Disaster Preparedness Center,1,,,DROP
+Asian Federation of Philately,1,,,DROP
+Asian Games Council,1,,,DROP
+Asian Hockey Federation,1,,,DROP
+Asian Kabaddi Federation,1,,,DROP
+Asian Magic Federation,1,,,DROP
+Asian News Network,1,,,DROP
+Asian Ombudsman Association,1,,,DROP
+Asian Organization of Supreme Audit Institutions,1,,,DROP
+Asian Pacific Lawyers Association,1,,,DROP
+Asian Packaging Federation,1,,,DROP
+Asian Political Parties Conference,1,,,DROP
+Asian Political Parties International Conference,1,,,DROP
+Asian Productivity Organization,1,,,DROP
+Asian Reinsurance Corporation,1,,,DROP
+Asian Rowing Federation,1,,,DROP
+Asian Shooting Confederation,1,,,DROP
+Asian Softball Confederation,1,,,DROP
+Asian Solidarity Committee,1,,,DROP
+Asian Tennis Federation,1,,,DROP
+Asian Women's Conference,1,,,DROP
+Asian Yachting Federation,1,,,DROP
+Asian-African Badminton Federation,1,,,DROP
+Asian-African Writers' Conference,1,,,DROP
+Asian-African countries,1,,,DROP
+Asian-Oceanic Postal Union,1,,,DROP
+Asiana Airlines,1,,,DROP
+Association of Asian Parliaments for Peace,1,,,DROP
+Association of International Marathons and Distance Races,1,,,DROP
+Association of National Olympic Committees of Africa,1,,,DROP
+Astra,1,,,DROP
+Asus,1,,,DROP
+Athens Olympic Organizing Committee,1,,,DROP
+Athens Organizing Committee for the Olympic Games,1,,,DROP
+Atos,1,,,DROP
+Australian V8 Supercars,1,AUS,Australia,map
+Austrian Academy of Sciences,1,AUT,Austria,map
+Austrian Communist League,1,AUT,Austria,map
+Aventis CropScience,1,,,DROP
+Avolon,1,,,DROP
+Azad Kashmir,1,,,DROP
+A国,1,,,DROP
+B. Braun,1,,,DROP
+BASIC,1,,,DROP
+BDO International,1,,,DROP
+BID,1,,,DROP
+BIMSTEC,1,,,DROP
+BOA中心,1,,,DROP
+BRICS New Development Bank,1,,,DROP
+BV,1,,,DROP
+Bactria,1,,,DROP
+Baden-Württemberg,1,,,DROP
+Baekje,1,,,DROP
+Bahrain Merida Pro Cycling Team,1,BHR,Bahrain,map
+Bahrain Victorious,1,BHR,Bahrain,map
+Baker Hughes,1,,,DROP
+Balkan League,1,,,DROP
+"Bangladesh, China, India and Myanmar Economic Corridor",1,,,DROP
+Bank of America Merrill Lynch,1,,,DROP
+Bank of East Asia,1,,,DROP
+Bank of England,1,,,DROP
+Bantu,1,,,DROP
+Barclays,1,,,DROP
+Barclays Capital,1,,,DROP
+Bard College,1,,,DROP
+Bavaria,1,,,DROP
+Bavarian Academy of Sciences,1,,,DROP
+Baxter International,1,,,DROP
+BeXcom,1,,,DROP
+Bechuanaland People's Party,1,BWA,Botswana,map
+Belau,1,,,DROP
+Belgian Congo,1,COD,Congo - Kinshasa,map
+Belgrade,1,,,DROP
+Bengal,1,,,DROP
+Berlin International Film Festival,1,,,DROP
+Berlin Philharmonic,1,,,DROP
+Bern,1,,,DROP
+Berne Union,1,,,DROP
+Bertelsmann,1,,,DROP
+BioMed Central,1,,,DROP
+Black African Trade Union Federation,1,,,DROP
+Blanka Vlašić,1,,,DROP
+Bloomberg New Energy Finance,1,,,DROP
+Bloomberg News,1,,,DROP
+Bologna,1,,,DROP
+Borneo,1,,,DROP
+Bosnian Serbs,1,BIH,Bosnia & Herzegovina,map
+Boston Consulting Group,1,,,DROP
+Brasilia,1,,,DROP
+Brazilian Blue Air,1,BRA,Brazil,map
+Brazilian Center for Asia-Pacific Studies,1,BRA,Brazil,map
+Brazilian Red Cross,1,BRA,Brazil,map
+Brisbane,1,,,DROP
+Brookhurst School,1,,,DROP
+Brookings Institution,1,,,DROP
+Brotherhood of Asian Trade Unions,1,,,DROP
+Bruegel,1,,,DROP
+Business Software Alliance,1,,,DROP
+Byzantine,1,,,DROP
+C40,1,,,DROP
+C40 Cities Climate Leadership Group,1,,,DROP
+CA,1,,,DROP
+CAF,1,,,DROP
+CARE International,1,,,DROP
+CBM,1,,,DROP
+CDH Investments,1,,,DROP
+CIMMYT,1,,,DROP
+CME Group,1,,,DROP
+CNCF,1,,,DROP
+CSTO,1,,,DROP
+Caesar,1,,,DROP
+Calvin Klein,1,,,DROP
+Campbell,1,,,DROP
+Cargill,1,,,DROP
+Caribbean Development and Cooperation Committee,1,,,DROP
+Caribbean Table Tennis Federation,1,,,DROP
+Carlsberg,1,,,DROP
+Carnegie Endowment for International Peace,1,,,DROP
+Carnegie Mellon University,1,,,DROP
+Casablanca,1,,,DROP
+Casio,1,,,DROP
+Central African Customs and Economic Union,1,,,DROP
+Central American Common Market,1,,,DROP
+Central American Integration System,1,,,DROP
+Central Asia Regional Economic Cooperation Institute,1,,,DROP
+Central Coast Mariners,1,,,DROP
+Central and South America,1,,,DROP
+Centrist Democrat International,1,,,DROP
+Cessna,1,,,DROP
+Chad Basin Commission,1,TCD,Chad,map
+Chechnya,1,,,DROP
+CheckPoint,1,,,DROP
+China Everbright Limited,1,CHN,China,map
+China-Africa Development Fund,1,CHN,China,map
+China-CELAC Forum,1,CHN,China,map
+Chinese Taipei Athletics Association,1,TWN,Taiwan,map
+Chinese Taipei Softball Association,1,TWN,Taiwan,map
+Chinese Taipei Volleyball Association,1,TWN,Taiwan,map
+Christian Democrat International,1,,,DROP
+Christie's,1,,,DROP
+Clear Channel,1,,,DROP
+Clinique,1,,,DROP
+Club of Rome,1,,,DROP
+Codex Alimentarius Commission,1,,,DROP
+Colombo Plan,1,,,DROP
+Colombo Powers,1,,,DROP
+Columbia University,1,,,DROP
+Cominform,1,,,DROP
+Committee on Earth Observation Satellites,1,,,DROP
+Commonwealth Games Federation,1,,,DROP
+Commonwealth Science Committee,1,,,DROP
+Commonwealth Secretariat,1,,,DROP
+Communist Party of France,1,FRA,France,map
+Communist Party of Great Britain,1,GBR,United Kingdom,map
+Communist Party of Spain,1,ESP,Spain,map
+Communist Party of the United States,1,USA,United States,map
+Comprehensive Nuclear-Test-Ban Treaty Organization,1,,,DROP
+Conference on Interaction and Confidence-Building Measures in Asia,1,,,DROP
+Consultative Group on International Agricultural Research,1,,,DROP
+Consumers International,1,,,DROP
+Convention on International Trade in Endangered Species of Wild Fauna and Flora,1,,,DROP
+Copenhagen,1,,,DROP
+Costa Cruises,1,,,DROP
+Covidien,1,,,DROP
+Cronos,1,,,DROP
+Czech and Slovak Federal Republic,1,CZE,Czechia,map
+Czechia,1,CZE,Czechia,map
+C国,1,,,DROP
+DIALOG,1,,,DROP
+DMG MORI,1,,,DROP
+DNV·GL,1,,,DROP
+Daewoo,1,,,DROP
+Dakar,1,,,DROP
+Danube,1,,,DROP
+Danube River countries,1,,,DROP
+Darfur,1,,,DROP
+Dassault Falcon,1,,,DROP
+Dassault Systèmes,1,,,DROP
+Dayuezhi,1,,,DROP
+Dell,1,,,DROP
+Delphi,1,,,DROP
+Delta,1,,,DROP
+Demag,1,,,DROP
+Denso,1,,,DROP
+Dentsu,1,,,DROP
+Deutsche Telekom,1,,,DROP
+"Developing countries in Asia, Africa and Latin America",1,,,DROP
+Development Bank of Latin America,1,,,DROP
+Dior,1,,,DROP
+Doha,1,,,DROP
+Dominican Federation,1,,,DROP
+Dow Chemical,1,,,DROP
+Dream Cruises,1,,,DROP
+DuPont,1,,,DROP
+Duesseldorf,1,,,DROP
+Duisburg,1,,,DROP
+D国,1,,,DROP
+EIT,1,,,DROP
+EMEAP,1,,,DROP
+EMI,1,,,DROP
+ESA-IRS,1,,,DROP
+ESPN,1,,,DROP
+EVA Air,1,,,DROP
+East African Police Chiefs Cooperation Organization,1,,,DROP
+East Asia Bank,1,,,DROP
+East Asia Consortium,1,,,DROP
+East Asia Summit,1,,,DROP
+East Asia and Pacific countries,1,,,DROP
+East Asia countries,1,,,DROP
+East Asia-Latin America Forum,1,,,DROP
+East Asian Football Federation,1,,,DROP
+East Asian Games,1,,,DROP
+East Asian Olympic Committees,1,,,DROP
+East Berlin,1,,,DROP
+East Europe,1,,,DROP
+East India Company,1,IND,India,map
+East Malaysia,1,MYS,Malaysia,map
+East Turkestan Liberation Organization,1,,,DROP
+Eastern Caribbean Central Bank,1,,,DROP
+Eastern Roman Empire,1,,,DROP
+Economic Commission for Asia and the Far East,1,,,DROP
+Economic Commission for Latin America and the Caribbean,1,,,DROP
+Edward O. Wilson,1,,,DROP
+Eli Lilly and Company,1,,,DROP
+Emerging Economies,1,,,DROP
+Emerging Market Countries,1,,,DROP
+Emerging Markets,1,,,DROP
+England Table Tennis Association,1,,,DROP
+Epson,1,,,DROP
+Ernst & Young,1,,,DROP
+Etihad Airways,1,,,DROP
+Eurasian Medical Association,1,,,DROP
+Eurogroup,1,,,DROP
+Euronext,1,,,DROP
+European 50 Hz Group,1,,,DROP
+European Association for International Education,1,,,DROP
+European Association of Aerospace Industries,1,,,DROP
+European Association of Geochemistry,1,,,DROP
+European Association of Zoos and Aquaria,1,,,DROP
+European Athletics,1,,,DROP
+European Atomic Energy Community,1,,,DROP
+European Automobile Company,1,,,DROP
+European Automobile Manufacturers Association,1,,,DROP
+European Automobile Manufacturers' Association,1,,,DROP
+European Centre for Medium-Range Weather Forecasts,1,,,DROP
+European Coal and Steel Community,1,,,DROP
+European Common Market,1,,,DROP
+European Competitive Telecommunications Association,1,,,DROP
+European Ecological Academy,1,,,DROP
+European Economic and Social Committee,1,,,DROP
+European Financial Banking Group,1,,,DROP
+European Foreign Trade Association,1,,,DROP
+European Go Federation,1,,,DROP
+European Gymnastics Union,1,,,DROP
+European Integration Foundation,1,,,DROP
+European International Committee for Folk Arts,1,,,DROP
+European Liberal Democrat and Reform Party,1,,,DROP
+European Olympic Committees,1,,,DROP
+European Patent Organisation,1,,,DROP
+European People's Democracies,1,,,DROP
+European Police Office,1,,,DROP
+European Policy Centre,1,,,DROP
+European Research Council,1,,,DROP
+European Savings Banks Association,1,,,DROP
+European Spas Association,1,,,DROP
+European Sporting Goods Federation,1,,,DROP
+European Stability Mechanism,1,,,DROP
+European Telecommunications Satellite Organization,1,,,DROP
+European Times,1,,,DROP
+European Youth Council,1,,,DROP
+European Youth Forum,1,,,DROP
+European countries,1,,,DROP
+Export-Import Bank of the United States,1,USA,United States,map
+E国,1,,,DROP
+F.I.C.C.,1,,,DROP
+FC Bayern Munich,1,,,DROP
+FIATA,1,,,DROP
+FIDE,1,,,DROP
+FMG公司,1,,,DROP
+FSB,1,,,DROP
+Faroe Islands,1,FRO,Faroe Islands,map
+FedEx,1,,,DROP
+Federal Republic of Germany,1,DEU,Germany,map
+Ferghana,1,GHA,Ghana,map
+Fermilab,1,,,DROP
+Fernando Alonso,1,,,DROP
+Fieldbus Foundation,1,,,DROP
+Finnair,1,,,DROP
+Firmenich,1,,,DROP
+First International,1,,,DROP
+Fitch Ratings,1,,,DROP
+Fonterra,1,,,DROP
+Forbes,1,,,DROP
+Ford Motor Company,1,,,DROP
+Ford Motor Credit Company,1,,,DROP
+Foreign Investors,1,,,DROP
+Foreign institutions,1,,,DROP
+Foreign news agencies,1,,,DROP
+Foreigners,1,,,DROP
+Former Yugoslavia,1,,,DROP
+Foundation for European Progressive Studies,1,,,DROP
+Frankfurt Book Fair,1,,,DROP
+Free German Trade Union Federation,1,,,DROP
+Free German Youth,1,,,DROP
+Freepik,1,,,DROP
+French Africa,1,,,DROP
+French Communist Party,1,,,DROP
+French Development Agency,1,,,DROP
+French General Confederation of Labour,1,,,DROP
+French Open,1,,,DROP
+French Somaliland,1,,,DROP
+Frontline States,1,,,DROP
+Fuji,1,,,DROP
+Fuji Heavy Industries,1,,,DROP
+G77,1,,,DROP
+GAB Robins,1,,,DROP
+GE HealthCare,1,,,DROP
+GE Healthcare,1,,,DROP
+GEMPLUS,1,,,DROP
+Games of the New Emerging Forces Federation,1,,,DROP
+Ganges,1,,,DROP
+Gaochang,1,,,DROP
+Garuda Indonesia,1,IDN,Indonesia,map
+Gavi,1,,,DROP
+General Confederation of Labor (France),1,FRA,France,map
+General Confederation of Trade Unions of the CIS,1,,,DROP
+"General Union of Chambers of Commerce, Industry and Agriculture for Arab Countries",1,,,DROP
+Geneva,1,,,DROP
+Geneva Association,1,,,DROP
+German Chamber of Commerce in China,1,CHN,China,map
+German Communist Party,1,,,DROP
+GitHub,1,,,DROP
+Global Alliance for Vaccines and Immunization,1,,,DROP
+Global Anti-Counterfeiting Organization,1,,,DROP
+"Global Fund to Fight AIDS, Tuberculosis and Malaria",1,,,DROP
+Global Information Infrastructure Commission,1,,,DROP
+Global Legal Entity Identifier Foundation,1,,,DROP
+Global Non-Offensive Defense Network,1,,,DROP
+Global North,1,,,DROP
+Global Summit of Women,1,,,DROP
+Global Switch,1,,,DROP
+Global Union Shipping,1,,,DROP
+Gosper,1,,,DROP
+Governments,1,,,DROP
+Grameen Bank,1,,,DROP
+Green Climate Fund,1,,,DROP
+Group of 15,1,,,DROP
+Guinea-Bissau and Cape Verde,1,,,DROP
+Guinea-Bissau and Cape Verde African Party for the Independence,1,,,DROP
+Gulf Arab region,1,,,DROP
+Gulf Arab states,1,,,DROP
+Gulf region,1,,,DROP
+Gulf states,1,,,DROP
+Gulfstream,1,,,DROP
+Haka,1,,,DROP
+Halliburton,1,,,DROP
+Hapag-Lloyd,1,,,DROP
+HarperCollins,1,,,DROP
+Harvard Business School,1,,,DROP
+Harvard-Yenching Library,1,,,DROP
+Hawker Beechcraft,1,,,DROP
+Heidelberg,1,,,DROP
+Heifer International,1,,,DROP
+Heineken,1,,,DROP
+HelpAge International,1,,,DROP
+Henkel,1,,,DROP
+Hewlett-Packard,1,,,DROP
+Hiroshima,1,,,DROP
+Ho Chi Minh City,1,,,DROP
+Hollywood,1,,,DROP
+Hong Kong Monetary Authority,1,,,DROP
+Houston Rockets,1,,,DROP
+Howard Hughes Medical Institute,1,,,DROP
+Hsinchu,1,,,DROP
+Hubble Space Telescope,1,,,DROP
+Hungarian National Bank,1,,,DROP
+Hyundai Motor Group,1,,,DROP
+H国,1,,,DROP
+IABSE,1,,,DROP
+IAIS,1,,,DROP
+IASGO,1,,,DROP
+IBC Asia Limited,1,,,DROP
+ICOMOS,1,,,DROP
+IECEE,1,,,DROP
+IECEECB体系,1,,,DROP
+IETF,1,,,DROP
+IFBB,1,,,DROP
+IFEA,1,,,DROP
+IFSCC,1,,,DROP
+IFTF,1,,,DROP
+IGA,1,,,DROP
+IMAX,1,,,DROP
+INBAR,1,,,DROP
+IOC,1,,,DROP
+IOSCO,1,,,DROP
+IPMA,1,,,DROP
+IQM公司,1,,,DROP
+IQNET,1,,,DROP
+IQNet,1,,,DROP
+ISPA国际表演艺术协会,1,,,DROP
+ISSA,1,,,DROP
+ITTF,1,,,DROP
+ITV,1,,,DROP
+Incheon,1,,,DROP
+India Ocean Region,1,,,DROP
+Indian Ocean,1,,,DROP
+Indian Ocean Commission,1,,,DROP
+Indian Ocean Rim Association,1,,,DROP
+Indus,1,,,DROP
+Indus Valley,1,,,DROP
+Industrialized countries,1,,,DROP
+Infineon,1,,,DROP
+Innomotics,1,,,DROP
+Institute of International Finance,1,,,DROP
+Intelsat,1,,,DROP
+Intergovernmental Panel on Climate Change,1,,,DROP
+International AIDS Society,1,,,DROP
+International Abilympics Federation,1,,,DROP
+International Academy of Pathology,1,,,DROP
+International Agency for Research on Cancer,1,,,DROP
+International Agricultural Credit Federation,1,,,DROP
+International Agricultural Research Consortium,1,,,DROP
+International Agricultural Research Consultative Group,1,,,DROP
+International Air Cargo Association,1,,,DROP
+International Aluminium Institute,1,,,DROP
+International Amateur Basketball Federation,1,,,DROP
+International Amateur Boxing Federation,1,,,DROP
+International Amateur Cycling Federation,1,,,DROP
+International Antarctic Research Committee,1,,,DROP
+International Article Numbering Association,1,,,DROP
+International Association,1,,,DROP
+International Association for Aesthetics,1,,,DROP
+International Association for Disabled Sailing,1,,,DROP
+International Association for Fire Safety Science,1,,,DROP
+International Association for Fitness and Mass Sports,1,,,DROP
+International Association for Pattern Recognition,1,,,DROP
+International Association for Sports Information,1,,,DROP
+International Association for the Protection of Industrial Property,1,,,DROP
+International Association for the Study of Lung Cancer,1,,,DROP
+International Association of Anti-Corruption Authorities,1,,,DROP
+International Association of Corporate Lawyers,1,,,DROP
+International Association of Diving Instructors,1,,,DROP
+International Association of Engineering Geology,1,,,DROP
+International Association of Hydrogeologists,1,,,DROP
+International Association of Independent Tanker Owners,1,,,DROP
+International Association of Lighting Designers,1,,,DROP
+International Association of Marine Aids to Navigation and Lighthouse Authorities,1,,,DROP
+International Association of Metropolises,1,,,DROP
+International Association of Mini-Basketball,1,,,DROP
+International Association of National Academies of Sciences,1,,,DROP
+International Association of Performing Arts,1,,,DROP
+International Association of Ports and Harbors,1,,,DROP
+International Association of Procedural Law,1,,,DROP
+International Association of Science Parks,1,,,DROP
+"International Association of Scientific, Technical and Medical Publishers",1,,,DROP
+International Association of Seismology and Physics of the Earth's Interior,1,,,DROP
+International Association of Translation and Intercultural Studies,1,,,DROP
+International Association of Universities of Physical Education,1,,,DROP
+International Association of Venue Managers,1,,,DROP
+International Association of Volcanology and Chemistry of the Earth's Interior,1,,,DROP
+International Association of Youth and Family Judges,1,,,DROP
+International Baccalaureate Organization,1,,,DROP
+International Bamboo and Rattan Organization,1,,,DROP
+International Banking Syndicate,1,,,DROP
+International Billiards Federation,1,,,DROP
+International Billiards and Snooker Federation,1,,,DROP
+International Brotherhood of Magicians,1,,,DROP
+International Bureau of Education,1,,,DROP
+International Center for Tropical Agriculture,1,,,DROP
+International Center of Films for Children and Young People,1,,,DROP
+International Centre for Theoretical Physics,1,,,DROP
+International Centre of Films for Children and Young People,1,,,DROP
+International Certification Network,1,,,DROP
+International Children's Adoption Association,1,,,DROP
+International Climbing and Mountaineering Federation,1,,,DROP
+International Commercial Bank of Credit,1,,,DROP
+International Commission for Color in Fashion and Textiles,1,,,DROP
+International Commission of Jurists,1,,,DROP
+International Committee of Agricultural Engineering,1,,,DROP
+International Committee of Money and Banking Museums,1,,,DROP
+International Consumers Union,1,,,DROP
+International Contact Group on the Former Yugoslavia,1,,,DROP
+International Coordinating Committee for the Disabled,1,,,DROP
+International Coordinating Committee of World Organizations of the Disabled,1,,,DROP
+International Cotton Advisory Committee,1,,,DROP
+International Council,1,,,DROP
+International Council for Control of Iodine Deficiency Disorders,1,,,DROP
+International Council for Industrial and Applied Mathematics,1,,,DROP
+International Council for Scientific and Technical Information,1,,,DROP
+International Council of Academies of Engineering and Technological Sciences,1,,,DROP
+International Council of Nurses,1,,,DROP
+International Council of Shopping Centers,1,,,DROP
+International Council of Women,1,,,DROP
+International Court of Arbitration for Sport,1,,,DROP
+International Criminal Tribunal for the former Yugoslavia,1,,,DROP
+International Crops Research Institute for the Semi-Arid Tropics,1,,,DROP
+International Curling Federation,1,,,DROP
+International Customs Cooperation Council,1,,,DROP
+International Dance Council,1,,,DROP
+International Dark-Sky Association,1,,,DROP
+International Data Spaces Association,1,,,DROP
+International Development Research Centre,1,,,DROP
+International Digestive Cancer Alliance,1,,,DROP
+International Disability Alliance,1,,,DROP
+International Down and Feather Bureau,1,,,DROP
+International Drinking Water Protection Organization,1,,,DROP
+International Economic Association,1,,,DROP
+International Education Foundation,1,,,DROP
+International Energy Charter,1,,,DROP
+International Energy Efficiency Partnership,1,,,DROP
+International Engineering Alliance,1,,,DROP
+International Esperanto Congress,1,,,DROP
+International Eurasian Academy of Sciences,1,,,DROP
+International Europe Class Sailing Federation,1,,,DROP
+International Exhibition Bureau,1,,,DROP
+International Federation for Human Rights,1,,,DROP
+International Federation for Information Processing,1,,,DROP
+International Federation of Accountants,1,,,DROP
+International Federation of Authors and Composers,1,,,DROP
+International Federation of Automatic Control,1,,,DROP
+International Federation of Bodybuilding & Fitness,1,,,DROP
+International Federation of Building and Wood Workers,1,,,DROP
+International Federation of Disabled Persons,1,,,DROP
+International Federation of English Eight Ball,1,,,DROP
+International Federation of Essential Oils and Aroma Trades,1,,,DROP
+International Federation of Football Association,1,,,DROP
+International Federation of Gynecology and Obstetrics,1,,,DROP
+International Federation of Metalworkers' Unions,1,,,DROP
+International Federation of Motorboating,1,,,DROP
+International Federation of Muaythai Associations,1,,,DROP
+International Federation of Non-Olympic Sports,1,,,DROP
+International Federation of Organic Agriculture Movements,1,,,DROP
+International Federation of Popular Sports,1,,,DROP
+International Federation of Scholarly Associations of Management,1,,,DROP
+International Federation of Sports Medicine,1,,,DROP
+International Federation of the Periodical Press,1,,,DROP
+International Federation on Ageing,1,,,DROP
+International Federations Union,1,,,DROP
+International Fertilizer Development Center,1,,,DROP
+International Financial Reporting Standards Foundation,1,,,DROP
+International Football Federation,1,,,DROP
+International Foundation for Mental Health and Neuroscience,1,,,DROP
+International Gas Union,1,,,DROP
+International Genetic Society,1,,,DROP
+International Geographical Union,1,,,DROP
+International Geothermal Association,1,,,DROP
+International Golf Association,1,,,DROP
+International Grains Council,1,,,DROP
+International Higher Education Academy of Sciences,1,,,DROP
+International Hotel & Restaurant Association,1,,,DROP
+International Hotels Group,1,,,DROP
+International Hydrographic Organization,1,,,DROP
+International Institute for Literacy Education,1,,,DROP
+International Institute of Welding,1,,,DROP
+International Internal Audit Association,1,,,DROP
+International Karting Federation,1,,,DROP
+International Kettlebell Lifting Union,1,,,DROP
+International Labour Inspection Association,1,,,DROP
+International Lake Environment Committee,1,,,DROP
+International Life Sciences Institute,1,,,DROP
+International Livestock Research Institute,1,,,DROP
+International Magicians Society,1,,,DROP
+International Management Group,1,,,DROP
+International Maritime Committee,1,,,DROP
+International Mars Observation Union,1,,,DROP
+International Mercury Gold Award Organization,1,,,DROP
+International Meteor Organization,1,,,DROP
+International Mineral Processing Council,1,,,DROP
+International Mobile Satellite Organization,1,,,DROP
+International Model Power Boat Association,1,,,DROP
+International Model Yacht Association,1,,,DROP
+International Modern Pentathlon and Biathlon Union,1,,,DROP
+International Monetary Conference,1,,,DROP
+International Mountaineering and Climbing Federation,1,,,DROP
+International Mushroom Society,1,,,DROP
+International Muslim Women Sports Games,1,,,DROP
+International Occultation Timing Association,1,,,DROP
+International Ocean Institute,1,,,DROP
+International Office of Vine and Wine,1,,,DROP
+International Olympic Academy,1,,,DROP
+International Olympic Truce Centre,1,,,DROP
+International Ombudsman Institute,1,,,DROP
+International Orbis Flying Eye Hospital,1,,,DROP
+International Orbis Organization,1,,,DROP
+International Organisation of Employers,1,,,DROP
+International Organization Against Trachoma,1,,,DROP
+International Organization for Medical Physics,1,,,DROP
+International Organization of Supreme Audit Institutions,1,,,DROP
+International Orienteering Federation,1,,,DROP
+International Palaeontological Association,1,,,DROP
+International Paneuropean Union,1,,,DROP
+International Parachuting Commission,1,,,DROP
+International Paralympic Sailing Federation,1,,,DROP
+International Pharmaceutical Association,1,,,DROP
+International Pierre de Coubertin Committee,1,,,DROP
+International Plan,1,,,DROP
+International Planetary Society,1,,,DROP
+International Platinum Association,1,,,DROP
+International Political Science Association,1,,,DROP
+International Press Institute,1,,,DROP
+International Progressive Organization,1,,,DROP
+International Protein Society,1,,,DROP
+International Public Relations Association,1,,,DROP
+International Puppetry Association,1,,,DROP
+International Radio and Television Organization,1,,,DROP
+International Red Crescent,1,,,DROP
+International Reindeer Breeders Association,1,,,DROP
+International Rescue Committee,1,,,DROP
+International Road Federation,1,,,DROP
+International Roller Skating Federation,1,,,DROP
+International Rotary,1,,,DROP
+International Rural Medical Association,1,,,DROP
+International Salvage Union,1,,,DROP
+International Satellite Organization,1,,,DROP
+International Savings Banks Institute,1,,,DROP
+International Scientific Film Association,1,,,DROP
+International Seed Federation,1,,,DROP
+International Ski Mountaineering Federation,1,,,DROP
+International Sleep Bed Association,1,,,DROP
+International Social Science Council,1,,,DROP
+International Society for Internal Fixation,1,,,DROP
+International Society for Music Education,1,,,DROP
+International Society for Neurochemistry,1,,,DROP
+International Society for Organ Transplantation,1,,,DROP
+International Society for Plant Pathology,1,,,DROP
+International Society for the Performing Arts,1,,,DROP
+International Society of Nephrology,1,,,DROP
+International Space Science Institute,1,,,DROP
+International Special Olympics Committee,1,,,DROP
+International Sports Federations,1,,,DROP
+International Sports Organization for the Disabled,1,,,DROP
+International Sports Organizations,1,,,DROP
+International Team,1,,,DROP
+International Testing Agency,1,,,DROP
+International Textile and Clothing Bureau,1,,,DROP
+International Thermonuclear Experimental Reactor,1,,,DROP
+International Tin Council,1,,,DROP
+International Traffic Medicine Society,1,,,DROP
+International Tropical Timber Organization,1,,,DROP
+International Tunnelling Association,1,,,DROP
+International Union for Physical and Engineering Sciences in Medicine,1,,,DROP
+"International Union for Vacuum Science, Technique and Applications",1,,,DROP
+International Union of Basic and Clinical Pharmacology,1,,,DROP
+International Union of Forest Research Organizations,1,,,DROP
+International Union of Immunological Societies,1,,,DROP
+International Union of Latin Notaries,1,,,DROP
+International Union of Lawyers,1,,,DROP
+International Union of Nutritional Sciences,1,,,DROP
+International Union of Psychological Science,1,,,DROP
+International Valuation Standards Council,1,,,DROP
+International Value Engineering Society,1,,,DROP
+International Water Management Institute,1,,,DROP
+International Water Resources Protection Organization,1,,,DROP
+International Waterski & Wakeboard Federation,1,,,DROP
+International Weightlifting and Fitness Federation,1,,,DROP
+International Whaling Commission,1,,,DROP
+International Wildlife Conservation Society,1,,,DROP
+International Women's Football Committee,1,,,DROP
+International Youth Foundation,1,,,DROP
+International Youth Olympic Skills Competition Committee,1,,,DROP
+International Youth Olympic Skills Competition Organization,1,,,DROP
+International Youth Travel Organization Federation,1,,,DROP
+International institutions,1,,,DROP
+International organizations,1,,,DROP
+International proletariat,1,,,DROP
+Internationaler Volkssportverband,1,,,DROP
+Interstoff,1,,,DROP
+Interwise,1,,,DROP
+Iraq-Jordan Federation,1,,,DROP
+Iraq-Kuwait Observation Mission,1,,,DROP
+Irish Republican Army,1,,,DROP
+Islamic,1,,,DROP
+Italian Volleyball Federation,1,,,DROP
+Itochu,1,,,DROP
+JCDecaux,1,,,DROP
+Jacques Rogge,1,,,DROP
+Jane Goodall,1,,,DROP
+Japan International Cooperation Agency,1,JPN,Japan,map
+Japan NPO,1,JPN,Japan,map
+Jewish,1,,,DROP
+Jewish diaspora,1,,,DROP
+Jewish refugees,1,,,DROP
+Jibin,1,,,DROP
+Jin Dynasty,1,,,DROP
+JobsDB.com,1,,,DROP
+Johnson & Johnson,1,,,DROP
+Juan Antonio Samaranch,1,,,DROP
+Jupiter,1,,,DROP
+KPMG,1,,,DROP
+KPMG International,1,,,DROP
+KUKA,1,,,DROP
+Kangju,1,,,DROP
+Kaohsiung,1,,,DROP
+Kasikornbank,1,,,DROP
+Katanga,1,,,DROP
+Kazan,1,,,DROP
+Kenney Center for the Performing Arts,1,,,DROP
+Khitan,1,,,DROP
+Khmer Republic,1,KHM,Cambodia,map
+Kia,1,,,DROP
+Kilwa,1,,,DROP
+Kim Un-yong,1,,,DROP
+Korea-China City Friendship Association,1,,,DROP
+Kosovo Liberation Army,1,,,DROP
+Kraft Heinz,1,,,DROP
+Kuala Lumpur,1,,,DROP
+Kurdistan Workers' Party,1,,,DROP
+Kuwait Football Association,1,KWT,Kuwait,map
+Kuwait Fund for Arab Economic Development,1,KWT,Kuwait,map
+Kyodo News,1,,,DROP
+LG Electronics,1,,,DROP
+LG Group,1,,,DROP
+LME,1,,,DROP
+LNM集团,1,,,DROP
+LV,1,,,DROP
+Lafarge,1,,,DROP
+Latin America and Caribbean Youth Center,1,,,DROP
+Latin America and the Caribbean Community,1,,,DROP
+Latin America and the Caribbean Nuclear-Weapon-Free Zone,1,,,DROP
+Latin America and the Caribbean countries,1,,,DROP
+Latin American Countries,1,,,DROP
+Latin American Federation of Telecommunications Workers,1,,,DROP
+Latin American Fertilizer Development Association,1,,,DROP
+Latin American Journalists Federation,1,,,DROP
+Latin American News Agency,1,,,DROP
+Latin American Nuclear Weapon Free Zone Organization,1,,,DROP
+Latin American Political Parties Union,1,,,DROP
+Latin American Table Tennis Federation,1,,,DROP
+Latin American Table Tennis Union,1,,,DROP
+Latin American communist parties,1,,,DROP
+Latin American country,1,,,DROP
+Laureus World Sports Academy,1,,,DROP
+Laureus World Sports Awards,1,,,DROP
+League of Red Cross Societies,1,,,DROP
+Least Developed Countries,1,,,DROP
+Lebanese Hezbollah,1,,,DROP
+Lenovo,1,,,DROP
+Leopoldville government,1,COD,Congo - Kinshasa,map
+Lexus,1,,,DROP
+Liang,1,,,DROP
+Liao,1,,,DROP
+Liberal International,1,,,DROP
+Lillehammer,1,,,DROP
+Linaro,1,,,DROP
+LinkedIn,1,,,DROP
+Linux Foundation,1,,,DROP
+Liverpool,1,,,DROP
+London Olympic Games,1,,,DROP
+London Organising Committee,1,,,DROP
+London Organising Committee of the Olympic and Paralympic Games,1,,,DROP
+London Organizing Committee,1,,,DROP
+London Stock Exchange,1,,,DROP
+Loral,1,,,DROP
+Louis Vuitton,1,,,DROP
+Lucent,1,,,DROP
+Lufthansa Cargo,1,,,DROP
+Lululemon,1,,,DROP
+Lumumba,1,,,DROP
+L国,1,,,DROP
+MAN,1,,,DROP
+MSC Cruises,1,,,DROP
+MTV,1,,,DROP
+MTV全球音乐电视台,1,,,DROP
+Maghreb,1,,,DROP
+Magna,1,,,DROP
+Malay Peninsula,1,,,DROP
+Malaysia City Bookstore,1,MYS,Malaysia,map
+Mali Empire,1,MLI,Mali,map
+Malindi,1,,,DROP
+Malmo,1,,,DROP
+Manchester United,1,,,DROP
+Mandala Airlines,1,,,DROP
+Marie Stopes International,1,,,DROP
+Marriott International,1,,,DROP
+Marx,1,,,DROP
+Marxist-Leninist parties,1,,,DROP
+MasterCard International,1,,,DROP
+Mastercard International,1,,,DROP
+Masters Tournament,1,,,DROP
+Maxwell House,1,,,DROP
+Maya,1,,,DROP
+McDonald's,1,,,DROP
+McDonnell Douglas,1,,,DROP
+McLaren,1,,,DROP
+Mediterranean countries,1,,,DROP
+Medtronic,1,,,DROP
+Mekong River,1,,,DROP
+Mekong Subregion,1,,,DROP
+Mekong countries,1,,,DROP
+Mercedes,1,,,DROP
+Merck & Co.,1,,,DROP
+Meridian,1,,,DROP
+Merrill Lynch,1,,,DROP
+Metro AG,1,,,DROP
+Metso Corporation,1,,,DROP
+Mexico City,1,MEX,Mexico,map
+MiaSolé,1,,,DROP
+Michelin,1,,,DROP
+Middle East NOC,1,,,DROP
+Middle East countries,1,,,DROP
+Milan,1,,,DROP
+Milan Expo,1,,,DROP
+Mitsubishi Heavy Industries,1,,,DROP
+Mitsui,1,,,DROP
+Mittal,1,,,DROP
+Mobutu,1,,,DROP
+Monte Carlo International Circus Festival,1,,,DROP
+Moody's Corporation,1,,,DROP
+Moumié,1,,,DROP
+Mughal Empire,1,,,DROP
+Murcia,1,,,DROP
+Murray-Darling,1,,,DROP
+Muslim Brotherhood,1,,,DROP
+Muslim countries,1,,,DROP
+M公司,1,,,DROP
+NHK,1,,,DROP
+NHL,1,,,DROP
+NIBSC,1,,,DROP
+Napoleon,1,,,DROP
+Nasdaq,1,,,DROP
+National Geographic,1,,,DROP
+National Liberation Front of South Vietnam,1,VNM,Vietnam,map
+National Olympic Committees,1,,,DROP
+National Transitional Council of Libya,1,LBY,Libya,map
+Neva River,1,,,DROP
+New York,1,,,DROP
+New York Times,1,,,DROP
+Newly industrialized countries,1,,,DROP
+Nile,1,,,DROP
+Nimbus,1,,,DROP
+Noble Agri,1,,,DROP
+Noble Group,1,,,DROP
+Non-Aligned Movement News Agencies Pool,1,,,DROP
+Nordic Cooperation Committee for the Blind,1,,,DROP
+Nordic Union Bank,1,,,DROP
+Nordic welfare states,1,,,DROP
+North American Bridge Federation,1,,,DROP
+North Networks,1,,,DROP
+North Pacific,1,,,DROP
+North countries,1,,,DROP
+Northern Cyprus,1,CYP,Cyprus,map
+Northern Telecom,1,,,DROP
+Northwest Airlines,1,,,DROP
+Northwest Europe,1,,,DROP
+Norton,1,,,DROP
+Nu Skin Enterprises,1,,,DROP
+Nucor,1,,,DROP
+NunaMinerals,1,,,DROP
+Nyasaland,1,MWI,Malawi,map
+Nyecomed,1,,,DROP
+OBS,1,,,DROP
+OCIA,1,,,DROP
+OECD countries,1,,,DROP
+OPEC Fund for International Development,1,,,DROP
+ORBIT,1,,,DROP
+Oceania Football Confederation,1,,,DROP
+Ogilvy,1,,,DROP
+Oil-producing Countries,1,,,DROP
+Omega,1,,,DROP
+Opel,1,,,DROP
+Oppressed nations,1,,,DROP
+Organization for Cooperation of Railways,1,,,DROP
+Organization of Arab Petroleum Exporting Countries,1,,,DROP
+Organization of the Islamic Conference,1,,,DROP
+Organization of the Petroleum Exporting Countries,1,,,DROP
+Ottobock,1,,,DROP
+Oversea-Chinese Banking Corporation,1,,,DROP
+Oxford University Press,1,,,DROP
+P&O,1,,,DROP
+P&O Ports,1,,,DROP
+PATA,1,,,DROP
+PBS,1,,,DROP
+PLO,1,,,DROP
+PSA,1,,,DROP
+PSA Peugeot Citroën,1,,,DROP
+PSA标致雪铁龙,1,,,DROP
+PSV Eindhoven,1,,,DROP
+Pac-12,1,,,DROP
+Pacific,1,,,DROP
+Pacific Accreditation Cooperation,1,,,DROP
+Pacific Community,1,,,DROP
+Pacific Island countries,1,,,DROP
+Pacific Region,1,,,DROP
+Pacific Rim countries,1,,,DROP
+Pacific Tourism Organisation,1,,,DROP
+Pacific Tsunami Warning Center,1,,,DROP
+Pacific Tsunami Warning System,1,,,DROP
+Page One,1,,,DROP
+Pakistan International Airlines,1,PAK,Pakistan,map
+Palestine Liberation Movement (Fatah),1,PSE,Palestinian Territories,map
+Palestine Liberation Organization (Fatah),1,PSE,Palestinian Territories,map
+Palestine Red Crescent Society,1,PSE,Palestinian Territories,map
+Pan American Badminton Federation,1,,,DROP
+Pan American Health Organization,1,,,DROP
+Pan Pacific Judo Organization,1,,,DROP
+Pan Pacific Swimming Association,1,,,DROP
+Panama Broad Democratic Front,1,PAN,Panama,map
+Paramount,1,,,DROP
+Paramount Pictures,1,,,DROP
+Paris Agreement,1,,,DROP
+Paris Conference,1,,,DROP
+Paris Organising Committee,1,,,DROP
+Partners in Population and Development,1,,,DROP
+Partnerships in Environmental Management for the Seas of East Asia,1,,,DROP
+Patriotic Front of Zimbabwe,1,ZWE,Zimbabwe,map
+Pemba,1,,,DROP
+Pernod Ricard,1,,,DROP
+Persian Gulf States,1,IRN,Iran,map
+Peugeot,1,,,DROP
+Philadelphia Orchestra,1,,,DROP
+Philippines News Agency,1,PHL,Philippines,map
+Phoenicia,1,,,DROP
+Phoenix Contact,1,,,DROP
+Plan International,1,,,DROP
+PolyGram,1,,,DROP
+Portugal Telecom,1,PRT,Portugal,map
+Poznan,1,,,DROP
+Première Vision,1,,,DROP
+Press Trust of India,1,IND,India,map
+Prince Fahad Al-Ahmed,1,,,DROP
+Procter & Gamble,1,,,DROP
+Project Management Institute,1,,,DROP
+Proton,1,,,DROP
+Puma,1,,,DROP
+PwC,1,,,DROP
+PyeongChang Organizing Committee,1,,,DROP
+Pyramids,1,,,DROP
+Qatar Airways,1,QAT,Qatar,map
+Qatar National Bank,1,QAT,Qatar,map
+Quora,1,,,DROP
+R&A,1,,,DROP
+RCEP countries,1,,,DROP
+RCEP成员国,1,,,DROP
+RCI,1,,,DROP
+RQFII,1,,,DROP
+Ramsar Convention Secretariat,1,,,DROP
+Ramsar Convention on Wetlands,1,,,DROP
+Raytheon,1,,,DROP
+RealNetworks,1,,,DROP
+Red Bull,1,,,DROP
+Red Bull Racing,1,,,DROP
+Red Cross International Committee,1,,,DROP
+Reebok International,1,,,DROP
+Register.com,1,,,DROP
+Renault F1 Team,1,,,DROP
+Republic of Korea,1,KOR,South Korea,map
+Republic of the Congo (Stanleyville),1,COG,Congo - Brazzaville,map
+Rio 2016 Organising Committee,1,,,DROP
+Rio Grande,1,,,DROP
+Rio de la Plata,1,,,DROP
+Rockwell Automation,1,,,DROP
+Roland Berger,1,,,DROP
+Roman Club,1,,,DROP
+Royal Caribbean,1,,,DROP
+Royal Caribbean International,1,,,DROP
+Royal Dutch Shell,1,,,DROP
+Royal Dutch Walking Association,1,,,DROP
+Russia Strategic Research Institute,1,RUS,Russia,map
+Russia Today,1,RUS,Russia,map
+Russian Federal Space Agency,1,RUS,Russia,map
+Ryanair,1,,,DROP
+Ryukyu,1,,,DROP
+Réunion Communist Party,1,REU,Réunion,map
+SABMiller,1,,,DROP
+SADC,1,,,DROP
+SAE International,1,,,DROP
+SAGA,1,,,DROP
+SAS,1,,,DROP
+SATRA,1,,,DROP
+SCOPE,1,,,DROP
+SGS,1,,,DROP
+SK-II,1,,,DROP
+SKA Observatory,1,,,DROP
+SPEEDO,1,,,DROP
+STMicroelectronics,1,,,DROP
+Saga Furs,1,,,DROP
+Sahara Desert,1,,,DROP
+Sahel Committee,1,,,DROP
+Saint Helena,1,SHN,St. Helena,map
+Saint Petersburg,1,,,DROP
+Saipan,1,,,DROP
+Salon International de la Mode Féminine,1,,,DROP
+Salt Lake City,1,,,DROP
+Samaranch,1,,,DROP
+Samsung Electronics,1,,,DROP
+San Antonio Spurs,1,,,DROP
+San Francisco,1,,,DROP
+Sanna,1,,,DROP
+Santander Bank,1,,,DROP
+Sanyo,1,,,DROP
+Sasaki Associates,1,,,DROP
+Saudi Basic Industries Corporation,1,,,DROP
+Save the Children,1,,,DROP
+Scandinavian Airlines,1,,,DROP
+Schaeffler,1,,,DROP
+Schroders,1,,,DROP
+Second International,1,,,DROP
+Secretariat of the Convention on Biological Diversity,1,,,DROP
+Secretariat of the Ramsar Convention,1,,,DROP
+Security Council,1,,,DROP
+Seoul,1,,,DROP
+Shakespeare,1,,,DROP
+Shan State,1,,,DROP
+Shanghai Five,1,,,DROP
+Siberia,1,,,DROP
+Siemens VAI,1,,,DROP
+Sierra Wireless,1,SLE,Sierra Leone,map
+Silla,1,,,DROP
+Singapore Changi Airport,1,SGP,Singapore,map
+Sisvel,1,,,DROP
+Sivalik Hills,1,,,DROP
+Smile Train,1,,,DROP
+Social Democratic Party of Germany,1,DEU,Germany,map
+Socialist camp,1,,,DROP
+Society of Automotive Engineers,1,,,DROP
+Sofia,1,,,DROP
+Sogdia,1,,,DROP
+Solar Impulse,1,,,DROP
+Solibro,1,,,DROP
+Somalia Coast Liberation Front,1,SOM,Somalia,map
+Song Dynasty,1,,,DROP
+Sony Ericsson,1,,,DROP
+Sophos,1,,,DROP
+Soudal Quick-Step,1,,,DROP
+Soudal-QuickStep,1,,,DROP
+South America East Coast,1,,,DROP
+South America Table Tennis Federation,1,,,DROP
+South America and Africa,1,,,DROP
+South American Table Tennis Confederation,1,,,DROP
+South Arabia,1,,,DROP
+South Asia (five countries),1,,,DROP
+South Pacific Nuclear Free Zone,1,,,DROP
+South Pacific Regional Environment Programme,1,,,DROP
+South Pacific Tourism Organization,1,,,DROP
+South Tianzhu,1,,,DROP
+South countries,1,,,DROP
+Southeast Asian Mathematical Society,1,,,DROP
+Southeast Asian country,1,,,DROP
+Southern African Development Coordination Conference,1,,,DROP
+Southern Centre,1,,,DROP
+Southern Commission,1,,,DROP
+Southern Europe,1,,,DROP
+Southwest Pacific,1,,,DROP
+Soviet Union and Eastern Europe,1,RUS,Russia,map
+Standard Chartered,1,,,DROP
+State of Vietnam,1,VNM,Vietnam,map
+Stockholm World Water Week,1,,,DROP
+Sudan Liberation Movement,1,SDN,Sudan,map
+Sudan People's Liberation Movement,1,,,DROP
+Sudanese Union Party,1,SDN,Sudan,map
+Sumitomo Electric,1,,,DROP
+Suzuki,1,,,DROP
+Svalbard,1,SJM,Svalbard & Jan Mayen,map
+Swatch,1,,,DROP
+Swaziland People's National Liberation Congress,1,SWZ,Eswatini,map
+Swaziland Progressive Party,1,SWZ,Eswatini,map
+Swiss Philanthropy Foundation,1,CHE,Switzerland,map
+Swiss Re,1,CHE,Switzerland,map
+Symantec,1,,,DROP
+Syngenta,1,,,DROP
+Syria-China Friendship Association,1,,,DROP
+Syria-Lebanon,1,,,DROP
+São Paulo Forum,1,,,DROP
+São Tomé and Príncipe,1,STP,São Tomé & Príncipe,map
+São Tomé and Príncipe Liberation Committee,1,STP,São Tomé & Príncipe,map
+TASS,1,,,DROP
+TM Forum,1,,,DROP
+TMF,1,,,DROP
+Tacoma,1,,,DROP
+Taipei,1,TWN,Taiwan,map
+Tamil Nadu,1,,,DROP
+Tang Dynasty,1,,,DROP
+Tanganyika and Zanzibar,1,,,DROP
+Target,1,,,DROP
+Taylor & Francis Group,1,,,DROP
+Tesco,1,,,DROP
+Thai Airways,1,,,DROP
+Thai-Chinese Chamber of Commerce,1,,,DROP
+Thailand Communist Party,1,THA,Thailand,map
+The Nature Conservancy,1,,,DROP
+The World Academy of Sciences,1,,,DROP
+Third World Countries,1,,,DROP
+Third World Foundation,1,,,DROP
+Third World Organization for Women in Science,1,,,DROP
+Thomson,1,,,DROP
+Thomson Group,1,,,DROP
+Tibetan government-in-exile,1,,,DROP
+Time Warner,1,,,DROP
+Tissot,1,,,DROP
+Tokyo Organising Committee,1,,,DROP
+Tokyo Organising Committee of the Olympic and Paralympic Games,1,,,DROP
+Tokyo Stock Exchange,1,,,DROP
+Total,1,,,DROP
+Tour de France,1,FRA,France,map
+Transatlantic Trade and Investment Partnership,1,,,DROP
+Transnistria,1,,,DROP
+Triumph,1,,,DROP
+Tropical Africa,1,,,DROP
+Turin,1,,,DROP
+Turin Organizing Committee,1,,,DROP
+Turkmenabat,1,TKM,Turkmenistan,map
+Tuyuhun,1,,,DROP
+Twitter,1,,,DROP
+TÜV Rheinland,1,,,DROP
+U21联盟,1,,,DROP
+UCLG,1,,,DROP
+UNDP,1,,,DROP
+UNESCAP,1,,,DROP
+UNFPA,1,,,DROP
+UNIQLO,1,,,DROP
+UNTSO,1,,,DROP
+UPS,1,,,DROP
+Uch,1,,,DROP
+Ulsan Hyundai,1,,,DROP
+Unilever,1,,,DROP
+Union of South Africa,1,ZAF,South Africa,map
+UnionPay,1,,,DROP
+United Airlines,1,,,DROP
+United Cities and Local Governments,1,,,DROP
+United Nations Alliance of Civilizations,1,,,DROP
+United Nations Centre for Sustainable Agricultural Mechanization,1,,,DROP
+United Nations Foundation,1,,,DROP
+United Nations International Children's Emergency Fund,1,,,DROP
+United Nations International Research and Training Institute for the Advancement of Women,1,,,DROP
+"United Nations Monitoring, Verification and Inspection Commission",1,,,DROP
+United Nations Office on Drugs and Crime,1,,,DROP
+United Nations Programme on HIV/AIDS,1,,,DROP
+United Nations Relief and Rehabilitation Administration,1,,,DROP
+United Republic of Tanzania and Zanzibar,1,TZA,Tanzania,map
+United States Centers for Disease Control and Prevention,1,USA,United States,map
+United States East Coast,1,USA,United States,map
+United States Food and Drug Administration,1,USA,United States,map
+Universal Music Group,1,,,DROP
+Universal Pictures,1,,,DROP
+"University of California, Berkeley",1,,,DROP
+University of London,1,,,DROP
+University of Massachusetts,1,,,DROP
+University of New South Wales,1,,,DROP
+University of Newcastle,1,,,DROP
+Unocal,1,,,DROP
+Utah University,1,,,DROP
+VISA International,1,,,DROP
+VMware,1,,,DROP
+Valve,1,,,DROP
+Vancouver,1,,,DROP
+Vestas,1,,,DROP
+Viacom,1,,,DROP
+Vienna Philharmonic,1,,,DROP
+Vienna Universal Edition,1,,,DROP
+Vientiane,1,,,DROP
+Viet Cong,1,,,DROP
+Vietnam (Democratic Republic),1,VNM,Vietnam,map
+Vietnam International Control Commission,1,VNM,Vietnam,map
+Vietnam National Liberation Front,1,VNM,Vietnam,map
+Vietnam Southern National Liberation Front,1,,,DROP
+Villarreal,1,,,DROP
+Virgin Atlantic,1,,,DROP
+Virgin Islands,1,,,DROP
+Volvo Group,1,,,DROP
+Volvo Ocean Race,1,,,DROP
+WANO,1,,,DROP
+WNBA,1,,,DROP
+WOA,1,,,DROP
+WSIS,1,,,DROP
+Wal-Mart,1,,,DROP
+Wallachia,1,,,DROP
+Warner Bros.,1,,,DROP
+Warner Music Group,1,,,DROP
+Washington,1,,,DROP
+Weber State University,1,,,DROP
+West European countries,1,,,DROP
+West Indies,1,,,DROP
+West Pacific,1,,,DROP
+Western Africa,1,,,DROP
+Western Asia and North Africa,1,,,DROP
+Western Countries,1,,,DROP
+Western European countries,1,,,DROP
+Western European country,1,,,DROP
+Western Regions,1,,,DROP
+Western Sahara Mission,1,ESH,Western Sahara,map
+Western capitalist countries,1,,,DROP
+Western enterprises,1,,,DROP
+Western industrial countries,1,,,DROP
+Western intelligence agencies,1,,,DROP
+Western military powers,1,,,DROP
+Western powers,1,,,DROP
+Western private lenders,1,,,DROP
+Western readers,1,,,DROP
+Western supporters,1,,,DROP
+Western world,1,,,DROP
+Wi-Fi Alliance,1,,,DROP
+WildAid,1,,,DROP
+Wildlife Conservation International,1,,,DROP
+Wildlife Conservation Society,1,,,DROP
+Windhoek,1,,,DROP
+World Academy of Arts and Culture,1,,,DROP
+World Air Cargo Organization,1,,,DROP
+World Anti-Fascist Alliance,1,,,DROP
+World Association for Psychosocial Rehabilitation,1,,,DROP
+World Association for Small and Medium Enterprises,1,,,DROP
+World Association of Chefs' Societies,1,,,DROP
+World Association of Horticultural Producers,1,,,DROP
+World Association of Public Employment Services,1,,,DROP
+World Bank Trust Fund,1,,,DROP
+World Chamber of Commerce Federation,1,,,DROP
+World Climate Research Programme,1,,,DROP
+World Conference of Religions for Peace,1,,,DROP
+World Congress of Poets,1,,,DROP
+World Council of Comparative Education Societies,1,,,DROP
+World Culture Open,1,,,DROP
+World Data Center,1,,,DROP
+World Dental Federation,1,,,DROP
+World Design Organization,1,,,DROP
+World Diabetes Foundation,1,,,DROP
+World Diabetes Organization,1,,,DROP
+World Egg Association,1,,,DROP
+World Energy Conference,1,,,DROP
+World Expo,1,,,DROP
+World Federation of Athletic Training and Therapy,1,,,DROP
+World Federation of Exchanges,1,,,DROP
+World Federation of Minimally Invasive Neurosurgery,1,,,DROP
+World Federation of National Mathematics Competitions,1,,,DROP
+World Federation of Nuclear Medicine and Biology,1,,,DROP
+World Film and Television Colleges Federation,1,,,DROP
+World Free Zones Organization,1,,,DROP
+World Freshwater Fish Organization,1,,,DROP
+World Future Society,1,,,DROP
+World Gourmet Association,1,,,DROP
+World Health Foundation,1,,,DROP
+World Heart Federation,1,,,DROP
+World Human Resources Management Association,1,,,DROP
+World International Public Relations Association,1,,,DROP
+World Islamic Development Bank,1,,,DROP
+World Islamic League,1,,,DROP
+World Islamic Relief Organization,1,,,DROP
+World Laboratory,1,,,DROP
+World Leadership Alliance,1,,,DROP
+World Leading Hotels Organization,1,,,DROP
+World Leisure Organization,1,,,DROP
+World Maritime Model Federation,1,,,DROP
+World Maritime Model Sports Association,1,,,DROP
+World Martial Arts Union,1,,,DROP
+World Mining Congress,1,,,DROP
+World Model Sailing Association,1,,,DROP
+World Model Ship Association,1,,,DROP
+World Modeling Association,1,,,DROP
+World Monuments Fund,1,,,DROP
+World Motorcycle Grand Prix,1,,,DROP
+World National Olympic Committees Association,1,,,DROP
+World Nuclear Association,1,,,DROP
+World Olympians Association,1,,,DROP
+World Packaging Organization,1,,,DROP
+World Pool-Billiard Association,1,,,DROP
+World Printing Congress,1,,,DROP
+World Productivity Academy,1,,,DROP
+World Psychosomatic Medicine Society,1,,,DROP
+World Real Estate Federation,1,,,DROP
+World Sailing,1,,,DROP
+World Savings Banks Association,1,,,DROP
+World Savings and Retail Banking Association,1,,,DROP
+World School Sports Games,1,,,DROP
+World Science Park Association,1,,,DROP
+World Seismology and Earth's Interior Physics Association,1,,,DROP
+World Self-Medication Industry,1,,,DROP
+World Skills Organization,1,,,DROP
+World Slow City Alliance,1,,,DROP
+World Snooker Tour,1,,,DROP
+World Sports Academy,1,,,DROP
+World Sports Federation,1,,,DROP
+World Sports用品联合会,1,,,DROP
+World Squash Federation,1,,,DROP
+World Summit of Women Foundation,1,,,DROP
+World Team,1,,,DROP
+World Technopolis Association,1,,,DROP
+World Tourism Alliance,1,,,DROP
+World Tourism Cities Federation,1,,,DROP
+World Trade Point Federation,1,,,DROP
+World Trade Points Federation,1,,,DROP
+World Travel and Tourism Council,1,,,DROP
+World Underwater Federation,1,,,DROP
+World University Badminton Championships,1,,,DROP
+World University Network,1,,,DROP
+World Uyghur Congress,1,,,DROP
+World Wide Fund for Nature Netherlands,1,NLD,Netherlands,map
+World Xiangqi Federation,1,,,DROP
+World Youth Association,1,,,DROP
+World Youth Congress,1,,,DROP
+World Youth Synchronized Swimming Championships,1,,,DROP
+Wyeth,1,,,DROP
+W国,1,,,DROP
+Xerox,1,,,DROP
+Yamaha,1,,,DROP
+Yemen (Aden),1,,,DROP
+Yemen (Arab Republic of Yemen),1,,,DROP
+Yemen (Yemen Arab Republic),1,,,DROP
+Yemen Democratic Republic,1,,,DROP
+Yemen People's Democratic Republic,1,,,DROP
+Yokohama,1,,,DROP
+Yuan dynasty,1,,,DROP
+ZARA,1,,,DROP
+ZTE,1,,,DROP
+Zaha Hadid Architects,1,,,DROP
+Zangger Committee,1,,,DROP
+Zanzibar and Pemba,1,,,DROP
+Zeiss,1,,,DROP
+Zeneca,1,,,DROP
+Zhuhai,1,,,DROP
+Zimbabwe (Rhodesia),1,ZWE,Zimbabwe,map
+Zimbabwe African People's Union,1,ZWE,Zimbabwe,map
+colonialists,1,,,DROP
+oil-exporting countries,1,,,DROP
+superpowers,1,,,DROP
+一带一路共建国家,1,,,DROP
+万宝路,1,,,DROP
+东亚,1,,,DROP
+东欧,1,,,DROP
+中东,1,,,DROP
+中南美洲五国,1,,,DROP
+中黑巴地区,1,,,DROP
+亚丁,1,,,DROP
+亚太农协,1,,,DROP
+亚太司法改革论坛,1,,,DROP
+亚太地区,1,,,DROP
+亚太旅游协会,1,,,DROP
+亚太首席大法官,1,,,DROP
+亚美尼亚,1,,,DROP
+亚非拉国家,1,,,DROP
+仰光,1,,,DROP
+伊斯坦布尔,1,,,DROP
+伊莱克斯,1,,,DROP
+伯尔尼协会,1,,,DROP
+依维柯,1,,,DROP
+全球南方国家,1,,,DROP
+兰蔻,1,,,DROP
+劳力士,1,,,DROP
+南美,1,,,DROP
+卢浮宫,1,,,DROP
+各国奥委会协会,1,,,DROP
+吉列,1,,,DROP
+喀麦隆,1,,,DROP
+喜力,1,,,DROP
+嘉宾国,1,,,DROP
+国际组织,1,,,DROP
+国际金融机构,1,,,DROP
+埃琳·杰克逊,1,,,DROP
+塞姆斯顿有限公司,1,,,DROP
+墨西哥,1,,,DROP
+外资银行,1,,,DROP
+大和证券,1,,,DROP
+大夏,1,,,DROP
+大月氏,1,,,DROP
+大洋洲,1,,,DROP
+契丹,1,,,DROP
+婆罗洲,1,,,DROP
+宝嘉公司,1,,,DROP
+宝洁,1,,,DROP
+少数西方国家,1,,,DROP
+巴伦博伊姆,1,,,DROP
+巴勒斯坦,1,,,DROP
+庄臣,1,,,DROP
+康复国际,1,,,DROP
+康能集团,1,,,DROP
+新兴市场国家,1,,,DROP
+日本,1,,,DROP
+暇步士,1,,,DROP
+最不发达国家,1,,,DROP
+某国公司,1,,,DROP
+欧共体,1,,,DROP
+沙迦,1,,,DROP
+独联体,1,,,DROP
+班轮组织,1,,,DROP
+百威英博,1,,,DROP
+益海嘉里,1,,,DROP
+美洲议会论坛,1,,,DROP
+老挝,1,,,DROP
+舒迪安,1,,,DROP
+菲亚特,1,,,DROP
+萨马兰奇,1,,,DROP
+达能,1,,,DROP
+重债穷国,1,,,DROP
+阿拉伯,1,,,DROP
+雅诗兰黛,1,,,DROP
+香奈儿,1,,,DROP
+高盛证券,1,,,DROP
+龟兹,1,,,DROP
