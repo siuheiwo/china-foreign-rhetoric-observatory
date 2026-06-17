@@ -13,7 +13,8 @@ ISO3, LATLON = geo_lookup()   # all countries: 12 friendly keys + everything els
 st.title("China Foreign Rhetoric Observatory")
 st.caption("Tracking China's official diplomatic signaling across bilateral relations · "
            "People's Daily corpus 1950–2026")
-st.caption(f"Data coverage through **{last_updated()}** · 12 great powers · updated daily.")
+_ncountries = load_scores("Monthly")["country"].nunique()
+st.caption(f"Data coverage through **{last_updated()}** · {_ncountries} countries (incl. Taiwan) · updated daily.")
 
 with st.sidebar:
     st.header("Controls")

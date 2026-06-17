@@ -8,8 +8,9 @@ st.title("About and Methodology")
 
 st.markdown(f"""
 The **China Foreign Rhetoric Observatory** tracks how China's official media (*People's Daily*) signals
-coercion toward 12 major powers, **1950–{last_updated()[:4]}**. It is built for researchers and policy
-analysts. All figures are **aggregate** (country × period); no article text is reproduced.
+coercion toward **every country it covers (200+), including Taiwan**, **1950–{last_updated()[:4]}**. It is
+built for researchers and policy analysts. All figures are **aggregate** (country × period); no article
+text is reproduced. (The Tsinghua relations benchmark below is available only for the 12 great powers.)
 """)
 
 st.subheader("Indices")
