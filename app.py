@@ -41,17 +41,15 @@ c4.metric("Countries monitored", f"{cur['country'].nunique()}")
 
 # --- bubble map: recent trailing-window average (single periods are too sparse to vary) ---
 # colour = score, size = article volume; equal visual weight per country, no area distortion
-MAPWIN = {"Daily": 90, "Weekly": 26, "Monthly": 12, "Yearly": 5}[resolution]
+MAPWIN = 3   # 3-period trailing average (matches the "3-period avg" card above)
 recent_periods = sorted(df["period"].unique())[-MAPWIN:]
 mp = (df[df["period"].isin(recent_periods)]
       .groupby("country", as_index=False).agg({measure: "mean", "n_art": "sum"}))
 mp = mp[mp["n_art"] > 0].reset_index(drop=True)   # only countries actually mentioned in the window
 mp["lat"] = mp["country"].map(lambda c: LATLON.get(c, (None, None))[0])
 mp["lon"] = mp["country"].map(lambda c: LATLON.get(c, (None, None))[1])
-# dynamic gradient: spread color across the 5th–95th percentile of the displayed values
-lo, hi = mp[measure].quantile(0.05), mp[measure].quantile(0.95)
-if not (hi > lo):
-    hi = max(mp[measure].max(), 1e-9); lo = min(mp[measure].min(), 0.0)
+# absolute colour scale: fix the bar to the full 0–1 range of the measure (not data percentiles)
+lo, hi = 0.0, 1.0
 st.subheader(f"{MEASURES[measure]} — last {MAPWIN} {resolution.lower()} periods (avg)")
 
 # most-recent + the single most-negative headline per country (Chinese + English), for the map hover
@@ -95,7 +93,7 @@ fig.update_geos(projection_type="natural earth", showframe=False,
                 bgcolor="rgba(0,0,0,0)")
 fig.update_layout(margin=dict(l=0, r=0, t=0, b=0), hoverlabel=dict(align="left"))
 st.caption("Bubble **size** = number of monitored articles in the window; **colour** = score "
-           "(5th–95th-percentile range). **Hover** to preview · **click a bubble** to open its articles.")
+           "(absolute 0–1 scale). **Hover** to preview · **click a bubble** to open its articles.")
 _evt = st.plotly_chart(fig, use_container_width=True, on_select="rerun", key="worldmap")
 
 # clicking a bubble opens a panel with CLICKABLE article links (hover tooltips can't hold links)
