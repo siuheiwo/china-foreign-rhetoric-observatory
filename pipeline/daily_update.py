@@ -17,7 +17,7 @@ from scrape_pd import day_rows, fetch_one            # reuse the validated scrap
 
 KEY = os.environ["DEEPSEEK_API_KEY"]
 EP = "https://api.deepseek.com/chat/completions"
-FLASH, PRO = "deepseek-v4-flash", "deepseek-v4-pro"
+FLASH = PRO = "deepseek-v4-pro"   # run ALL DeepSeek calls on Pro (summary/classify/frame/threat/translate)
 WORKERS = 10
 
 # all-country actor->key map (12 majors keep friendly keys; others use full names), from the
