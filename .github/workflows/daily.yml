@@ -31,6 +31,6 @@ jobs:
         run: |
           git config user.name  "observatory-bot"
           git config user.email "observatory-bot@users.noreply.github.com"
-          git add scores_daily.csv scores_weekly.csv scores_monthly.csv alarms.csv
+          git add scores_daily.csv scores_weekly.csv scores_monthly.csv alarms.csv recent_titles.csv negative_titles.csv
           git commit -m "daily update $(date -u +%F)" || { echo "no changes"; exit 0; }
           git push
