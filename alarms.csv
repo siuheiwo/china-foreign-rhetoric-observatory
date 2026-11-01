@@ -1,880 +1,880 @@
 resolution,index,country,as_of,latest,ewma_baseline,alarm_3p,alarm_3p_alert,alarm_5p,alarm_5p_alert,cusum,cusum_alert
-Daily,deepseek,Afghanistan,2026-10-30,0.0,0.0001,-0.04,NORMAL,-0.04,NORMAL,0.0,NORMAL
-Daily,deepseek,Albania,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,deepseek,Algeria,2026-10-30,0.0,0.0,-0.01,NORMAL,-0.01,NORMAL,0.0,NORMAL
-Daily,deepseek,American Samoa,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,deepseek,Andorra,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,deepseek,Angola,2026-10-30,0.0,0.0,-0.08,NORMAL,-0.08,NORMAL,0.0,NORMAL
-Daily,deepseek,Antarctica,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,deepseek,Antigua & Barbuda,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,deepseek,Argentina,2026-10-30,0.0,0.0002,-0.14,NORMAL,-0.14,NORMAL,0.0,NORMAL
-Daily,deepseek,Armenia,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,deepseek,Aruba,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,deepseek,Australia,2026-10-30,0.0,0.0006,-0.09,NORMAL,-0.09,NORMAL,0.0,NORMAL
-Daily,deepseek,Austria,2026-10-30,0.0,0.0001,-0.09,NORMAL,-0.09,NORMAL,0.0,NORMAL
-Daily,deepseek,Azerbaijan,2026-10-30,0.0,0.0001,-0.07,NORMAL,-0.07,NORMAL,0.0,NORMAL
-Daily,deepseek,Bahamas,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,deepseek,Bahrain,2026-10-30,0.0,0.0001,-0.03,NORMAL,-0.03,NORMAL,0.0,NORMAL
-Daily,deepseek,Bangladesh,2026-10-30,0.0,0.0002,-0.08,NORMAL,-0.08,NORMAL,0.0,NORMAL
-Daily,deepseek,Barbados,2026-10-30,0.0,0.0,-0.02,NORMAL,-0.02,NORMAL,0.0,NORMAL
-Daily,deepseek,Belarus,2026-10-30,0.0,0.0002,-0.17,NORMAL,-0.17,NORMAL,0.93,NORMAL
-Daily,deepseek,Belgium,2026-10-30,0.0,0.0001,-0.07,NORMAL,-0.07,NORMAL,0.0,NORMAL
-Daily,deepseek,Belize,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,deepseek,Benin,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,deepseek,Bermuda,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,deepseek,Bhutan,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,deepseek,Bolivia,2026-10-30,0.0,0.0,-0.02,NORMAL,-0.02,NORMAL,0.0,NORMAL
-Daily,deepseek,Bosnia & Herzegovina,2026-10-30,0.0,0.0,-0.05,NORMAL,-0.05,NORMAL,0.0,NORMAL
-Daily,deepseek,Botswana,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,deepseek,Brazil,2026-10-30,0.0,0.0007,-0.18,NORMAL,-0.18,NORMAL,0.0,NORMAL
-Daily,deepseek,British Virgin Islands,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,deepseek,Brunei,2026-10-30,0.0,0.0002,-0.08,NORMAL,-0.08,NORMAL,0.0,NORMAL
-Daily,deepseek,Bulgaria,2026-10-30,0.0,0.0001,-0.09,NORMAL,-0.09,NORMAL,0.86,NORMAL
-Daily,deepseek,Burkina Faso,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,deepseek,Burundi,2026-10-30,0.0,0.0,-0.06,NORMAL,-0.06,NORMAL,0.0,NORMAL
-Daily,deepseek,Cambodia,2026-10-30,0.0,0.0005,-0.09,NORMAL,-0.09,NORMAL,0.0,NORMAL
-Daily,deepseek,Cameroon,2026-10-30,0.0,0.0,-0.07,NORMAL,-0.07,NORMAL,0.0,NORMAL
-Daily,deepseek,Canada,2026-10-30,0.0,0.0007,-0.14,NORMAL,-0.14,NORMAL,0.0,NORMAL
-Daily,deepseek,Cape Verde,2026-10-30,0.0,0.0,-0.04,NORMAL,-0.04,NORMAL,0.0,NORMAL
-Daily,deepseek,Cayman Islands,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,deepseek,Central African Republic,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,deepseek,Chad,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,deepseek,Chile,2026-10-30,0.0,0.0002,-0.07,NORMAL,-0.07,NORMAL,0.0,NORMAL
-Daily,deepseek,China,2026-10-30,0.0,0.0001,-0.1,NORMAL,-0.1,NORMAL,0.0,NORMAL
-Daily,deepseek,Colombia,2026-10-30,0.0,0.0001,-0.04,NORMAL,-0.04,NORMAL,0.0,NORMAL
-Daily,deepseek,Comoros,2026-10-30,0.0,0.0,-0.01,NORMAL,-0.01,NORMAL,0.0,NORMAL
-Daily,deepseek,Congo - Brazzaville,2026-10-30,0.0,0.0,-0.05,NORMAL,-0.05,NORMAL,0.0,NORMAL
-Daily,deepseek,Congo - Kinshasa,2026-10-30,0.0,0.0001,-0.11,NORMAL,-0.11,NORMAL,0.0,NORMAL
-Daily,deepseek,Cook Islands,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,deepseek,Costa Rica,2026-10-30,0.0,0.0,-0.01,NORMAL,-0.01,NORMAL,0.0,NORMAL
-Daily,deepseek,Croatia,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,deepseek,Cuba,2026-10-30,0.0,0.0048,-0.1,NORMAL,-0.1,NORMAL,6.82,RED
-Daily,deepseek,Curaçao,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,deepseek,Cyprus,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,deepseek,Czechia,2026-10-30,0.0,0.0001,-0.06,NORMAL,-0.06,NORMAL,0.0,NORMAL
-Daily,deepseek,Côte d’Ivoire,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,deepseek,Denmark,2026-10-30,0.0,0.0002,-0.08,NORMAL,-0.08,NORMAL,0.0,NORMAL
-Daily,deepseek,Djibouti,2026-10-30,0.0,0.0001,-0.04,NORMAL,-0.04,NORMAL,0.0,NORMAL
-Daily,deepseek,Dominica,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,deepseek,Dominican Republic,2026-10-30,0.0,0.0,-0.07,NORMAL,-0.07,NORMAL,0.0,NORMAL
-Daily,deepseek,Ecuador,2026-10-30,0.0,0.0,-0.05,NORMAL,-0.05,NORMAL,0.0,NORMAL
-Daily,deepseek,Egypt,2026-10-30,0.0,0.0012,-0.11,NORMAL,-0.11,NORMAL,0.0,NORMAL
-Daily,deepseek,El Salvador,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,deepseek,Equatorial Guinea,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,deepseek,Eritrea,2026-10-30,0.0,0.0001,-0.05,NORMAL,-0.05,NORMAL,0.0,NORMAL
-Daily,deepseek,Estonia,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,deepseek,Eswatini,2026-10-30,0.0,0.0005,-0.05,NORMAL,-0.05,NORMAL,0.0,NORMAL
-Daily,deepseek,Ethiopia,2026-10-30,0.0,0.0001,-0.09,NORMAL,-0.09,NORMAL,0.0,NORMAL
-Daily,deepseek,Faroe Islands,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,deepseek,Fiji,2026-10-30,0.0,0.0003,-0.12,NORMAL,-0.12,NORMAL,0.0,NORMAL
-Daily,deepseek,Finland,2026-10-30,0.0,0.0,-0.04,NORMAL,-0.04,NORMAL,0.0,NORMAL
-Daily,deepseek,France,2026-10-30,0.0,0.0014,-0.1,NORMAL,-0.1,NORMAL,0.0,NORMAL
-Daily,deepseek,French Polynesia,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,deepseek,Gabon,2026-10-30,0.0,0.0,-0.03,NORMAL,-0.03,NORMAL,0.0,NORMAL
-Daily,deepseek,Gambia,2026-10-30,0.0,0.0001,-0.05,NORMAL,-0.05,NORMAL,0.0,NORMAL
-Daily,deepseek,Georgia,2026-10-30,0.0,0.0,-0.02,NORMAL,-0.02,NORMAL,0.0,NORMAL
-Daily,deepseek,Germany,2026-10-30,0.0,0.0025,0.59,NORMAL,0.31,NORMAL,0.33,NORMAL
-Daily,deepseek,Ghana,2026-10-30,0.0,0.0,-0.04,NORMAL,-0.04,NORMAL,0.0,NORMAL
-Daily,deepseek,Gibraltar,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,deepseek,Greece,2026-10-30,0.0,0.0002,-0.12,NORMAL,-0.12,NORMAL,0.0,NORMAL
-Daily,deepseek,Greenland,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,deepseek,Grenada,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,deepseek,Guadeloupe,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,deepseek,Guam,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,deepseek,Guatemala,2026-10-30,0.0,0.0,-0.01,NORMAL,-0.01,NORMAL,0.0,NORMAL
-Daily,deepseek,Guinea,2026-10-30,0.0,0.0002,-0.07,NORMAL,-0.07,NORMAL,0.0,NORMAL
-Daily,deepseek,Guinea-Bissau,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,deepseek,Guyana,2026-10-30,0.0,0.0,-0.03,NORMAL,-0.03,NORMAL,0.0,NORMAL
-Daily,deepseek,Haiti,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,deepseek,Honduras,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,deepseek,Hungary,2026-10-30,0.0,0.0002,-0.08,NORMAL,-0.08,NORMAL,0.0,NORMAL
-Daily,deepseek,Iceland,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,deepseek,India,2026-10-30,0.0,0.0004,-0.1,NORMAL,-0.1,NORMAL,0.0,NORMAL
-Daily,deepseek,Indonesia,2026-10-30,0.0,0.0007,-0.11,NORMAL,-0.11,NORMAL,0.0,NORMAL
-Daily,deepseek,Iran,2026-10-30,0.0,0.002,-0.17,NORMAL,-0.17,NORMAL,0.0,NORMAL
-Daily,deepseek,Iraq,2026-10-30,0.0,0.0,-0.05,NORMAL,-0.05,NORMAL,0.0,NORMAL
-Daily,deepseek,Ireland,2026-10-30,0.0,0.0003,6.25,RED,3.71,RED,17.39,RED
-Daily,deepseek,Israel,2026-10-30,0.0,0.0012,-0.12,NORMAL,-0.12,NORMAL,0.0,NORMAL
-Daily,deepseek,Italy,2026-10-30,0.0,0.0005,-0.15,NORMAL,-0.15,NORMAL,0.0,NORMAL
-Daily,deepseek,Jamaica,2026-10-30,0.0,0.0,-0.06,NORMAL,-0.06,NORMAL,0.0,NORMAL
-Daily,deepseek,Japan,2026-10-30,0.0,0.0124,-0.24,NORMAL,-0.24,NORMAL,0.0,NORMAL
-Daily,deepseek,Jordan,2026-10-30,0.0,0.0002,-0.06,NORMAL,-0.06,NORMAL,0.0,NORMAL
-Daily,deepseek,Kazakhstan,2026-10-30,0.0,0.0006,-0.13,NORMAL,-0.13,NORMAL,0.0,NORMAL
-Daily,deepseek,Kenya,2026-10-30,0.0,0.0002,-0.12,NORMAL,-0.12,NORMAL,0.0,NORMAL
-Daily,deepseek,Kiribati,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,deepseek,Kuwait,2026-10-30,0.0,0.0001,-0.04,NORMAL,-0.04,NORMAL,0.0,NORMAL
-Daily,deepseek,Kyrgyzstan,2026-10-30,0.0,0.0012,-0.13,NORMAL,-0.13,NORMAL,0.0,NORMAL
-Daily,deepseek,Laos,2026-10-30,0.0,0.0006,-0.13,NORMAL,-0.13,NORMAL,0.0,NORMAL
-Daily,deepseek,Latvia,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,deepseek,Lebanon,2026-10-30,0.0,0.0001,-0.07,NORMAL,-0.07,NORMAL,0.0,NORMAL
-Daily,deepseek,Lesotho,2026-10-30,0.0,0.0,-0.03,NORMAL,-0.03,NORMAL,0.0,NORMAL
-Daily,deepseek,Liberia,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,deepseek,Libya,2026-10-30,0.0,0.0,-0.03,NORMAL,-0.03,NORMAL,0.0,NORMAL
-Daily,deepseek,Liechtenstein,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,deepseek,Lithuania,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,deepseek,Luxembourg,2026-10-30,0.0,0.0,-0.02,NORMAL,-0.02,NORMAL,0.0,NORMAL
-Daily,deepseek,Madagascar,2026-10-30,0.0,0.0001,-0.1,NORMAL,-0.1,NORMAL,0.0,NORMAL
-Daily,deepseek,Malawi,2026-10-30,0.0,0.0,-0.02,NORMAL,-0.02,NORMAL,0.0,NORMAL
-Daily,deepseek,Malaysia,2026-10-30,0.0,0.0016,-0.06,NORMAL,-0.06,NORMAL,0.0,NORMAL
-Daily,deepseek,Maldives,2026-10-30,0.0,0.0001,-0.04,NORMAL,-0.04,NORMAL,0.0,NORMAL
-Daily,deepseek,Mali,2026-10-30,0.0,0.0,-0.03,NORMAL,-0.03,NORMAL,0.0,NORMAL
-Daily,deepseek,Malta,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,deepseek,Marshall Islands,2026-10-30,0.0,0.0,-0.02,NORMAL,-0.02,NORMAL,0.0,NORMAL
-Daily,deepseek,Martinique,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,deepseek,Mauritania,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,deepseek,Mauritius,2026-10-30,0.0,0.0,-0.02,NORMAL,-0.02,NORMAL,0.0,NORMAL
-Daily,deepseek,Mexico,2026-10-30,0.0,0.0001,-0.09,NORMAL,-0.09,NORMAL,0.0,NORMAL
-Daily,deepseek,Micronesia (Federated States of),2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,deepseek,Moldova,2026-10-30,0.0,0.0,-0.04,NORMAL,-0.04,NORMAL,0.0,NORMAL
-Daily,deepseek,Monaco,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,deepseek,Mongolia,2026-10-30,0.0,0.0001,-0.07,NORMAL,-0.07,NORMAL,0.0,NORMAL
-Daily,deepseek,Montenegro,2026-10-30,0.0,0.0,-0.04,NORMAL,-0.04,NORMAL,0.0,NORMAL
-Daily,deepseek,Morocco,2026-10-30,0.0,0.0001,-0.12,NORMAL,-0.12,NORMAL,0.0,NORMAL
-Daily,deepseek,Mozambique,2026-10-30,0.0,0.0001,-0.09,NORMAL,-0.09,NORMAL,0.0,NORMAL
-Daily,deepseek,Myanmar (Burma),2026-10-30,0.0,0.0003,-0.1,NORMAL,-0.1,NORMAL,0.0,NORMAL
-Daily,deepseek,Namibia,2026-10-30,0.0,0.0002,-0.06,NORMAL,-0.06,NORMAL,0.0,NORMAL
-Daily,deepseek,Nauru,2026-10-30,0.0,0.0001,-0.04,NORMAL,-0.04,NORMAL,0.0,NORMAL
-Daily,deepseek,Nepal,2026-10-30,0.0,0.0001,-0.09,NORMAL,-0.09,NORMAL,0.0,NORMAL
-Daily,deepseek,Netherlands,2026-10-30,0.0,0.0001,-0.08,NORMAL,-0.08,NORMAL,0.0,NORMAL
-Daily,deepseek,New Caledonia,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,deepseek,New Zealand,2026-10-30,0.0,0.0002,-0.06,NORMAL,-0.06,NORMAL,0.0,NORMAL
-Daily,deepseek,Nicaragua,2026-10-30,0.0,0.0,-0.03,NORMAL,-0.03,NORMAL,0.0,NORMAL
-Daily,deepseek,Niger,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,deepseek,Nigeria,2026-10-30,0.0,0.0001,-0.06,NORMAL,-0.06,NORMAL,0.0,NORMAL
-Daily,deepseek,Niue,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,deepseek,North Korea,2026-10-30,0.0,0.0006,-0.07,NORMAL,-0.07,NORMAL,0.0,NORMAL
-Daily,deepseek,North Macedonia,2026-10-30,0.0,0.0,-0.05,NORMAL,-0.05,NORMAL,0.0,NORMAL
-Daily,deepseek,Northern Mariana Islands,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,deepseek,Norway,2026-10-30,0.0,0.0001,-0.09,NORMAL,-0.09,NORMAL,0.0,NORMAL
-Daily,deepseek,Oman,2026-10-30,0.0,0.0,-0.01,NORMAL,-0.01,NORMAL,0.0,NORMAL
-Daily,deepseek,Pakistan,2026-10-30,0.0,0.001,-0.15,NORMAL,-0.15,NORMAL,0.0,NORMAL
-Daily,deepseek,Palau,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,deepseek,Palestinian Territories,2026-10-30,0.0,0.0004,-0.11,NORMAL,-0.11,NORMAL,0.0,NORMAL
-Daily,deepseek,Panama,2026-10-30,0.0,0.0001,-0.05,NORMAL,-0.05,NORMAL,0.0,NORMAL
-Daily,deepseek,Papua New Guinea,2026-10-30,0.0,0.0001,-0.06,NORMAL,-0.06,NORMAL,0.0,NORMAL
-Daily,deepseek,Paraguay,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,deepseek,Peru,2026-10-30,0.0,0.0002,-0.06,NORMAL,-0.06,NORMAL,0.0,NORMAL
-Daily,deepseek,Philippines,2026-10-30,0.0,0.0054,-0.14,NORMAL,-0.14,NORMAL,0.0,NORMAL
-Daily,deepseek,Poland,2026-10-30,0.0,0.0,-0.01,NORMAL,-0.01,NORMAL,0.0,NORMAL
-Daily,deepseek,Portugal,2026-10-30,0.0,0.0001,-0.07,NORMAL,-0.07,NORMAL,0.0,NORMAL
-Daily,deepseek,Puerto Rico,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,deepseek,Qatar,2026-10-30,0.0,0.0,-0.02,NORMAL,-0.02,NORMAL,0.0,NORMAL
-Daily,deepseek,Romania,2026-10-30,0.0,0.0,-0.03,NORMAL,-0.03,NORMAL,0.0,NORMAL
-Daily,deepseek,Russia,2026-10-30,0.0,0.0022,-0.19,NORMAL,-0.19,NORMAL,0.0,NORMAL
-Daily,deepseek,Rwanda,2026-10-30,0.0,0.0001,-0.08,NORMAL,-0.08,NORMAL,0.0,NORMAL
-Daily,deepseek,Réunion,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,deepseek,Samoa,2026-10-30,0.0,0.0,-0.02,NORMAL,-0.02,NORMAL,0.0,NORMAL
-Daily,deepseek,San Marino,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,deepseek,Saudi Arabia,2026-10-30,0.0,0.0004,-0.1,NORMAL,-0.1,NORMAL,0.0,NORMAL
-Daily,deepseek,Senegal,2026-10-30,0.0,0.0001,-0.02,NORMAL,-0.02,NORMAL,0.0,NORMAL
-Daily,deepseek,Serbia,2026-10-30,0.0,0.0004,-0.1,NORMAL,-0.1,NORMAL,0.0,NORMAL
-Daily,deepseek,Seychelles,2026-10-30,0.0,0.0,-0.06,NORMAL,-0.06,NORMAL,0.0,NORMAL
-Daily,deepseek,Sierra Leone,2026-10-30,0.0,0.0,-0.04,NORMAL,-0.04,NORMAL,0.0,NORMAL
-Daily,deepseek,Singapore,2026-10-30,0.0,0.0004,-0.11,NORMAL,-0.11,NORMAL,0.0,NORMAL
-Daily,deepseek,Slovakia,2026-10-30,0.0,0.0,-0.09,NORMAL,-0.09,NORMAL,0.0,NORMAL
-Daily,deepseek,Slovenia,2026-10-30,0.0,0.0,-0.04,NORMAL,-0.04,NORMAL,0.0,NORMAL
-Daily,deepseek,Solomon Islands,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,deepseek,Somalia,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,deepseek,South Africa,2026-10-30,0.0,0.0006,-0.15,NORMAL,-0.15,NORMAL,0.0,NORMAL
-Daily,deepseek,South Korea,2026-10-30,0.0,0.001,-0.18,NORMAL,-0.18,NORMAL,0.0,NORMAL
-Daily,deepseek,South Sudan,2026-10-30,0.0,0.0001,-0.08,NORMAL,-0.08,NORMAL,0.0,NORMAL
-Daily,deepseek,Spain,2026-10-30,0.0,0.0002,-0.14,NORMAL,-0.14,NORMAL,0.0,NORMAL
-Daily,deepseek,Sri Lanka,2026-10-30,0.0,0.0001,-0.1,NORMAL,-0.1,NORMAL,0.0,NORMAL
-Daily,deepseek,St. Helena,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,deepseek,St. Kitts & Nevis,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,deepseek,St. Lucia,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,deepseek,St. Vincent & Grenadines,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,deepseek,Sudan,2026-10-30,0.0,0.0,-0.03,NORMAL,-0.03,NORMAL,0.0,NORMAL
-Daily,deepseek,Suriname,2026-10-30,0.0,0.0,-0.01,NORMAL,-0.01,NORMAL,0.0,NORMAL
-Daily,deepseek,Svalbard & Jan Mayen,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,deepseek,Sweden,2026-10-30,0.0,0.0,-0.07,NORMAL,-0.07,NORMAL,0.0,NORMAL
-Daily,deepseek,Switzerland,2026-10-30,0.0,0.0002,-0.12,NORMAL,-0.12,NORMAL,0.0,NORMAL
-Daily,deepseek,Syria,2026-10-30,0.0,0.0,-0.06,NORMAL,-0.06,NORMAL,0.0,NORMAL
-Daily,deepseek,São Tomé & Príncipe,2026-10-30,0.0,0.0,-0.06,NORMAL,-0.06,NORMAL,0.0,NORMAL
-Daily,deepseek,Taiwan,2026-10-30,0.0,0.0142,-0.19,NORMAL,-0.13,NORMAL,0.0,NORMAL
-Daily,deepseek,Tajikistan,2026-10-30,0.0,0.0003,-0.07,NORMAL,-0.07,NORMAL,0.0,NORMAL
-Daily,deepseek,Tanzania,2026-10-30,0.0,0.0002,-0.07,NORMAL,-0.07,NORMAL,0.0,NORMAL
-Daily,deepseek,Thailand,2026-10-30,0.0,0.0019,-0.07,NORMAL,-0.07,NORMAL,0.0,NORMAL
-Daily,deepseek,Timor-Leste,2026-10-30,0.0,0.0,-0.05,NORMAL,-0.05,NORMAL,0.0,NORMAL
-Daily,deepseek,Togo,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,deepseek,Tonga,2026-10-30,0.0,0.0,-0.04,NORMAL,-0.04,NORMAL,0.0,NORMAL
-Daily,deepseek,Trinidad & Tobago,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,deepseek,Tunisia,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,deepseek,Turkey,2026-10-30,0.0,0.0005,-0.06,NORMAL,-0.06,NORMAL,0.0,NORMAL
-Daily,deepseek,Turkmenistan,2026-10-30,0.0,0.0001,-0.08,NORMAL,-0.08,NORMAL,0.0,NORMAL
-Daily,deepseek,Tuvalu,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,deepseek,UK,2026-10-30,0.0,0.0008,-0.13,NORMAL,-0.13,NORMAL,0.0,NORMAL
-Daily,deepseek,US,2026-10-30,0.0,0.0099,-0.26,NORMAL,-0.26,NORMAL,0.0,NORMAL
-Daily,deepseek,Uganda,2026-10-30,0.0,0.0002,-0.08,NORMAL,-0.08,NORMAL,0.0,NORMAL
-Daily,deepseek,Ukraine,2026-10-30,0.0,0.0002,-0.07,NORMAL,-0.07,NORMAL,0.0,NORMAL
-Daily,deepseek,United Arab Emirates,2026-10-30,0.0,0.0003,-0.09,NORMAL,-0.09,NORMAL,0.0,NORMAL
-Daily,deepseek,Uruguay,2026-10-30,0.0,0.0001,-0.04,NORMAL,-0.04,NORMAL,0.0,NORMAL
-Daily,deepseek,Uzbekistan,2026-10-30,0.0,0.0003,-0.13,NORMAL,-0.13,NORMAL,0.0,NORMAL
-Daily,deepseek,Vanuatu,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,deepseek,Vatican City,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,deepseek,Venezuela,2026-10-30,0.0,0.0002,-0.06,NORMAL,-0.06,NORMAL,0.0,NORMAL
-Daily,deepseek,Vietnam,2026-10-30,0.0,0.0015,-0.06,NORMAL,-0.06,NORMAL,0.0,NORMAL
-Daily,deepseek,Western Sahara,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,deepseek,Yemen,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,deepseek,Zambia,2026-10-30,0.0,0.0001,-0.1,NORMAL,-0.1,NORMAL,0.0,NORMAL
-Daily,deepseek,Zimbabwe,2026-10-30,0.0,0.0001,-0.08,NORMAL,-0.08,NORMAL,0.0,NORMAL
-Daily,lexicon,Afghanistan,2026-10-30,0.0,0.0,-0.07,NORMAL,-0.07,NORMAL,0.0,NORMAL
-Daily,lexicon,Albania,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Algeria,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,American Samoa,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Andorra,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Angola,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Antarctica,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Antigua & Barbuda,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Argentina,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Armenia,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Aruba,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Australia,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Austria,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Azerbaijan,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Bahamas,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Bahrain,2026-10-30,0.0,0.0,-0.02,NORMAL,-0.02,NORMAL,0.0,NORMAL
-Daily,lexicon,Bangladesh,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Barbados,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Belarus,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Belgium,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Belize,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Benin,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Bermuda,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Bhutan,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Bolivia,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Bosnia & Herzegovina,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Botswana,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Brazil,2026-10-30,0.0,0.0,-0.11,NORMAL,-0.11,NORMAL,0.0,NORMAL
-Daily,lexicon,British Virgin Islands,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Brunei,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Bulgaria,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Burkina Faso,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Burundi,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Cambodia,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Cameroon,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Canada,2026-10-30,0.0,0.0,-0.07,NORMAL,-0.07,NORMAL,0.0,NORMAL
-Daily,lexicon,Cape Verde,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Cayman Islands,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Central African Republic,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Chad,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Chile,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,China,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Colombia,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Comoros,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Congo - Brazzaville,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Congo - Kinshasa,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Cook Islands,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Costa Rica,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Croatia,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Cuba,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Curaçao,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Cyprus,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Czechia,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Côte d’Ivoire,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Denmark,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Djibouti,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Dominica,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Dominican Republic,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Ecuador,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Egypt,2026-10-30,0.0,0.0,-0.04,NORMAL,-0.04,NORMAL,0.0,NORMAL
-Daily,lexicon,El Salvador,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Equatorial Guinea,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Eritrea,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Estonia,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Eswatini,2026-10-30,0.0,0.0,-0.04,NORMAL,-0.04,NORMAL,0.0,NORMAL
-Daily,lexicon,Ethiopia,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Faroe Islands,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Fiji,2026-10-30,0.0,0.0,-0.04,NORMAL,-0.04,NORMAL,0.0,NORMAL
-Daily,lexicon,Finland,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,France,2026-10-30,0.0,0.0,-0.04,NORMAL,-0.04,NORMAL,0.0,NORMAL
-Daily,lexicon,French Polynesia,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Gabon,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Gambia,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Georgia,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Germany,2026-10-30,0.0,0.0,-0.09,NORMAL,-0.09,NORMAL,0.0,NORMAL
-Daily,lexicon,Ghana,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Gibraltar,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Greece,2026-10-30,0.0,0.0,-0.05,NORMAL,-0.05,NORMAL,0.0,NORMAL
-Daily,lexicon,Greenland,2026-10-30,0.0,0.0,-0.03,NORMAL,-0.03,NORMAL,0.0,NORMAL
-Daily,lexicon,Grenada,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Guadeloupe,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Guam,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Guatemala,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Guinea,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Guinea-Bissau,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Guyana,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Haiti,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Honduras,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Hungary,2026-10-30,0.0,0.0,-0.01,NORMAL,-0.01,NORMAL,0.0,NORMAL
-Daily,lexicon,Iceland,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,India,2026-10-30,0.0,0.0,-0.04,NORMAL,-0.04,NORMAL,0.0,NORMAL
-Daily,lexicon,Indonesia,2026-10-30,0.0,0.0,-0.02,NORMAL,-0.02,NORMAL,0.0,NORMAL
-Daily,lexicon,Iran,2026-10-30,0.0,0.0001,-0.17,NORMAL,-0.17,NORMAL,0.0,NORMAL
-Daily,lexicon,Iraq,2026-10-30,0.0,0.0,-0.04,NORMAL,-0.04,NORMAL,0.0,NORMAL
-Daily,lexicon,Ireland,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Israel,2026-10-30,0.0,0.0,-0.11,NORMAL,-0.11,NORMAL,0.0,NORMAL
-Daily,lexicon,Italy,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Jamaica,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Japan,2026-10-30,0.0,0.0002,-0.15,NORMAL,-0.15,NORMAL,0.0,NORMAL
-Daily,lexicon,Jordan,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Kazakhstan,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Kenya,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Kiribati,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Kuwait,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Kyrgyzstan,2026-10-30,0.0,0.0,-0.09,NORMAL,-0.09,NORMAL,12.37,RED
-Daily,lexicon,Laos,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Latvia,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Lebanon,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Lesotho,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Liberia,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Libya,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Liechtenstein,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Lithuania,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Luxembourg,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Madagascar,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Malawi,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Malaysia,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Maldives,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Mali,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Malta,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Marshall Islands,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Martinique,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Mauritania,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Mauritius,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Mexico,2026-10-30,0.0,0.0,-0.05,NORMAL,-0.05,NORMAL,0.0,NORMAL
-Daily,lexicon,Micronesia (Federated States of),2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Moldova,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Monaco,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Mongolia,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Montenegro,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Morocco,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Mozambique,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Myanmar (Burma),2026-10-30,0.0,0.0,-0.03,NORMAL,-0.03,NORMAL,0.0,NORMAL
-Daily,lexicon,Namibia,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Nauru,2026-10-30,0.0,0.0,-0.04,NORMAL,-0.04,NORMAL,0.0,NORMAL
-Daily,lexicon,Nepal,2026-10-30,0.0,0.0,-0.03,NORMAL,-0.03,NORMAL,0.0,NORMAL
-Daily,lexicon,Netherlands,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,New Caledonia,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,New Zealand,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Nicaragua,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Niger,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Nigeria,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Niue,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,North Korea,2026-10-30,0.0,0.0,-0.02,NORMAL,-0.02,NORMAL,0.0,NORMAL
-Daily,lexicon,North Macedonia,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Northern Mariana Islands,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Norway,2026-10-30,0.0,0.0,-0.04,NORMAL,-0.04,NORMAL,0.0,NORMAL
-Daily,lexicon,Oman,2026-10-30,0.0,0.0,-0.03,NORMAL,-0.03,NORMAL,0.0,NORMAL
-Daily,lexicon,Pakistan,2026-10-30,0.0,0.0,-0.04,NORMAL,-0.04,NORMAL,0.0,NORMAL
-Daily,lexicon,Palau,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Palestinian Territories,2026-10-30,0.0,0.0,-0.08,NORMAL,-0.08,NORMAL,0.0,NORMAL
-Daily,lexicon,Panama,2026-10-30,0.0,0.0,-0.02,NORMAL,-0.02,NORMAL,0.0,NORMAL
-Daily,lexicon,Papua New Guinea,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Paraguay,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Peru,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Philippines,2026-10-30,0.0,0.0,-0.16,NORMAL,-0.16,NORMAL,0.0,NORMAL
-Daily,lexicon,Poland,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Portugal,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Puerto Rico,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Qatar,2026-10-30,0.0,0.0,-0.03,NORMAL,-0.03,NORMAL,0.0,NORMAL
-Daily,lexicon,Romania,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Russia,2026-10-30,0.0,0.0001,-0.14,NORMAL,-0.14,NORMAL,0.0,NORMAL
-Daily,lexicon,Rwanda,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Réunion,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Samoa,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,San Marino,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Saudi Arabia,2026-10-30,0.0,0.0,-0.1,NORMAL,-0.1,NORMAL,10.06,RED
-Daily,lexicon,Senegal,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Serbia,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Seychelles,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Sierra Leone,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Singapore,2026-10-30,0.0,0.0,-0.07,NORMAL,-0.07,NORMAL,0.0,NORMAL
-Daily,lexicon,Slovakia,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Slovenia,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Solomon Islands,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Somalia,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,South Africa,2026-10-30,0.0,0.0,-0.03,NORMAL,-0.03,NORMAL,0.0,NORMAL
-Daily,lexicon,South Korea,2026-10-30,0.0,0.0,-0.09,NORMAL,-0.09,NORMAL,0.0,NORMAL
-Daily,lexicon,South Sudan,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Spain,2026-10-30,0.0,0.0,-0.1,NORMAL,-0.1,NORMAL,0.0,NORMAL
-Daily,lexicon,Sri Lanka,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,St. Helena,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,St. Kitts & Nevis,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,St. Lucia,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,St. Vincent & Grenadines,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Sudan,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Suriname,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Svalbard & Jan Mayen,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Sweden,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Switzerland,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Syria,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,São Tomé & Príncipe,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Taiwan,2026-10-30,0.0,0.0001,-0.13,NORMAL,-0.13,NORMAL,0.0,NORMAL
-Daily,lexicon,Tajikistan,2026-10-30,0.0,0.0,-0.09,NORMAL,-0.09,NORMAL,12.37,RED
-Daily,lexicon,Tanzania,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Thailand,2026-10-30,0.0,0.0,-0.04,NORMAL,-0.04,NORMAL,0.0,NORMAL
-Daily,lexicon,Timor-Leste,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Togo,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Tonga,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Trinidad & Tobago,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Tunisia,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Turkey,2026-10-30,0.0,0.0,-0.05,NORMAL,-0.05,NORMAL,0.0,NORMAL
-Daily,lexicon,Turkmenistan,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Tuvalu,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,UK,2026-10-30,0.0,0.0,-0.1,NORMAL,-0.1,NORMAL,0.0,NORMAL
-Daily,lexicon,US,2026-10-30,0.0,0.0001,-0.16,NORMAL,-0.16,NORMAL,0.0,NORMAL
-Daily,lexicon,Uganda,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Ukraine,2026-10-30,0.0,0.0001,-0.1,NORMAL,-0.1,NORMAL,10.36,RED
-Daily,lexicon,United Arab Emirates,2026-10-30,0.0,0.0,-0.02,NORMAL,-0.02,NORMAL,0.0,NORMAL
-Daily,lexicon,Uruguay,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Uzbekistan,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Vanuatu,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Vatican City,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Venezuela,2026-10-30,0.0,0.0,-0.05,NORMAL,-0.05,NORMAL,0.0,NORMAL
-Daily,lexicon,Vietnam,2026-10-30,0.0,0.0,-0.02,NORMAL,-0.02,NORMAL,0.0,NORMAL
-Daily,lexicon,Western Sahara,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Yemen,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Zambia,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lexicon,Zimbabwe,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lss,Afghanistan,2026-10-30,0.0,-0.0015,0.03,NORMAL,0.03,NORMAL,0.0,NORMAL
-Daily,lss,Albania,2026-10-30,0.0,-0.0022,1.35,NORMAL,1.35,NORMAL,0.0,NORMAL
-Daily,lss,Algeria,2026-10-30,0.0,-0.0051,0.05,NORMAL,0.05,NORMAL,0.0,NORMAL
-Daily,lss,American Samoa,2026-10-30,0.0,-0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lss,Andorra,2026-10-30,0.0,-0.0003,0.01,NORMAL,0.01,NORMAL,0.0,NORMAL
-Daily,lss,Angola,2026-10-30,0.0,-0.0026,0.43,NORMAL,0.43,NORMAL,0.0,NORMAL
-Daily,lss,Antarctica,2026-10-30,0.0,-0.0001,0.02,NORMAL,0.02,NORMAL,0.0,NORMAL
-Daily,lss,Antigua & Barbuda,2026-10-30,0.0,-0.0011,0.08,NORMAL,0.08,NORMAL,0.0,NORMAL
-Daily,lss,Argentina,2026-10-30,0.0,-0.0095,0.2,NORMAL,0.2,NORMAL,0.0,NORMAL
-Daily,lss,Armenia,2026-10-30,0.0,-0.0026,1.01,NORMAL,1.01,NORMAL,0.0,NORMAL
-Daily,lss,Aruba,2026-10-30,0.0,-0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lss,Australia,2026-10-30,0.0,-0.0273,0.2,NORMAL,0.21,NORMAL,0.0,NORMAL
-Daily,lss,Austria,2026-10-30,0.0,-0.0105,0.1,NORMAL,0.05,NORMAL,0.0,NORMAL
-Daily,lss,Azerbaijan,2026-10-30,0.0,-0.0062,0.26,NORMAL,0.26,NORMAL,0.0,NORMAL
-Daily,lss,Bahamas,2026-10-30,0.0,-0.0003,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lss,Bahrain,2026-10-30,0.0,-0.0017,0.65,NORMAL,0.65,NORMAL,0.0,NORMAL
-Daily,lss,Bangladesh,2026-10-30,0.0,-0.0101,0.15,NORMAL,0.15,NORMAL,0.0,NORMAL
-Daily,lss,Barbados,2026-10-30,0.0,-0.0006,0.56,NORMAL,0.56,NORMAL,0.0,NORMAL
-Daily,lss,Belarus,2026-10-30,0.0,-0.0123,0.56,NORMAL,0.56,NORMAL,0.0,NORMAL
-Daily,lss,Belgium,2026-10-30,0.0,-0.0152,0.08,NORMAL,0.01,NORMAL,0.0,NORMAL
-Daily,lss,Belize,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lss,Benin,2026-10-30,0.0,-0.0034,0.06,NORMAL,0.06,NORMAL,0.0,NORMAL
-Daily,lss,Bermuda,2026-10-30,0.0,-0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lss,Bhutan,2026-10-30,0.0,-0.0001,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lss,Bolivia,2026-10-30,0.0,-0.0037,0.03,NORMAL,0.03,NORMAL,0.0,NORMAL
-Daily,lss,Bosnia & Herzegovina,2026-10-30,0.0,-0.0026,0.06,NORMAL,0.06,NORMAL,0.0,NORMAL
-Daily,lss,Botswana,2026-10-30,0.0,-0.003,0.08,NORMAL,0.08,NORMAL,0.0,NORMAL
-Daily,lss,Brazil,2026-10-30,0.0,-0.0309,0.14,NORMAL,0.17,NORMAL,0.0,NORMAL
-Daily,lss,British Virgin Islands,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lss,Brunei,2026-10-30,0.0,-0.0066,0.1,NORMAL,0.1,NORMAL,0.0,NORMAL
-Daily,lss,Bulgaria,2026-10-30,0.0,-0.0065,0.13,NORMAL,0.13,NORMAL,0.0,NORMAL
-Daily,lss,Burkina Faso,2026-10-30,0.0,-0.0014,1.28,NORMAL,1.28,NORMAL,0.0,NORMAL
-Daily,lss,Burundi,2026-10-30,0.0,-0.0021,2.23,YELLOW,2.23,YELLOW,0.0,NORMAL
-Daily,lss,Cambodia,2026-10-30,0.0,-0.0398,0.27,NORMAL,0.23,NORMAL,0.0,NORMAL
-Daily,lss,Cameroon,2026-10-30,0.0,-0.0033,0.07,NORMAL,0.07,NORMAL,0.0,NORMAL
-Daily,lss,Canada,2026-10-30,0.0,-0.0207,0.16,NORMAL,0.03,NORMAL,0.0,NORMAL
-Daily,lss,Cape Verde,2026-10-30,0.0,-0.0008,0.17,NORMAL,0.17,NORMAL,0.0,NORMAL
-Daily,lss,Cayman Islands,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lss,Central African Republic,2026-10-30,0.0,-0.0004,0.29,NORMAL,0.29,NORMAL,0.0,NORMAL
-Daily,lss,Chad,2026-10-30,0.0,-0.0006,0.29,NORMAL,0.29,NORMAL,0.0,NORMAL
-Daily,lss,Chile,2026-10-30,0.0122,-0.013,0.15,NORMAL,0.14,NORMAL,0.0,NORMAL
-Daily,lss,China,2026-10-30,0.0,0.002,-0.02,NORMAL,-0.02,NORMAL,0.0,NORMAL
-Daily,lss,Colombia,2026-10-30,0.0,-0.0111,0.07,NORMAL,0.07,NORMAL,0.0,NORMAL
-Daily,lss,Comoros,2026-10-30,0.0,-0.0022,0.02,NORMAL,0.02,NORMAL,0.0,NORMAL
-Daily,lss,Congo - Brazzaville,2026-10-30,0.0,-0.0026,0.83,NORMAL,0.83,NORMAL,0.0,NORMAL
-Daily,lss,Congo - Kinshasa,2026-10-30,0.0,-0.0009,0.74,NORMAL,0.48,NORMAL,0.97,NORMAL
-Daily,lss,Cook Islands,2026-10-30,0.0,-0.0007,0.03,NORMAL,0.03,NORMAL,0.0,NORMAL
-Daily,lss,Costa Rica,2026-10-30,0.0,-0.0004,0.14,NORMAL,0.14,NORMAL,0.0,NORMAL
-Daily,lss,Croatia,2026-10-30,0.0,-0.0022,0.87,NORMAL,0.87,NORMAL,0.0,NORMAL
-Daily,lss,Cuba,2026-10-30,0.0,-0.0109,0.13,NORMAL,0.13,NORMAL,0.0,NORMAL
-Daily,lss,Curaçao,2026-10-30,0.0,-0.0001,0.08,NORMAL,0.08,NORMAL,0.0,NORMAL
-Daily,lss,Cyprus,2026-10-30,0.0,-0.0031,0.04,NORMAL,0.04,NORMAL,0.0,NORMAL
-Daily,lss,Czechia,2026-10-30,0.0,-0.0035,0.88,NORMAL,0.88,NORMAL,0.0,NORMAL
-Daily,lss,Côte d’Ivoire,2026-10-30,0.0,-0.0062,0.07,NORMAL,0.07,NORMAL,0.0,NORMAL
-Daily,lss,Denmark,2026-10-30,0.0,-0.0087,0.13,NORMAL,0.13,NORMAL,0.0,NORMAL
-Daily,lss,Djibouti,2026-10-30,0.0,-0.0047,1.12,NORMAL,1.12,NORMAL,0.0,NORMAL
-Daily,lss,Dominica,2026-10-30,0.0,-0.0026,1.69,NORMAL,1.69,NORMAL,0.0,NORMAL
-Daily,lss,Dominican Republic,2026-10-30,0.0,-0.002,1.69,NORMAL,1.69,NORMAL,0.0,NORMAL
-Daily,lss,Ecuador,2026-10-30,0.0,-0.005,0.12,NORMAL,0.12,NORMAL,0.0,NORMAL
-Daily,lss,Egypt,2026-10-30,0.0,-0.0331,0.28,NORMAL,0.17,NORMAL,0.0,NORMAL
-Daily,lss,El Salvador,2026-10-30,0.0,-0.0002,0.17,NORMAL,0.17,NORMAL,0.0,NORMAL
-Daily,lss,Equatorial Guinea,2026-10-30,0.0,-0.0015,5.91,RED,5.91,RED,0.0,NORMAL
-Daily,lss,Eritrea,2026-10-30,0.0,-0.0012,3.16,RED,2.06,YELLOW,6.89,RED
-Daily,lss,Estonia,2026-10-30,0.0,-0.0001,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lss,Eswatini,2026-10-30,0.0,0.0004,-0.09,NORMAL,-0.09,NORMAL,0.0,NORMAL
-Daily,lss,Ethiopia,2026-10-30,0.0,-0.0114,0.16,NORMAL,0.14,NORMAL,0.0,NORMAL
-Daily,lss,Faroe Islands,2026-10-30,0.0,-0.0,0.02,NORMAL,0.02,NORMAL,0.0,NORMAL
-Daily,lss,Fiji,2026-10-30,0.0,-0.0032,0.03,NORMAL,0.03,NORMAL,0.0,NORMAL
-Daily,lss,Finland,2026-10-30,0.0,-0.0019,0.03,NORMAL,0.03,NORMAL,0.0,NORMAL
-Daily,lss,France,2026-10-30,0.0,-0.0828,0.37,NORMAL,0.35,NORMAL,0.0,NORMAL
-Daily,lss,French Polynesia,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lss,Gabon,2026-10-30,0.0,-0.0022,0.58,NORMAL,0.58,NORMAL,0.0,NORMAL
-Daily,lss,Gambia,2026-10-30,0.0,-0.0041,0.94,NORMAL,0.94,NORMAL,0.0,NORMAL
-Daily,lss,Georgia,2026-10-30,0.0,-0.0045,0.05,NORMAL,0.05,NORMAL,0.0,NORMAL
-Daily,lss,Germany,2026-10-30,-0.0079,-0.0781,0.3,NORMAL,0.3,NORMAL,0.0,NORMAL
-Daily,lss,Ghana,2026-10-30,0.0,-0.0072,0.02,NORMAL,0.03,NORMAL,0.0,NORMAL
-Daily,lss,Gibraltar,2026-10-30,0.0,-0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lss,Greece,2026-10-30,0.0,-0.0171,0.11,NORMAL,0.15,NORMAL,0.0,NORMAL
-Daily,lss,Greenland,2026-10-30,0.0,0.0004,-0.1,NORMAL,-0.1,NORMAL,0.0,NORMAL
-Daily,lss,Grenada,2026-10-30,0.0,-0.001,1.82,NORMAL,1.82,NORMAL,0.0,NORMAL
-Daily,lss,Guadeloupe,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lss,Guam,2026-10-30,0.0,-0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lss,Guatemala,2026-10-30,0.0,0.0002,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lss,Guinea,2026-10-30,0.0,-0.004,0.08,NORMAL,0.05,NORMAL,0.0,NORMAL
-Daily,lss,Guinea-Bissau,2026-10-30,0.0,-0.0006,0.35,NORMAL,0.35,NORMAL,0.0,NORMAL
-Daily,lss,Guyana,2026-10-30,0.0,-0.0035,0.85,NORMAL,0.85,NORMAL,0.0,NORMAL
-Daily,lss,Haiti,2026-10-30,0.0,0.0003,-0.3,NORMAL,-0.3,NORMAL,0.0,NORMAL
-Daily,lss,Honduras,2026-10-30,0.0,-0.0013,0.98,NORMAL,0.98,NORMAL,0.0,NORMAL
-Daily,lss,Hungary,2026-10-30,0.0,-0.018,0.14,NORMAL,0.14,NORMAL,0.0,NORMAL
-Daily,lss,Iceland,2026-10-30,-0.0065,-0.0014,-0.09,NORMAL,0.63,NORMAL,0.58,NORMAL
-Daily,lss,India,2026-10-30,0.0,-0.0114,0.0,NORMAL,0.09,NORMAL,0.0,NORMAL
-Daily,lss,Indonesia,2026-10-30,0.0,-0.0329,0.25,NORMAL,0.26,NORMAL,0.0,NORMAL
-Daily,lss,Iran,2026-10-30,0.0,0.0017,-0.12,NORMAL,-0.09,NORMAL,0.0,NORMAL
-Daily,lss,Iraq,2026-10-30,0.0,-0.011,1.53,NORMAL,1.53,NORMAL,0.0,NORMAL
-Daily,lss,Ireland,2026-10-30,0.0,-0.0027,0.25,NORMAL,0.18,NORMAL,0.0,NORMAL
-Daily,lss,Israel,2026-10-30,0.0,0.0173,-0.1,NORMAL,-0.25,NORMAL,0.0,NORMAL
-Daily,lss,Italy,2026-10-30,0.0,-0.0442,0.26,NORMAL,0.21,NORMAL,0.0,NORMAL
-Daily,lss,Jamaica,2026-10-30,0.0,-0.0012,0.02,NORMAL,0.02,NORMAL,0.0,NORMAL
-Daily,lss,Japan,2026-10-30,0.0,-0.0257,0.02,NORMAL,0.02,NORMAL,0.0,NORMAL
-Daily,lss,Jordan,2026-10-30,0.0,-0.0043,-0.2,NORMAL,-0.27,NORMAL,0.0,NORMAL
-Daily,lss,Kazakhstan,2026-10-30,-0.0041,-0.0606,0.35,NORMAL,0.35,NORMAL,0.0,NORMAL
-Daily,lss,Kenya,2026-10-30,0.0,-0.0142,1.68,NORMAL,0.97,NORMAL,1.66,NORMAL
-Daily,lss,Kiribati,2026-10-30,0.0,-0.0013,0.01,NORMAL,0.01,NORMAL,0.0,NORMAL
-Daily,lss,Kuwait,2026-10-30,0.0,-0.0062,0.11,NORMAL,0.11,NORMAL,0.0,NORMAL
-Daily,lss,Kyrgyzstan,2026-10-30,-0.0258,-0.0389,0.16,NORMAL,0.19,NORMAL,0.0,NORMAL
-Daily,lss,Laos,2026-10-30,0.0,-0.0367,0.26,NORMAL,0.23,NORMAL,0.0,NORMAL
-Daily,lss,Latvia,2026-10-30,0.0,-0.0017,0.92,NORMAL,0.92,NORMAL,0.0,NORMAL
-Daily,lss,Lebanon,2026-10-30,0.0,-0.0032,0.65,NORMAL,0.65,NORMAL,0.0,NORMAL
-Daily,lss,Lesotho,2026-10-30,0.0,-0.0004,0.21,NORMAL,0.21,NORMAL,0.0,NORMAL
-Daily,lss,Liberia,2026-10-30,0.0,-0.0012,0.89,NORMAL,0.89,NORMAL,0.0,NORMAL
-Daily,lss,Libya,2026-10-30,0.0,0.0001,2.39,YELLOW,1.42,NORMAL,5.86,RED
-Daily,lss,Liechtenstein,2026-10-30,0.0,-0.0012,0.02,NORMAL,0.02,NORMAL,0.0,NORMAL
-Daily,lss,Lithuania,2026-10-30,0.0,-0.0008,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lss,Luxembourg,2026-10-30,0.0,-0.0027,0.42,NORMAL,0.42,NORMAL,0.0,NORMAL
-Daily,lss,Madagascar,2026-10-30,0.0,-0.0053,1.52,NORMAL,1.52,NORMAL,0.0,NORMAL
-Daily,lss,Malawi,2026-10-30,0.0,-0.0015,0.11,NORMAL,0.11,NORMAL,0.0,NORMAL
-Daily,lss,Malaysia,2026-10-30,0.0,-0.0458,0.27,NORMAL,0.27,NORMAL,0.0,NORMAL
-Daily,lss,Maldives,2026-10-30,0.0,-0.0087,2.27,YELLOW,2.27,YELLOW,0.0,NORMAL
-Daily,lss,Mali,2026-10-30,0.0,-0.0007,0.2,NORMAL,0.2,NORMAL,0.0,NORMAL
-Daily,lss,Malta,2026-10-30,0.0,-0.0005,1.06,NORMAL,1.06,NORMAL,0.0,NORMAL
-Daily,lss,Marshall Islands,2026-10-30,0.0,0.0001,-0.18,NORMAL,-0.18,NORMAL,0.0,NORMAL
-Daily,lss,Martinique,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lss,Mauritania,2026-10-30,0.0,-0.0048,2.68,YELLOW,2.68,YELLOW,0.0,NORMAL
-Daily,lss,Mauritius,2026-10-30,0.0,-0.0012,0.48,NORMAL,0.48,NORMAL,0.0,NORMAL
-Daily,lss,Mexico,2026-10-30,-0.018,-0.0123,-0.09,NORMAL,-0.05,NORMAL,0.0,NORMAL
-Daily,lss,Micronesia (Federated States of),2026-10-30,0.0,-0.0009,0.01,NORMAL,0.01,NORMAL,0.0,NORMAL
-Daily,lss,Moldova,2026-10-30,0.0,-0.0004,0.01,NORMAL,0.01,NORMAL,0.0,NORMAL
-Daily,lss,Monaco,2026-10-30,0.0,-0.0005,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lss,Mongolia,2026-10-30,0.0,-0.0276,0.23,NORMAL,0.23,NORMAL,0.0,NORMAL
-Daily,lss,Montenegro,2026-10-30,0.0,-0.0011,0.25,NORMAL,0.25,NORMAL,0.0,NORMAL
-Daily,lss,Morocco,2026-10-30,0.0,-0.0107,0.12,NORMAL,0.12,NORMAL,0.0,NORMAL
-Daily,lss,Mozambique,2026-10-30,0.0,-0.0048,0.5,NORMAL,0.5,NORMAL,0.0,NORMAL
-Daily,lss,Myanmar (Burma),2026-10-30,0.0,-0.0122,0.09,NORMAL,0.09,NORMAL,0.0,NORMAL
-Daily,lss,Namibia,2026-10-30,0.0,-0.0066,0.09,NORMAL,0.09,NORMAL,0.0,NORMAL
-Daily,lss,Nauru,2026-10-30,0.0,-0.0011,1.05,NORMAL,1.05,NORMAL,0.0,NORMAL
-Daily,lss,Nepal,2026-10-30,0.0,-0.0197,0.17,NORMAL,0.17,NORMAL,0.0,NORMAL
-Daily,lss,Netherlands,2026-10-30,0.0,-0.013,0.29,NORMAL,0.23,NORMAL,0.0,NORMAL
-Daily,lss,New Caledonia,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lss,New Zealand,2026-10-30,0.0,-0.0227,0.13,NORMAL,0.13,NORMAL,0.0,NORMAL
-Daily,lss,Nicaragua,2026-10-30,0.0,-0.0014,0.03,NORMAL,0.03,NORMAL,0.0,NORMAL
-Daily,lss,Niger,2026-10-30,0.0,-0.0002,0.12,NORMAL,0.12,NORMAL,0.0,NORMAL
-Daily,lss,Nigeria,2026-10-30,0.0,-0.0074,0.07,NORMAL,0.07,NORMAL,0.0,NORMAL
-Daily,lss,Niue,2026-10-30,0.0,-0.0002,0.01,NORMAL,0.01,NORMAL,0.0,NORMAL
-Daily,lss,North Korea,2026-10-30,0.0,-0.0285,1.37,NORMAL,1.05,NORMAL,0.0,NORMAL
-Daily,lss,North Macedonia,2026-10-30,0.0,-0.0014,0.45,NORMAL,0.45,NORMAL,0.0,NORMAL
-Daily,lss,Northern Mariana Islands,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lss,Norway,2026-10-30,0.0,-0.0022,0.07,NORMAL,0.07,NORMAL,0.0,NORMAL
-Daily,lss,Oman,2026-10-30,0.0,-0.0026,0.59,NORMAL,0.59,NORMAL,0.0,NORMAL
-Daily,lss,Pakistan,2026-10-30,0.0,-0.0341,0.13,NORMAL,0.1,NORMAL,0.0,NORMAL
-Daily,lss,Palau,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lss,Palestinian Territories,2026-10-30,0.0,0.0085,0.14,NORMAL,-0.01,NORMAL,0.0,NORMAL
-Daily,lss,Panama,2026-10-30,0.0,-0.0021,0.06,NORMAL,0.06,NORMAL,0.0,NORMAL
-Daily,lss,Papua New Guinea,2026-10-30,0.0,-0.005,0.08,NORMAL,0.08,NORMAL,0.0,NORMAL
-Daily,lss,Paraguay,2026-10-30,0.0,-0.0003,0.02,NORMAL,0.02,NORMAL,0.0,NORMAL
-Daily,lss,Peru,2026-10-30,0.0,-0.0291,0.14,NORMAL,0.14,NORMAL,0.0,NORMAL
-Daily,lss,Philippines,2026-10-30,0.0,0.0104,-0.31,NORMAL,-0.31,NORMAL,0.0,NORMAL
-Daily,lss,Poland,2026-10-30,0.0,-0.0123,0.1,NORMAL,0.1,NORMAL,0.0,NORMAL
-Daily,lss,Portugal,2026-10-30,0.0,-0.0091,0.1,NORMAL,0.1,NORMAL,0.0,NORMAL
-Daily,lss,Puerto Rico,2026-10-30,0.0,-0.0001,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lss,Qatar,2026-10-30,0.0,-0.0055,0.08,NORMAL,0.08,NORMAL,0.0,NORMAL
-Daily,lss,Romania,2026-10-30,0.0,-0.0053,1.99,NORMAL,1.99,NORMAL,0.0,NORMAL
-Daily,lss,Russia,2026-10-30,0.0,-0.0663,0.28,NORMAL,0.28,NORMAL,0.0,NORMAL
-Daily,lss,Rwanda,2026-10-30,0.0,-0.0063,0.2,NORMAL,0.2,NORMAL,0.0,NORMAL
-Daily,lss,Réunion,2026-10-30,0.0,-0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lss,Samoa,2026-10-30,0.0,-0.0024,0.02,NORMAL,0.02,NORMAL,0.0,NORMAL
-Daily,lss,San Marino,2026-10-30,0.0,-0.0003,0.45,NORMAL,0.45,NORMAL,0.0,NORMAL
-Daily,lss,Saudi Arabia,2026-10-30,0.0,-0.0185,0.16,NORMAL,0.16,NORMAL,0.0,NORMAL
-Daily,lss,Senegal,2026-10-30,-0.0382,-0.0034,-0.8,NORMAL,-0.75,NORMAL,0.0,NORMAL
-Daily,lss,Serbia,2026-10-30,0.0,-0.0221,0.17,NORMAL,0.17,NORMAL,0.0,NORMAL
-Daily,lss,Seychelles,2026-10-30,0.0,-0.004,0.07,NORMAL,0.07,NORMAL,0.0,NORMAL
-Daily,lss,Sierra Leone,2026-10-30,0.0,-0.0034,0.07,NORMAL,0.07,NORMAL,0.0,NORMAL
-Daily,lss,Singapore,2026-10-30,0.0,-0.0326,0.27,NORMAL,0.27,NORMAL,0.0,NORMAL
-Daily,lss,Slovakia,2026-10-30,0.0,-0.0039,0.11,NORMAL,0.11,NORMAL,0.0,NORMAL
-Daily,lss,Slovenia,2026-10-30,0.0,-0.0009,0.09,NORMAL,0.09,NORMAL,0.0,NORMAL
-Daily,lss,Solomon Islands,2026-10-30,0.0,-0.0012,1.44,NORMAL,1.44,NORMAL,0.0,NORMAL
-Daily,lss,Somalia,2026-10-30,0.0,-0.0008,0.34,NORMAL,0.34,NORMAL,3.43,YELLOW
-Daily,lss,South Africa,2026-10-30,-0.0186,-0.0205,0.14,NORMAL,0.16,NORMAL,0.0,NORMAL
-Daily,lss,South Korea,2026-10-30,0.0,-0.042,0.12,NORMAL,0.11,NORMAL,0.0,NORMAL
-Daily,lss,South Sudan,2026-10-30,0.0,-0.0037,-0.07,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lss,Spain,2026-10-30,0.019,-0.035,0.23,NORMAL,0.18,NORMAL,0.0,NORMAL
-Daily,lss,Sri Lanka,2026-10-30,0.0,-0.0142,0.16,NORMAL,0.16,NORMAL,0.0,NORMAL
-Daily,lss,St. Helena,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lss,St. Kitts & Nevis,2026-10-30,0.0,-0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lss,St. Lucia,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lss,St. Vincent & Grenadines,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,lss,Sudan,2026-10-30,0.0,0.0004,0.1,NORMAL,0.06,NORMAL,0.0,NORMAL
-Daily,lss,Suriname,2026-10-30,0.0,-0.0013,0.41,NORMAL,0.41,NORMAL,0.0,NORMAL
-Daily,lss,Svalbard & Jan Mayen,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lss,Sweden,2026-10-30,0.0,-0.0067,0.06,NORMAL,0.06,NORMAL,0.0,NORMAL
-Daily,lss,Switzerland,2026-10-30,0.0,-0.012,0.1,NORMAL,0.04,NORMAL,0.0,NORMAL
-Daily,lss,Syria,2026-10-30,0.0,0.0005,-0.01,NORMAL,-0.01,NORMAL,0.0,NORMAL
-Daily,lss,São Tomé & Príncipe,2026-10-30,0.0,-0.0005,0.08,NORMAL,0.08,NORMAL,0.0,NORMAL
-Daily,lss,Taiwan,2026-10-30,0.0,0.0396,-0.07,NORMAL,-0.07,NORMAL,0.0,NORMAL
-Daily,lss,Tajikistan,2026-10-30,0.0,-0.03,0.21,NORMAL,0.21,NORMAL,0.0,NORMAL
-Daily,lss,Tanzania,2026-10-30,0.0,-0.0176,0.18,NORMAL,0.18,NORMAL,0.0,NORMAL
-Daily,lss,Thailand,2026-10-30,0.0,-0.0626,0.21,NORMAL,0.2,NORMAL,0.0,NORMAL
-Daily,lss,Timor-Leste,2026-10-30,0.0,-0.0051,0.07,NORMAL,0.07,NORMAL,0.0,NORMAL
-Daily,lss,Togo,2026-10-30,0.0,-0.0017,0.04,NORMAL,0.04,NORMAL,0.0,NORMAL
-Daily,lss,Tonga,2026-10-30,0.0,-0.0022,0.03,NORMAL,0.03,NORMAL,0.0,NORMAL
-Daily,lss,Trinidad & Tobago,2026-10-30,0.0,-0.0006,0.37,NORMAL,0.37,NORMAL,0.0,NORMAL
-Daily,lss,Tunisia,2026-10-30,0.0,-0.0057,0.23,NORMAL,0.23,NORMAL,0.0,NORMAL
-Daily,lss,Turkey,2026-10-30,0.0,-0.0123,0.12,NORMAL,0.12,NORMAL,0.0,NORMAL
-Daily,lss,Turkmenistan,2026-10-30,0.0,-0.0195,0.14,NORMAL,0.14,NORMAL,0.0,NORMAL
-Daily,lss,Tuvalu,2026-10-30,0.0,-0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lss,UK,2026-10-30,0.0,-0.0592,0.21,NORMAL,0.21,NORMAL,0.0,NORMAL
-Daily,lss,US,2026-10-30,-0.0005,-0.0249,0.02,NORMAL,0.05,NORMAL,0.0,NORMAL
-Daily,lss,Uganda,2026-10-30,0.0,-0.0082,0.13,NORMAL,0.13,NORMAL,0.0,NORMAL
-Daily,lss,Ukraine,2026-10-30,0.0,0.0009,-0.01,NORMAL,-0.01,NORMAL,0.0,NORMAL
-Daily,lss,United Arab Emirates,2026-10-30,0.0,-0.0289,0.22,NORMAL,0.21,NORMAL,0.0,NORMAL
-Daily,lss,Uruguay,2026-10-30,0.0,-0.0056,0.06,NORMAL,0.06,NORMAL,0.0,NORMAL
-Daily,lss,Uzbekistan,2026-10-30,0.0,-0.049,0.25,NORMAL,0.26,NORMAL,0.0,NORMAL
-Daily,lss,Vanuatu,2026-10-30,0.0,-0.0012,0.1,NORMAL,0.1,NORMAL,0.0,NORMAL
-Daily,lss,Vatican City,2026-10-30,0.0,-0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lss,Venezuela,2026-10-30,0.0,-0.0017,0.06,NORMAL,0.06,NORMAL,0.0,NORMAL
-Daily,lss,Vietnam,2026-10-30,0.0,-0.0488,0.19,NORMAL,0.19,NORMAL,0.0,NORMAL
-Daily,lss,Western Sahara,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,lss,Yemen,2026-10-30,0.0,-0.0001,0.02,NORMAL,0.02,NORMAL,5.7,RED
-Daily,lss,Zambia,2026-10-30,0.0,-0.0099,0.07,NORMAL,0.07,NORMAL,0.0,NORMAL
-Daily,lss,Zimbabwe,2026-10-30,0.0,-0.0076,0.11,NORMAL,0.14,NORMAL,0.0,NORMAL
-Daily,negativity,Afghanistan,2026-10-30,0.0,0.0097,-0.11,NORMAL,-0.11,NORMAL,0.0,NORMAL
-Daily,negativity,Albania,2026-10-30,0.0,0.0006,-0.08,NORMAL,-0.08,NORMAL,0.0,NORMAL
-Daily,negativity,Algeria,2026-10-30,0.0,0.002,-0.12,NORMAL,-0.12,NORMAL,0.0,NORMAL
-Daily,negativity,American Samoa,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,negativity,Andorra,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,negativity,Angola,2026-10-30,0.0,0.0012,-0.11,NORMAL,-0.11,NORMAL,0.0,NORMAL
-Daily,negativity,Antarctica,2026-10-30,0.0,0.0002,-0.02,NORMAL,-0.02,NORMAL,0.0,NORMAL
-Daily,negativity,Antigua & Barbuda,2026-10-30,0.0,0.0007,-0.03,NORMAL,-0.03,NORMAL,0.0,NORMAL
-Daily,negativity,Argentina,2026-10-30,0.0,0.0088,-0.14,NORMAL,-0.14,NORMAL,0.0,NORMAL
-Daily,negativity,Armenia,2026-10-30,0.0,0.0013,-0.17,NORMAL,-0.17,NORMAL,20.21,RED
-Daily,negativity,Aruba,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,negativity,Australia,2026-10-30,0.0,0.0382,-0.16,NORMAL,-0.21,NORMAL,0.0,NORMAL
-Daily,negativity,Austria,2026-10-30,0.0,0.0057,-0.12,NORMAL,-0.12,NORMAL,0.0,NORMAL
-Daily,negativity,Azerbaijan,2026-10-30,0.0,0.0094,-0.17,NORMAL,-0.17,NORMAL,1.95,NORMAL
-Daily,negativity,Bahamas,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,negativity,Bahrain,2026-10-30,0.0,0.0027,-0.07,NORMAL,-0.07,NORMAL,0.0,NORMAL
-Daily,negativity,Bangladesh,2026-10-30,0.0,0.0063,-0.15,NORMAL,-0.15,NORMAL,0.0,NORMAL
-Daily,negativity,Barbados,2026-10-30,0.0,0.0002,-0.07,NORMAL,-0.07,NORMAL,0.0,NORMAL
-Daily,negativity,Belarus,2026-10-30,0.0,0.0063,-0.15,NORMAL,-0.15,NORMAL,0.0,NORMAL
-Daily,negativity,Belgium,2026-10-30,0.0,0.0145,0.28,NORMAL,0.38,NORMAL,8.16,RED
-Daily,negativity,Belize,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,negativity,Benin,2026-10-30,0.0,0.0018,-0.04,NORMAL,-0.04,NORMAL,0.0,NORMAL
-Daily,negativity,Bermuda,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,negativity,Bhutan,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,negativity,Bolivia,2026-10-30,0.0,0.0003,-0.06,NORMAL,-0.06,NORMAL,0.0,NORMAL
-Daily,negativity,Bosnia & Herzegovina,2026-10-30,0.0,0.0005,-0.08,NORMAL,-0.08,NORMAL,0.0,NORMAL
-Daily,negativity,Botswana,2026-10-30,0.0,0.0036,-0.18,NORMAL,-0.18,NORMAL,27.46,RED
-Daily,negativity,Brazil,2026-10-30,0.0,0.031,-0.4,NORMAL,0.89,NORMAL,2.8,NORMAL
-Daily,negativity,British Virgin Islands,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,negativity,Brunei,2026-10-30,0.0,0.0023,-0.08,NORMAL,-0.08,NORMAL,0.0,NORMAL
-Daily,negativity,Bulgaria,2026-10-30,0.0,0.0042,-0.15,NORMAL,-0.15,NORMAL,10.54,RED
-Daily,negativity,Burkina Faso,2026-10-30,0.0,0.0001,-0.01,NORMAL,-0.01,NORMAL,0.0,NORMAL
-Daily,negativity,Burundi,2026-10-30,0.0,0.0015,-0.05,NORMAL,-0.05,NORMAL,0.0,NORMAL
-Daily,negativity,Cambodia,2026-10-30,0.0,0.0195,1.05,NORMAL,0.53,NORMAL,1.47,NORMAL
-Daily,negativity,Cameroon,2026-10-30,0.0,0.0021,-0.17,NORMAL,-0.17,NORMAL,0.0,NORMAL
-Daily,negativity,Canada,2026-10-30,0.0,0.0413,1.29,NORMAL,0.72,NORMAL,3.23,YELLOW
-Daily,negativity,Cape Verde,2026-10-30,0.0,0.0008,-0.1,NORMAL,-0.1,NORMAL,0.0,NORMAL
-Daily,negativity,Cayman Islands,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,negativity,Central African Republic,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,negativity,Chad,2026-10-30,0.0,0.0018,-0.03,NORMAL,-0.03,NORMAL,0.0,NORMAL
-Daily,negativity,Chile,2026-10-30,0.1,0.0087,0.34,NORMAL,0.16,NORMAL,0.71,NORMAL
-Daily,negativity,China,2026-10-30,0.0,0.002,-0.09,NORMAL,-0.09,NORMAL,0.0,NORMAL
-Daily,negativity,Colombia,2026-10-30,0.0,0.0079,-0.14,NORMAL,-0.14,NORMAL,0.0,NORMAL
-Daily,negativity,Comoros,2026-10-30,0.0,0.0001,-0.02,NORMAL,-0.02,NORMAL,0.0,NORMAL
-Daily,negativity,Congo - Brazzaville,2026-10-30,0.0,0.0048,-0.12,NORMAL,-0.12,NORMAL,7.06,RED
-Daily,negativity,Congo - Kinshasa,2026-10-30,0.0,0.0245,1.36,NORMAL,0.72,NORMAL,4.61,YELLOW
-Daily,negativity,Cook Islands,2026-10-30,0.0,0.0,-0.01,NORMAL,-0.01,NORMAL,0.0,NORMAL
-Daily,negativity,Costa Rica,2026-10-30,0.0,0.0004,-0.07,NORMAL,-0.07,NORMAL,0.0,NORMAL
-Daily,negativity,Croatia,2026-10-30,0.0,0.0037,-0.13,NORMAL,-0.13,NORMAL,9.23,RED
-Daily,negativity,Cuba,2026-10-30,0.0,0.0251,-0.19,NORMAL,-0.19,NORMAL,0.0,NORMAL
-Daily,negativity,Curaçao,2026-10-30,0.0,0.0004,-0.08,NORMAL,-0.08,NORMAL,0.0,NORMAL
-Daily,negativity,Cyprus,2026-10-30,0.0,0.002,-0.07,NORMAL,-0.07,NORMAL,0.0,NORMAL
-Daily,negativity,Czechia,2026-10-30,0.0,0.0029,-0.11,NORMAL,-0.11,NORMAL,0.0,NORMAL
-Daily,negativity,Côte d’Ivoire,2026-10-30,0.0,0.0011,-0.1,NORMAL,-0.1,NORMAL,0.0,NORMAL
-Daily,negativity,Denmark,2026-10-30,0.0,0.0186,-0.16,NORMAL,-0.16,NORMAL,0.0,NORMAL
-Daily,negativity,Djibouti,2026-10-30,0.0,0.01,-0.17,NORMAL,-0.17,NORMAL,18.01,RED
-Daily,negativity,Dominica,2026-10-30,0.0,0.0012,-0.05,NORMAL,-0.05,NORMAL,0.0,NORMAL
-Daily,negativity,Dominican Republic,2026-10-30,0.0,0.0003,-0.01,NORMAL,-0.01,NORMAL,0.0,NORMAL
-Daily,negativity,Ecuador,2026-10-30,0.0,0.0024,-0.16,NORMAL,-0.16,NORMAL,0.0,NORMAL
-Daily,negativity,Egypt,2026-10-30,0.0,0.0245,3.43,RED,2.18,YELLOW,8.89,RED
-Daily,negativity,El Salvador,2026-10-30,0.0,0.0023,-0.09,NORMAL,-0.09,NORMAL,0.0,NORMAL
-Daily,negativity,Equatorial Guinea,2026-10-30,0.0,0.0001,-0.01,NORMAL,-0.01,NORMAL,0.0,NORMAL
-Daily,negativity,Eritrea,2026-10-30,0.0,0.0048,6.16,RED,3.65,RED,17.13,RED
-Daily,negativity,Estonia,2026-10-30,0.0,0.0006,-0.08,NORMAL,-0.08,NORMAL,0.0,NORMAL
-Daily,negativity,Eswatini,2026-10-30,0.0,0.0032,-0.06,NORMAL,-0.06,NORMAL,0.0,NORMAL
-Daily,negativity,Ethiopia,2026-10-30,0.0,0.0145,4.16,RED,2.4,YELLOW,10.99,RED
-Daily,negativity,Faroe Islands,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,negativity,Fiji,2026-10-30,0.0,0.0012,-0.16,NORMAL,-0.16,NORMAL,0.0,NORMAL
-Daily,negativity,Finland,2026-10-30,0.0,0.0089,-0.13,NORMAL,-0.13,NORMAL,0.0,NORMAL
-Daily,negativity,France,2026-10-30,0.0,0.0762,-0.47,NORMAL,0.39,NORMAL,2.29,NORMAL
-Daily,negativity,French Polynesia,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,negativity,Gabon,2026-10-30,0.0,0.0014,-0.05,NORMAL,-0.05,NORMAL,0.0,NORMAL
-Daily,negativity,Gambia,2026-10-30,0.0,0.001,-0.09,NORMAL,-0.09,NORMAL,0.0,NORMAL
-Daily,negativity,Georgia,2026-10-30,0.0,0.0018,-0.07,NORMAL,-0.07,NORMAL,0.0,NORMAL
-Daily,negativity,Germany,2026-10-30,0.22,0.081,1.4,NORMAL,0.7,NORMAL,2.67,NORMAL
-Daily,negativity,Ghana,2026-10-30,0.0,0.005,0.33,NORMAL,1.81,NORMAL,7.22,RED
-Daily,negativity,Gibraltar,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,negativity,Greece,2026-10-30,0.0,0.013,-0.22,NORMAL,-0.22,NORMAL,0.04,NORMAL
-Daily,negativity,Greenland,2026-10-30,0.0,0.0079,-0.08,NORMAL,-0.08,NORMAL,0.0,NORMAL
-Daily,negativity,Grenada,2026-10-30,0.0,0.0005,-0.1,NORMAL,-0.1,NORMAL,0.0,NORMAL
-Daily,negativity,Guadeloupe,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,negativity,Guam,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,negativity,Guatemala,2026-10-30,0.0,0.0001,-0.01,NORMAL,-0.01,NORMAL,0.0,NORMAL
-Daily,negativity,Guinea,2026-10-30,0.0,0.0035,-0.17,NORMAL,2.68,YELLOW,11.66,RED
-Daily,negativity,Guinea-Bissau,2026-10-30,0.0,0.0002,-0.06,NORMAL,-0.06,NORMAL,0.0,NORMAL
-Daily,negativity,Guyana,2026-10-30,0.0,0.0019,-0.07,NORMAL,-0.07,NORMAL,0.0,NORMAL
-Daily,negativity,Haiti,2026-10-30,0.0,0.0001,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,negativity,Honduras,2026-10-30,0.0,0.0001,-0.05,NORMAL,-0.05,NORMAL,0.0,NORMAL
-Daily,negativity,Hungary,2026-10-30,0.0,0.0138,-0.22,NORMAL,-0.22,NORMAL,0.0,NORMAL
-Daily,negativity,Iceland,2026-10-30,0.0,0.0035,-0.11,NORMAL,3.12,RED,13.86,RED
-Daily,negativity,India,2026-10-30,0.0,0.0255,-0.08,NORMAL,-0.15,NORMAL,0.0,NORMAL
-Daily,negativity,Indonesia,2026-10-30,0.0,0.0329,0.0,NORMAL,-0.13,NORMAL,0.0,NORMAL
-Daily,negativity,Iran,2026-10-30,0.0,0.1273,0.45,NORMAL,0.05,NORMAL,0.28,NORMAL
-Daily,negativity,Iraq,2026-10-30,0.0,0.0114,-0.13,NORMAL,-0.13,NORMAL,0.0,NORMAL
-Daily,negativity,Ireland,2026-10-30,0.0,0.0048,5.63,RED,3.33,RED,15.45,RED
-Daily,negativity,Israel,2026-10-30,0.0,0.0698,1.08,NORMAL,0.53,NORMAL,1.47,NORMAL
-Daily,negativity,Italy,2026-10-30,0.0,0.0322,-0.34,NORMAL,-0.23,NORMAL,6.31,RED
-Daily,negativity,Jamaica,2026-10-30,0.0,0.002,-0.07,NORMAL,-0.07,NORMAL,0.0,NORMAL
-Daily,negativity,Japan,2026-10-30,0.0,0.2982,-0.49,NORMAL,-0.41,NORMAL,0.0,NORMAL
-Daily,negativity,Jordan,2026-10-30,0.0,0.0041,0.93,NORMAL,0.51,NORMAL,1.27,NORMAL
-Daily,negativity,Kazakhstan,2026-10-30,0.15,0.0149,0.83,NORMAL,0.36,NORMAL,11.69,RED
-Daily,negativity,Kenya,2026-10-30,0.0,0.0142,4.97,RED,2.87,YELLOW,14.37,RED
-Daily,negativity,Kiribati,2026-10-30,0.0,0.0001,-0.01,NORMAL,-0.01,NORMAL,0.0,NORMAL
-Daily,negativity,Kuwait,2026-10-30,0.0,0.0045,-0.08,NORMAL,-0.08,NORMAL,0.0,NORMAL
-Daily,negativity,Kyrgyzstan,2026-10-30,0.05,0.0131,0.49,NORMAL,0.17,NORMAL,0.42,NORMAL
-Daily,negativity,Laos,2026-10-30,0.0,0.0195,-0.34,NORMAL,-0.34,NORMAL,0.0,NORMAL
-Daily,negativity,Latvia,2026-10-30,0.0,0.0008,-0.08,NORMAL,-0.08,NORMAL,0.0,NORMAL
-Daily,negativity,Lebanon,2026-10-30,0.0,0.0054,-0.09,NORMAL,-0.09,NORMAL,0.0,NORMAL
-Daily,negativity,Lesotho,2026-10-30,0.0,0.0009,-0.1,NORMAL,-0.1,NORMAL,0.0,NORMAL
-Daily,negativity,Liberia,2026-10-30,0.0,0.0013,-0.05,NORMAL,-0.05,NORMAL,0.0,NORMAL
-Daily,negativity,Libya,2026-10-30,0.0,0.0022,1.15,NORMAL,0.66,NORMAL,1.97,NORMAL
-Daily,negativity,Liechtenstein,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,negativity,Lithuania,2026-10-30,0.0,0.0002,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,negativity,Luxembourg,2026-10-30,0.0,0.0013,-0.09,NORMAL,-0.09,NORMAL,0.0,NORMAL
-Daily,negativity,Madagascar,2026-10-30,0.0,0.0007,-0.08,NORMAL,-0.08,NORMAL,0.0,NORMAL
-Daily,negativity,Malawi,2026-10-30,0.0,0.0018,-0.12,NORMAL,-0.12,NORMAL,0.0,NORMAL
-Daily,negativity,Malaysia,2026-10-30,0.0,0.0269,-0.31,NORMAL,-0.31,NORMAL,0.0,NORMAL
-Daily,negativity,Maldives,2026-10-30,0.0,0.001,-0.1,NORMAL,-0.1,NORMAL,0.0,NORMAL
-Daily,negativity,Mali,2026-10-30,0.0,0.002,-0.06,NORMAL,-0.06,NORMAL,0.0,NORMAL
-Daily,negativity,Malta,2026-10-30,0.0,0.0002,-0.04,NORMAL,-0.04,NORMAL,0.0,NORMAL
-Daily,negativity,Marshall Islands,2026-10-30,0.0,0.0003,-0.06,NORMAL,-0.06,NORMAL,0.0,NORMAL
-Daily,negativity,Martinique,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,negativity,Mauritania,2026-10-30,0.0,0.0016,-0.09,NORMAL,-0.09,NORMAL,0.0,NORMAL
-Daily,negativity,Mauritius,2026-10-30,0.0,0.0013,-0.06,NORMAL,-0.06,NORMAL,0.0,NORMAL
-Daily,negativity,Mexico,2026-10-30,0.0,0.0182,0.19,NORMAL,0.27,NORMAL,0.0,NORMAL
-Daily,negativity,Micronesia (Federated States of),2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,negativity,Moldova,2026-10-30,0.0,0.0035,-0.08,NORMAL,-0.08,NORMAL,0.0,NORMAL
-Daily,negativity,Monaco,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,negativity,Mongolia,2026-10-30,0.0,0.0093,-0.21,NORMAL,-0.21,NORMAL,0.0,NORMAL
-Daily,negativity,Montenegro,2026-10-30,0.0,0.0055,-0.16,NORMAL,-0.16,NORMAL,5.89,RED
-Daily,negativity,Morocco,2026-10-30,0.0,0.013,-0.19,NORMAL,-0.19,NORMAL,0.0,NORMAL
-Daily,negativity,Mozambique,2026-10-30,0.0,0.0039,-0.17,NORMAL,-0.17,NORMAL,0.0,NORMAL
-Daily,negativity,Myanmar (Burma),2026-10-30,0.0,0.019,-0.22,NORMAL,-0.22,NORMAL,0.0,NORMAL
-Daily,negativity,Namibia,2026-10-30,0.0,0.0029,-0.18,NORMAL,-0.18,NORMAL,0.0,NORMAL
-Daily,negativity,Nauru,2026-10-30,0.0,0.0018,-0.07,NORMAL,-0.07,NORMAL,0.0,NORMAL
-Daily,negativity,Nepal,2026-10-30,0.0,0.0126,-0.17,NORMAL,-0.17,NORMAL,0.0,NORMAL
-Daily,negativity,Netherlands,2026-10-30,0.0,0.0153,-0.18,NORMAL,0.18,NORMAL,0.0,NORMAL
-Daily,negativity,New Caledonia,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,negativity,New Zealand,2026-10-30,0.0,0.009,-0.14,NORMAL,-0.14,NORMAL,0.0,NORMAL
-Daily,negativity,Nicaragua,2026-10-30,0.0,0.0004,-0.15,NORMAL,-0.15,NORMAL,0.0,NORMAL
-Daily,negativity,Niger,2026-10-30,0.0,0.0007,-0.02,NORMAL,-0.02,NORMAL,0.0,NORMAL
-Daily,negativity,Nigeria,2026-10-30,0.0,0.0065,-0.11,NORMAL,-0.11,NORMAL,0.0,NORMAL
-Daily,negativity,Niue,2026-10-30,0.0,0.0,-0.02,NORMAL,-0.02,NORMAL,0.0,NORMAL
-Daily,negativity,North Korea,2026-10-30,0.0,0.017,2.15,YELLOW,1.44,NORMAL,5.52,RED
-Daily,negativity,North Macedonia,2026-10-30,0.0,0.0006,-0.1,NORMAL,-0.1,NORMAL,9.12,RED
-Daily,negativity,Northern Mariana Islands,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,negativity,Norway,2026-10-30,0.0,0.0107,-0.2,NORMAL,-0.2,NORMAL,0.05,NORMAL
-Daily,negativity,Oman,2026-10-30,0.0,0.0056,-0.1,NORMAL,-0.1,NORMAL,0.0,NORMAL
-Daily,negativity,Pakistan,2026-10-30,0.0,0.0399,-0.05,NORMAL,-0.14,NORMAL,0.0,NORMAL
-Daily,negativity,Palau,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,negativity,Palestinian Territories,2026-10-30,0.0,0.0447,1.6,NORMAL,0.85,NORMAL,3.27,YELLOW
-Daily,negativity,Panama,2026-10-30,0.0,0.0081,-0.13,NORMAL,-0.13,NORMAL,5.25,RED
-Daily,negativity,Papua New Guinea,2026-10-30,0.0,0.0018,-0.14,NORMAL,-0.14,NORMAL,0.0,NORMAL
-Daily,negativity,Paraguay,2026-10-30,0.0,0.0001,-0.02,NORMAL,-0.02,NORMAL,0.0,NORMAL
-Daily,negativity,Peru,2026-10-30,0.0,0.0136,-0.28,NORMAL,-0.28,NORMAL,11.87,RED
-Daily,negativity,Philippines,2026-10-30,0.0,0.0597,-0.31,NORMAL,-0.31,NORMAL,0.0,NORMAL
-Daily,negativity,Poland,2026-10-30,0.0,0.0061,-0.11,NORMAL,-0.11,NORMAL,0.0,NORMAL
-Daily,negativity,Portugal,2026-10-30,0.0,0.01,-0.16,NORMAL,-0.16,NORMAL,4.31,YELLOW
-Daily,negativity,Puerto Rico,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,negativity,Qatar,2026-10-30,0.0,0.012,-0.13,NORMAL,-0.13,NORMAL,0.0,NORMAL
-Daily,negativity,Romania,2026-10-30,0.0,0.0014,-0.05,NORMAL,-0.05,NORMAL,0.0,NORMAL
-Daily,negativity,Russia,2026-10-30,0.0,0.0954,0.1,NORMAL,-0.12,NORMAL,0.0,NORMAL
-Daily,negativity,Rwanda,2026-10-30,0.0,0.0048,-0.16,NORMAL,-0.16,NORMAL,14.01,RED
-Daily,negativity,Réunion,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,negativity,Samoa,2026-10-30,0.0,0.0002,-0.02,NORMAL,-0.02,NORMAL,0.0,NORMAL
-Daily,negativity,San Marino,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,negativity,Saudi Arabia,2026-10-30,0.0,0.0342,-0.27,NORMAL,-0.27,NORMAL,3.62,YELLOW
-Daily,negativity,Senegal,2026-10-30,0.0,0.0035,-0.1,NORMAL,-0.1,NORMAL,0.0,NORMAL
-Daily,negativity,Serbia,2026-10-30,0.0,0.0087,-0.16,NORMAL,-0.16,NORMAL,0.0,NORMAL
-Daily,negativity,Seychelles,2026-10-30,0.0,0.005,-0.12,NORMAL,-0.12,NORMAL,5.68,RED
-Daily,negativity,Sierra Leone,2026-10-30,0.0,0.0016,-0.05,NORMAL,-0.05,NORMAL,0.0,NORMAL
-Daily,negativity,Singapore,2026-10-30,0.0,0.0326,-0.28,NORMAL,-0.28,NORMAL,0.0,NORMAL
-Daily,negativity,Slovakia,2026-10-30,0.0,0.0041,-0.14,NORMAL,-0.14,NORMAL,0.84,NORMAL
-Daily,negativity,Slovenia,2026-10-30,0.0,0.0018,-0.12,NORMAL,-0.12,NORMAL,0.0,NORMAL
-Daily,negativity,Solomon Islands,2026-10-30,0.0,0.0021,-0.08,NORMAL,-0.08,NORMAL,0.0,NORMAL
-Daily,negativity,Somalia,2026-10-30,0.0,0.0023,-0.13,NORMAL,-0.13,NORMAL,11.53,RED
-Daily,negativity,South Africa,2026-10-30,0.05,0.0189,-0.03,NORMAL,-0.14,NORMAL,0.0,NORMAL
-Daily,negativity,South Korea,2026-10-30,0.0,0.0687,-0.34,NORMAL,-0.36,NORMAL,0.0,NORMAL
-Daily,negativity,South Sudan,2026-10-30,0.0,0.0028,-0.06,NORMAL,-0.06,NORMAL,0.0,NORMAL
-Daily,negativity,Spain,2026-10-30,0.3,0.0388,2.43,YELLOW,1.41,NORMAL,6.72,RED
-Daily,negativity,Sri Lanka,2026-10-30,0.0,0.0057,-0.11,NORMAL,-0.11,NORMAL,0.0,NORMAL
-Daily,negativity,St. Helena,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,negativity,St. Kitts & Nevis,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,negativity,St. Lucia,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,negativity,St. Vincent & Grenadines,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,negativity,Sudan,2026-10-30,0.0,0.0138,2.61,YELLOW,1.51,NORMAL,6.3,RED
-Daily,negativity,Suriname,2026-10-30,0.0,0.0005,-0.1,NORMAL,-0.1,NORMAL,9.71,RED
-Daily,negativity,Svalbard & Jan Mayen,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,negativity,Sweden,2026-10-30,0.0,0.0069,-0.14,NORMAL,-0.14,NORMAL,0.0,NORMAL
-Daily,negativity,Switzerland,2026-10-30,0.0,0.0158,1.93,NORMAL,1.14,NORMAL,4.93,YELLOW
-Daily,negativity,Syria,2026-10-30,0.0,0.0062,-0.11,NORMAL,-0.11,NORMAL,0.0,NORMAL
-Daily,negativity,São Tomé & Príncipe,2026-10-30,0.0,0.0004,-0.05,NORMAL,-0.05,NORMAL,0.0,NORMAL
-Daily,negativity,Taiwan,2026-10-30,0.0,0.1487,-0.4,NORMAL,-0.19,NORMAL,0.0,NORMAL
-Daily,negativity,Tajikistan,2026-10-30,0.0,0.0083,-0.16,NORMAL,-0.16,NORMAL,4.76,YELLOW
-Daily,negativity,Tanzania,2026-10-30,0.0,0.01,-0.26,NORMAL,-0.26,NORMAL,0.0,NORMAL
-Daily,negativity,Thailand,2026-10-30,0.0,0.035,-0.32,NORMAL,-0.32,NORMAL,0.0,NORMAL
-Daily,negativity,Timor-Leste,2026-10-30,0.0,0.001,-0.09,NORMAL,-0.09,NORMAL,0.0,NORMAL
-Daily,negativity,Togo,2026-10-30,0.0,0.0017,-0.18,NORMAL,-0.18,NORMAL,39.98,RED
-Daily,negativity,Tonga,2026-10-30,0.0,0.0011,-0.16,NORMAL,-0.16,NORMAL,3.24,YELLOW
-Daily,negativity,Trinidad & Tobago,2026-10-30,0.0,0.0001,-0.03,NORMAL,-0.03,NORMAL,0.0,NORMAL
-Daily,negativity,Tunisia,2026-10-30,0.0,0.0031,-0.11,NORMAL,-0.11,NORMAL,0.0,NORMAL
-Daily,negativity,Turkey,2026-10-30,0.0,0.0145,-0.19,NORMAL,-0.19,NORMAL,0.0,NORMAL
-Daily,negativity,Turkmenistan,2026-10-30,0.0,0.0036,-0.09,NORMAL,-0.09,NORMAL,0.0,NORMAL
-Daily,negativity,Tuvalu,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,negativity,UK,2026-10-30,0.0,0.0496,-0.36,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,negativity,US,2026-10-30,0.2,0.2064,-0.1,NORMAL,-0.05,NORMAL,0.0,NORMAL
-Daily,negativity,Uganda,2026-10-30,0.0,0.0074,-0.12,NORMAL,-0.12,NORMAL,0.0,NORMAL
-Daily,negativity,Ukraine,2026-10-30,0.0,0.0192,-0.21,NORMAL,-0.21,NORMAL,0.0,NORMAL
-Daily,negativity,United Arab Emirates,2026-10-30,0.0,0.0278,1.55,NORMAL,0.84,NORMAL,3.37,YELLOW
-Daily,negativity,Uruguay,2026-10-30,0.0,0.0016,-0.06,NORMAL,-0.06,NORMAL,0.0,NORMAL
-Daily,negativity,Uzbekistan,2026-10-30,0.0,0.0146,0.05,NORMAL,-0.1,NORMAL,1.74,NORMAL
-Daily,negativity,Vanuatu,2026-10-30,0.0,0.0001,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,negativity,Vatican City,2026-10-30,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
-Daily,negativity,Venezuela,2026-10-30,0.0,0.0185,-0.13,NORMAL,-0.13,NORMAL,0.0,NORMAL
-Daily,negativity,Vietnam,2026-10-30,0.0,0.0229,0.12,NORMAL,-0.03,NORMAL,0.0,NORMAL
-Daily,negativity,Western Sahara,2026-10-30,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
-Daily,negativity,Yemen,2026-10-30,0.0,0.0165,-0.18,NORMAL,-0.18,NORMAL,7.09,RED
-Daily,negativity,Zambia,2026-10-30,0.0,0.0032,-0.15,NORMAL,-0.15,NORMAL,0.0,NORMAL
-Daily,negativity,Zimbabwe,2026-10-30,0.0,0.0048,-0.16,NORMAL,3.18,RED,14.01,RED
+Daily,deepseek,Afghanistan,2026-10-31,0.0,0.0001,-0.04,NORMAL,-0.04,NORMAL,0.0,NORMAL
+Daily,deepseek,Albania,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,deepseek,Algeria,2026-10-31,0.0,0.0,-0.01,NORMAL,-0.01,NORMAL,0.0,NORMAL
+Daily,deepseek,American Samoa,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,deepseek,Andorra,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,deepseek,Angola,2026-10-31,0.0,0.0,-0.08,NORMAL,-0.08,NORMAL,0.0,NORMAL
+Daily,deepseek,Antarctica,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,deepseek,Antigua & Barbuda,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,deepseek,Argentina,2026-10-31,0.0,0.0002,-0.14,NORMAL,-0.14,NORMAL,0.0,NORMAL
+Daily,deepseek,Armenia,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,deepseek,Aruba,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,deepseek,Australia,2026-10-31,0.0,0.0006,-0.09,NORMAL,-0.09,NORMAL,0.0,NORMAL
+Daily,deepseek,Austria,2026-10-31,0.0,0.0001,-0.09,NORMAL,-0.09,NORMAL,0.0,NORMAL
+Daily,deepseek,Azerbaijan,2026-10-31,0.0,0.0001,-0.07,NORMAL,-0.07,NORMAL,0.0,NORMAL
+Daily,deepseek,Bahamas,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,deepseek,Bahrain,2026-10-31,0.0,0.0001,-0.03,NORMAL,-0.03,NORMAL,0.0,NORMAL
+Daily,deepseek,Bangladesh,2026-10-31,0.0,0.0002,-0.08,NORMAL,-0.08,NORMAL,0.0,NORMAL
+Daily,deepseek,Barbados,2026-10-31,0.0,0.0,-0.02,NORMAL,-0.02,NORMAL,0.0,NORMAL
+Daily,deepseek,Belarus,2026-10-31,0.0,0.0002,-0.17,NORMAL,-0.17,NORMAL,0.3,NORMAL
+Daily,deepseek,Belgium,2026-10-31,0.0,0.0001,-0.07,NORMAL,-0.07,NORMAL,0.0,NORMAL
+Daily,deepseek,Belize,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,deepseek,Benin,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,deepseek,Bermuda,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,deepseek,Bhutan,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,deepseek,Bolivia,2026-10-31,0.0,0.0,-0.02,NORMAL,-0.02,NORMAL,0.0,NORMAL
+Daily,deepseek,Bosnia & Herzegovina,2026-10-31,0.0,0.0,-0.04,NORMAL,-0.04,NORMAL,0.0,NORMAL
+Daily,deepseek,Botswana,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,deepseek,Brazil,2026-10-31,0.0,0.0007,-0.17,NORMAL,-0.17,NORMAL,0.0,NORMAL
+Daily,deepseek,British Virgin Islands,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,deepseek,Brunei,2026-10-31,0.0,0.0002,-0.08,NORMAL,-0.08,NORMAL,0.0,NORMAL
+Daily,deepseek,Bulgaria,2026-10-31,0.0,0.0001,-0.09,NORMAL,-0.09,NORMAL,0.31,NORMAL
+Daily,deepseek,Burkina Faso,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,deepseek,Burundi,2026-10-31,0.0,0.0,-0.06,NORMAL,-0.06,NORMAL,0.0,NORMAL
+Daily,deepseek,Cambodia,2026-10-31,0.0,0.0005,-0.09,NORMAL,-0.09,NORMAL,0.0,NORMAL
+Daily,deepseek,Cameroon,2026-10-31,0.0,0.0,-0.06,NORMAL,-0.06,NORMAL,0.0,NORMAL
+Daily,deepseek,Canada,2026-10-31,0.0,0.0007,-0.14,NORMAL,-0.14,NORMAL,0.0,NORMAL
+Daily,deepseek,Cape Verde,2026-10-31,0.0,0.0,-0.04,NORMAL,-0.04,NORMAL,0.0,NORMAL
+Daily,deepseek,Cayman Islands,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,deepseek,Central African Republic,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,deepseek,Chad,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,deepseek,Chile,2026-10-31,0.0,0.0002,-0.07,NORMAL,-0.07,NORMAL,0.0,NORMAL
+Daily,deepseek,China,2026-10-31,0.0,0.0001,-0.1,NORMAL,-0.1,NORMAL,0.0,NORMAL
+Daily,deepseek,Colombia,2026-10-31,0.0,0.0001,-0.04,NORMAL,-0.04,NORMAL,0.0,NORMAL
+Daily,deepseek,Comoros,2026-10-31,0.0,0.0,-0.01,NORMAL,-0.01,NORMAL,0.0,NORMAL
+Daily,deepseek,Congo - Brazzaville,2026-10-31,0.0,0.0,-0.05,NORMAL,-0.05,NORMAL,0.0,NORMAL
+Daily,deepseek,Congo - Kinshasa,2026-10-31,0.0,0.0001,-0.11,NORMAL,-0.11,NORMAL,0.0,NORMAL
+Daily,deepseek,Cook Islands,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,deepseek,Costa Rica,2026-10-31,0.0,0.0,-0.01,NORMAL,-0.01,NORMAL,0.0,NORMAL
+Daily,deepseek,Croatia,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,deepseek,Cuba,2026-10-31,0.0,0.0048,-0.1,NORMAL,-0.1,NORMAL,6.26,RED
+Daily,deepseek,Curaçao,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,deepseek,Cyprus,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,deepseek,Czechia,2026-10-31,0.0,0.0001,-0.06,NORMAL,-0.06,NORMAL,0.0,NORMAL
+Daily,deepseek,Côte d’Ivoire,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,deepseek,Denmark,2026-10-31,0.0,0.0002,-0.08,NORMAL,-0.08,NORMAL,0.0,NORMAL
+Daily,deepseek,Djibouti,2026-10-31,0.0,0.0001,-0.04,NORMAL,-0.04,NORMAL,0.0,NORMAL
+Daily,deepseek,Dominica,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,deepseek,Dominican Republic,2026-10-31,0.0,0.0,-0.07,NORMAL,-0.07,NORMAL,0.0,NORMAL
+Daily,deepseek,Ecuador,2026-10-31,0.0,0.0,-0.05,NORMAL,-0.05,NORMAL,0.0,NORMAL
+Daily,deepseek,Egypt,2026-10-31,0.0,0.0012,-0.11,NORMAL,-0.11,NORMAL,0.0,NORMAL
+Daily,deepseek,El Salvador,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,deepseek,Equatorial Guinea,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,deepseek,Eritrea,2026-10-31,0.0,0.0001,-0.05,NORMAL,-0.05,NORMAL,0.0,NORMAL
+Daily,deepseek,Estonia,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,deepseek,Eswatini,2026-10-31,0.0,0.0005,-0.05,NORMAL,-0.05,NORMAL,0.0,NORMAL
+Daily,deepseek,Ethiopia,2026-10-31,0.0,0.0001,-0.09,NORMAL,-0.09,NORMAL,0.0,NORMAL
+Daily,deepseek,Faroe Islands,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,deepseek,Fiji,2026-10-31,0.0,0.0003,-0.11,NORMAL,-0.11,NORMAL,0.0,NORMAL
+Daily,deepseek,Finland,2026-10-31,0.0,0.0,-0.04,NORMAL,-0.04,NORMAL,0.0,NORMAL
+Daily,deepseek,France,2026-10-31,0.0,0.0014,-0.1,NORMAL,-0.1,NORMAL,0.0,NORMAL
+Daily,deepseek,French Polynesia,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,deepseek,Gabon,2026-10-31,0.0,0.0,-0.03,NORMAL,-0.03,NORMAL,0.0,NORMAL
+Daily,deepseek,Gambia,2026-10-31,0.0,0.0001,-0.05,NORMAL,-0.05,NORMAL,0.0,NORMAL
+Daily,deepseek,Georgia,2026-10-31,0.0,0.0,-0.01,NORMAL,-0.01,NORMAL,0.0,NORMAL
+Daily,deepseek,Germany,2026-10-31,0.0,0.0025,-0.11,NORMAL,0.31,NORMAL,0.0,NORMAL
+Daily,deepseek,Ghana,2026-10-31,0.0,0.0,-0.04,NORMAL,-0.04,NORMAL,0.0,NORMAL
+Daily,deepseek,Gibraltar,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,deepseek,Greece,2026-10-31,0.0,0.0002,-0.11,NORMAL,-0.11,NORMAL,0.0,NORMAL
+Daily,deepseek,Greenland,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,deepseek,Grenada,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,deepseek,Guadeloupe,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,deepseek,Guam,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,deepseek,Guatemala,2026-10-31,0.0,0.0,-0.01,NORMAL,-0.01,NORMAL,0.0,NORMAL
+Daily,deepseek,Guinea,2026-10-31,0.0,0.0002,-0.07,NORMAL,-0.07,NORMAL,0.0,NORMAL
+Daily,deepseek,Guinea-Bissau,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,deepseek,Guyana,2026-10-31,0.0,0.0,-0.03,NORMAL,-0.03,NORMAL,0.0,NORMAL
+Daily,deepseek,Haiti,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,deepseek,Honduras,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,deepseek,Hungary,2026-10-31,0.0,0.0002,-0.08,NORMAL,-0.08,NORMAL,0.0,NORMAL
+Daily,deepseek,Iceland,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,deepseek,India,2026-10-31,0.0,0.0004,-0.1,NORMAL,-0.1,NORMAL,0.0,NORMAL
+Daily,deepseek,Indonesia,2026-10-31,0.0,0.0007,-0.11,NORMAL,-0.11,NORMAL,0.0,NORMAL
+Daily,deepseek,Iran,2026-10-31,0.0,0.002,-0.17,NORMAL,-0.17,NORMAL,0.0,NORMAL
+Daily,deepseek,Iraq,2026-10-31,0.0,0.0,-0.05,NORMAL,-0.05,NORMAL,0.0,NORMAL
+Daily,deepseek,Ireland,2026-10-31,0.0,0.0003,-0.1,NORMAL,3.71,RED,16.84,RED
+Daily,deepseek,Israel,2026-10-31,0.0,0.0012,-0.12,NORMAL,-0.12,NORMAL,0.0,NORMAL
+Daily,deepseek,Italy,2026-10-31,0.0,0.0005,-0.14,NORMAL,-0.14,NORMAL,0.0,NORMAL
+Daily,deepseek,Jamaica,2026-10-31,0.0,0.0,-0.06,NORMAL,-0.06,NORMAL,0.0,NORMAL
+Daily,deepseek,Japan,2026-10-31,0.0,0.0123,-0.24,NORMAL,-0.24,NORMAL,0.0,NORMAL
+Daily,deepseek,Jordan,2026-10-31,0.0,0.0002,-0.06,NORMAL,-0.06,NORMAL,0.0,NORMAL
+Daily,deepseek,Kazakhstan,2026-10-31,0.0,0.0006,-0.13,NORMAL,-0.13,NORMAL,0.0,NORMAL
+Daily,deepseek,Kenya,2026-10-31,0.0,0.0002,-0.12,NORMAL,-0.12,NORMAL,0.0,NORMAL
+Daily,deepseek,Kiribati,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,deepseek,Kuwait,2026-10-31,0.0,0.0001,-0.04,NORMAL,-0.04,NORMAL,0.0,NORMAL
+Daily,deepseek,Kyrgyzstan,2026-10-31,0.0,0.0012,-0.13,NORMAL,-0.13,NORMAL,0.0,NORMAL
+Daily,deepseek,Laos,2026-10-31,0.0,0.0005,-0.13,NORMAL,-0.13,NORMAL,0.0,NORMAL
+Daily,deepseek,Latvia,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,deepseek,Lebanon,2026-10-31,0.0,0.0001,-0.07,NORMAL,-0.07,NORMAL,0.0,NORMAL
+Daily,deepseek,Lesotho,2026-10-31,0.0,0.0,-0.03,NORMAL,-0.03,NORMAL,0.0,NORMAL
+Daily,deepseek,Liberia,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,deepseek,Libya,2026-10-31,0.0,0.0,-0.03,NORMAL,-0.03,NORMAL,0.0,NORMAL
+Daily,deepseek,Liechtenstein,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,deepseek,Lithuania,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,deepseek,Luxembourg,2026-10-31,0.0,0.0,-0.02,NORMAL,-0.02,NORMAL,0.0,NORMAL
+Daily,deepseek,Madagascar,2026-10-31,0.0,0.0001,-0.1,NORMAL,-0.1,NORMAL,0.0,NORMAL
+Daily,deepseek,Malawi,2026-10-31,0.0,0.0,-0.02,NORMAL,-0.02,NORMAL,0.0,NORMAL
+Daily,deepseek,Malaysia,2026-10-31,0.0,0.0016,-0.06,NORMAL,-0.06,NORMAL,0.0,NORMAL
+Daily,deepseek,Maldives,2026-10-31,0.0,0.0001,-0.04,NORMAL,-0.04,NORMAL,0.0,NORMAL
+Daily,deepseek,Mali,2026-10-31,0.0,0.0,-0.03,NORMAL,-0.03,NORMAL,0.0,NORMAL
+Daily,deepseek,Malta,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,deepseek,Marshall Islands,2026-10-31,0.0,0.0,-0.02,NORMAL,-0.02,NORMAL,0.0,NORMAL
+Daily,deepseek,Martinique,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,deepseek,Mauritania,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,deepseek,Mauritius,2026-10-31,0.0,0.0,-0.02,NORMAL,-0.02,NORMAL,0.0,NORMAL
+Daily,deepseek,Mexico,2026-10-31,0.0,0.0001,-0.09,NORMAL,-0.09,NORMAL,0.0,NORMAL
+Daily,deepseek,Micronesia (Federated States of),2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,deepseek,Moldova,2026-10-31,0.0,0.0,-0.04,NORMAL,-0.04,NORMAL,0.0,NORMAL
+Daily,deepseek,Monaco,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,deepseek,Mongolia,2026-10-31,0.0,0.0001,-0.07,NORMAL,-0.07,NORMAL,0.0,NORMAL
+Daily,deepseek,Montenegro,2026-10-31,0.0,0.0,-0.04,NORMAL,-0.04,NORMAL,0.0,NORMAL
+Daily,deepseek,Morocco,2026-10-31,0.0,0.0001,-0.12,NORMAL,-0.12,NORMAL,0.0,NORMAL
+Daily,deepseek,Mozambique,2026-10-31,0.0,0.0001,-0.09,NORMAL,-0.09,NORMAL,0.0,NORMAL
+Daily,deepseek,Myanmar (Burma),2026-10-31,0.0,0.0003,-0.1,NORMAL,-0.1,NORMAL,0.0,NORMAL
+Daily,deepseek,Namibia,2026-10-31,0.0,0.0002,-0.06,NORMAL,-0.06,NORMAL,0.0,NORMAL
+Daily,deepseek,Nauru,2026-10-31,0.0,0.0001,-0.04,NORMAL,-0.04,NORMAL,0.0,NORMAL
+Daily,deepseek,Nepal,2026-10-31,0.0,0.0001,-0.09,NORMAL,-0.09,NORMAL,0.0,NORMAL
+Daily,deepseek,Netherlands,2026-10-31,0.0,0.0001,-0.08,NORMAL,-0.08,NORMAL,0.0,NORMAL
+Daily,deepseek,New Caledonia,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,deepseek,New Zealand,2026-10-31,0.0,0.0002,-0.06,NORMAL,-0.06,NORMAL,0.0,NORMAL
+Daily,deepseek,Nicaragua,2026-10-31,0.0,0.0,-0.03,NORMAL,-0.03,NORMAL,0.0,NORMAL
+Daily,deepseek,Niger,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,deepseek,Nigeria,2026-10-31,0.0,0.0001,-0.05,NORMAL,-0.05,NORMAL,0.0,NORMAL
+Daily,deepseek,Niue,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,deepseek,North Korea,2026-10-31,0.0,0.0006,-0.07,NORMAL,-0.07,NORMAL,0.0,NORMAL
+Daily,deepseek,North Macedonia,2026-10-31,0.0,0.0,-0.05,NORMAL,-0.05,NORMAL,0.0,NORMAL
+Daily,deepseek,Northern Mariana Islands,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,deepseek,Norway,2026-10-31,0.0,0.0001,-0.09,NORMAL,-0.09,NORMAL,0.0,NORMAL
+Daily,deepseek,Oman,2026-10-31,0.0,0.0,-0.01,NORMAL,-0.01,NORMAL,0.0,NORMAL
+Daily,deepseek,Pakistan,2026-10-31,0.0,0.001,-0.15,NORMAL,-0.15,NORMAL,0.0,NORMAL
+Daily,deepseek,Palau,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,deepseek,Palestinian Territories,2026-10-31,0.0,0.0004,-0.11,NORMAL,-0.11,NORMAL,0.0,NORMAL
+Daily,deepseek,Panama,2026-10-31,0.0,0.0001,-0.05,NORMAL,-0.05,NORMAL,0.0,NORMAL
+Daily,deepseek,Papua New Guinea,2026-10-31,0.0,0.0001,-0.06,NORMAL,-0.06,NORMAL,0.0,NORMAL
+Daily,deepseek,Paraguay,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,deepseek,Peru,2026-10-31,0.0,0.0002,-0.15,NORMAL,-0.15,NORMAL,0.0,NORMAL
+Daily,deepseek,Philippines,2026-10-31,0.0,0.0053,-0.14,NORMAL,-0.14,NORMAL,0.0,NORMAL
+Daily,deepseek,Poland,2026-10-31,0.0,0.0,-0.01,NORMAL,-0.01,NORMAL,0.0,NORMAL
+Daily,deepseek,Portugal,2026-10-31,0.0,0.0001,-0.07,NORMAL,-0.07,NORMAL,0.0,NORMAL
+Daily,deepseek,Puerto Rico,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,deepseek,Qatar,2026-10-31,0.0,0.0,-0.02,NORMAL,-0.02,NORMAL,0.0,NORMAL
+Daily,deepseek,Romania,2026-10-31,0.0,0.0,-0.03,NORMAL,-0.03,NORMAL,0.0,NORMAL
+Daily,deepseek,Russia,2026-10-31,0.0,0.0022,-0.19,NORMAL,-0.19,NORMAL,0.0,NORMAL
+Daily,deepseek,Rwanda,2026-10-31,0.0,0.0001,-0.08,NORMAL,-0.08,NORMAL,0.0,NORMAL
+Daily,deepseek,Réunion,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,deepseek,Samoa,2026-10-31,0.0,0.0,-0.02,NORMAL,-0.02,NORMAL,0.0,NORMAL
+Daily,deepseek,San Marino,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,deepseek,Saudi Arabia,2026-10-31,0.0,0.0004,-0.1,NORMAL,-0.1,NORMAL,0.0,NORMAL
+Daily,deepseek,Senegal,2026-10-31,0.0,0.0001,-0.02,NORMAL,-0.02,NORMAL,0.0,NORMAL
+Daily,deepseek,Serbia,2026-10-31,0.0,0.0004,-0.1,NORMAL,-0.1,NORMAL,0.0,NORMAL
+Daily,deepseek,Seychelles,2026-10-31,0.0,0.0,-0.06,NORMAL,-0.06,NORMAL,0.0,NORMAL
+Daily,deepseek,Sierra Leone,2026-10-31,0.0,0.0,-0.04,NORMAL,-0.04,NORMAL,0.0,NORMAL
+Daily,deepseek,Singapore,2026-10-31,0.0,0.0004,-0.11,NORMAL,-0.11,NORMAL,0.0,NORMAL
+Daily,deepseek,Slovakia,2026-10-31,0.0,0.0,-0.09,NORMAL,-0.09,NORMAL,0.0,NORMAL
+Daily,deepseek,Slovenia,2026-10-31,0.0,0.0,-0.04,NORMAL,-0.04,NORMAL,0.0,NORMAL
+Daily,deepseek,Solomon Islands,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,deepseek,Somalia,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,deepseek,South Africa,2026-10-31,0.0,0.0006,-0.15,NORMAL,-0.15,NORMAL,0.0,NORMAL
+Daily,deepseek,South Korea,2026-10-31,0.0,0.001,-0.18,NORMAL,-0.18,NORMAL,0.0,NORMAL
+Daily,deepseek,South Sudan,2026-10-31,0.0,0.0001,-0.08,NORMAL,-0.08,NORMAL,0.0,NORMAL
+Daily,deepseek,Spain,2026-10-31,0.0,0.0002,-0.13,NORMAL,-0.13,NORMAL,0.0,NORMAL
+Daily,deepseek,Sri Lanka,2026-10-31,0.0,0.0001,-0.09,NORMAL,-0.09,NORMAL,0.0,NORMAL
+Daily,deepseek,St. Helena,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,deepseek,St. Kitts & Nevis,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,deepseek,St. Lucia,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,deepseek,St. Vincent & Grenadines,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,deepseek,Sudan,2026-10-31,0.0,0.0,-0.03,NORMAL,-0.03,NORMAL,0.0,NORMAL
+Daily,deepseek,Suriname,2026-10-31,0.0,0.0,-0.01,NORMAL,-0.01,NORMAL,0.0,NORMAL
+Daily,deepseek,Svalbard & Jan Mayen,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,deepseek,Sweden,2026-10-31,0.0,0.0,-0.07,NORMAL,-0.07,NORMAL,0.0,NORMAL
+Daily,deepseek,Switzerland,2026-10-31,0.0,0.0002,-0.12,NORMAL,-0.12,NORMAL,0.0,NORMAL
+Daily,deepseek,Syria,2026-10-31,0.0,0.0,-0.06,NORMAL,-0.06,NORMAL,0.0,NORMAL
+Daily,deepseek,São Tomé & Príncipe,2026-10-31,0.0,0.0,-0.06,NORMAL,-0.06,NORMAL,0.0,NORMAL
+Daily,deepseek,Taiwan,2026-10-31,0.0,0.0142,-0.19,NORMAL,-0.21,NORMAL,0.0,NORMAL
+Daily,deepseek,Tajikistan,2026-10-31,0.0,0.0003,-0.07,NORMAL,-0.07,NORMAL,0.0,NORMAL
+Daily,deepseek,Tanzania,2026-10-31,0.0,0.0002,-0.06,NORMAL,-0.06,NORMAL,0.0,NORMAL
+Daily,deepseek,Thailand,2026-10-31,0.0,0.0019,-0.07,NORMAL,-0.07,NORMAL,0.0,NORMAL
+Daily,deepseek,Timor-Leste,2026-10-31,0.0,0.0,-0.05,NORMAL,-0.05,NORMAL,0.0,NORMAL
+Daily,deepseek,Togo,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,deepseek,Tonga,2026-10-31,0.0,0.0,-0.04,NORMAL,-0.04,NORMAL,0.0,NORMAL
+Daily,deepseek,Trinidad & Tobago,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,deepseek,Tunisia,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,deepseek,Turkey,2026-10-31,0.0,0.0005,-0.06,NORMAL,-0.06,NORMAL,0.0,NORMAL
+Daily,deepseek,Turkmenistan,2026-10-31,0.0,0.0001,-0.08,NORMAL,-0.08,NORMAL,0.0,NORMAL
+Daily,deepseek,Tuvalu,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,deepseek,UK,2026-10-31,0.0,0.0008,-0.13,NORMAL,-0.13,NORMAL,0.0,NORMAL
+Daily,deepseek,US,2026-10-31,0.0,0.0099,-0.26,NORMAL,-0.26,NORMAL,0.0,NORMAL
+Daily,deepseek,Uganda,2026-10-31,0.0,0.0002,-0.08,NORMAL,-0.08,NORMAL,0.0,NORMAL
+Daily,deepseek,Ukraine,2026-10-31,0.0,0.0002,-0.07,NORMAL,-0.07,NORMAL,0.0,NORMAL
+Daily,deepseek,United Arab Emirates,2026-10-31,0.0,0.0003,-0.08,NORMAL,-0.08,NORMAL,0.0,NORMAL
+Daily,deepseek,Uruguay,2026-10-31,0.0,0.0001,-0.04,NORMAL,-0.04,NORMAL,0.0,NORMAL
+Daily,deepseek,Uzbekistan,2026-10-31,0.0,0.0003,-0.13,NORMAL,-0.13,NORMAL,0.0,NORMAL
+Daily,deepseek,Vanuatu,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,deepseek,Vatican City,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,deepseek,Venezuela,2026-10-31,0.0,0.0002,-0.06,NORMAL,-0.06,NORMAL,0.0,NORMAL
+Daily,deepseek,Vietnam,2026-10-31,0.0,0.0015,-0.06,NORMAL,-0.06,NORMAL,0.0,NORMAL
+Daily,deepseek,Western Sahara,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,deepseek,Yemen,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,deepseek,Zambia,2026-10-31,0.0,0.0001,-0.1,NORMAL,-0.1,NORMAL,0.0,NORMAL
+Daily,deepseek,Zimbabwe,2026-10-31,0.0,0.0001,-0.08,NORMAL,-0.08,NORMAL,0.0,NORMAL
+Daily,lexicon,Afghanistan,2026-10-31,0.0,0.0,-0.07,NORMAL,-0.07,NORMAL,0.0,NORMAL
+Daily,lexicon,Albania,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Algeria,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,American Samoa,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Andorra,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Angola,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Antarctica,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Antigua & Barbuda,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Argentina,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Armenia,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Aruba,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Australia,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Austria,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Azerbaijan,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Bahamas,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Bahrain,2026-10-31,0.0,0.0,-0.02,NORMAL,-0.02,NORMAL,0.0,NORMAL
+Daily,lexicon,Bangladesh,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Barbados,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Belarus,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Belgium,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Belize,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Benin,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Bermuda,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Bhutan,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Bolivia,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Bosnia & Herzegovina,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Botswana,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Brazil,2026-10-31,0.0,0.0,-0.11,NORMAL,-0.11,NORMAL,0.0,NORMAL
+Daily,lexicon,British Virgin Islands,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Brunei,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Bulgaria,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Burkina Faso,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Burundi,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Cambodia,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Cameroon,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Canada,2026-10-31,0.0,0.0,-0.07,NORMAL,-0.07,NORMAL,0.0,NORMAL
+Daily,lexicon,Cape Verde,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Cayman Islands,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Central African Republic,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Chad,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Chile,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,China,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Colombia,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Comoros,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Congo - Brazzaville,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Congo - Kinshasa,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Cook Islands,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Costa Rica,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Croatia,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Cuba,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Curaçao,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Cyprus,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Czechia,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Côte d’Ivoire,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Denmark,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Djibouti,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Dominica,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Dominican Republic,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Ecuador,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Egypt,2026-10-31,0.0,0.0,-0.04,NORMAL,-0.04,NORMAL,0.0,NORMAL
+Daily,lexicon,El Salvador,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Equatorial Guinea,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Eritrea,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Estonia,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Eswatini,2026-10-31,0.0,0.0,-0.04,NORMAL,-0.04,NORMAL,0.0,NORMAL
+Daily,lexicon,Ethiopia,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Faroe Islands,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Fiji,2026-10-31,0.0,0.0,-0.04,NORMAL,-0.04,NORMAL,0.0,NORMAL
+Daily,lexicon,Finland,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,France,2026-10-31,0.0,0.0,-0.04,NORMAL,-0.04,NORMAL,0.0,NORMAL
+Daily,lexicon,French Polynesia,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Gabon,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Gambia,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Georgia,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Germany,2026-10-31,0.0,0.0,-0.09,NORMAL,-0.09,NORMAL,0.0,NORMAL
+Daily,lexicon,Ghana,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Gibraltar,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Greece,2026-10-31,0.0,0.0,-0.05,NORMAL,-0.05,NORMAL,0.0,NORMAL
+Daily,lexicon,Greenland,2026-10-31,0.0,0.0,-0.03,NORMAL,-0.03,NORMAL,0.0,NORMAL
+Daily,lexicon,Grenada,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Guadeloupe,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Guam,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Guatemala,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Guinea,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Guinea-Bissau,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Guyana,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Haiti,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Honduras,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Hungary,2026-10-31,0.0,0.0,-0.01,NORMAL,-0.01,NORMAL,0.0,NORMAL
+Daily,lexicon,Iceland,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,India,2026-10-31,0.0,0.0,-0.04,NORMAL,-0.04,NORMAL,0.0,NORMAL
+Daily,lexicon,Indonesia,2026-10-31,0.0,0.0,-0.02,NORMAL,-0.02,NORMAL,0.0,NORMAL
+Daily,lexicon,Iran,2026-10-31,0.0,0.0001,-0.17,NORMAL,-0.17,NORMAL,0.0,NORMAL
+Daily,lexicon,Iraq,2026-10-31,0.0,0.0,-0.04,NORMAL,-0.04,NORMAL,0.0,NORMAL
+Daily,lexicon,Ireland,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Israel,2026-10-31,0.0,0.0,-0.11,NORMAL,-0.11,NORMAL,0.0,NORMAL
+Daily,lexicon,Italy,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Jamaica,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Japan,2026-10-31,0.0,0.0002,-0.15,NORMAL,-0.15,NORMAL,0.0,NORMAL
+Daily,lexicon,Jordan,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Kazakhstan,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Kenya,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Kiribati,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Kuwait,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Kyrgyzstan,2026-10-31,0.0,0.0,-0.09,NORMAL,-0.09,NORMAL,11.82,RED
+Daily,lexicon,Laos,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Latvia,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Lebanon,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Lesotho,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Liberia,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Libya,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Liechtenstein,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Lithuania,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Luxembourg,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Madagascar,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Malawi,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Malaysia,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Maldives,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Mali,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Malta,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Marshall Islands,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Martinique,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Mauritania,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Mauritius,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Mexico,2026-10-31,0.0,0.0,-0.05,NORMAL,-0.05,NORMAL,0.0,NORMAL
+Daily,lexicon,Micronesia (Federated States of),2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Moldova,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Monaco,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Mongolia,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Montenegro,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Morocco,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Mozambique,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Myanmar (Burma),2026-10-31,0.0,0.0,-0.03,NORMAL,-0.03,NORMAL,0.0,NORMAL
+Daily,lexicon,Namibia,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Nauru,2026-10-31,0.0,0.0,-0.04,NORMAL,-0.04,NORMAL,0.0,NORMAL
+Daily,lexicon,Nepal,2026-10-31,0.0,0.0,-0.03,NORMAL,-0.03,NORMAL,0.0,NORMAL
+Daily,lexicon,Netherlands,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,New Caledonia,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,New Zealand,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Nicaragua,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Niger,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Nigeria,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Niue,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,North Korea,2026-10-31,0.0,0.0,-0.02,NORMAL,-0.02,NORMAL,0.0,NORMAL
+Daily,lexicon,North Macedonia,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Northern Mariana Islands,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Norway,2026-10-31,0.0,0.0,-0.04,NORMAL,-0.04,NORMAL,0.0,NORMAL
+Daily,lexicon,Oman,2026-10-31,0.0,0.0,-0.03,NORMAL,-0.03,NORMAL,0.0,NORMAL
+Daily,lexicon,Pakistan,2026-10-31,0.0,0.0,-0.04,NORMAL,-0.04,NORMAL,0.0,NORMAL
+Daily,lexicon,Palau,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Palestinian Territories,2026-10-31,0.0,0.0,-0.08,NORMAL,-0.08,NORMAL,0.0,NORMAL
+Daily,lexicon,Panama,2026-10-31,0.0,0.0,-0.02,NORMAL,-0.02,NORMAL,0.0,NORMAL
+Daily,lexicon,Papua New Guinea,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Paraguay,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Peru,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Philippines,2026-10-31,0.0,0.0,-0.16,NORMAL,-0.16,NORMAL,0.0,NORMAL
+Daily,lexicon,Poland,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Portugal,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Puerto Rico,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Qatar,2026-10-31,0.0,0.0,-0.03,NORMAL,-0.03,NORMAL,0.0,NORMAL
+Daily,lexicon,Romania,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Russia,2026-10-31,0.0,0.0001,-0.14,NORMAL,-0.14,NORMAL,0.0,NORMAL
+Daily,lexicon,Rwanda,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Réunion,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Samoa,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,San Marino,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Saudi Arabia,2026-10-31,0.0,0.0,-0.1,NORMAL,-0.1,NORMAL,9.51,RED
+Daily,lexicon,Senegal,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Serbia,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Seychelles,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Sierra Leone,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Singapore,2026-10-31,0.0,0.0,-0.07,NORMAL,-0.07,NORMAL,0.0,NORMAL
+Daily,lexicon,Slovakia,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Slovenia,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Solomon Islands,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Somalia,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,South Africa,2026-10-31,0.0,0.0,-0.03,NORMAL,-0.03,NORMAL,0.0,NORMAL
+Daily,lexicon,South Korea,2026-10-31,0.0,0.0,-0.09,NORMAL,-0.09,NORMAL,0.0,NORMAL
+Daily,lexicon,South Sudan,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Spain,2026-10-31,0.0,0.0,-0.1,NORMAL,-0.1,NORMAL,0.0,NORMAL
+Daily,lexicon,Sri Lanka,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,St. Helena,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,St. Kitts & Nevis,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,St. Lucia,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,St. Vincent & Grenadines,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Sudan,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Suriname,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Svalbard & Jan Mayen,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Sweden,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Switzerland,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Syria,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,São Tomé & Príncipe,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Taiwan,2026-10-31,0.0,0.0001,-0.12,NORMAL,-0.12,NORMAL,0.0,NORMAL
+Daily,lexicon,Tajikistan,2026-10-31,0.0,0.0,-0.09,NORMAL,-0.09,NORMAL,11.82,RED
+Daily,lexicon,Tanzania,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Thailand,2026-10-31,0.0,0.0,-0.04,NORMAL,-0.04,NORMAL,0.0,NORMAL
+Daily,lexicon,Timor-Leste,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Togo,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Tonga,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Trinidad & Tobago,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Tunisia,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Turkey,2026-10-31,0.0,0.0,-0.05,NORMAL,-0.05,NORMAL,0.0,NORMAL
+Daily,lexicon,Turkmenistan,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Tuvalu,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,UK,2026-10-31,0.0,0.0,-0.1,NORMAL,-0.1,NORMAL,0.0,NORMAL
+Daily,lexicon,US,2026-10-31,0.0,0.0001,-0.16,NORMAL,-0.16,NORMAL,0.0,NORMAL
+Daily,lexicon,Uganda,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Ukraine,2026-10-31,0.0,0.0001,-0.1,NORMAL,-0.1,NORMAL,9.8,RED
+Daily,lexicon,United Arab Emirates,2026-10-31,0.0,0.0,-0.02,NORMAL,-0.02,NORMAL,0.0,NORMAL
+Daily,lexicon,Uruguay,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Uzbekistan,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Vanuatu,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Vatican City,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Venezuela,2026-10-31,0.0,0.0,-0.05,NORMAL,-0.05,NORMAL,0.0,NORMAL
+Daily,lexicon,Vietnam,2026-10-31,0.0,0.0,-0.02,NORMAL,-0.02,NORMAL,0.0,NORMAL
+Daily,lexicon,Western Sahara,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Yemen,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Zambia,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lexicon,Zimbabwe,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lss,Afghanistan,2026-10-31,0.0,-0.0015,0.03,NORMAL,0.03,NORMAL,0.0,NORMAL
+Daily,lss,Albania,2026-10-31,0.0,-0.0022,1.34,NORMAL,1.34,NORMAL,0.0,NORMAL
+Daily,lss,Algeria,2026-10-31,0.0,-0.005,0.05,NORMAL,0.05,NORMAL,0.0,NORMAL
+Daily,lss,American Samoa,2026-10-31,0.0,-0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lss,Andorra,2026-10-31,0.0,-0.0003,0.01,NORMAL,0.01,NORMAL,0.0,NORMAL
+Daily,lss,Angola,2026-10-31,0.0,-0.0026,0.43,NORMAL,0.43,NORMAL,0.0,NORMAL
+Daily,lss,Antarctica,2026-10-31,0.0,-0.0001,0.02,NORMAL,0.02,NORMAL,0.0,NORMAL
+Daily,lss,Antigua & Barbuda,2026-10-31,0.0,-0.0011,0.08,NORMAL,0.08,NORMAL,0.0,NORMAL
+Daily,lss,Argentina,2026-10-31,0.0,-0.0095,0.2,NORMAL,0.2,NORMAL,0.0,NORMAL
+Daily,lss,Armenia,2026-10-31,0.0,-0.0026,1.0,NORMAL,1.0,NORMAL,0.0,NORMAL
+Daily,lss,Aruba,2026-10-31,0.0,-0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lss,Australia,2026-10-31,0.0,-0.0271,0.2,NORMAL,0.21,NORMAL,0.0,NORMAL
+Daily,lss,Austria,2026-10-31,0.0077,-0.0104,0.12,NORMAL,0.06,NORMAL,0.0,NORMAL
+Daily,lss,Azerbaijan,2026-10-31,0.0,-0.0062,0.26,NORMAL,0.26,NORMAL,0.0,NORMAL
+Daily,lss,Bahamas,2026-10-31,0.0,-0.0003,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lss,Bahrain,2026-10-31,0.0,-0.0016,0.65,NORMAL,0.65,NORMAL,0.0,NORMAL
+Daily,lss,Bangladesh,2026-10-31,0.0,-0.01,0.15,NORMAL,0.15,NORMAL,0.0,NORMAL
+Daily,lss,Barbados,2026-10-31,0.0,-0.0006,0.55,NORMAL,0.55,NORMAL,0.0,NORMAL
+Daily,lss,Belarus,2026-10-31,0.0,-0.0123,0.56,NORMAL,0.56,NORMAL,0.0,NORMAL
+Daily,lss,Belgium,2026-10-31,0.0,-0.0151,0.28,NORMAL,0.16,NORMAL,0.0,NORMAL
+Daily,lss,Belize,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lss,Benin,2026-10-31,0.0,-0.0034,0.06,NORMAL,0.06,NORMAL,0.0,NORMAL
+Daily,lss,Bermuda,2026-10-31,0.0,-0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lss,Bhutan,2026-10-31,0.0,-0.0001,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lss,Bolivia,2026-10-31,0.0,-0.0037,0.03,NORMAL,0.03,NORMAL,0.0,NORMAL
+Daily,lss,Bosnia & Herzegovina,2026-10-31,0.0,-0.0025,0.06,NORMAL,0.06,NORMAL,0.0,NORMAL
+Daily,lss,Botswana,2026-10-31,0.0,-0.003,0.08,NORMAL,0.08,NORMAL,0.0,NORMAL
+Daily,lss,Brazil,2026-10-31,0.0,-0.0307,0.22,NORMAL,0.17,NORMAL,0.0,NORMAL
+Daily,lss,British Virgin Islands,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lss,Brunei,2026-10-31,0.0,-0.0066,0.1,NORMAL,0.1,NORMAL,0.0,NORMAL
+Daily,lss,Bulgaria,2026-10-31,0.0,-0.0064,0.13,NORMAL,0.13,NORMAL,0.0,NORMAL
+Daily,lss,Burkina Faso,2026-10-31,0.0,-0.0014,1.27,NORMAL,1.27,NORMAL,0.0,NORMAL
+Daily,lss,Burundi,2026-10-31,0.0,-0.0021,2.22,YELLOW,2.22,YELLOW,0.0,NORMAL
+Daily,lss,Cambodia,2026-10-31,0.0,-0.0396,0.23,NORMAL,0.23,NORMAL,0.0,NORMAL
+Daily,lss,Cameroon,2026-10-31,0.0,-0.0033,0.07,NORMAL,0.07,NORMAL,0.0,NORMAL
+Daily,lss,Canada,2026-10-31,0.0,-0.0206,0.16,NORMAL,0.1,NORMAL,0.0,NORMAL
+Daily,lss,Cape Verde,2026-10-31,0.0,-0.0008,0.16,NORMAL,0.16,NORMAL,0.0,NORMAL
+Daily,lss,Cayman Islands,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lss,Central African Republic,2026-10-31,0.0,-0.0004,0.29,NORMAL,0.29,NORMAL,0.0,NORMAL
+Daily,lss,Chad,2026-10-31,0.0,-0.0006,0.29,NORMAL,0.29,NORMAL,0.0,NORMAL
+Daily,lss,Chile,2026-10-31,0.0,-0.0129,0.15,NORMAL,0.14,NORMAL,0.0,NORMAL
+Daily,lss,China,2026-10-31,0.0,0.002,-0.02,NORMAL,-0.02,NORMAL,0.0,NORMAL
+Daily,lss,Colombia,2026-10-31,0.0,-0.0111,0.07,NORMAL,0.07,NORMAL,0.0,NORMAL
+Daily,lss,Comoros,2026-10-31,0.0,-0.0021,0.02,NORMAL,0.02,NORMAL,0.0,NORMAL
+Daily,lss,Congo - Brazzaville,2026-10-31,0.0,-0.0026,0.82,NORMAL,0.82,NORMAL,0.0,NORMAL
+Daily,lss,Congo - Kinshasa,2026-10-31,0.0,-0.0009,0.74,NORMAL,0.48,NORMAL,0.49,NORMAL
+Daily,lss,Cook Islands,2026-10-31,0.0,-0.0007,0.03,NORMAL,0.03,NORMAL,0.0,NORMAL
+Daily,lss,Costa Rica,2026-10-31,0.0,-0.0004,0.14,NORMAL,0.14,NORMAL,0.0,NORMAL
+Daily,lss,Croatia,2026-10-31,0.0,-0.0022,0.86,NORMAL,0.86,NORMAL,0.0,NORMAL
+Daily,lss,Cuba,2026-10-31,0.0,-0.0108,0.13,NORMAL,0.13,NORMAL,0.0,NORMAL
+Daily,lss,Curaçao,2026-10-31,0.0,-0.0001,0.08,NORMAL,0.08,NORMAL,0.0,NORMAL
+Daily,lss,Cyprus,2026-10-31,0.0,-0.003,0.04,NORMAL,0.04,NORMAL,0.0,NORMAL
+Daily,lss,Czechia,2026-10-31,0.0,-0.0035,0.88,NORMAL,0.88,NORMAL,0.0,NORMAL
+Daily,lss,Côte d’Ivoire,2026-10-31,0.0,-0.0062,0.07,NORMAL,0.07,NORMAL,0.0,NORMAL
+Daily,lss,Denmark,2026-10-31,0.0,-0.0086,0.13,NORMAL,0.13,NORMAL,0.0,NORMAL
+Daily,lss,Djibouti,2026-10-31,0.0,-0.0047,1.12,NORMAL,1.12,NORMAL,0.0,NORMAL
+Daily,lss,Dominica,2026-10-31,0.0,-0.0026,1.68,NORMAL,1.68,NORMAL,0.0,NORMAL
+Daily,lss,Dominican Republic,2026-10-31,0.0,-0.002,1.68,NORMAL,1.68,NORMAL,0.0,NORMAL
+Daily,lss,Ecuador,2026-10-31,0.0,-0.0049,0.12,NORMAL,0.12,NORMAL,0.0,NORMAL
+Daily,lss,Egypt,2026-10-31,0.0,-0.0329,0.22,NORMAL,0.2,NORMAL,0.0,NORMAL
+Daily,lss,El Salvador,2026-10-31,0.0,-0.0002,0.17,NORMAL,0.17,NORMAL,0.0,NORMAL
+Daily,lss,Equatorial Guinea,2026-10-31,0.0,-0.0015,5.87,RED,5.87,RED,0.0,NORMAL
+Daily,lss,Eritrea,2026-10-31,0.0,-0.0012,0.41,NORMAL,2.06,YELLOW,6.44,RED
+Daily,lss,Estonia,2026-10-31,0.0,-0.0001,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lss,Eswatini,2026-10-31,0.0,0.0004,-0.09,NORMAL,-0.09,NORMAL,0.0,NORMAL
+Daily,lss,Ethiopia,2026-10-31,0.0,-0.0113,0.09,NORMAL,0.14,NORMAL,0.0,NORMAL
+Daily,lss,Faroe Islands,2026-10-31,0.0,-0.0,0.02,NORMAL,0.02,NORMAL,0.0,NORMAL
+Daily,lss,Fiji,2026-10-31,0.0,-0.0032,0.03,NORMAL,0.03,NORMAL,0.0,NORMAL
+Daily,lss,Finland,2026-10-31,0.0,-0.0019,0.03,NORMAL,0.03,NORMAL,0.0,NORMAL
+Daily,lss,France,2026-10-31,0.0,-0.0823,0.37,NORMAL,0.35,NORMAL,0.0,NORMAL
+Daily,lss,French Polynesia,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lss,Gabon,2026-10-31,0.0,-0.0022,0.58,NORMAL,0.58,NORMAL,0.0,NORMAL
+Daily,lss,Gambia,2026-10-31,0.0,-0.004,0.94,NORMAL,0.94,NORMAL,0.0,NORMAL
+Daily,lss,Georgia,2026-10-31,0.0,-0.0045,0.05,NORMAL,0.05,NORMAL,0.0,NORMAL
+Daily,lss,Germany,2026-10-31,-0.0147,-0.0778,0.26,NORMAL,0.29,NORMAL,0.0,NORMAL
+Daily,lss,Ghana,2026-10-31,0.0,-0.0071,0.08,NORMAL,0.03,NORMAL,0.0,NORMAL
+Daily,lss,Gibraltar,2026-10-31,0.0,-0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lss,Greece,2026-10-31,0.0,-0.017,0.11,NORMAL,0.15,NORMAL,0.0,NORMAL
+Daily,lss,Greenland,2026-10-31,0.0,0.0004,-0.1,NORMAL,-0.1,NORMAL,0.0,NORMAL
+Daily,lss,Grenada,2026-10-31,0.0,-0.001,1.81,NORMAL,1.81,NORMAL,0.0,NORMAL
+Daily,lss,Guadeloupe,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lss,Guam,2026-10-31,0.0,-0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lss,Guatemala,2026-10-31,0.0,0.0002,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lss,Guinea,2026-10-31,0.0,-0.004,0.08,NORMAL,0.05,NORMAL,0.0,NORMAL
+Daily,lss,Guinea-Bissau,2026-10-31,0.0,-0.0006,0.35,NORMAL,0.35,NORMAL,0.0,NORMAL
+Daily,lss,Guyana,2026-10-31,0.0,-0.0034,0.85,NORMAL,0.85,NORMAL,0.0,NORMAL
+Daily,lss,Haiti,2026-10-31,0.0,0.0003,-0.3,NORMAL,-0.3,NORMAL,0.0,NORMAL
+Daily,lss,Honduras,2026-10-31,0.0,-0.0013,0.97,NORMAL,0.97,NORMAL,0.0,NORMAL
+Daily,lss,Hungary,2026-10-31,0.0,-0.0179,0.14,NORMAL,0.14,NORMAL,0.0,NORMAL
+Daily,lss,Iceland,2026-10-31,0.0,-0.0014,-0.09,NORMAL,0.63,NORMAL,0.13,NORMAL
+Daily,lss,India,2026-10-31,0.0,-0.0114,0.21,NORMAL,0.09,NORMAL,0.0,NORMAL
+Daily,lss,Indonesia,2026-10-31,0.0,-0.0327,0.25,NORMAL,0.25,NORMAL,0.0,NORMAL
+Daily,lss,Iran,2026-10-31,0.0,0.0017,0.11,NORMAL,-0.09,NORMAL,0.0,NORMAL
+Daily,lss,Iraq,2026-10-31,0.0,-0.011,1.52,NORMAL,1.52,NORMAL,0.0,NORMAL
+Daily,lss,Ireland,2026-10-31,0.0,-0.0027,0.08,NORMAL,0.18,NORMAL,0.0,NORMAL
+Daily,lss,Israel,2026-10-31,0.0,0.0172,-0.47,NORMAL,-0.25,NORMAL,0.0,NORMAL
+Daily,lss,Italy,2026-10-31,0.0,-0.0439,0.27,NORMAL,0.27,NORMAL,0.0,NORMAL
+Daily,lss,Jamaica,2026-10-31,0.0,-0.0012,0.02,NORMAL,0.02,NORMAL,0.0,NORMAL
+Daily,lss,Japan,2026-10-31,0.0,-0.0255,0.02,NORMAL,0.02,NORMAL,0.0,NORMAL
+Daily,lss,Jordan,2026-10-31,0.0,-0.0043,0.1,NORMAL,-0.27,NORMAL,0.0,NORMAL
+Daily,lss,Kazakhstan,2026-10-31,0.0,-0.0603,0.35,NORMAL,0.35,NORMAL,0.0,NORMAL
+Daily,lss,Kenya,2026-10-31,0.0,-0.0141,1.22,NORMAL,0.96,NORMAL,1.4,NORMAL
+Daily,lss,Kiribati,2026-10-31,0.0,-0.0012,0.01,NORMAL,0.01,NORMAL,0.0,NORMAL
+Daily,lss,Kuwait,2026-10-31,0.0,-0.0062,0.11,NORMAL,0.11,NORMAL,0.0,NORMAL
+Daily,lss,Kyrgyzstan,2026-10-31,0.0,-0.0387,0.19,NORMAL,0.19,NORMAL,0.0,NORMAL
+Daily,lss,Laos,2026-10-31,0.0,-0.0365,0.26,NORMAL,0.22,NORMAL,0.0,NORMAL
+Daily,lss,Latvia,2026-10-31,0.0,-0.0017,0.91,NORMAL,0.91,NORMAL,0.0,NORMAL
+Daily,lss,Lebanon,2026-10-31,0.0,-0.0032,0.65,NORMAL,0.65,NORMAL,0.0,NORMAL
+Daily,lss,Lesotho,2026-10-31,0.0,-0.0004,0.21,NORMAL,0.21,NORMAL,0.0,NORMAL
+Daily,lss,Liberia,2026-10-31,0.0,-0.0012,0.88,NORMAL,0.88,NORMAL,0.0,NORMAL
+Daily,lss,Libya,2026-10-31,0.0,0.0001,-0.04,NORMAL,1.42,NORMAL,5.38,RED
+Daily,lss,Liechtenstein,2026-10-31,0.0,-0.0012,0.02,NORMAL,0.02,NORMAL,0.0,NORMAL
+Daily,lss,Lithuania,2026-10-31,0.0,-0.0008,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lss,Luxembourg,2026-10-31,0.0,-0.0027,0.42,NORMAL,0.42,NORMAL,0.0,NORMAL
+Daily,lss,Madagascar,2026-10-31,0.0,-0.0053,1.52,NORMAL,1.52,NORMAL,0.0,NORMAL
+Daily,lss,Malawi,2026-10-31,0.0,-0.0015,0.11,NORMAL,0.11,NORMAL,0.0,NORMAL
+Daily,lss,Malaysia,2026-10-31,0.0,-0.0456,0.27,NORMAL,0.27,NORMAL,0.0,NORMAL
+Daily,lss,Maldives,2026-10-31,0.0,-0.0086,2.26,YELLOW,2.26,YELLOW,0.0,NORMAL
+Daily,lss,Mali,2026-10-31,0.0,-0.0007,0.2,NORMAL,0.2,NORMAL,0.0,NORMAL
+Daily,lss,Malta,2026-10-31,0.0,-0.0005,1.06,NORMAL,1.06,NORMAL,0.0,NORMAL
+Daily,lss,Marshall Islands,2026-10-31,0.0,0.0001,-0.18,NORMAL,-0.18,NORMAL,0.0,NORMAL
+Daily,lss,Martinique,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lss,Mauritania,2026-10-31,0.0,-0.0048,2.67,YELLOW,2.67,YELLOW,0.0,NORMAL
+Daily,lss,Mauritius,2026-10-31,0.0,-0.0012,0.48,NORMAL,0.48,NORMAL,0.0,NORMAL
+Daily,lss,Mexico,2026-10-31,0.0,-0.0123,0.08,NORMAL,0.01,NORMAL,0.0,NORMAL
+Daily,lss,Micronesia (Federated States of),2026-10-31,0.0,-0.0009,0.01,NORMAL,0.01,NORMAL,0.0,NORMAL
+Daily,lss,Moldova,2026-10-31,0.0,-0.0004,0.01,NORMAL,0.01,NORMAL,0.0,NORMAL
+Daily,lss,Monaco,2026-10-31,0.0,-0.0005,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lss,Mongolia,2026-10-31,0.0,-0.0274,0.23,NORMAL,0.23,NORMAL,0.0,NORMAL
+Daily,lss,Montenegro,2026-10-31,0.0,-0.0011,0.25,NORMAL,0.25,NORMAL,0.0,NORMAL
+Daily,lss,Morocco,2026-10-31,0.0,-0.0107,0.11,NORMAL,0.11,NORMAL,0.0,NORMAL
+Daily,lss,Mozambique,2026-10-31,0.0,-0.0047,0.5,NORMAL,0.5,NORMAL,0.0,NORMAL
+Daily,lss,Myanmar (Burma),2026-10-31,0.0,-0.0121,0.09,NORMAL,0.09,NORMAL,0.0,NORMAL
+Daily,lss,Namibia,2026-10-31,0.0,-0.0066,0.09,NORMAL,0.09,NORMAL,0.0,NORMAL
+Daily,lss,Nauru,2026-10-31,0.0,-0.0011,1.05,NORMAL,1.05,NORMAL,0.0,NORMAL
+Daily,lss,Nepal,2026-10-31,0.0,-0.0196,0.17,NORMAL,0.17,NORMAL,0.0,NORMAL
+Daily,lss,Netherlands,2026-10-31,0.0,-0.0129,0.29,NORMAL,0.23,NORMAL,0.0,NORMAL
+Daily,lss,New Caledonia,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lss,New Zealand,2026-10-31,0.0,-0.0225,0.13,NORMAL,0.13,NORMAL,0.0,NORMAL
+Daily,lss,Nicaragua,2026-10-31,0.0,-0.0014,0.03,NORMAL,0.03,NORMAL,0.0,NORMAL
+Daily,lss,Niger,2026-10-31,0.0,-0.0002,0.12,NORMAL,0.12,NORMAL,0.0,NORMAL
+Daily,lss,Nigeria,2026-10-31,0.0,-0.0073,0.07,NORMAL,0.07,NORMAL,0.0,NORMAL
+Daily,lss,Niue,2026-10-31,0.0,-0.0002,0.01,NORMAL,0.01,NORMAL,0.0,NORMAL
+Daily,lss,North Korea,2026-10-31,0.0,-0.0283,1.31,NORMAL,1.19,NORMAL,0.0,NORMAL
+Daily,lss,North Macedonia,2026-10-31,0.0,-0.0014,0.44,NORMAL,0.44,NORMAL,0.0,NORMAL
+Daily,lss,Northern Mariana Islands,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lss,Norway,2026-10-31,0.0,-0.0021,0.07,NORMAL,0.07,NORMAL,0.0,NORMAL
+Daily,lss,Oman,2026-10-31,-0.0537,-0.0029,-2.88,NORMAL,-1.5,NORMAL,0.0,NORMAL
+Daily,lss,Pakistan,2026-10-31,0.0,-0.034,0.14,NORMAL,0.1,NORMAL,0.0,NORMAL
+Daily,lss,Palau,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lss,Palestinian Territories,2026-10-31,0.0,0.0084,-0.23,NORMAL,-0.01,NORMAL,0.0,NORMAL
+Daily,lss,Panama,2026-10-31,0.0,-0.0021,0.06,NORMAL,0.06,NORMAL,0.0,NORMAL
+Daily,lss,Papua New Guinea,2026-10-31,0.0,-0.0049,0.08,NORMAL,0.08,NORMAL,0.0,NORMAL
+Daily,lss,Paraguay,2026-10-31,0.0,-0.0003,0.02,NORMAL,0.02,NORMAL,0.0,NORMAL
+Daily,lss,Peru,2026-10-31,0.0,-0.0289,0.15,NORMAL,0.15,NORMAL,0.0,NORMAL
+Daily,lss,Philippines,2026-10-31,0.0,0.0104,-0.31,NORMAL,-0.31,NORMAL,0.0,NORMAL
+Daily,lss,Poland,2026-10-31,0.0,-0.0122,0.1,NORMAL,0.1,NORMAL,0.0,NORMAL
+Daily,lss,Portugal,2026-10-31,0.0,-0.0091,0.1,NORMAL,0.1,NORMAL,0.0,NORMAL
+Daily,lss,Puerto Rico,2026-10-31,0.0,-0.0001,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lss,Qatar,2026-10-31,0.0,-0.0055,0.08,NORMAL,0.08,NORMAL,0.0,NORMAL
+Daily,lss,Romania,2026-10-31,0.0,-0.0053,1.98,NORMAL,1.98,NORMAL,0.0,NORMAL
+Daily,lss,Russia,2026-10-31,0.0,-0.0659,0.29,NORMAL,0.28,NORMAL,0.0,NORMAL
+Daily,lss,Rwanda,2026-10-31,0.0,-0.0062,0.2,NORMAL,0.2,NORMAL,0.0,NORMAL
+Daily,lss,Réunion,2026-10-31,0.0,-0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lss,Samoa,2026-10-31,0.0,-0.0024,0.02,NORMAL,0.02,NORMAL,0.0,NORMAL
+Daily,lss,San Marino,2026-10-31,0.0,-0.0003,0.45,NORMAL,0.45,NORMAL,0.0,NORMAL
+Daily,lss,Saudi Arabia,2026-10-31,0.0,-0.0184,0.16,NORMAL,0.16,NORMAL,0.0,NORMAL
+Daily,lss,Senegal,2026-10-31,0.0008,-0.0033,-0.78,NORMAL,-0.35,NORMAL,0.0,NORMAL
+Daily,lss,Serbia,2026-10-31,0.0,-0.022,0.17,NORMAL,0.17,NORMAL,0.0,NORMAL
+Daily,lss,Seychelles,2026-10-31,0.0,-0.004,1.07,NORMAL,1.07,NORMAL,0.0,NORMAL
+Daily,lss,Sierra Leone,2026-10-31,0.0,-0.0034,0.07,NORMAL,0.07,NORMAL,0.0,NORMAL
+Daily,lss,Singapore,2026-10-31,0.0,-0.0324,0.27,NORMAL,0.27,NORMAL,0.0,NORMAL
+Daily,lss,Slovakia,2026-10-31,0.0,-0.0039,0.11,NORMAL,0.11,NORMAL,0.0,NORMAL
+Daily,lss,Slovenia,2026-10-31,0.0,-0.0009,0.09,NORMAL,0.09,NORMAL,0.0,NORMAL
+Daily,lss,Solomon Islands,2026-10-31,0.0,-0.0012,1.43,NORMAL,1.43,NORMAL,0.0,NORMAL
+Daily,lss,Somalia,2026-10-31,0.0,-0.0008,0.34,NORMAL,0.34,NORMAL,2.97,NORMAL
+Daily,lss,South Africa,2026-10-31,0.0,-0.0204,0.15,NORMAL,0.17,NORMAL,0.0,NORMAL
+Daily,lss,South Korea,2026-10-31,0.0,-0.0417,0.12,NORMAL,0.11,NORMAL,0.0,NORMAL
+Daily,lss,South Sudan,2026-10-31,0.0,-0.0037,0.1,NORMAL,-0.01,NORMAL,0.0,NORMAL
+Daily,lss,Spain,2026-10-31,0.0,-0.0348,0.23,NORMAL,0.18,NORMAL,0.0,NORMAL
+Daily,lss,Sri Lanka,2026-10-31,0.0,-0.0141,0.16,NORMAL,0.16,NORMAL,0.0,NORMAL
+Daily,lss,St. Helena,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lss,St. Kitts & Nevis,2026-10-31,0.0,-0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lss,St. Lucia,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lss,St. Vincent & Grenadines,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,lss,Sudan,2026-10-31,0.0,0.0004,-0.01,NORMAL,0.06,NORMAL,0.0,NORMAL
+Daily,lss,Suriname,2026-10-31,0.0,-0.0013,0.41,NORMAL,0.41,NORMAL,0.0,NORMAL
+Daily,lss,Svalbard & Jan Mayen,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lss,Sweden,2026-10-31,0.0,-0.0067,0.06,NORMAL,0.06,NORMAL,0.0,NORMAL
+Daily,lss,Switzerland,2026-10-31,-0.0222,-0.0121,0.04,NORMAL,0.06,NORMAL,0.0,NORMAL
+Daily,lss,Syria,2026-10-31,0.0,0.0005,-0.01,NORMAL,-0.01,NORMAL,0.0,NORMAL
+Daily,lss,São Tomé & Príncipe,2026-10-31,0.0,-0.0005,0.08,NORMAL,0.08,NORMAL,0.0,NORMAL
+Daily,lss,Taiwan,2026-10-31,0.0,0.0394,-0.07,NORMAL,-0.07,NORMAL,0.0,NORMAL
+Daily,lss,Tajikistan,2026-10-31,0.0,-0.0299,0.21,NORMAL,0.21,NORMAL,0.0,NORMAL
+Daily,lss,Tanzania,2026-10-31,0.0,-0.0175,0.18,NORMAL,0.18,NORMAL,0.0,NORMAL
+Daily,lss,Thailand,2026-10-31,0.0,-0.0623,0.21,NORMAL,0.2,NORMAL,0.0,NORMAL
+Daily,lss,Timor-Leste,2026-10-31,0.0,-0.005,0.07,NORMAL,0.07,NORMAL,0.0,NORMAL
+Daily,lss,Togo,2026-10-31,0.0,-0.0017,0.04,NORMAL,0.04,NORMAL,0.0,NORMAL
+Daily,lss,Tonga,2026-10-31,0.0,-0.0021,0.03,NORMAL,0.03,NORMAL,0.0,NORMAL
+Daily,lss,Trinidad & Tobago,2026-10-31,0.0,-0.0006,0.36,NORMAL,0.36,NORMAL,0.0,NORMAL
+Daily,lss,Tunisia,2026-10-31,0.0,-0.0056,0.23,NORMAL,0.23,NORMAL,0.0,NORMAL
+Daily,lss,Turkey,2026-10-31,0.0,-0.0122,0.12,NORMAL,0.12,NORMAL,0.0,NORMAL
+Daily,lss,Turkmenistan,2026-10-31,0.0,-0.0194,0.14,NORMAL,0.14,NORMAL,0.0,NORMAL
+Daily,lss,Tuvalu,2026-10-31,0.0,-0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lss,UK,2026-10-31,0.0,-0.0589,0.21,NORMAL,0.21,NORMAL,0.0,NORMAL
+Daily,lss,US,2026-10-31,0.0,-0.0247,0.09,NORMAL,0.04,NORMAL,0.0,NORMAL
+Daily,lss,Uganda,2026-10-31,0.0,-0.0082,0.13,NORMAL,0.13,NORMAL,0.0,NORMAL
+Daily,lss,Ukraine,2026-10-31,0.0,0.0009,-0.01,NORMAL,-0.01,NORMAL,0.0,NORMAL
+Daily,lss,United Arab Emirates,2026-10-31,0.0,-0.0288,0.24,NORMAL,0.21,NORMAL,0.0,NORMAL
+Daily,lss,Uruguay,2026-10-31,0.0,-0.0056,0.06,NORMAL,0.06,NORMAL,0.0,NORMAL
+Daily,lss,Uzbekistan,2026-10-31,-0.0116,-0.0488,0.25,NORMAL,0.25,NORMAL,0.0,NORMAL
+Daily,lss,Vanuatu,2026-10-31,0.0,-0.0012,0.1,NORMAL,0.1,NORMAL,0.0,NORMAL
+Daily,lss,Vatican City,2026-10-31,0.0,-0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lss,Venezuela,2026-10-31,0.0,-0.0017,0.06,NORMAL,0.06,NORMAL,0.0,NORMAL
+Daily,lss,Vietnam,2026-10-31,0.0,-0.0485,0.19,NORMAL,0.19,NORMAL,0.0,NORMAL
+Daily,lss,Western Sahara,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,lss,Yemen,2026-10-31,0.0,-0.0001,0.02,NORMAL,0.02,NORMAL,5.12,RED
+Daily,lss,Zambia,2026-10-31,0.0,-0.0098,0.07,NORMAL,0.07,NORMAL,0.0,NORMAL
+Daily,lss,Zimbabwe,2026-10-31,0.0,-0.0076,0.11,NORMAL,0.14,NORMAL,0.0,NORMAL
+Daily,negativity,Afghanistan,2026-10-31,0.0,0.0097,-0.11,NORMAL,-0.11,NORMAL,0.0,NORMAL
+Daily,negativity,Albania,2026-10-31,0.0,0.0006,-0.08,NORMAL,-0.08,NORMAL,0.0,NORMAL
+Daily,negativity,Algeria,2026-10-31,0.0,0.002,-0.12,NORMAL,-0.12,NORMAL,0.0,NORMAL
+Daily,negativity,American Samoa,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,negativity,Andorra,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,negativity,Angola,2026-10-31,0.0,0.0011,-0.11,NORMAL,-0.11,NORMAL,0.0,NORMAL
+Daily,negativity,Antarctica,2026-10-31,0.0,0.0002,-0.02,NORMAL,-0.02,NORMAL,0.0,NORMAL
+Daily,negativity,Antigua & Barbuda,2026-10-31,0.0,0.0007,-0.03,NORMAL,-0.03,NORMAL,0.0,NORMAL
+Daily,negativity,Argentina,2026-10-31,0.0,0.0088,-0.14,NORMAL,-0.14,NORMAL,0.0,NORMAL
+Daily,negativity,Armenia,2026-10-31,0.0,0.0013,-0.17,NORMAL,-0.17,NORMAL,19.64,RED
+Daily,negativity,Aruba,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,negativity,Australia,2026-10-31,0.0,0.038,-0.16,NORMAL,-0.21,NORMAL,0.0,NORMAL
+Daily,negativity,Austria,2026-10-31,0.1,0.0063,0.58,NORMAL,0.29,NORMAL,1.51,NORMAL
+Daily,negativity,Azerbaijan,2026-10-31,0.0,0.0094,-0.17,NORMAL,-0.17,NORMAL,1.28,NORMAL
+Daily,negativity,Bahamas,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,negativity,Bahrain,2026-10-31,0.0,0.0027,-0.07,NORMAL,-0.07,NORMAL,0.0,NORMAL
+Daily,negativity,Bangladesh,2026-10-31,0.0,0.0063,-0.15,NORMAL,-0.15,NORMAL,0.0,NORMAL
+Daily,negativity,Barbados,2026-10-31,0.0,0.0002,-0.07,NORMAL,-0.07,NORMAL,0.0,NORMAL
+Daily,negativity,Belarus,2026-10-31,0.0,0.0063,-0.15,NORMAL,-0.15,NORMAL,0.0,NORMAL
+Daily,negativity,Belgium,2026-10-31,0.0,0.0144,-0.22,NORMAL,0.08,NORMAL,7.46,RED
+Daily,negativity,Belize,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,negativity,Benin,2026-10-31,0.0,0.0018,-0.04,NORMAL,-0.04,NORMAL,0.0,NORMAL
+Daily,negativity,Bermuda,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,negativity,Bhutan,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,negativity,Bolivia,2026-10-31,0.0,0.0003,-0.06,NORMAL,-0.06,NORMAL,0.0,NORMAL
+Daily,negativity,Bosnia & Herzegovina,2026-10-31,0.0,0.0005,-0.08,NORMAL,-0.08,NORMAL,0.0,NORMAL
+Daily,negativity,Botswana,2026-10-31,0.0,0.0036,-0.18,NORMAL,-0.18,NORMAL,26.86,RED
+Daily,negativity,Brazil,2026-10-31,0.0,0.0308,-0.4,NORMAL,0.89,NORMAL,1.9,NORMAL
+Daily,negativity,British Virgin Islands,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,negativity,Brunei,2026-10-31,0.0,0.0023,-0.07,NORMAL,-0.07,NORMAL,0.0,NORMAL
+Daily,negativity,Bulgaria,2026-10-31,0.0,0.0042,-0.15,NORMAL,-0.15,NORMAL,9.94,RED
+Daily,negativity,Burkina Faso,2026-10-31,0.0,0.0001,-0.01,NORMAL,-0.01,NORMAL,0.0,NORMAL
+Daily,negativity,Burundi,2026-10-31,0.0,0.0015,-0.05,NORMAL,-0.05,NORMAL,0.0,NORMAL
+Daily,negativity,Cambodia,2026-10-31,0.0,0.0194,-0.25,NORMAL,0.53,NORMAL,0.66,NORMAL
+Daily,negativity,Cameroon,2026-10-31,0.0,0.0021,-0.17,NORMAL,-0.17,NORMAL,0.0,NORMAL
+Daily,negativity,Canada,2026-10-31,0.0,0.0411,1.3,NORMAL,0.72,NORMAL,2.4,NORMAL
+Daily,negativity,Cape Verde,2026-10-31,0.0,0.0008,-0.1,NORMAL,-0.1,NORMAL,0.0,NORMAL
+Daily,negativity,Cayman Islands,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,negativity,Central African Republic,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,negativity,Chad,2026-10-31,0.0,0.0017,-0.03,NORMAL,-0.03,NORMAL,0.0,NORMAL
+Daily,negativity,Chile,2026-10-31,0.0,0.0087,0.34,NORMAL,0.16,NORMAL,0.04,NORMAL
+Daily,negativity,China,2026-10-31,0.0,0.002,-0.09,NORMAL,-0.09,NORMAL,0.0,NORMAL
+Daily,negativity,Colombia,2026-10-31,0.0,0.0078,-0.14,NORMAL,-0.14,NORMAL,0.0,NORMAL
+Daily,negativity,Comoros,2026-10-31,0.0,0.0001,-0.02,NORMAL,-0.02,NORMAL,0.0,NORMAL
+Daily,negativity,Congo - Brazzaville,2026-10-31,0.0,0.0048,-0.12,NORMAL,-0.12,NORMAL,6.46,RED
+Daily,negativity,Congo - Kinshasa,2026-10-31,0.0,0.0243,1.36,NORMAL,0.72,NORMAL,3.92,YELLOW
+Daily,negativity,Cook Islands,2026-10-31,0.0,0.0,-0.01,NORMAL,-0.01,NORMAL,0.0,NORMAL
+Daily,negativity,Costa Rica,2026-10-31,0.0,0.0004,-0.07,NORMAL,-0.07,NORMAL,0.0,NORMAL
+Daily,negativity,Croatia,2026-10-31,0.0,0.0037,-0.13,NORMAL,-0.13,NORMAL,8.65,RED
+Daily,negativity,Cuba,2026-10-31,0.0,0.0249,-0.18,NORMAL,-0.18,NORMAL,0.0,NORMAL
+Daily,negativity,Curaçao,2026-10-31,0.0,0.0004,-0.08,NORMAL,-0.08,NORMAL,0.0,NORMAL
+Daily,negativity,Cyprus,2026-10-31,0.0,0.002,-0.07,NORMAL,-0.07,NORMAL,0.0,NORMAL
+Daily,negativity,Czechia,2026-10-31,0.0,0.0029,-0.1,NORMAL,-0.1,NORMAL,0.0,NORMAL
+Daily,negativity,Côte d’Ivoire,2026-10-31,0.0,0.0011,-0.1,NORMAL,-0.1,NORMAL,0.0,NORMAL
+Daily,negativity,Denmark,2026-10-31,0.0,0.0185,-0.16,NORMAL,-0.16,NORMAL,0.0,NORMAL
+Daily,negativity,Djibouti,2026-10-31,0.0,0.01,-0.17,NORMAL,-0.17,NORMAL,17.4,RED
+Daily,negativity,Dominica,2026-10-31,0.0,0.0012,-0.05,NORMAL,-0.05,NORMAL,0.0,NORMAL
+Daily,negativity,Dominican Republic,2026-10-31,0.0,0.0003,-0.01,NORMAL,-0.01,NORMAL,0.0,NORMAL
+Daily,negativity,Ecuador,2026-10-31,0.0,0.0024,-0.16,NORMAL,-0.16,NORMAL,0.0,NORMAL
+Daily,negativity,Egypt,2026-10-31,0.0,0.0244,0.11,NORMAL,1.94,NORMAL,8.11,RED
+Daily,negativity,El Salvador,2026-10-31,0.0,0.0023,-0.09,NORMAL,-0.09,NORMAL,0.0,NORMAL
+Daily,negativity,Equatorial Guinea,2026-10-31,0.0,0.0001,-0.01,NORMAL,-0.01,NORMAL,0.0,NORMAL
+Daily,negativity,Eritrea,2026-10-31,0.0,0.0048,-0.11,NORMAL,3.65,RED,16.57,RED
+Daily,negativity,Estonia,2026-10-31,0.0,0.0006,-0.08,NORMAL,-0.08,NORMAL,0.0,NORMAL
+Daily,negativity,Eswatini,2026-10-31,0.0,0.0032,-0.06,NORMAL,-0.06,NORMAL,0.0,NORMAL
+Daily,negativity,Ethiopia,2026-10-31,0.0,0.0144,-0.24,NORMAL,2.4,YELLOW,10.26,RED
+Daily,negativity,Faroe Islands,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,negativity,Fiji,2026-10-31,0.0,0.0012,-0.16,NORMAL,-0.16,NORMAL,0.0,NORMAL
+Daily,negativity,Finland,2026-10-31,0.0,0.0089,-0.13,NORMAL,-0.13,NORMAL,0.0,NORMAL
+Daily,negativity,France,2026-10-31,0.0,0.0758,-0.46,NORMAL,-0.46,NORMAL,1.31,NORMAL
+Daily,negativity,French Polynesia,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,negativity,Gabon,2026-10-31,0.0,0.0014,-0.05,NORMAL,-0.05,NORMAL,0.0,NORMAL
+Daily,negativity,Gambia,2026-10-31,0.0,0.001,-0.09,NORMAL,-0.09,NORMAL,0.0,NORMAL
+Daily,negativity,Georgia,2026-10-31,0.0,0.0018,-0.06,NORMAL,-0.06,NORMAL,0.0,NORMAL
+Daily,negativity,Germany,2026-10-31,0.17,0.0815,0.4,NORMAL,0.91,NORMAL,2.71,NORMAL
+Daily,negativity,Ghana,2026-10-31,0.0,0.005,-0.14,NORMAL,1.81,NORMAL,6.57,RED
+Daily,negativity,Gibraltar,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,negativity,Greece,2026-10-31,0.0,0.0129,-0.22,NORMAL,-0.22,NORMAL,0.0,NORMAL
+Daily,negativity,Greenland,2026-10-31,0.0,0.0079,-0.08,NORMAL,-0.08,NORMAL,0.0,NORMAL
+Daily,negativity,Grenada,2026-10-31,0.0,0.0005,-0.1,NORMAL,-0.1,NORMAL,0.0,NORMAL
+Daily,negativity,Guadeloupe,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,negativity,Guam,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,negativity,Guatemala,2026-10-31,0.0,0.0001,-0.01,NORMAL,-0.01,NORMAL,0.0,NORMAL
+Daily,negativity,Guinea,2026-10-31,0.0,0.0035,-0.17,NORMAL,2.68,YELLOW,11.02,RED
+Daily,negativity,Guinea-Bissau,2026-10-31,0.0,0.0002,-0.06,NORMAL,-0.06,NORMAL,0.0,NORMAL
+Daily,negativity,Guyana,2026-10-31,0.0,0.0019,-0.07,NORMAL,-0.07,NORMAL,0.0,NORMAL
+Daily,negativity,Haiti,2026-10-31,0.0,0.0001,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,negativity,Honduras,2026-10-31,0.0,0.0001,-0.05,NORMAL,-0.05,NORMAL,0.0,NORMAL
+Daily,negativity,Hungary,2026-10-31,0.0,0.0137,-0.22,NORMAL,-0.22,NORMAL,0.0,NORMAL
+Daily,negativity,Iceland,2026-10-31,0.0,0.0035,-0.11,NORMAL,3.12,RED,13.28,RED
+Daily,negativity,India,2026-10-31,0.0,0.0254,-0.24,NORMAL,-0.15,NORMAL,0.0,NORMAL
+Daily,negativity,Indonesia,2026-10-31,0.0,0.0327,0.01,NORMAL,-0.13,NORMAL,0.0,NORMAL
+Daily,negativity,Iran,2026-10-31,0.0,0.1266,0.31,NORMAL,0.06,NORMAL,0.0,NORMAL
+Daily,negativity,Iraq,2026-10-31,0.0,0.0113,-0.13,NORMAL,-0.13,NORMAL,0.0,NORMAL
+Daily,negativity,Ireland,2026-10-31,0.0,0.0047,-0.13,NORMAL,3.33,RED,14.84,RED
+Daily,negativity,Israel,2026-10-31,0.0,0.0694,-0.3,NORMAL,0.53,NORMAL,0.58,NORMAL
+Daily,negativity,Italy,2026-10-31,0.0,0.032,-0.34,NORMAL,-0.34,NORMAL,5.49,RED
+Daily,negativity,Jamaica,2026-10-31,0.0,0.002,-0.07,NORMAL,-0.07,NORMAL,0.0,NORMAL
+Daily,negativity,Japan,2026-10-31,0.0,0.2966,-0.84,NORMAL,-0.59,NORMAL,0.0,NORMAL
+Daily,negativity,Jordan,2026-10-31,0.0,0.0041,-0.13,NORMAL,0.51,NORMAL,0.64,NORMAL
+Daily,negativity,Kazakhstan,2026-10-31,0.0,0.0148,0.83,NORMAL,0.36,NORMAL,10.86,RED
+Daily,negativity,Kenya,2026-10-31,0.0,0.0141,3.0,RED,2.87,YELLOW,13.61,RED
+Daily,negativity,Kiribati,2026-10-31,0.0,0.0001,-0.01,NORMAL,-0.01,NORMAL,0.0,NORMAL
+Daily,negativity,Kuwait,2026-10-31,0.0,0.0044,-0.08,NORMAL,-0.08,NORMAL,0.0,NORMAL
+Daily,negativity,Kyrgyzstan,2026-10-31,0.0,0.013,0.09,NORMAL,0.17,NORMAL,0.0,NORMAL
+Daily,negativity,Laos,2026-10-31,0.0,0.0194,-0.34,NORMAL,-0.34,NORMAL,0.0,NORMAL
+Daily,negativity,Latvia,2026-10-31,0.0,0.0008,-0.08,NORMAL,-0.08,NORMAL,0.0,NORMAL
+Daily,negativity,Lebanon,2026-10-31,0.0,0.0053,-0.09,NORMAL,-0.09,NORMAL,0.0,NORMAL
+Daily,negativity,Lesotho,2026-10-31,0.0,0.0009,-0.1,NORMAL,-0.1,NORMAL,0.0,NORMAL
+Daily,negativity,Liberia,2026-10-31,0.0,0.0013,-0.05,NORMAL,-0.05,NORMAL,0.0,NORMAL
+Daily,negativity,Libya,2026-10-31,0.0,0.0021,-0.08,NORMAL,0.66,NORMAL,1.4,NORMAL
+Daily,negativity,Liechtenstein,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,negativity,Lithuania,2026-10-31,0.0,0.0002,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,negativity,Luxembourg,2026-10-31,0.0,0.0013,-0.09,NORMAL,-0.09,NORMAL,0.0,NORMAL
+Daily,negativity,Madagascar,2026-10-31,0.0,0.0007,-0.08,NORMAL,-0.08,NORMAL,0.0,NORMAL
+Daily,negativity,Malawi,2026-10-31,0.0,0.0017,-0.12,NORMAL,-0.12,NORMAL,0.0,NORMAL
+Daily,negativity,Malaysia,2026-10-31,0.0,0.0267,-0.31,NORMAL,-0.31,NORMAL,0.0,NORMAL
+Daily,negativity,Maldives,2026-10-31,0.0,0.001,-0.1,NORMAL,-0.1,NORMAL,0.0,NORMAL
+Daily,negativity,Mali,2026-10-31,0.0,0.002,-0.06,NORMAL,-0.06,NORMAL,0.0,NORMAL
+Daily,negativity,Malta,2026-10-31,0.0,0.0002,-0.04,NORMAL,-0.04,NORMAL,0.0,NORMAL
+Daily,negativity,Marshall Islands,2026-10-31,0.0,0.0003,-0.06,NORMAL,-0.06,NORMAL,0.0,NORMAL
+Daily,negativity,Martinique,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,negativity,Mauritania,2026-10-31,0.0,0.0016,-0.09,NORMAL,-0.09,NORMAL,0.0,NORMAL
+Daily,negativity,Mauritius,2026-10-31,0.0,0.0013,-0.06,NORMAL,-0.06,NORMAL,0.0,NORMAL
+Daily,negativity,Mexico,2026-10-31,0.0,0.0181,-0.23,NORMAL,0.02,NORMAL,0.0,NORMAL
+Daily,negativity,Micronesia (Federated States of),2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,negativity,Moldova,2026-10-31,0.0,0.0035,-0.08,NORMAL,-0.08,NORMAL,0.0,NORMAL
+Daily,negativity,Monaco,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,negativity,Mongolia,2026-10-31,0.0,0.0093,-0.21,NORMAL,-0.21,NORMAL,0.0,NORMAL
+Daily,negativity,Montenegro,2026-10-31,0.0,0.0055,-0.16,NORMAL,-0.16,NORMAL,5.27,RED
+Daily,negativity,Morocco,2026-10-31,0.0,0.013,-0.19,NORMAL,-0.19,NORMAL,0.0,NORMAL
+Daily,negativity,Mozambique,2026-10-31,0.0,0.0038,-0.17,NORMAL,-0.17,NORMAL,0.0,NORMAL
+Daily,negativity,Myanmar (Burma),2026-10-31,0.0,0.0189,-0.22,NORMAL,-0.22,NORMAL,0.0,NORMAL
+Daily,negativity,Namibia,2026-10-31,0.0,0.0029,-0.18,NORMAL,-0.18,NORMAL,0.0,NORMAL
+Daily,negativity,Nauru,2026-10-31,0.0,0.0018,-0.07,NORMAL,-0.07,NORMAL,0.0,NORMAL
+Daily,negativity,Nepal,2026-10-31,0.0,0.0125,-0.17,NORMAL,-0.17,NORMAL,0.0,NORMAL
+Daily,negativity,Netherlands,2026-10-31,0.0,0.0152,-0.18,NORMAL,0.18,NORMAL,0.0,NORMAL
+Daily,negativity,New Caledonia,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,negativity,New Zealand,2026-10-31,0.0,0.0089,-0.14,NORMAL,-0.14,NORMAL,0.0,NORMAL
+Daily,negativity,Nicaragua,2026-10-31,0.0,0.0004,-0.15,NORMAL,-0.15,NORMAL,0.0,NORMAL
+Daily,negativity,Niger,2026-10-31,0.0,0.0007,-0.02,NORMAL,-0.02,NORMAL,0.0,NORMAL
+Daily,negativity,Nigeria,2026-10-31,0.0,0.0065,-0.11,NORMAL,-0.11,NORMAL,0.0,NORMAL
+Daily,negativity,Niue,2026-10-31,0.0,0.0,-0.02,NORMAL,-0.02,NORMAL,0.0,NORMAL
+Daily,negativity,North Korea,2026-10-31,0.0,0.0169,-0.2,NORMAL,1.44,NORMAL,4.83,YELLOW
+Daily,negativity,North Macedonia,2026-10-31,0.0,0.0006,-0.1,NORMAL,-0.1,NORMAL,8.55,RED
+Daily,negativity,Northern Mariana Islands,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,negativity,Norway,2026-10-31,0.0,0.0106,-0.2,NORMAL,-0.2,NORMAL,0.0,NORMAL
+Daily,negativity,Oman,2026-10-31,0.05,0.0058,0.2,NORMAL,0.08,NORMAL,0.31,NORMAL
+Daily,negativity,Pakistan,2026-10-31,0.0,0.0397,-0.29,NORMAL,-0.14,NORMAL,0.0,NORMAL
+Daily,negativity,Palau,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,negativity,Palestinian Territories,2026-10-31,0.0,0.0445,-0.26,NORMAL,0.86,NORMAL,2.5,NORMAL
+Daily,negativity,Panama,2026-10-31,0.0,0.0081,-0.13,NORMAL,-0.13,NORMAL,4.64,YELLOW
+Daily,negativity,Papua New Guinea,2026-10-31,0.0,0.0018,-0.14,NORMAL,-0.14,NORMAL,0.0,NORMAL
+Daily,negativity,Paraguay,2026-10-31,0.0,0.0001,-0.02,NORMAL,-0.02,NORMAL,0.0,NORMAL
+Daily,negativity,Peru,2026-10-31,0.0,0.0135,-0.28,NORMAL,-0.28,NORMAL,11.14,RED
+Daily,negativity,Philippines,2026-10-31,0.0,0.0593,-0.31,NORMAL,-0.31,NORMAL,0.0,NORMAL
+Daily,negativity,Poland,2026-10-31,0.0,0.0061,-0.11,NORMAL,-0.11,NORMAL,0.0,NORMAL
+Daily,negativity,Portugal,2026-10-31,0.0,0.0099,-0.15,NORMAL,-0.15,NORMAL,3.64,YELLOW
+Daily,negativity,Puerto Rico,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,negativity,Qatar,2026-10-31,0.0,0.0119,-0.13,NORMAL,-0.13,NORMAL,0.0,NORMAL
+Daily,negativity,Romania,2026-10-31,0.0,0.0014,-0.05,NORMAL,-0.05,NORMAL,0.0,NORMAL
+Daily,negativity,Russia,2026-10-31,0.0,0.0949,-0.47,NORMAL,-0.12,NORMAL,0.0,NORMAL
+Daily,negativity,Rwanda,2026-10-31,0.0,0.0047,-0.15,NORMAL,-0.15,NORMAL,13.39,RED
+Daily,negativity,Réunion,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,negativity,Samoa,2026-10-31,0.0,0.0002,-0.02,NORMAL,-0.02,NORMAL,0.0,NORMAL
+Daily,negativity,San Marino,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,negativity,Saudi Arabia,2026-10-31,0.0,0.034,-0.27,NORMAL,-0.27,NORMAL,2.85,NORMAL
+Daily,negativity,Senegal,2026-10-31,0.5,0.0062,3.67,RED,2.14,YELLOW,10.78,RED
+Daily,negativity,Serbia,2026-10-31,0.0,0.0087,-0.16,NORMAL,-0.16,NORMAL,0.0,NORMAL
+Daily,negativity,Seychelles,2026-10-31,0.0,0.0049,-0.12,NORMAL,-0.12,NORMAL,5.07,RED
+Daily,negativity,Sierra Leone,2026-10-31,0.0,0.0015,-0.05,NORMAL,-0.05,NORMAL,0.0,NORMAL
+Daily,negativity,Singapore,2026-10-31,0.0,0.0324,-0.27,NORMAL,-0.27,NORMAL,0.0,NORMAL
+Daily,negativity,Slovakia,2026-10-31,0.0,0.0041,-0.14,NORMAL,-0.14,NORMAL,0.24,NORMAL
+Daily,negativity,Slovenia,2026-10-31,0.0,0.0018,-0.11,NORMAL,-0.11,NORMAL,0.0,NORMAL
+Daily,negativity,Solomon Islands,2026-10-31,0.0,0.0021,-0.08,NORMAL,-0.08,NORMAL,0.0,NORMAL
+Daily,negativity,Somalia,2026-10-31,0.0,0.0023,-0.13,NORMAL,-0.13,NORMAL,10.93,RED
+Daily,negativity,South Africa,2026-10-31,0.0,0.0188,-0.03,NORMAL,-0.13,NORMAL,0.0,NORMAL
+Daily,negativity,South Korea,2026-10-31,0.0,0.0683,-0.34,NORMAL,-0.36,NORMAL,0.0,NORMAL
+Daily,negativity,South Sudan,2026-10-31,0.0,0.0027,-0.06,NORMAL,-0.06,NORMAL,0.0,NORMAL
+Daily,negativity,Spain,2026-10-31,0.0,0.0386,2.43,YELLOW,1.41,NORMAL,5.87,RED
+Daily,negativity,Sri Lanka,2026-10-31,0.0,0.0057,-0.11,NORMAL,-0.11,NORMAL,0.0,NORMAL
+Daily,negativity,St. Helena,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,negativity,St. Kitts & Nevis,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,negativity,St. Lucia,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,negativity,St. Vincent & Grenadines,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,negativity,Sudan,2026-10-31,0.0,0.0138,-0.14,NORMAL,1.51,NORMAL,5.65,RED
+Daily,negativity,Suriname,2026-10-31,0.0,0.0005,-0.1,NORMAL,-0.1,NORMAL,9.16,RED
+Daily,negativity,Svalbard & Jan Mayen,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,negativity,Sweden,2026-10-31,0.0,0.0069,-0.14,NORMAL,-0.14,NORMAL,0.0,NORMAL
+Daily,negativity,Switzerland,2026-10-31,0.0,0.0157,1.93,NORMAL,1.08,NORMAL,4.2,YELLOW
+Daily,negativity,Syria,2026-10-31,0.0,0.0062,-0.11,NORMAL,-0.11,NORMAL,0.0,NORMAL
+Daily,negativity,São Tomé & Príncipe,2026-10-31,0.0,0.0004,-0.05,NORMAL,-0.05,NORMAL,0.0,NORMAL
+Daily,negativity,Taiwan,2026-10-31,0.0,0.1479,-0.4,NORMAL,-0.45,NORMAL,0.0,NORMAL
+Daily,negativity,Tajikistan,2026-10-31,0.0,0.0082,-0.16,NORMAL,-0.16,NORMAL,4.09,YELLOW
+Daily,negativity,Tanzania,2026-10-31,0.0,0.0099,-0.26,NORMAL,-0.26,NORMAL,0.0,NORMAL
+Daily,negativity,Thailand,2026-10-31,0.0,0.0348,-0.32,NORMAL,-0.32,NORMAL,0.0,NORMAL
+Daily,negativity,Timor-Leste,2026-10-31,0.0,0.001,-0.1,NORMAL,-0.1,NORMAL,0.0,NORMAL
+Daily,negativity,Togo,2026-10-31,0.0,0.0017,-0.17,NORMAL,-0.17,NORMAL,39.38,RED
+Daily,negativity,Tonga,2026-10-31,0.0,0.0011,-0.16,NORMAL,-0.16,NORMAL,2.64,NORMAL
+Daily,negativity,Trinidad & Tobago,2026-10-31,0.0,0.0001,-0.03,NORMAL,-0.03,NORMAL,0.0,NORMAL
+Daily,negativity,Tunisia,2026-10-31,0.0,0.0031,-0.11,NORMAL,-0.11,NORMAL,0.0,NORMAL
+Daily,negativity,Turkey,2026-10-31,0.0,0.0144,-0.19,NORMAL,-0.19,NORMAL,0.0,NORMAL
+Daily,negativity,Turkmenistan,2026-10-31,0.0,0.0036,-0.09,NORMAL,-0.09,NORMAL,0.0,NORMAL
+Daily,negativity,Tuvalu,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,negativity,UK,2026-10-31,0.0,0.0493,-0.36,NORMAL,0.01,NORMAL,0.0,NORMAL
+Daily,negativity,US,2026-10-31,0.0,0.2052,-0.16,NORMAL,-0.13,NORMAL,0.0,NORMAL
+Daily,negativity,Uganda,2026-10-31,0.0,0.0073,-0.12,NORMAL,-0.12,NORMAL,0.0,NORMAL
+Daily,negativity,Ukraine,2026-10-31,0.0,0.0191,-0.21,NORMAL,-0.21,NORMAL,0.0,NORMAL
+Daily,negativity,United Arab Emirates,2026-10-31,0.0,0.0276,1.42,NORMAL,0.84,NORMAL,2.59,NORMAL
+Daily,negativity,Uruguay,2026-10-31,0.0,0.0016,-0.06,NORMAL,-0.06,NORMAL,0.0,NORMAL
+Daily,negativity,Uzbekistan,2026-10-31,0.05,0.0148,0.04,NORMAL,0.12,NORMAL,2.01,NORMAL
+Daily,negativity,Vanuatu,2026-10-31,0.0,0.0001,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,negativity,Vatican City,2026-10-31,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
+Daily,negativity,Venezuela,2026-10-31,0.0,0.0184,-0.12,NORMAL,-0.12,NORMAL,0.0,NORMAL
+Daily,negativity,Vietnam,2026-10-31,0.0,0.0228,0.12,NORMAL,-0.03,NORMAL,0.0,NORMAL
+Daily,negativity,Western Sahara,2026-10-31,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
+Daily,negativity,Yemen,2026-10-31,0.0,0.0164,-0.18,NORMAL,-0.18,NORMAL,6.45,RED
+Daily,negativity,Zambia,2026-10-31,0.0,0.0032,-0.15,NORMAL,-0.15,NORMAL,0.0,NORMAL
+Daily,negativity,Zimbabwe,2026-10-31,0.0,0.0048,-0.16,NORMAL,3.18,RED,13.39,RED
 Weekly,deepseek,Afghanistan,2026-10-27,0.0,0.0007,-0.1,NORMAL,-0.1,NORMAL,0.0,NORMAL
 Weekly,deepseek,Albania,2026-10-27,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
 Weekly,deepseek,Algeria,2026-10-27,0.0,0.0,-0.01,NORMAL,-0.01,NORMAL,0.0,NORMAL
@@ -949,7 +949,7 @@ Weekly,deepseek,French Polynesia,2026-10-27,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NO
 Weekly,deepseek,Gabon,2026-10-27,0.0,0.0001,-0.09,NORMAL,-0.09,NORMAL,0.0,NORMAL
 Weekly,deepseek,Gambia,2026-10-27,0.0,0.001,-0.14,NORMAL,-0.14,NORMAL,0.0,NORMAL
 Weekly,deepseek,Georgia,2026-10-27,0.0,0.0,-0.04,NORMAL,-0.04,NORMAL,0.0,NORMAL
-Weekly,deepseek,Germany,2026-10-27,0.0056,0.0046,-0.15,NORMAL,-0.19,NORMAL,0.0,NORMAL
+Weekly,deepseek,Germany,2026-10-27,0.0036,0.0045,-0.19,NORMAL,-0.21,NORMAL,0.0,NORMAL
 Weekly,deepseek,Ghana,2026-10-27,0.0,0.0002,-0.1,NORMAL,-0.1,NORMAL,0.0,NORMAL
 Weekly,deepseek,Gibraltar,2026-10-27,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
 Weekly,deepseek,Greece,2026-10-27,0.0,0.0005,-0.24,NORMAL,-0.24,NORMAL,0.0,NORMAL
@@ -1325,7 +1325,7 @@ Weekly,lss,Argentina,2026-10-27,0.0,-0.0521,0.41,NORMAL,0.39,NORMAL,0.0,NORMAL
 Weekly,lss,Armenia,2026-10-27,0.0,-0.0151,0.87,NORMAL,0.71,NORMAL,0.0,NORMAL
 Weekly,lss,Aruba,2026-10-27,0.0,-0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
 Weekly,lss,Australia,2026-10-27,-0.015,-0.0875,0.35,NORMAL,0.37,NORMAL,3.83,YELLOW
-Weekly,lss,Austria,2026-10-27,-0.0246,-0.0553,0.17,NORMAL,0.18,NORMAL,0.0,NORMAL
+Weekly,lss,Austria,2026-10-27,-0.0084,-0.0547,0.18,NORMAL,0.19,NORMAL,0.0,NORMAL
 Weekly,lss,Azerbaijan,2026-10-27,0.0,-0.0315,0.81,NORMAL,0.83,NORMAL,0.0,NORMAL
 Weekly,lss,Bahamas,2026-10-27,0.0,-0.0018,0.02,NORMAL,0.02,NORMAL,0.0,NORMAL
 Weekly,lss,Bahrain,2026-10-27,0.0,-0.0101,1.53,NORMAL,1.53,NORMAL,0.0,NORMAL
@@ -1387,7 +1387,7 @@ Weekly,lss,French Polynesia,2026-10-27,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMA
 Weekly,lss,Gabon,2026-10-27,0.0,-0.014,1.41,NORMAL,1.41,NORMAL,0.0,NORMAL
 Weekly,lss,Gambia,2026-10-27,0.0,-0.0272,2.45,YELLOW,2.45,YELLOW,0.0,NORMAL
 Weekly,lss,Georgia,2026-10-27,0.0,-0.0238,0.78,NORMAL,0.78,NORMAL,0.0,NORMAL
-Weekly,lss,Germany,2026-10-27,-0.0095,-0.1321,0.68,NORMAL,0.65,NORMAL,20.91,RED
+Weekly,lss,Germany,2026-10-27,-0.0113,-0.1322,0.68,NORMAL,0.65,NORMAL,20.9,RED
 Weekly,lss,Ghana,2026-10-27,-0.0113,-0.0406,0.61,NORMAL,0.71,NORMAL,0.0,NORMAL
 Weekly,lss,Gibraltar,2026-10-27,0.0,-0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
 Weekly,lss,Greece,2026-10-27,-0.0263,-0.0899,0.4,NORMAL,0.41,NORMAL,0.0,NORMAL
@@ -1460,7 +1460,7 @@ Weekly,lss,North Korea,2026-10-27,-0.0063,-0.0933,4.02,RED,4.23,RED,0.47,NORMAL
 Weekly,lss,North Macedonia,2026-10-27,0.0,-0.0087,0.1,NORMAL,0.53,NORMAL,0.0,NORMAL
 Weekly,lss,Northern Mariana Islands,2026-10-27,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
 Weekly,lss,Norway,2026-10-27,0.0,-0.0131,0.14,NORMAL,0.15,NORMAL,0.0,NORMAL
-Weekly,lss,Oman,2026-10-27,0.0,-0.0111,1.15,NORMAL,1.15,NORMAL,0.0,NORMAL
+Weekly,lss,Oman,2026-10-27,-0.0537,-0.0131,-0.4,NORMAL,0.2,NORMAL,0.0,NORMAL
 Weekly,lss,Pakistan,2026-10-27,-0.0164,-0.0663,0.23,NORMAL,0.19,NORMAL,0.0,NORMAL
 Weekly,lss,Palau,2026-10-27,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
 Weekly,lss,Palestinian Territories,2026-10-27,0.0406,0.042,-0.3,NORMAL,-0.27,NORMAL,0.0,NORMAL
@@ -1480,7 +1480,7 @@ Weekly,lss,Réunion,2026-10-27,0.0,-0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
 Weekly,lss,Samoa,2026-10-27,0.0,-0.0072,0.03,NORMAL,0.03,NORMAL,0.0,NORMAL
 Weekly,lss,San Marino,2026-10-27,0.0,-0.002,1.14,NORMAL,1.14,NORMAL,0.0,NORMAL
 Weekly,lss,Saudi Arabia,2026-10-27,0.0,-0.0537,0.3,NORMAL,0.29,NORMAL,0.0,NORMAL
-Weekly,lss,Senegal,2026-10-27,-0.0382,-0.0192,-0.03,NORMAL,0.24,NORMAL,0.0,NORMAL
+Weekly,lss,Senegal,2026-10-27,-0.0187,-0.0185,0.16,NORMAL,0.35,NORMAL,0.0,NORMAL
 Weekly,lss,Serbia,2026-10-27,0.0,-0.086,0.45,NORMAL,0.42,NORMAL,1.64,NORMAL
 Weekly,lss,Seychelles,2026-10-27,0.0,-0.0251,2.9,YELLOW,3.09,RED,0.0,NORMAL
 Weekly,lss,Sierra Leone,2026-10-27,0.0,-0.0192,0.28,NORMAL,0.28,NORMAL,0.0,NORMAL
@@ -1502,7 +1502,7 @@ Weekly,lss,Sudan,2026-10-27,0.0247,0.0027,0.1,NORMAL,0.04,NORMAL,0.0,NORMAL
 Weekly,lss,Suriname,2026-10-27,0.0,-0.0087,-0.2,NORMAL,0.31,NORMAL,0.0,NORMAL
 Weekly,lss,Svalbard & Jan Mayen,2026-10-27,0.0,-0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
 Weekly,lss,Sweden,2026-10-27,0.0,-0.0304,0.18,NORMAL,0.18,NORMAL,0.0,NORMAL
-Weekly,lss,Switzerland,2026-10-27,0.0024,-0.0371,0.16,NORMAL,0.17,NORMAL,0.0,NORMAL
+Weekly,lss,Switzerland,2026-10-27,-0.014,-0.0377,0.13,NORMAL,0.15,NORMAL,0.0,NORMAL
 Weekly,lss,Syria,2026-10-27,0.0,0.0022,-0.01,NORMAL,-0.01,NORMAL,0.0,NORMAL
 Weekly,lss,São Tomé & Príncipe,2026-10-27,0.0,-0.0025,0.16,NORMAL,0.16,NORMAL,0.0,NORMAL
 Weekly,lss,Taiwan,2026-10-27,-0.003,0.0269,-0.06,NORMAL,-0.07,NORMAL,0.0,NORMAL
@@ -1523,7 +1523,7 @@ Weekly,lss,Uganda,2026-10-27,0.0,-0.0437,0.24,NORMAL,0.23,NORMAL,0.0,NORMAL
 Weekly,lss,Ukraine,2026-10-27,0.0,-0.0021,0.4,NORMAL,-0.1,NORMAL,0.0,NORMAL
 Weekly,lss,United Arab Emirates,2026-10-27,0.0045,-0.1025,0.57,NORMAL,0.58,NORMAL,10.32,RED
 Weekly,lss,Uruguay,2026-10-27,0.0,-0.0336,0.11,NORMAL,0.12,NORMAL,0.0,NORMAL
-Weekly,lss,Uzbekistan,2026-10-27,-0.0148,-0.1247,0.48,NORMAL,0.49,NORMAL,16.32,RED
+Weekly,lss,Uzbekistan,2026-10-27,-0.0132,-0.1247,0.48,NORMAL,0.49,NORMAL,16.32,RED
 Weekly,lss,Vanuatu,2026-10-27,0.0,-0.0068,0.22,NORMAL,0.22,NORMAL,0.0,NORMAL
 Weekly,lss,Vatican City,2026-10-27,0.0,-0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
 Weekly,lss,Venezuela,2026-10-27,0.0,-0.01,0.78,NORMAL,0.78,NORMAL,0.0,NORMAL
@@ -1544,7 +1544,7 @@ Weekly,negativity,Argentina,2026-10-27,0.0,0.043,-0.33,NORMAL,-0.18,NORMAL,0.0,N
 Weekly,negativity,Armenia,2026-10-27,0.0,0.0086,1.28,NORMAL,1.62,NORMAL,9.63,RED
 Weekly,negativity,Aruba,2026-10-27,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
 Weekly,negativity,Australia,2026-10-27,0.05,0.1415,-0.59,NORMAL,-0.2,NORMAL,0.0,NORMAL
-Weekly,negativity,Austria,2026-10-27,0.0,0.0376,-0.32,NORMAL,-0.32,NORMAL,0.0,NORMAL
+Weekly,negativity,Austria,2026-10-27,0.05,0.0395,-0.19,NORMAL,-0.25,NORMAL,0.0,NORMAL
 Weekly,negativity,Azerbaijan,2026-10-27,0.0,0.028,0.76,NORMAL,0.3,NORMAL,0.66,NORMAL
 Weekly,negativity,Bahamas,2026-10-27,0.0,0.0003,-0.01,NORMAL,-0.01,NORMAL,0.0,NORMAL
 Weekly,negativity,Bahrain,2026-10-27,0.0,0.0184,-0.19,NORMAL,-0.19,NORMAL,0.0,NORMAL
@@ -1606,7 +1606,7 @@ Weekly,negativity,French Polynesia,2026-10-27,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.
 Weekly,negativity,Gabon,2026-10-27,0.0,0.0093,-0.13,NORMAL,-0.13,NORMAL,0.0,NORMAL
 Weekly,negativity,Gambia,2026-10-27,0.0,0.0068,-0.25,NORMAL,-0.25,NORMAL,0.0,NORMAL
 Weekly,negativity,Georgia,2026-10-27,0.0,0.0115,-0.16,NORMAL,-0.16,NORMAL,0.0,NORMAL
-Weekly,negativity,Germany,2026-10-27,0.2111,0.149,0.17,NORMAL,0.4,NORMAL,2.75,NORMAL
+Weekly,negativity,Germany,2026-10-27,0.1964,0.1485,0.13,NORMAL,0.38,NORMAL,2.61,NORMAL
 Weekly,negativity,Ghana,2026-10-27,0.175,0.0225,0.61,NORMAL,0.21,NORMAL,2.06,NORMAL
 Weekly,negativity,Gibraltar,2026-10-27,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
 Weekly,negativity,Greece,2026-10-27,0.0,0.0514,1.28,NORMAL,0.54,NORMAL,2.63,NORMAL
@@ -1679,7 +1679,7 @@ Weekly,negativity,North Korea,2026-10-27,0.35,0.0844,0.33,NORMAL,0.1,NORMAL,0.82
 Weekly,negativity,North Macedonia,2026-10-27,0.0,0.004,1.91,NORMAL,1.04,NORMAL,4.44,YELLOW
 Weekly,negativity,Northern Mariana Islands,2026-10-27,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
 Weekly,negativity,Norway,2026-10-27,0.0,0.0606,0.19,NORMAL,-0.09,NORMAL,2.45,NORMAL
-Weekly,negativity,Oman,2026-10-27,0.0,0.0296,-0.24,NORMAL,-0.24,NORMAL,0.0,NORMAL
+Weekly,negativity,Oman,2026-10-27,0.05,0.0315,-0.12,NORMAL,-0.17,NORMAL,0.0,NORMAL
 Weekly,negativity,Pakistan,2026-10-27,0.075,0.0968,0.69,NORMAL,0.22,NORMAL,0.0,NORMAL
 Weekly,negativity,Palau,2026-10-27,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
 Weekly,negativity,Palestinian Territories,2026-10-27,0.95,0.2391,1.01,NORMAL,0.88,NORMAL,3.16,YELLOW
@@ -1699,7 +1699,7 @@ Weekly,negativity,Réunion,2026-10-27,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
 Weekly,negativity,Samoa,2026-10-27,0.0,0.0014,-0.07,NORMAL,-0.07,NORMAL,0.0,NORMAL
 Weekly,negativity,San Marino,2026-10-27,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
 Weekly,negativity,Saudi Arabia,2026-10-27,0.0,0.1336,0.52,NORMAL,0.54,NORMAL,1.28,NORMAL
-Weekly,negativity,Senegal,2026-10-27,0.0,0.0225,-0.26,NORMAL,-0.26,NORMAL,0.0,NORMAL
+Weekly,negativity,Senegal,2026-10-27,0.25,0.0319,0.55,NORMAL,0.19,NORMAL,1.78,NORMAL
 Weekly,negativity,Serbia,2026-10-27,0.0,0.0369,-0.3,NORMAL,-0.18,NORMAL,0.0,NORMAL
 Weekly,negativity,Seychelles,2026-10-27,0.0,0.0319,1.3,NORMAL,0.66,NORMAL,3.28,YELLOW
 Weekly,negativity,Sierra Leone,2026-10-27,0.0,0.0086,-0.12,NORMAL,-0.12,NORMAL,0.0,NORMAL
@@ -1721,7 +1721,7 @@ Weekly,negativity,Sudan,2026-10-27,0.8,0.0861,0.79,NORMAL,0.32,NORMAL,2.62,NORMA
 Weekly,negativity,Suriname,2026-10-27,0.0,0.0036,2.14,YELLOW,1.18,NORMAL,5.29,RED
 Weekly,negativity,Svalbard & Jan Mayen,2026-10-27,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
 Weekly,negativity,Sweden,2026-10-27,0.0,0.0397,-0.37,NORMAL,-0.37,NORMAL,0.0,NORMAL
-Weekly,negativity,Switzerland,2026-10-27,0.5,0.0824,0.6,NORMAL,0.15,NORMAL,2.13,NORMAL
+Weekly,negativity,Switzerland,2026-10-27,0.1667,0.0699,-0.04,NORMAL,-0.22,NORMAL,0.07,NORMAL
 Weekly,negativity,Syria,2026-10-27,0.0,0.0363,-0.3,NORMAL,-0.3,NORMAL,0.0,NORMAL
 Weekly,negativity,São Tomé & Príncipe,2026-10-27,0.0,0.0027,-0.13,NORMAL,-0.13,NORMAL,0.0,NORMAL
 Weekly,negativity,Taiwan,2026-10-27,0.1,0.2704,-0.08,NORMAL,-0.03,NORMAL,0.0,NORMAL
@@ -1825,7 +1825,7 @@ Monthly,deepseek,French Polynesia,2026-10-01,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,N
 Monthly,deepseek,Gabon,2026-10-01,0.0,0.0005,-0.24,NORMAL,-0.24,NORMAL,0.0,NORMAL
 Monthly,deepseek,Gambia,2026-10-01,0.0,0.0029,-0.29,NORMAL,-0.19,NORMAL,1.08,NORMAL
 Monthly,deepseek,Georgia,2026-10-01,0.0,0.0,-0.28,NORMAL,-0.28,NORMAL,0.0,NORMAL
-Monthly,deepseek,Germany,2026-10-01,0.0019,0.0048,1.21,NORMAL,0.6,NORMAL,4.58,YELLOW
+Monthly,deepseek,Germany,2026-10-01,0.0016,0.0048,1.2,NORMAL,0.59,NORMAL,4.55,YELLOW
 Monthly,deepseek,Ghana,2026-10-01,0.0,0.0004,-0.26,NORMAL,-0.26,NORMAL,0.0,NORMAL
 Monthly,deepseek,Gibraltar,2026-10-01,0.0,0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
 Monthly,deepseek,Greece,2026-10-01,0.0,0.0011,-0.29,NORMAL,0.06,NORMAL,1.47,NORMAL
@@ -2201,7 +2201,7 @@ Monthly,lss,Argentina,2026-10-01,-0.0222,-0.252,0.51,NORMAL,0.51,NORMAL,3.96,YEL
 Monthly,lss,Armenia,2026-10-01,-0.017,-0.0769,0.14,NORMAL,0.15,NORMAL,0.0,NORMAL
 Monthly,lss,Aruba,2026-10-01,0.0,-0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
 Monthly,lss,Australia,2026-10-01,-0.0191,-0.2155,0.41,NORMAL,0.43,NORMAL,4.56,YELLOW
-Monthly,lss,Austria,2026-10-01,-0.0246,-0.2831,0.42,NORMAL,0.43,NORMAL,3.76,YELLOW
+Monthly,lss,Austria,2026-10-01,-0.0084,-0.2818,0.43,NORMAL,0.43,NORMAL,3.79,YELLOW
 Monthly,lss,Azerbaijan,2026-10-01,-0.0035,-0.1536,0.41,NORMAL,0.43,NORMAL,2.56,NORMAL
 Monthly,lss,Bahamas,2026-10-01,0.0,-0.0315,0.25,NORMAL,0.25,NORMAL,0.0,NORMAL
 Monthly,lss,Bahrain,2026-10-01,0.0,-0.0989,0.34,NORMAL,0.36,NORMAL,2.16,NORMAL
@@ -2263,7 +2263,7 @@ Monthly,lss,French Polynesia,2026-10-01,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORM
 Monthly,lss,Gabon,2026-10-01,0.0,-0.1115,0.32,NORMAL,0.33,NORMAL,0.32,NORMAL
 Monthly,lss,Gambia,2026-10-01,0.0,-0.2149,0.28,NORMAL,0.28,NORMAL,0.44,NORMAL
 Monthly,lss,Georgia,2026-10-01,0.0,-0.1447,0.43,NORMAL,0.42,NORMAL,1.1,NORMAL
-Monthly,lss,Germany,2026-10-01,-0.0109,-0.2751,0.63,NORMAL,0.64,NORMAL,10.09,RED
+Monthly,lss,Germany,2026-10-01,-0.0115,-0.2752,0.63,NORMAL,0.64,NORMAL,10.09,RED
 Monthly,lss,Ghana,2026-10-01,-0.0152,-0.2118,0.38,NORMAL,0.38,NORMAL,2.13,NORMAL
 Monthly,lss,Gibraltar,2026-10-01,0.0,-0.0004,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
 Monthly,lss,Greece,2026-10-01,-0.0082,-0.3799,0.52,NORMAL,0.51,NORMAL,4.75,YELLOW
@@ -2336,7 +2336,7 @@ Monthly,lss,North Korea,2026-10-01,-0.0188,-0.376,0.46,NORMAL,0.45,NORMAL,6.17,R
 Monthly,lss,North Macedonia,2026-10-01,-0.024,-0.0912,0.14,NORMAL,0.15,NORMAL,0.0,NORMAL
 Monthly,lss,Northern Mariana Islands,2026-10-01,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
 Monthly,lss,Norway,2026-10-01,-0.0046,-0.0861,0.33,NORMAL,0.31,NORMAL,2.89,NORMAL
-Monthly,lss,Oman,2026-10-01,0.0,-0.0855,0.22,NORMAL,0.22,NORMAL,0.0,NORMAL
+Monthly,lss,Oman,2026-10-01,-0.0537,-0.0898,0.19,NORMAL,0.21,NORMAL,0.0,NORMAL
 Monthly,lss,Pakistan,2026-10-01,-0.0131,-0.2003,0.5,NORMAL,0.51,NORMAL,4.93,YELLOW
 Monthly,lss,Palau,2026-10-01,0.0,0.0012,-0.01,NORMAL,-0.01,NORMAL,0.0,NORMAL
 Monthly,lss,Palestinian Territories,2026-10-01,0.0257,0.1676,-0.33,NORMAL,-0.34,NORMAL,0.0,NORMAL
@@ -2356,7 +2356,7 @@ Monthly,lss,Réunion,2026-10-01,0.0,-0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
 Monthly,lss,Samoa,2026-10-01,0.0,-0.0602,0.1,NORMAL,0.1,NORMAL,0.0,NORMAL
 Monthly,lss,San Marino,2026-10-01,0.0,-0.018,0.12,NORMAL,0.12,NORMAL,0.0,NORMAL
 Monthly,lss,Saudi Arabia,2026-10-01,0.0316,-0.1981,0.5,NORMAL,0.5,NORMAL,6.44,RED
-Monthly,lss,Senegal,2026-10-01,-0.0303,-0.1149,0.25,NORMAL,0.25,NORMAL,0.0,NORMAL
+Monthly,lss,Senegal,2026-10-01,-0.02,-0.1141,0.26,NORMAL,0.26,NORMAL,0.0,NORMAL
 Monthly,lss,Serbia,2026-10-01,-0.0271,-0.2653,0.67,NORMAL,0.67,NORMAL,7.89,RED
 Monthly,lss,Seychelles,2026-10-01,-0.0105,-0.1629,0.33,NORMAL,0.31,NORMAL,1.07,NORMAL
 Monthly,lss,Sierra Leone,2026-10-01,0.0,-0.1584,0.3,NORMAL,0.31,NORMAL,0.0,NORMAL
@@ -2378,7 +2378,7 @@ Monthly,lss,Sudan,2026-10-01,0.0247,0.0245,-0.04,NORMAL,-0.02,NORMAL,0.0,NORMAL
 Monthly,lss,Suriname,2026-10-01,-0.0308,-0.0585,0.12,NORMAL,0.13,NORMAL,0.0,NORMAL
 Monthly,lss,Svalbard & Jan Mayen,2026-10-01,0.0,-0.0,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
 Monthly,lss,Sweden,2026-10-01,0.0,-0.245,0.38,NORMAL,0.38,NORMAL,2.53,NORMAL
-Monthly,lss,Switzerland,2026-10-01,-0.0214,-0.161,0.4,NORMAL,0.41,NORMAL,3.69,YELLOW
+Monthly,lss,Switzerland,2026-10-01,-0.0217,-0.161,0.4,NORMAL,0.41,NORMAL,3.69,YELLOW
 Monthly,lss,Syria,2026-10-01,0.0,0.0202,-0.01,NORMAL,-0.02,NORMAL,0.0,NORMAL
 Monthly,lss,São Tomé & Príncipe,2026-10-01,0.0,-0.0312,0.54,NORMAL,0.47,NORMAL,0.0,NORMAL
 Monthly,lss,Taiwan,2026-10-01,-0.0012,0.0675,-0.12,NORMAL,-0.12,NORMAL,0.0,NORMAL
@@ -2399,7 +2399,7 @@ Monthly,lss,Uganda,2026-10-01,-0.0244,-0.1679,0.44,NORMAL,0.46,NORMAL,3.04,YELLO
 Monthly,lss,Ukraine,2026-10-01,-0.0055,-0.0335,0.05,NORMAL,0.07,NORMAL,0.0,NORMAL
 Monthly,lss,United Arab Emirates,2026-10-01,-0.0077,-0.3232,0.57,NORMAL,0.57,NORMAL,8.72,RED
 Monthly,lss,Uruguay,2026-10-01,-0.023,-0.1503,0.27,NORMAL,0.27,NORMAL,0.0,NORMAL
-Monthly,lss,Uzbekistan,2026-10-01,-0.0158,-0.3166,0.71,NORMAL,0.71,NORMAL,10.73,RED
+Monthly,lss,Uzbekistan,2026-10-01,-0.0154,-0.3166,0.71,NORMAL,0.71,NORMAL,10.73,RED
 Monthly,lss,Vanuatu,2026-10-01,0.0,-0.0743,0.3,NORMAL,0.3,NORMAL,0.0,NORMAL
 Monthly,lss,Vatican City,2026-10-01,0.0,-0.0002,0.0,NORMAL,0.0,NORMAL,0.0,NORMAL
 Monthly,lss,Venezuela,2026-10-01,0.0,-0.066,0.23,NORMAL,0.25,NORMAL,0.0,NORMAL
@@ -2420,7 +2420,7 @@ Monthly,negativity,Argentina,2026-10-01,0.05,0.0874,-0.24,NORMAL,-0.12,NORMAL,3.
 Monthly,negativity,Armenia,2026-10-01,0.0667,0.0115,0.3,NORMAL,0.05,NORMAL,0.97,NORMAL
 Monthly,negativity,Aruba,2026-10-01,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
 Monthly,negativity,Australia,2026-10-01,0.2,0.1739,0.11,NORMAL,0.41,NORMAL,3.98,YELLOW
-Monthly,negativity,Austria,2026-10-01,0.0,0.0597,0.28,NORMAL,0.6,NORMAL,4.27,YELLOW
+Monthly,negativity,Austria,2026-10-01,0.05,0.0637,0.44,NORMAL,0.68,NORMAL,4.85,YELLOW
 Monthly,negativity,Azerbaijan,2026-10-01,0.25,0.0687,0.36,NORMAL,-0.1,NORMAL,1.62,NORMAL
 Monthly,negativity,Bahamas,2026-10-01,0.0,0.0038,-0.07,NORMAL,-0.07,NORMAL,0.0,NORMAL
 Monthly,negativity,Bahrain,2026-10-01,0.0,0.0717,-0.52,NORMAL,0.21,NORMAL,3.6,YELLOW
@@ -2482,7 +2482,7 @@ Monthly,negativity,French Polynesia,2026-10-01,0.0,0.0,-0.01,NORMAL,-0.01,NORMAL
 Monthly,negativity,Gabon,2026-10-01,0.0,0.0349,-0.01,NORMAL,-0.14,NORMAL,0.0,NORMAL
 Monthly,negativity,Gambia,2026-10-01,0.0,0.0168,-0.5,NORMAL,0.09,NORMAL,1.46,NORMAL
 Monthly,negativity,Georgia,2026-10-01,0.0,0.0234,-0.46,NORMAL,-0.36,NORMAL,0.0,NORMAL
-Monthly,negativity,Germany,2026-10-01,0.1667,0.1409,1.04,NORMAL,0.75,NORMAL,12.67,RED
+Monthly,negativity,Germany,2026-10-01,0.1672,0.1409,1.04,NORMAL,0.75,NORMAL,12.68,RED
 Monthly,negativity,Ghana,2026-10-01,0.1167,0.0514,-0.07,NORMAL,-0.05,NORMAL,0.59,NORMAL
 Monthly,negativity,Gibraltar,2026-10-01,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
 Monthly,negativity,Greece,2026-10-01,0.1667,0.0721,0.97,NORMAL,0.62,NORMAL,3.62,YELLOW
@@ -2555,7 +2555,7 @@ Monthly,negativity,North Korea,2026-10-01,0.15,0.1708,0.06,NORMAL,-0.21,NORMAL,2
 Monthly,negativity,North Macedonia,2026-10-01,0.1,0.0109,0.93,NORMAL,0.38,NORMAL,3.31,YELLOW
 Monthly,negativity,Northern Mariana Islands,2026-10-01,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
 Monthly,negativity,Norway,2026-10-01,0.25,0.107,0.76,NORMAL,0.98,NORMAL,8.09,RED
-Monthly,negativity,Oman,2026-10-01,0.0,0.1114,-0.43,NORMAL,-0.06,NORMAL,2.61,NORMAL
+Monthly,negativity,Oman,2026-10-01,0.05,0.1154,-0.36,NORMAL,-0.03,NORMAL,2.88,NORMAL
 Monthly,negativity,Pakistan,2026-10-01,0.1143,0.105,-0.6,NORMAL,-0.35,NORMAL,0.63,NORMAL
 Monthly,negativity,Palau,2026-10-01,0.0,0.0002,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
 Monthly,negativity,Palestinian Territories,2026-10-01,0.8375,0.3488,0.16,NORMAL,0.31,NORMAL,3.83,YELLOW
@@ -2575,7 +2575,7 @@ Monthly,negativity,Réunion,2026-10-01,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMA
 Monthly,negativity,Samoa,2026-10-01,0.0,0.0106,-0.15,NORMAL,-0.15,NORMAL,0.0,NORMAL
 Monthly,negativity,San Marino,2026-10-01,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
 Monthly,negativity,Saudi Arabia,2026-10-01,0.5357,0.1774,0.73,NORMAL,0.88,NORMAL,13.68,RED
-Monthly,negativity,Senegal,2026-10-01,0.0,0.0502,-0.0,NORMAL,-0.0,NORMAL,1.63,NORMAL
+Monthly,negativity,Senegal,2026-10-01,0.1667,0.0636,0.63,NORMAL,0.3,NORMAL,4.08,YELLOW
 Monthly,negativity,Serbia,2026-10-01,0.075,0.0893,-0.16,NORMAL,-0.23,NORMAL,0.0,NORMAL
 Monthly,negativity,Seychelles,2026-10-01,0.5,0.0673,0.86,NORMAL,0.35,NORMAL,8.79,RED
 Monthly,negativity,Sierra Leone,2026-10-01,0.0,0.0419,-0.24,NORMAL,-0.3,NORMAL,0.0,NORMAL
@@ -2597,7 +2597,7 @@ Monthly,negativity,Sudan,2026-10-01,0.8,0.283,0.0,NORMAL,0.39,NORMAL,1.08,NORMAL
 Monthly,negativity,Suriname,2026-10-01,0.1,0.0091,1.1,NORMAL,0.5,NORMAL,3.76,YELLOW
 Monthly,negativity,Svalbard & Jan Mayen,2026-10-01,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
 Monthly,negativity,Sweden,2026-10-01,0.0,0.1097,0.69,NORMAL,0.76,NORMAL,5.61,RED
-Monthly,negativity,Switzerland,2026-10-01,0.1375,0.0934,0.55,NORMAL,0.17,NORMAL,4.42,YELLOW
+Monthly,negativity,Switzerland,2026-10-01,0.0917,0.0897,0.37,NORMAL,0.08,NORMAL,3.75,YELLOW
 Monthly,negativity,Syria,2026-10-01,0.0,0.1504,-0.07,NORMAL,0.27,NORMAL,0.0,NORMAL
 Monthly,negativity,São Tomé & Príncipe,2026-10-01,0.0,0.0123,-0.34,NORMAL,-0.06,NORMAL,0.0,NORMAL
 Monthly,negativity,Taiwan,2026-10-01,0.289,0.2779,-0.11,NORMAL,-0.41,NORMAL,0.0,NORMAL
@@ -2618,7 +2618,7 @@ Monthly,negativity,Uganda,2026-10-01,0.0,0.0794,-0.39,NORMAL,0.59,NORMAL,5.38,RE
 Monthly,negativity,Ukraine,2026-10-01,0.3,0.1891,-0.35,NORMAL,0.51,NORMAL,1.31,NORMAL
 Monthly,negativity,United Arab Emirates,2026-10-01,0.2083,0.1199,0.68,NORMAL,0.43,NORMAL,14.6,RED
 Monthly,negativity,Uruguay,2026-10-01,0.0,0.0235,-0.49,NORMAL,-0.07,NORMAL,0.0,NORMAL
-Monthly,negativity,Uzbekistan,2026-10-01,0.0591,0.0665,0.02,NORMAL,0.16,NORMAL,6.75,RED
+Monthly,negativity,Uzbekistan,2026-10-01,0.0583,0.0664,0.02,NORMAL,0.15,NORMAL,6.73,RED
 Monthly,negativity,Vanuatu,2026-10-01,0.0,0.0068,-0.11,NORMAL,-0.11,NORMAL,0.0,NORMAL
 Monthly,negativity,Vatican City,2026-10-01,0.0,0.0,-0.0,NORMAL,-0.0,NORMAL,0.0,NORMAL
 Monthly,negativity,Venezuela,2026-10-01,0.0,0.1269,-0.68,NORMAL,0.09,NORMAL,0.0,NORMAL
