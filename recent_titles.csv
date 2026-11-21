@@ -1,12 +1,20 @@
 country,date,title,title_en,url
+Vietnam,2026-11-20,习近平主持亚太经合组织第三十三次领导人非正式会议并发表重要讲话,Xi Jinping chairs 33rd APEC Economic Leaders' Meeting and delivers important speech,https://paper.people.com.cn/rmrb/pc/content/202611/20/content_30192202.html
+Russia,2026-11-20,习近平主持中俄美元首会晤,Xi Jinping chairs China-Russia-US summit,https://paper.people.com.cn/rmrb/pc/content/202611/20/content_30192203.html
+US,2026-11-20,习近平主持中俄美元首会晤,Xi Jinping chairs China-Russia-US summit,https://paper.people.com.cn/rmrb/pc/content/202611/20/content_30192203.html
+US,2026-11-20,习近平会见美国总统特朗普,Xi Jinping meets US President Trump,https://paper.people.com.cn/rmrb/pc/content/202611/20/content_30192204.html
+Russia,2026-11-20,中俄美元首和平宣言,China-Russia-US Leaders' Peace Declaration,https://paper.people.com.cn/rmrb/pc/content/202611/20/content_30192207.html
+Cambodia,2026-11-20,在和合共生中携手同行（人民论坛）,Move forward together in harmonious coexistence (People's Forum),https://paper.people.com.cn/rmrb/pc/content/202611/20/content_30192222.html
+Thailand,2026-11-20,在和合共生中携手同行（人民论坛）,Move forward together in harmonious coexistence (People's Forum),https://paper.people.com.cn/rmrb/pc/content/202611/20/content_30192222.html
+Ethiopia,2026-11-20,义乌市场，商户用上大模型,Yiwu market merchants embrace large models,https://paper.people.com.cn/rmrb/pc/content/202611/20/content_30192246.html
+Singapore,2026-11-20,广东：携手亚太，点亮“新”光,Guangdong: joining hands with Asia-Pacific to shine a new light,https://paper.people.com.cn/rmrb/pc/content/202611/20/content_30192252.html
+Malaysia,2026-11-20,广东：携手亚太，点亮“新”光,Guangdong: joining hands with Asia-Pacific to shine a new light,https://paper.people.com.cn/rmrb/pc/content/202611/20/content_30192252.html
+Indonesia,2026-11-20,广东：携手亚太，点亮“新”光,Guangdong: joining hands with Asia-Pacific to shine a new light,https://paper.people.com.cn/rmrb/pc/content/202611/20/content_30192252.html
+Taiwan,2026-11-20,书卷流转  文脉绵长（校馆弦歌）,Books circulate; cultural legacy endures (School-Library Melody),https://paper.people.com.cn/rmrb/pc/content/202611/20/content_30192257.html
 Chile,2026-11-19,习近平出席亚太经合组织工商领导人峰会开幕式并发表主旨演讲,Xi Jinping attends the opening ceremony of the APEC CEO Summit and delivers a keynote speech,https://paper.people.com.cn/rmrb/pc/content/202611/19/content_30192095.html
 Malaysia,2026-11-19,习近平出席亚太经合组织工商领导人峰会开幕式并发表主旨演讲,Xi Jinping attends the opening ceremony of the APEC CEO Summit and delivers a keynote speech,https://paper.people.com.cn/rmrb/pc/content/202611/19/content_30192095.html
-Russia,2026-11-19,习近平会见俄罗斯总统普京,Xi Jinping meets with Russian President Putin,https://paper.people.com.cn/rmrb/pc/content/202611/19/content_30192097.html
-US,2026-11-19,习近平迎接美国总统特朗普,Xi Jinping welcomes U.S. President Trump,https://paper.people.com.cn/rmrb/pc/content/202611/19/content_30192098.html
 South Korea,2026-11-19,习近平会见韩国总统李在明,Xi Jinping meets with South Korean President Lee Jae-myung,https://paper.people.com.cn/rmrb/pc/content/202611/19/content_30192099.html
 Chile,2026-11-19,习近平出席亚太经合组织工商领导人峰会开幕式并发表主旨演讲,Xi Jinping attends the opening ceremony of the APEC CEO Summit and delivers a keynote speech,https://paper.people.com.cn/rmrb/pc/content/202611/19/content_30192103.html
-Malaysia,2026-11-19,习近平出席亚太经合组织工商领导人峰会开幕式并发表主旨演讲,Xi Jinping attends the opening ceremony of the APEC CEO Summit and delivers a keynote speech,https://paper.people.com.cn/rmrb/pc/content/202611/19/content_30192103.html
-Russia,2026-11-19,习近平会见俄罗斯总统普京,Xi Jinping meets with Russian President Putin,https://paper.people.com.cn/rmrb/pc/content/202611/19/content_30192104.html
 South Korea,2026-11-19,习近平会见韩国总统李在明,Xi Jinping meets with South Korean President Lee Jae-myung,https://paper.people.com.cn/rmrb/pc/content/202611/19/content_30192105.html
 Canada,2026-11-19,坚守开放初心  坚持多边协作,Stay true to the original aspiration of openness and uphold multilateral cooperation,https://paper.people.com.cn/rmrb/pc/content/202611/19/content_30192123.html
 Mexico,2026-11-19,“看五十年的中国就来深圳”（记者手记）,"‘To see China in 50 years, come to Shenzhen’ (Reporter's Notebook)",https://paper.people.com.cn/rmrb/pc/content/202611/19/content_30192122.html
@@ -20,14 +28,9 @@ Taiwan,2026-11-19,纪念孙中山先生诞辰160周年活动嘉宾团在广东�
 Singapore,2026-11-19,一道地方美食，奋力迈向百亿产业（神州看点）,A local delicacy strives to become a 10-billion-yuan industry (China Watch),https://paper.people.com.cn/rmrb/pc/content/202611/19/content_30192047.html
 Indonesia,2026-11-19,助力亚太经贸往来与产业协同发展,Boost Asia-Pacific economic and trade exchanges and coordinated industrial development,https://paper.people.com.cn/rmrb/pc/content/202611/19/content_30192071.html
 Thailand,2026-11-19,助力亚太经贸往来与产业协同发展,Boost Asia-Pacific economic and trade exchanges and coordinated industrial development,https://paper.people.com.cn/rmrb/pc/content/202611/19/content_30192071.html
-Vietnam,2026-11-19,助力亚太经贸往来与产业协同发展,Boost Asia-Pacific economic and trade exchanges and coordinated industrial development,https://paper.people.com.cn/rmrb/pc/content/202611/19/content_30192071.html
 Mexico,2026-11-18,习近平会见墨西哥总统辛鲍姆,Xi Jinping meets Mexican President Sheinbaum,https://paper.people.com.cn/rmrb/pc/content/202611/18/content_30191777.html
 Peru,2026-11-18,习近平会见秘鲁总统藤森庆子,Xi Jinping meets Peruvian President Keiko Fujimori,https://paper.people.com.cn/rmrb/pc/content/202611/18/content_30191778.html
 Papua New Guinea,2026-11-18,习近平会见巴布亚新几内亚总理马拉佩,Xi Jinping meets Papua New Guinea Prime Minister Marape,https://paper.people.com.cn/rmrb/pc/content/202611/18/content_30191781.html
-Taiwan,2026-11-18,为凝聚侨心侨力、推进中国式现代化作出新贡献,Make new contributions to rallying the hearts and strength of overseas Chinese and advancing Chinese modernization,https://paper.people.com.cn/rmrb/pc/content/202611/18/content_30191787.html
-Indonesia,2026-11-18,促进普惠包容发展  共享亚太合作成果（瞩望深圳APEC会议）,"Promote inclusive and universal development, share Asia-Pacific cooperation outcomes (Looking ahead to the Shenzhen APEC Meeting)",https://paper.people.com.cn/rmrb/pc/content/202611/18/content_30191788.html
-Singapore,2026-11-18,新中携手，共创开放互联的未来,Singapore and China join hands to create an open and interconnected future,https://paper.people.com.cn/rmrb/pc/content/202611/18/content_30191789.html
-Thailand,2026-11-18,中泰携手前行，开拓亚太繁荣新前景（大使随笔·APEC中国年：开放 创新 合作）,"China and Thailand move forward together to open up new prospects for Asia-Pacific prosperity (Ambassador's Essay · APEC China Year: Openness, Innovation, Cooperation)",https://paper.people.com.cn/rmrb/pc/content/202611/18/content_30191790.html
 Australia,2026-11-18,亚太各方期待中国发挥引领作用（APEC中国年：开放 创新 合作）,"Asia-Pacific parties look to China to play a leading role (APEC China Year: Openness, Innovation, Cooperation)",https://paper.people.com.cn/rmrb/pc/content/202611/18/content_30191792.html
 Papua New Guinea,2026-11-18,习近平会见巴布亚新几内亚总理马拉佩,Xi Jinping meets Papua New Guinea Prime Minister Marape,https://paper.people.com.cn/rmrb/pc/content/202611/18/content_30191805.html
 Uzbekistan,2026-11-18,构建协同共生的出海服务生态,Build a synergistic and symbiotic ecosystem for going-global services,https://paper.people.com.cn/rmrb/pc/content/202611/18/content_30191826.html
@@ -36,7 +39,6 @@ Ghana,2026-11-18,构建协同共生的出海服务生态,Build a synergistic and
 Nicaragua,2026-11-18,构建协同共生的出海服务生态,Build a synergistic and symbiotic ecosystem for going-global services,https://paper.people.com.cn/rmrb/pc/content/202611/18/content_30191826.html
 Pakistan,2026-11-18,openEuler发布面向Agentic Infra的操作系统  携手产业伙伴共建AI生态,openEuler releases an operating system for Agentic Infra and teams up with industry partners to build an AI ecosystem,https://paper.people.com.cn/rmrb/pc/content/202611/18/content_30191767.html
 Bosnia & Herzegovina,2026-11-17,习近平致电祝贺波黑新一届主席团成员就职,Xi sends congratulatory message to new members of the Bosnia and Herzegovina Presidency on taking office,https://paper.people.com.cn/rmrb/pc/content/202611/17/content_30191522.html
-US,2026-11-17,习近平将同俄罗斯总统普京、美国总统特朗普举行中俄美元首会晤,Xi to hold a China-Russia-U.S. summit with Russian President Putin and U.S. President Trump,https://paper.people.com.cn/rmrb/pc/content/202611/17/content_30191523.html
 Philippines,2026-11-17,李强出席第29次中国—东盟领导人会议,Li Qiang attends the 29th China-ASEAN Summit,https://paper.people.com.cn/rmrb/pc/content/202611/17/content_30191524.html
 Nauru,2026-11-17,王沪宁会见瑙鲁总统阿迪昂,Wang Huning meets Nauruan President Adeang,https://paper.people.com.cn/rmrb/pc/content/202611/17/content_30191525.html
 Philippines,2026-11-17,李强结束出访回到北京,Li Qiang returns to Beijing after concluding an overseas visit,https://paper.people.com.cn/rmrb/pc/content/202611/17/content_30191529.html
@@ -122,7 +124,6 @@ Romania,2026-11-06,进博会“朋友圈”再扩容,CIIE's 'circle of friends' 
 Tanzania,2026-11-06,融通山海  共赴未来 兴业银行以金融之力服务高质量共建“一带一路”,Connecting Mountains and Seas for a Shared Future: Industrial Bank Supports High-Quality Belt and Road Cooperation with Financial Strength.,https://paper.people.com.cn/rmrb/pc/content/202611/06/content_30189731.html
 Argentina,2026-11-06,融通山海  共赴未来 兴业银行以金融之力服务高质量共建“一带一路”,Connecting Mountains and Seas for a Shared Future: Industrial Bank Supports High-Quality Belt and Road Cooperation with Financial Strength.,https://paper.people.com.cn/rmrb/pc/content/202611/06/content_30189731.html
 Togo,2026-11-05,共同擘画新时代中多命运共同体的美好蓝图（大使随笔）,Jointly chart a bright blueprint for a China-Dominica community with a shared future in the new era (Ambassador's Essay),https://paper.people.com.cn/rmrb/pc/content/202611/05/content_30189484.html
-Cambodia,2026-11-05,澜沧江—湄公河合作第十一次外长会在北京举行,11th Lancang-Mekong Cooperation Foreign Ministers' Meeting held in Beijing,https://paper.people.com.cn/rmrb/pc/content/202611/05/content_30189485.html
 Myanmar (Burma),2026-11-05,澜沧江—湄公河合作第十一次外长会在北京举行,11th Lancang-Mekong Cooperation Foreign Ministers' Meeting held in Beijing,https://paper.people.com.cn/rmrb/pc/content/202611/05/content_30189485.html
 Morocco,2026-11-05,“2026世界市长对话·宁波”主活动举行,Main event of '2026 World Mayors Dialogue · Ningbo' held,https://paper.people.com.cn/rmrb/pc/content/202611/05/content_30189487.html
 Moldova,2026-11-05,多项指标创新高  进博会硕果可期,Multiple indicators hit record highs; CIIE expected to deliver fruitful results,https://paper.people.com.cn/rmrb/pc/content/202611/05/content_30189530.html
@@ -140,7 +141,6 @@ Ghana,2026-10-28,中国等26国签署《联合国可转让货物单证公约》,
 Ireland,2026-10-28,贸易壁垒解不了欧洲竞争力之困（环球走笔）,Trade barriers cannot solve Europe's competitiveness woes (Global Notes),https://paper.people.com.cn/rmrb/pc/content/202610/28/content_30188110.html
 Israel,2026-10-28,联合国调查委员会：以色列犯下战争罪及危害人类罪,UN Commission of Inquiry: Israel committed war crimes and crimes against humanity,https://paper.people.com.cn/rmrb/pc/content/202610/28/content_30188113.html
 Palestinian Territories,2026-10-28,联合国调查委员会：以色列犯下战争罪及危害人类罪,UN Commission of Inquiry: Israel committed war crimes and crimes against humanity,https://paper.people.com.cn/rmrb/pc/content/202610/28/content_30188113.html
-Ethiopia,2026-10-28,埃塞俄比亚与厄立特里亚关系持续紧张,Ethiopia-Eritrea relations remain tense,https://paper.people.com.cn/rmrb/pc/content/202610/28/content_30188114.html
 Eritrea,2026-10-28,埃塞俄比亚与厄立特里亚关系持续紧张,Ethiopia-Eritrea relations remain tense,https://paper.people.com.cn/rmrb/pc/content/202610/28/content_30188114.html
 Sudan,2026-10-28,埃塞俄比亚与厄立特里亚关系持续紧张,Ethiopia-Eritrea relations remain tense,https://paper.people.com.cn/rmrb/pc/content/202610/28/content_30188114.html
 Libya,2026-10-28,国际民航组织撤销对利比亚空域限制,ICAO lifts restrictions on Libyan airspace,https://paper.people.com.cn/rmrb/pc/content/202610/28/content_30188115.html
